@@ -1,0 +1,1639 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oud & Oro | Perfumería Árabe de Lujo</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #0c0a07;          
+            --bg-alt: #16110a;            
+            --accent-gold: #d4af37;       
+            --accent-gold-hover: #b8932e; 
+            --text-main: #f2ead8;         
+            --text-dim: #b3a68c;          
+            --card-bg: #1b1610;           
+            --border-color: #d4af37;      
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            overflow-x: hidden;
+            font-weight: 500;
+        }
+
+        .smoke-layer {
+            position: fixed;
+            inset: 0;
+            z-index: -1;
+            pointer-events: none;
+            overflow: hidden;
+        }
+
+        .smoke {
+            position: absolute;
+            bottom: -180px;
+            width: 45vmax;
+            height: 45vmax;
+            border-radius: 50%;
+            background: radial-gradient(circle at 40% 40%, rgba(212,175,55,0.30), rgba(197,155,39,0.12) 45%, transparent 70%);
+            filter: blur(55px);
+            mix-blend-mode: screen;
+            opacity: 0;
+            animation: smokeRise linear infinite;
+        }
+
+        .smoke:nth-child(1) { left: 2%; width: 50vmax; height: 50vmax; animation-duration: 18s; animation-delay: 0s; }
+        .smoke:nth-child(2) { left: 22%; width: 40vmax; height: 40vmax; animation-duration: 22s; animation-delay: 4s; }
+        .smoke:nth-child(3) { left: 42%; width: 45vmax; height: 45vmax; animation-duration: 26s; animation-delay: 8s; }
+        .smoke:nth-child(4) { left: 62%; width: 38vmax; height: 38vmax; animation-duration: 20s; animation-delay: 2s; }
+        .smoke:nth-child(5) { left: 78%; width: 42vmax; height: 42vmax; animation-duration: 24s; animation-delay: 6s; }
+        .smoke:nth-child(6) { left: 92%; width: 36vmax; height: 36vmax; animation-duration: 28s; animation-delay: 10s; }
+
+        @keyframes smokeRise {
+            0% { transform: translateY(120px) translateX(0) scale(0.9); opacity: 0; }
+            15% { opacity: 0.75; }
+            50% { transform: translateY(-280px) translateX(50px) scale(1.5); opacity: 0.5; }
+            100% { transform: translateY(-720px) translateX(-60px) scale(2.1); opacity: 0; }
+        }
+
+        button, input {
+            font-family: inherit;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0 2px 5px rgba(0,0,0,0.85);
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(24px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes pulseWa {
+            0% { box-shadow: 0 4px 10px rgba(0,0,0,0.1), 0 0 0 0 rgba(37, 211, 102, 0.55); }
+            70% { box-shadow: 0 4px 10px rgba(0,0,0,0.1), 0 0 0 16px rgba(37, 211, 102, 0); }
+            100% { box-shadow: 0 4px 10px rgba(0,0,0,0.1), 0 0 0 0 rgba(37, 211, 102, 0); }
+        }
+
+        .scroll-reveal, .card-reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .scroll-reveal.is-visible, .card-reveal.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+            background: transparent; 
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            color: var(--accent-gold);
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+            opacity: 0;
+            animation: fadeInUp 0.8s ease 0.1s forwards;
+            text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000, 0 3px 8px rgba(0,0,0,0.9);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin-bottom: 40px;
+            color: var(--text-main);
+            opacity: 0;
+            animation: fadeInUp 0.8s ease 0.3s forwards;
+            background: rgba(18, 13, 7, 0.7);
+            border: 1px solid rgba(212, 175, 55, 0.25);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+        }
+
+        .cta-btn {
+            background-color: var(--accent-gold);
+            color: #ffffff;
+            padding: 15px 40px;
+            text-decoration: none;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-radius: 2px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+        }
+
+        .cta-btn:hover {
+            background-color: var(--accent-gold-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(197, 155, 39, 0.3);
+        }
+
+        .decants {
+            padding: 80px 20px;
+            text-align: center;
+            background: rgba(18, 13, 7, 0.7);
+            backdrop-filter: blur(2px);
+        }
+
+        .decants h2 {
+            font-size: 2.5rem;
+            margin-bottom: 50px;
+            color: var(--accent-gold);
+        }
+
+        .steps {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .step {
+            flex: 1;
+            min-width: 250px;
+            padding: 20px;
+            background: var(--card-bg);
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+        }
+
+        .step-number {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            font-size: 3rem;
+            color: var(--accent-gold);
+            margin-bottom: 15px;
+        }
+
+        .step h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: var(--text-main);
+        }
+
+        .step p {
+            color: var(--text-dim);
+        }
+
+        .catalog {
+            padding: 80px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .catalog h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 20px;
+            color: var(--accent-gold);
+            background: rgba(18, 13, 7, 0.7);
+            display: inline-block;
+            padding: 5px 20px;
+            border-radius: 5px;
+        }
+        
+        .catalog-header-wrapper {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .catalog-intro {
+            max-width: 620px;
+            margin: 0 auto;
+            text-align: center;
+            color: var(--text-main);
+            background: rgba(18, 13, 7, 0.7);
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .buscador-wrap {
+            max-width: 480px;
+            margin: 0 auto 24px;
+        }
+
+        .buscador-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .buscador-row #buscador {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .btn-columnas {
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            width: 52px;
+            height: 52px;
+            background: var(--card-bg);
+            border: 2px solid var(--border-color);
+            border-radius: 30px;
+            cursor: pointer;
+            color: var(--accent-gold);
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 1rem;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+        }
+
+        .btn-columnas:hover {
+            border-color: var(--accent-gold-hover);
+            transform: scale(1.05);
+        }
+
+        .btn-columnas:active {
+            transform: scale(0.95);
+        }
+
+        .btn-columnas .cols-icon {
+            display: grid;
+            grid-template-columns: repeat(2, 4px);
+            gap: 2px;
+        }
+
+        .btn-columnas .cols-icon i {
+            display: block;
+            width: 4px;
+            height: 4px;
+            background: var(--accent-gold);
+            border-radius: 1px;
+        }
+
+        @media (min-width: 769px) {
+            .btn-columnas { display: none; }
+        }
+
+        #buscador {
+            width: 100%;
+            padding: 14px 22px;
+            background: var(--card-bg);
+            border: 2px solid var(--border-color);
+            color: var(--text-main);
+            font-size: 1rem;
+            font-weight: 500;
+            border-radius: 30px;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+
+        #buscador:focus {
+            outline: none;
+            border-color: var(--accent-gold);
+            box-shadow: 0 0 0 4px rgba(197, 155, 39, 0.2);
+        }
+
+        .filtros-marca {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 50px;
+        }
+
+        .filtro-chip {
+            background: var(--card-bg);
+            border: 2px solid var(--border-color);
+            color: var(--text-dim);
+            padding: 8px 20px;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        .filtro-chip:hover {
+            border-color: var(--accent-gold);
+            color: var(--text-main);
+        }
+
+        .filtro-chip.activo {
+            background: var(--accent-gold);
+            border-color: var(--accent-gold);
+            color: #1b1610;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+
+        .product-card {
+            background-color: var(--card-bg);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.4s ease;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08); 
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            cursor: pointer;
+        }
+
+        .product-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(197, 155, 39, 0.15);
+        }
+
+        .img-container {
+            width: 100%;
+            height: 280px;
+            background: #0e0b07; /* Fondo oscuro alrededor de la foto */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            border-radius: 6px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .img-container img {
+            max-width: 85%;
+            max-height: 85%;
+            object-fit: contain;
+            transition: transform 0.5s ease;
+        }
+
+        .product-card:hover .img-container img {
+            transform: scale(1.08);
+        }
+
+        .product-house {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            color: var(--accent-gold);
+            letter-spacing: 2px;
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+
+        .product-title {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+            color: var(--text-main);
+        }
+
+        .product-notes {
+            font-size: 0.85rem;
+            color: var(--text-dim);
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+
+        .product-price {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+            color: var(--text-main);
+        }
+
+        .product-btn {
+            width: 100%;
+            display: block;
+            background: transparent;
+            color: var(--accent-gold);
+            border: 2px solid var(--border-color);
+            padding: 12px;
+            font-weight: 700;
+            transition: all 0.3s ease;
+        }
+
+        .product-btn:hover {
+            background: var(--accent-gold);
+            color: #ffffff;
+            border-color: var(--accent-gold);
+        }
+
+        .product-select {
+            display: block;
+            background: transparent;
+            color: var(--accent-gold);
+            border: 2px solid var(--border-color);
+            padding: 12px;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .product-card:hover .product-select,
+        .product-card:focus-visible .product-select {
+            background: var(--accent-gold);
+            color: #ffffff;
+            border-color: var(--accent-gold);
+        }
+
+        .empty-state {
+            grid-column: 1 / -1;
+            text-align: center;
+            color: var(--text-main);
+            background: rgba(18, 13, 7, 0.7);
+            padding: 60px 20px;
+            font-style: italic;
+            border-radius: 8px;
+        }
+
+        .trust {
+            background: rgba(18, 13, 7, 0.7);
+            padding: 60px 20px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            text-align: center;
+            gap: 30px;
+            backdrop-filter: blur(3px);
+        }
+
+        .trust-item h4 {
+            color: var(--accent-gold);
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .trust-item p {
+            color: var(--text-main);
+        }
+
+        footer {
+            padding: 40px 20px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--text-main);
+            background-color: rgba(18, 13, 7, 0.7);
+        }
+
+        footer a {
+            position: relative;
+            color: var(--accent-gold);
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: 700;
+        }
+
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+            animation: pulseWa 2.6s infinite;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            animation-play-state: paused;
+        }
+
+        .modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.55);
+            backdrop-filter: blur(3px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 200;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+            padding: 20px;
+        }
+
+        .modal-overlay.abierto {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .modal {
+            background: var(--card-bg);
+            border-radius: 10px;
+            max-width: 500px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 25px 60px rgba(0,0,0,0.35);
+            position: relative;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 10px;
+            right: 16px;
+            background: none;
+            border: none;
+            font-size: 30px;
+            line-height: 1;
+            cursor: pointer;
+            color: var(--text-dim);
+            transition: color 0.2s ease;
+        }
+
+        .modal-close:hover {
+            color: var(--text-main);
+        }
+
+        .modal-img {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+
+        .modal-img img {
+            max-width: 180px;
+            max-height: 180px;
+            object-fit: contain;
+        }
+
+        .modal-house {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            color: var(--accent-gold);
+            letter-spacing: 2px;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .modal-title {
+            font-size: 1.6rem;
+            color: var(--text-main);
+            margin-bottom: 15px;
+        }
+
+        .modal-info {
+            font-size: 0.95rem;
+            color: var(--text-main);
+            margin-bottom: 10px;
+        }
+
+        .modal-info strong {
+            color: var(--accent-gold);
+        }
+
+        .modal-notas {
+            font-size: 0.9rem;
+            font-style: italic;
+            color: var(--text-dim);
+            margin-bottom: 20px;
+        }
+
+        .modal-opciones {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .opcion-label {
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: var(--text-main);
+        }
+
+        .opcion-selector {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            padding: 14px 16px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            background: var(--card-bg);
+        }
+
+        .opcion-selector:hover {
+            border-color: var(--accent-gold);
+        }
+
+        .opcion-selector.seleccionado {
+            border-color: var(--accent-gold);
+            background: rgba(197, 155, 39, 0.1);
+            box-shadow: 0 0 0 3px rgba(197, 155, 39, 0.2);
+        }
+
+        .opcion-selector .nombre {
+            font-weight: 700;
+            color: var(--text-main);
+        }
+
+        .opcion-selector .precio {
+            color: var(--accent-gold);
+            font-weight: 700;
+        }
+
+        .modal-wa {
+            width: 100%;
+            margin-top: 5px;
+        }
+
+        .logo {
+            position: fixed;
+            top: 22px;
+            right: 32px;
+            z-index: 200;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            font-size: 1.9rem;
+            letter-spacing: 3px;
+            text-decoration: none;
+            background: linear-gradient(180deg, #f7e08a 0%, #d4af37 48%, #9c7a1f 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            filter: drop-shadow(0 2px 6px rgba(0,0,0,0.9));
+            transition: transform 0.3s ease;
+        }
+
+        .logo:hover {
+            transform: scale(1.04);
+        }
+
+        .logo .logo-amp {
+            font-size: 1.2rem;
+            font-style: italic;
+            opacity: 0.85;
+            transform: translateY(-1px);
+        }
+
+        .logo::after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            bottom: -6px;
+            width: 60%;
+            height: 2px;
+            transform: translateX(-50%);
+            background: linear-gradient(90deg, transparent, #d4af37, transparent);
+        }
+
+        @media (max-width: 768px) {
+            .modal { padding: 25px 18px; }
+            .hero h1 { font-size: 2.5rem; }
+            .whatsapp-float { bottom: 20px; right: 20px; width: 50px; height: 50px; font-size: 24px; }
+            .logo { font-size: 1.5rem; top: 16px; right: 20px; letter-spacing: 2px; }
+            .product-grid.cols-2 { grid-template-columns: repeat(2, 1fr); gap: 14px; }
+            .product-grid.cols-3 { grid-template-columns: repeat(3, 1fr); gap: 10px; }
+            .product-grid.cols-2 .product-card { padding: 12px; }
+            .product-grid.cols-3 .product-card { padding: 8px; }
+            .product-grid.cols-2 .img-container { height: 170px; margin-bottom: 12px; }
+            .product-grid.cols-3 .img-container { height: 110px; margin-bottom: 8px; }
+            .product-grid.cols-2 .product-title { font-size: 1.05rem; margin-bottom: 6px; }
+            .product-grid.cols-3 .product-title { font-size: 0.9rem; margin-bottom: 4px; }
+            .product-grid.cols-2 .product-notes { font-size: 0.75rem; }
+            .product-grid.cols-3 .product-notes { display: none; }
+            .product-grid.cols-2 .product-price { font-size: 1rem; margin-bottom: 10px; }
+            .product-grid.cols-3 .product-price { font-size: 0.85rem; margin-bottom: 6px; }
+            .product-grid.cols-2 .product-house { font-size: 0.65rem; }
+            .product-grid.cols-3 .product-house { font-size: 0.55rem; }
+            .product-grid.cols-2 .product-btn,
+            .product-grid.cols-3 .product-btn { font-size: 0.75rem; padding: 8px 6px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="smoke-layer" aria-hidden="true">
+        <span class="smoke"></span>
+        <span class="smoke"></span>
+        <span class="smoke"></span>
+        <span class="smoke"></span>
+        <span class="smoke"></span>
+        <span class="smoke"></span>
+    </div>
+
+    <a href="#inicio" class="logo" aria-label="Oud &amp; Oro - Volver al inicio">
+        <span>Oud</span>
+        <span class="logo-amp">&amp;</span>
+        <span>Oro</span>
+    </a>
+
+    <header id="inicio" class="hero">
+        <h1>El Lujo de Medio Oriente en tu Piel</h1>
+        <p>Descubre la magia de las fragancias árabes originales. Adquiere botellas exclusivas o sumérgete en el mundo de los decants para probar el lujo antes de invertir.</p>
+        <a href="#catalogo" class="cta-btn">Ver Catálogo Exclusivo</a>
+    </header>
+
+    <section class="decants">
+        <h2 class="scroll-reveal">¿Qué es un Decant?</h2>
+        <div class="steps">
+            <div class="step scroll-reveal">
+                <div class="step-number">01</div>
+                <h3>Extracción Pura</h3>
+                <p>Extraemos el perfume directamente de la botella original utilizando jeringas esterilizadas, sin alteración de la fragancia.</p>
+            </div>
+            <div class="step scroll-reveal">
+                <div class="step-number">02</div>
+                <h3>Formato de Viaje</h3>
+                <p>Lo envasamos en elegantes atomizadores de cristal de 5ml o 10ml, perfectos para llevar siempre contigo.</p>
+            </div>
+            <div class="step scroll-reveal">
+                <div class="step-number">03</div>
+                <h3>Inversión Inteligente</h3>
+                <p>Te permite probar y vivir la evolución de fragancias de lujo en tu piel antes de comprometerte con la botella completa.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="catalogo" class="catalog">
+        <div class="catalog-header-wrapper">
+            <h2 class="scroll-reveal">Selección Exclusiva</h2>
+            <p class="catalog-intro scroll-reveal">Cada fragancia con su respectiva fotografía exacta y verificada.</p>
+        </div>
+
+        <div class="buscador-wrap scroll-reveal">
+            <div class="buscador-row">
+                <input type="text" id="buscador" placeholder="Buscar por fragancia, marca o nota..." aria-label="Buscar fragancia">
+                <button type="button" class="btn-columnas" id="btn-columnas" title="Cambiar cantidad de columnas" aria-label="Cambiar cantidad de columnas">
+                    <span class="cols-icon"><i></i><i></i><i></i><i></i></span>
+                    <span id="btn-cols-label">1</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="filtros-marca scroll-reveal" id="filtros-marca"></div>
+
+        <div class="product-grid" id="product-grid"></div>
+    </section>
+
+    <section class="trust">
+        <div class="trust-item scroll-reveal">
+            <h4>✓ 100% Originales</h4>
+            <p>Garantía de autenticidad en cada gota.</p>
+        </div>
+        <div class="trust-item scroll-reveal">
+            <h4>✓ Asesoramiento Personalizado</h4>
+            <p>Te ayudamos a encontrar tu firma olfativa.</p>
+        </div>
+        <div class="trust-item scroll-reveal">
+            <h4>✓ Envíos Asegurados</h4>
+            <p>Despachos a todo el país con empaque premium.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Oud & Oro. Todos los derechos reservados.</p>
+        <p style="margin-top: 10px;">
+            <a href="https://www.instagram.com/oud_oro_arabes/" target="_blank" rel="noopener">Instagram</a> | 
+            <a href="#" target="_blank" rel="noopener">TikTok</a>
+        </p>
+    </footer>
+
+    <a href="#" class="whatsapp-float" id="general-wa" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+        <svg viewBox="0 0 32 32" width="32" height="32" fill="currentColor">
+            <path d="M16.01 2.01c-7.72 0-14 6.28-14 14 0 2.47.64 4.87 1.85 6.96L2 29.98l7.18-1.87c2.04 1.11 4.34 1.7 6.83 1.7 7.72 0 14-6.28 14-14s-6.28-14-14-14zm0 25.64c-2.14 0-4.24-.56-6.1-1.63l-.44-.26-4.24 1.1.13-1.07 1.12-4.14-.29-.46c-1.18-1.87-1.8-4.04-1.8-6.3 0-6.41 5.22-11.64 11.64-11.64 6.41 0 11.64 5.22 11.64 11.64 0 6.41-5.22 11.64-11.64 11.64zm6.38-8.6c-.35-.17-2.07-1.02-2.39-1.14-.32-.11-.55-.17-.78.17-.23.35-.9 1.14-1.11 1.37-.2.23-.41.26-.76.09-.35-.17-1.48-.55-2.82-1.74-1.04-.93-1.74-2.07-1.94-2.42-.2-.35-.02-.54.15-.71.16-.16.35-.41.52-.61.17-.2.23-.35.35-.58.11-.23.06-.44-.03-.61-.09-.17-.78-1.88-1.07-2.58-.28-.68-.57-.58-.78-.59l-.67-.01c-.23 0-.61.09-.93.44-.32.35-1.22 1.19-1.22 2.91s1.25 3.37 1.43 3.6c.17.23 2.45 3.74 5.94 5.25 2.37 1.02 3.23 1.1 4.39.93 1.33-.2 4.09-1.67 4.67-3.29.58-1.61.58-3 .41-3.29-.18-.28-.64-.46-.99-.63z"/>
+        </svg>
+    </a>
+
+    <div class="modal-overlay" id="modal-producto" aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-titulo">
+            <button class="modal-close" id="modal-cerrar" aria-label="Cerrar">&times;</button>
+            <div id="modal-contenido"></div>
+        </div>
+    </div>
+
+    <script>
+        const numeroWhatsApp = "541155136919";
+
+        const productos = [
+            {
+                marca: "Lattafa",
+                nombre: "Oud for Glory (Bade'e Al Oud)",
+                notas: "Azafrán, Nuez moscada, Lavanda, Madera de Oud, Pachulí, Almizcle",
+                inspirado: "Initio Oud for Greatness",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 50500,
+                imagen: "https://www.intenseoud.com/cdn/shop/files/13_0446c1a7-a09e-44ea-ad05-59fb9d28df08.png?v=1685027211"
+            },
+            {
+                marca: "Lattafa",
+                nombre: "Honor & Glory (Bade'e Al Oud)",
+                notas: "Piña, Brûlée de piña, Canela, Benjuí, Vainilla, Sándalo, Cachemira",
+                inspirado: "Nishane Ani",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 51500,
+                imagen: "https://static.wixstatic.com/media/1b0cdc_393000c241d248f4a3122c682f7e6cc2~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg"
+            },
+            {
+                marca: "Al Haramain",
+                nombre: "Amber Oud Gold Edition",
+                notas: "Notas Frutales, Bergamota, Melón, Piña, Notas Ambarinas, Almizcle, Vainilla",
+                inspirado: "Xerjoff Erba Pura",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 119500,
+                imagen: "https://oudroma.com/cdn/shop/files/61x3GvRF53L.jpg?v=1740087129"
+            },
+            {
+                marca: "Lattafa",
+                nombre: "Fakhar Black",
+                notas: "Manzana, Bergamota, Jengibre, Salvia, Lavanda, Enebro, Haba Tonka, Amberwood",
+                inspirado: "Yves Saint Laurent Y EDP",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 69000,
+                imagen: "https://perfumesmb.com.ec/wp-content/uploads/2022/09/fakhar-black.jpg"
+            },
+            {
+                marca: "French Avenue",
+                nombre: "Veneno",
+                notas: "Naranja sanguina, Toronja, Menta, Canela, Rosa, Cuero, Madera blanca, Ámbar",
+                inspirado: "By Kilian Smoking Hot",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 95000,
+                imagen: "https://th.bing.com/th/id/R.0980783dd82c631e57b6cde4d1f14d7f?rik=PXB4b4zsJ3nNPQ&riu=http%3a%2f%2femiratesoud.co.uk%2fcdn%2fshop%2ffiles%2fVeneno-Perfume-100ml-EDP-French-Avenue-169423263.jpg%3fv%3d1749774958&ehk=j2%2fNRtPujQ%2bthhWZ7ScSgsjPykK3oKLa3zOyH8uOfTs%3d&risl=&pid=ImgRaw&r=0"
+            },
+            {
+                marca: "Lattafa",
+                nombre: "Asad Elixir",
+                notas: "Pimienta negra, Lavanda, Tabaco, Café, Incienso, Vainilla, Madera seca",
+                inspirado: "Hugo Boss Bottled Absolu",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 73000,
+                imagen: "https://cdn.notinoimg.com/detail_main_hq/lattafa/6290362346548_02-o/asad-elixir___251202.jpg"
+            },
+            {
+                marca: "Lattafa",
+                nombre: "Hayaati Al Malaky",
+                notas: "Nuez moscada, Canela, Bergamota, Madera de Oud, Sándalo, Vainilla, Cuero",
+                inspirado: "Paco Rabanne Phantom",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 41000,
+                imagen: "https://www.perfumenz.co.nz/cdn/shop/products/lattafa-hayaati-al-maleky_1024x1024.png?v=1679543237"
+            },
+            {
+                marca: "Afnan",
+                nombre: "9AM Dive EDP",
+                notas: "Bergamota, Mandarina, Azafrán, Salvia, Madera de Ámbar, Almizcle, Vetiver",
+                inspirado: "Bleu de Chanel EDP (híbrido con YSL Y)",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 68500,
+                imagen: "https://emaratiscents.com/cdn/shop/files/9_AM_DIVE.webp?v=1744470184"
+            },
+            {
+                marca: "Afnan",
+                nombre: "9PM Night Out",
+                notas: "Manzana, Bergamota, Canela, Lavanda, Vainilla, Sándalo, Ámbar",
+                inspirado: "Azzaro Forever Wanted Elixir",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 95000,
+                imagen: "https://afnan.com/cdn/shop/files/72.png?v=1768480402&width=2048"
+            },
+            {
+                marca: "Afnan",
+                nombre: "9PM Elixir",
+                notas: "Bergamota, Manzana, Canela, Lavanda, Haba Tonka, Vainilla, Ámbar",
+                inspirado: "Jean Paul Gaultier Le Male Elixir",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 89000,
+                imagen: "https://us.afnan.com/cdn/shop/files/9PM_ELIXIR-1.png?v=1775218857&width=2048"
+            },
+            {
+                marca: "Fragrance World",
+                nombre: "Mandarin Sky Odyssey",
+                notas: "Mandarina, Bergamota, Lavanda, Especias, Vainilla, Ámbar",
+                inspirado: "Jean Paul Gaultier Scandal Pour Homme",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 67000,
+                imagen: "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_83132.jpeg"
+            },
+            {
+                marca: "Fragrance World",
+                nombre: "Mandarin Sky Elixir",
+                notas: "Mandarina, Bergamota, Pimienta rosa, Canela, Vainilla, Haba Tonka",
+                inspirado: "Jean Paul Gaultier Scandal Le Parfum",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 91000,
+                imagen: "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_106709.jpeg"
+            },
+            {
+                marca: "Fragrance World",
+                nombre: "Mandarin Sky Aqua",
+                notas: "Bergamota, Limón, Neroli, Algas marinas, Musgo, Almizcle",
+                inspirado: "Paco Rabanne Invictus Platinum",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 74500,
+                imagen: "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_83134.jpeg"
+            },
+            {
+                marca: "Fragrance World",
+                nombre: "Mandarin Sky Vintage",
+                notas: "Mandarina, Azafrán, Lavanda, Tabaco, Vainilla, Sándalo",
+                inspirado: "Creación original",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 95000,
+                imagen: "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_123184.jpeg"
+            },
+            {
+                marca: "Fragrance World",
+                nombre: "Mandarin Sky Aristo",
+                notas: "Mandarina, Cardamomo, Canela, Pachulí, Vainilla, Ámbar",
+                inspirado: "Jean Paul Gaultier Le Beau",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 89000,
+                imagen: "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_106710.jpeg"
+            },
+            {
+                marca: "Fragrance World",
+                nombre: "Mandarin Sky Ba Ha Mas",
+                notas: "Cítricos, Especias, Madera de Oud, Ámbar, Vainilla, Almizcle",
+                inspirado: "Issey Miyake Le Sel d'Issey",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 74500,
+                imagen: "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_115127.jpeg"
+            },
+            {
+                marca: "Fragrance World",
+                nombre: "Mandarin Sky Homen Black",
+                notas: "Cítricos, Cuero, Tabaco, Madera de Oud, Ámbar, Almizcle",
+                inspirado: "Tom Ford Noir Extreme",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 60000,
+                imagen: "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_64464.jpeg"
+            },
+            {
+                marca: "Fragrance World",
+                nombre: "Mandarin Sky Homen White",
+                notas: "Mandarina, Bergamota, Neroli, Jazmín, Almizcle blanco, Ámbar",
+                inspirado: "Giorgio Armani Stronger With You",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 66000,
+                imagen: "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_64466.jpeg"
+            },
+            {
+                marca: "Fragrance World",
+                nombre: "Mandarin Sky Limoni",
+                notas: "Limón, Bergamota, Menta, Notas marinas, Almizcle, Madera blanca",
+                inspirado: "Louis Vuitton Afternoon Swim",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 57500,
+                imagen: "https://fimgs.net/mdimg/perfume-social-cards/en-p_c_98695.jpeg"
+            },
+            {
+                marca: "Afnan",
+                nombre: "9PM Black",
+                notas: "Bergamota, Manzana, Canela, Vainilla, Ámbar, Haba Tonka",
+                inspirado: "Jean Paul Gaultier Ultra Male",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 74000,
+                imagen: "https://us.afnan.com/cdn/shop/files/9PM-Product-01_ac1d61da-68bc-4cf8-8086-8cdc3accfbdf.jpg?v=1775552887&width=2048"
+            },
+            {
+                marca: "Afnan",
+                nombre: "Supremacy",
+                notas: "Bergamota, Azafrán, Romero, Manzana, Madera de Ámbar, Almizcle",
+                inspirado: "Creed Aventus",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 70000,
+                imagen: "https://us.afnan.com/cdn/shop/files/SupremacySilver-Product-01.jpg?v=1775552976&width=2048"
+            },
+            {
+                marca: "Al Haramain",
+                nombre: "Aqua Dubai",
+                notas: "Bergamota, Mandarina, Toronja, Lavanda, Sándalo, Almizcle, Ámbar",
+                inspirado: "Louis Vuitton Imagination",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 114000,
+                imagen: "https://cdn2.jomashop.com/media/catalog/product/cache/b3e31d40bbb1abcc90b26106659d5d3f/a/l/al-haramain-unisex-amber-oud-aqua-dubai-extrait-de-parfum-spray-25-oz-fragrances-6291106814859.jpg"
+            },
+            {
+                marca: "Armaf",
+                nombre: "Club de Nuit Bling",
+                notas: "Limón, Bergamota, Azafrán, Cedro, Sándalo, Vainilla, Ámbar",
+                inspirado: "Creación original",
+                tamano: "75ml",
+                formato: "Botella Completa",
+                precio: 96000,
+                imagen: "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/CDN_BLING_313469_-A-1-SF.png?v=1775252102"
+            },
+            {
+                marca: "Armaf",
+                nombre: "Club de Nuit Intense",
+                notas: "Limón, Bergamota, Piña, Pimienta negra, Abedul, Cedro, Almizcle",
+                inspirado: "Creed Aventus",
+                tamano: "105ml",
+                formato: "Botella Completa",
+                precio: 75500,
+                imagen: "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/Q-106DCLUBDENUITINTENSE_M_FIF_900x_f04752b1-087d-4206-8985-e13e96c5896d.webp?v=1762289750"
+            },
+            {
+                marca: "Armaf",
+                nombre: "Club de Nuit Sillage",
+                notas: "Limón, Bergamota, Jazmín, Rosa, Sándalo, Almizcle blanco",
+                inspirado: "Creed Silver Mountain Water",
+                tamano: "105ml",
+                formato: "Botella Completa",
+                precio: 73000,
+                imagen: "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/club_de_nuit_sillage_36.webp?v=1781304017"
+            },
+            {
+                marca: "Armaf",
+                nombre: "Club de Nuit Urban",
+                notas: "Mandarina, Jengibre, Manzana, Canela, Vainilla, Ámbar",
+                inspirado: "Creación original",
+                tamano: "105ml",
+                formato: "Botella Completa",
+                precio: 60000,
+                imagen: "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/CLUBDENUITURBANMAN01.png?v=1765209493"
+            },
+            {
+                marca: "Armaf",
+                nombre: "Club de Nuit Urban Elixir",
+                notas: "Bergamota, Manzana, Canela, Pimienta rosa, Vainilla, Sándalo",
+                inspirado: "Dior Sauvage",
+                tamano: "105ml",
+                formato: "Botella Completa",
+                precio: 83500,
+                imagen: "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/CLUBDENUITURBANMAN01.png?v=1765209493+Elixir"
+            },
+            {
+                marca: "Armaf",
+                nombre: "Lionheart Man",
+                notas: "Bergamota, Lavanda, Canela, Pimienta, Pachulí, Madera de Cachemira, Ámbar",
+                inspirado: "Jean Paul Gaultier Le Male Elixir",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 74500,
+                imagen: "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/Lionheart..png?v=1765209131"
+            },
+            {
+                marca: "Armaf",
+                nombre: "Yum Yum",
+                notas: "Fresas, Frambuesa, Caramelo, Vainilla, Crema de coco, Almizcle",
+                inspirado: "Creación original",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 87500,
+                imagen: "https://cdn.shopify.com/s/files/1/0875/1513/6299/files/Untitleddesign_71.png?v=1748451245"
+            },
+            {
+                marca: "Bharara",
+                nombre: "Mast Parfume Absolu",
+                notas: "Azafrán, Rosa, Madera de Oud, Cuero, Ámbar, Vainilla, Almizcle",
+                inspirado: "Creación original",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 63500,
+                imagen: "https://oasisperfumesusa.com/cdn/shop/files/uawoh0phm2hx0q5vbrapownk.png?v=1755205057"
+            },
+            {
+                marca: "French Avenue",
+                nombre: "Dark Door Sport EDP",
+                notas: "Limón, Bergamota, Nuez moscada, Sándalo, Vetiver, Almizcle",
+                inspirado: "Dior Homme Sport",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 39500,
+                imagen: "https://cdn2.jomashop.com/media/catalog/product/cache/b3e31d40bbb1abcc90b26106659d5d3f/m/a/maison-alhambra-unisex-dark-door-sport-edp-3-4-oz-fragrances-6290360590820.jpg"
+            },
+            {
+                marca: "Emper",
+                nombre: "Donna Intense",
+                notas: "Rosas, Jazmín, Frutas rojas, Pachulí, Vainilla, Ámbar",
+                inspirado: "Valentino Donna Born in Roma Intense",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 63500,
+                imagen: "https://fandi-perfume.com/cdn/shop/files/donna-intense-by-stallion-53-1217972307.jpg?v=1769554953"
+            },
+            {
+                marca: "Emper",
+                nombre: "Monarch Red Tobacco Vanilla",
+                notas: "Tabaco, Vainilla, Canela, Cuero, Ámbar, Madera",
+                inspirado: "Mancera Red Tobacco",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 48000,
+                imagen: "https://fragrancewholesale.co.uk/cdn/shop/products/RED-TABBACO_grande.jpg?v=1748348541"
+            },
+            {
+                marca: "Emper",
+                nombre: "Uomo Intense",
+                notas: "Bergamota, Lavanda, Geranio, Pachulí, Ámbar, Vainilla",
+                inspirado: "Valentino Uomo Born in Roma Intense",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 71000,
+                imagen: "https://orientalaromas.com/cdn/shop/files/B50A9C96-B602-4C2B-9FC0-746F5D59DBE9.webp?v=1767580994&width=1024"
+            },
+            {
+                marca: "Fragrance World",
+                nombre: "Urban Man Elixir",
+                notas: "Bergamota, Pimienta negra, Lavanda, Canela, Vainilla, Ámbar",
+                inspirado: "Jean Paul Gaultier Le Male Elixir",
+                tamano: "105ml",
+                formato: "Botella Completa",
+                precio: 51500,
+                imagen: "https://orioudh.com/cdn/shop/files/urban-man-elixir-eau-de-parfum-90ml-by-fragrance-world-men-perfume-edp-90ml-fragrance-world-309923-1191457752.jpg?v=1757064228"
+            },
+            {
+                marca: "French Avenue",
+                nombre: "Vulcan Black Friday Extrait de Parfum",
+                notas: "Azafrán, Tabaco, Cuero, Vainilla, Ámbar, Madera de Oud",
+                inspirado: "Xerjoff Tony Iommi Deified",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 90000,
+                imagen: "https://www.jeansmellgood.com/cdn/shop/files/Shop-for-french-avenue-vulcan-black-friday-limited-edition-3-4-oz-perfume-fragrance-online-and-in-miami.webp?crop=center&height=1200&v=1765662472&width=1200"
+            },
+            {
+                marca: "French Avenue",
+                nombre: "Vulcan Sable",
+                notas: "Bergamota, Azafrán, Rosa, Cuero, Sándalo, Vainilla, Almizcle",
+                inspirado: "Stéphane Humbert Lucas 777 Sand Dance",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 63500,
+                imagen: "https://frenchavenue.com/cdn/shop/files/1_7c27d338-53d1-45a6-9f41-3db1abd75ce0.jpg?v=1751985834"
+            },
+            {
+                marca: "Lattafa",
+                nombre: "Asad Bourbon",
+                notas: "Pimienta negra, Lavanda, Tabaco, Café, Vainilla, Madera seca, Ámbar",
+                inspirado: "Azzaro The Most Wanted Parfum",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 81000,
+                imagen: "https://cdn.shopify.com/s/files/1/0594/0360/0065/files/lattafa-asad-bourbon-perfume-bottle-front-packshot-white.jpg?v=1773992064"
+            },
+            {
+                marca: "Lattafa",
+                nombre: "Bade'e Al Oud Amethyst",
+                notas: "Azafrán, Nuez moscada, Lavanda, Madera de Oud, Pachulí, Almizcle, Vainilla",
+                inspirado: "Initio Atomic Rose",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 50500,
+                imagen: "https://cdn.shopify.com/s/files/1/0580/7420/2293/files/02okjubkiy.png?v=1745954621"
+            },
+            {
+                marca: "Lattafa",
+                nombre: "Bade'e Al Oud Sublime",
+                notas: "Azafrán, Madera de Oud, Canela, Rosa, Pachulí, Vainilla, Ámbar",
+                inspirado: "Kayali Eden Juicy Apple",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 50500,
+                imagen: "https://cdn.shopify.com/s/files/1/0594/0360/0065/files/lattafa-badee-al-oud-sublime-edp-unisex-fruity-perfume-bottle_jpg.jpg?v=1749322608"
+            },
+            {
+                marca: "Lattafa",
+                nombre: "Hayaati Florence",
+                notas: "Bergamota, Pera, Jazmín, Almendras, Ámbar, Vainilla",
+                inspirado: "Carolina Herrera Very Good Girl",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 41000,
+                imagen: "https://cdn.shopify.com/s/files/1/0594/0360/0065/files/dfghghdgd-dhgdh.jpg?v=1691057798"
+            },
+            {
+                marca: "Lattafa",
+                nombre: "Khamrah",
+                notas: "Canela, Nuez moscada, Dátiles, Praliné, Vainilla, Ámbar, Haba Tonka",
+                inspirado: "By Kilian Angel's Share",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 59000,
+                imagen: "https://cdn11.bigcommerce.com/s-d75m9rit2s/images/stencil/1280x1280/products/21168/3412177/2-60__08121.1752456082.jpg?c=1"
+            },
+            {
+                marca: "Lattafa",
+                nombre: "Khamrah Qahwa",
+                notas: "Café, Canela, Dátiles, Praliné, Vainilla, Ámbar",
+                inspirado: "By Kilian Angel's Share (versión café)",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 59000,
+                imagen: "https://cdn11.bigcommerce.com/s-d75m9rit2s/images/stencil/1280x1280/products/21252/3485025/KhamrahQahwaByLattafaEDP100ml2__86760.1753682811.jpg?c=1"
+            },
+            {
+                marca: "Lattafa",
+                nombre: "Khamrah Waha",
+                notas: "Canela, Dátiles, Coco, Vainilla, Ámbar, Almizcle",
+                inspirado: "Creación original",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 114000,
+                imagen: "https://emaratiscents.com/cdn/shop/files/Waha-Packshot1.webp?v=1778624550"
+            },
+            {
+                marca: "Lattafa",
+                nombre: "Yara Elixir",
+                notas: "Orquídea, Jazmín, Caramelo, Vainilla, Ámbar, Almizcle",
+                inspirado: "Creación original",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 66000,
+                imagen: "https://cdn.shopify.com/s/files/1/0754/4936/8799/files/YaraElixirBottle.png?v=1760805808"
+            },
+            {
+                marca: "Lattafa",
+                nombre: "Yara Moi",
+                notas: "Lichi, Pera, Rosa, Jazmín, Sándalo, Vainilla, Almizcle",
+                inspirado: "Marc Jacobs Perfect Intense",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 47500,
+                imagen: "https://palette21.com/cdn/shop/files/Yara_Yara_Moi_EDP-100ml.webp?v=1774871835"
+            },
+            {
+                marca: "Rasasi",
+                nombre: "Hawas Black EDP",
+                notas: "Bergamota, Cardamomo, Manzana, Salvia, Madera de Ámbar, Almizcle",
+                inspirado: "Nishane Hacivat",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 75000,
+                imagen: "https://cdn.shopify.com/s/files/1/0764/1441/9159/files/1.jpg?v=1785745869"
+            },
+            {
+                marca: "Rasasi",
+                nombre: "Hawas Elixir",
+                notas: "Limón, Pimienta negra, Lavanda, Canela, Vainilla, Ámbar",
+                inspirado: "Jean Paul Gaultier Le Male Elixir",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 78000,
+                imagen: "https://cdn.shopify.com/s/files/1/0764/1441/9159/files/magnific_create-a-luxury-diorstyle_eIXWNP7dqL.png?v=1785747069"
+            },
+            {
+                marca: "Rasasi",
+                nombre: "Hawas Ice EDP",
+                notas: "Mentol, Bergamota, Cítricos, Algas marinas, Almizcle, Madera blanca",
+                inspirado: "Paco Rabanne Invictus Aqua",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 94000,
+                imagen: "https://cdn2.jomashop.com/media/catalog/product/cache/b3e31d40bbb1abcc90b26106659d5d3f/r/a/rasasi-mens-hawas-ice-eau-de-perfume-spray-3-38-oz-fragrances-614514331040_1.jpg?width=800&height=800"
+            },
+            {
+                marca: "Rasasi",
+                nombre: "Hawas Kobra",
+                notas: "Azafrán, Jengibre, Canela, Cuero, Vainilla, Ámbar, Madera de Oud",
+                inspirado: "Louis Vuitton Imagination",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 96000,
+                imagen: "https://cdn2.jomashop.com/media/catalog/product/cache/b3e31d40bbb1abcc90b26106659d5d3f/r/a/rasasi-mens-hawas-kobra-edp-spray-34-oz-fragrances-614514331064.jpg?width=800&height=800"
+            },
+            {
+                marca: "Rasasi",
+                nombre: "Hawas Malibu",
+                notas: "Piña, Coco, Bergamota, Notas marinas, Almizcle, Sándalo",
+                inspirado: "Jean Paul Gaultier Le Beau Le Parfum",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 95000,
+                imagen: "https://cdn2.jomashop.com/media/catalog/product/cache/b3e31d40bbb1abcc90b26106659d5d3f/r/a/rasasi-mens-hawas-malibu-edp-spray-34-oz-fragrances-614514331071.jpg?width=800&height=800"
+            },
+            {
+                marca: "Rasasi",
+                nombre: "Hawas Tropical",
+                notas: "Mango, Maracuyá, Coco, Bergamota, Jazmín, Vainilla, Ámbar",
+                inspirado: "Jean Paul Gaultier Le Beau Paradise Garden",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 83000,
+                imagen: "https://cdn2.jomashop.com/media/catalog/product/cache/b3e31d40bbb1abcc90b26106659d5d3f/r/a/rasasi-mens-hawas-tropical-edp-spray-33-oz-fragrances-614514464441.jpg?width=800&height=800"
+            },
+            {
+                marca: "Rayhaan",
+                nombre: "Aquatica",
+                notas: "Limón, Bergamota, Notas marinas, Jazmín, Almizcle, Madera",
+                inspirado: "Creed Virgin Island Water",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 92500,
+                imagen: "https://cdn.shopify.com/s/files/1/0589/3849/0927/files/Aquatica11BGWHITE_jpg.jpg?v=1783143509"
+            },
+            {
+                marca: "Rayhaan",
+                nombre: "Azul",
+                notas: "Cítricos, Toronja, Geranio, Vetiver, Almizcle, Madera de Ámbar",
+                inspirado: "Dior Homme Cologne",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 98500,
+                imagen: "https://cdn.shopify.com/s/files/1/0589/3849/0927/files/azul.jpg?v=1783149506"
+            },
+            {
+                marca: "Rayhaan",
+                nombre: "Crimson",
+                notas: "Bergamota, Azafrán, Rosa, Pachulí, Vainilla, Ámbar",
+                inspirado: "Creed Centaurus",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 97000,
+                imagen: "https://cdn.shopify.com/s/files/1/0589/3849/0927/files/1Crimson.jpg?v=1780998273"
+            },
+            {
+                marca: "Rayhaan",
+                nombre: "Dark Leather",
+                notas: "Cuero, Tabaco, Azafrán, Madera de Oud, Ámbar, Almizcle",
+                inspirado: "Memo Paris Irish Leather",
+                tamano: "100ml",
+                formato: "Botella Completa",
+                precio: 59000,
+                imagen: "https://cdn.shopify.com/s/files/1/0589/3849/0927/files/dark-leather-rayhaan-perfumes-1.png?v=1725879481"
+            }
+        ];
+
+        let marcaActiva = 'todas';
+
+        function normalizar(texto) {
+            return texto.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+        }
+
+        function formatearPrecio(numero) {
+            return '$' + numero.toLocaleString('es-AR') + ' ARS';
+        }
+
+        function obtenerMarcas() {
+            return [...new Set(productos.map(p => p.marca))].sort();
+        }
+
+        function renderizarFiltros() {
+            const cont = document.getElementById('filtros-marca');
+            let html = '<button class="filtro-chip activo" data-marca="todas">Todas</button>';
+            obtenerMarcas().forEach(marca => {
+                html += `<button class="filtro-chip" data-marca="${marca}">${marca}</button>`;
+            });
+            cont.innerHTML = html;
+        }
+
+        let listaActual = [];
+
+        function renderizarProductos(lista) {
+            const grid = document.getElementById('product-grid');
+            listaActual = lista;
+
+            if (lista.length === 0) {
+                grid.innerHTML = '<p class="empty-state">No encontramos fragancias con ese criterio. Probá con otra búsqueda o marca.</p>';
+                return;
+            }
+
+            grid.innerHTML = lista.map((p, i) => `
+                <div class="product-card card-reveal" data-index="${i}" role="button" tabindex="0" aria-label="Ver ${p.marca} ${p.nombre}" style="transition-delay: ${Math.min(i * 0.06, 0.3)}s">
+                    <div class="img-container">
+                        <img src="${p.imagen}" alt="${p.marca} ${p.nombre}" loading="lazy">
+                    </div>
+                    <div>
+                        <div class="product-house">${p.marca}</div>
+                        <h3 class="product-title">${p.nombre}</h3>
+                        <p class="product-notes">${p.notas}</p>
+                        <div class="product-price">${formatearPrecio(p.precio)} <span style="font-size: 0.75em; color: var(--text-dim); font-weight: 500;">(${p.formato} ${p.tamano})</span></div>
+                    </div>
+                    <div class="product-select">Elegir formato</div>
+                </div>
+            `).join('');
+
+            requestAnimationFrame(() => {
+                document.querySelectorAll('#product-grid .card-reveal').forEach(el => el.classList.add('is-visible'));
+            });
+        }
+
+        function aplicarFiltros() {
+            const texto = normalizar(document.getElementById('buscador').value.trim());
+
+            const resultado = productos.filter(p => {
+                const coincideMarca = marcaActiva === 'todas' || p.marca === marcaActiva;
+                const coincideTexto = texto === '' || normalizar(`${p.marca} ${p.nombre} ${p.notas} ${p.inspirado}`).includes(texto);
+                return coincideMarca && coincideTexto;
+            });
+
+            renderizarProductos(resultado);
+        }
+
+        document.getElementById('buscador').addEventListener('input', aplicarFiltros);
+
+        document.getElementById('filtros-marca').addEventListener('click', (e) => {
+            const chip = e.target.closest('.filtro-chip');
+            if (!chip) return;
+            document.querySelectorAll('.filtro-chip').forEach(b => b.classList.remove('activo'));
+            chip.classList.add('activo');
+            marcaActiva = chip.getAttribute('data-marca');
+            aplicarFiltros();
+        });
+
+        document.getElementById('product-grid').addEventListener('click', (e) => {
+            const card = e.target.closest('.product-card');
+            if (!card) return;
+            abrirModal(parseInt(card.getAttribute('data-index'), 10));
+        });
+
+        document.getElementById('product-grid').addEventListener('keydown', (e) => {
+            if (e.key !== 'Enter' && e.key !== ' ') return;
+            const card = e.target.closest('.product-card');
+            if (!card) return;
+            e.preventDefault();
+            abrirModal(parseInt(card.getAttribute('data-index'), 10));
+        });
+
+        let formatoElegido = '10ml';
+
+        function calcularPrecios(p) {
+            return {
+                '5ml': Math.round(p.precio * 0.08 * 1.2),
+                '10ml': Math.round(p.precio * 0.15 * 1.2),
+                'botella': p.precio
+            };
+        }
+
+        function etiquetaFormato(clave, p) {
+            if (clave === 'botella') return `Botella completa (${p.tamano})`;
+            return `${clave} Decant`;
+        }
+
+        function abrirModal(indice) {
+            const p = listaActual[indice];
+            if (!p) return;
+
+            const precios = calcularPrecios(p);
+            formatoElegido = '10ml';
+
+            const contenido = `
+                <div class="modal-img">
+                    <img src="${p.imagen}" alt="${p.marca} ${p.nombre}">
+                </div>
+                <div class="modal-house">${p.marca}</div>
+                <h3 class="modal-title" id="modal-titulo">${p.nombre}</h3>
+                <p class="modal-info"><strong>Inspirado en:</strong> ${p.inspirado}</p>
+                <p class="modal-notas"><strong>Notas:</strong> ${p.notas}</p>
+                <div class="modal-opciones">
+                    <div class="opcion-label">Elegí tu formato:</div>
+                    <div class="opcion-selector" data-formato="5ml">
+                        <span class="nombre">5ml · Decant</span>
+                        <span class="precio">${formatearPrecio(precios['5ml'])}</span>
+                    </div>
+                    <div class="opcion-selector seleccionado" data-formato="10ml">
+                        <span class="nombre">10ml · Decant</span>
+                        <span class="precio">${formatearPrecio(precios['10ml'])}</span>
+                    </div>
+                    <div class="opcion-selector" data-formato="botella">
+                        <span class="nombre">Botella completa (${p.tamano})</span>
+                        <span class="precio">${formatearPrecio(precios['botella'])}</span>
+                    </div>
+                </div>
+                <button class="cta-btn modal-wa" id="modal-wa-btn">Consultar por WhatsApp</button>
+            `;
+
+            document.getElementById('modal-contenido').innerHTML = contenido;
+
+            const overlay = document.getElementById('modal-producto');
+            overlay.classList.add('abierto');
+            overlay.setAttribute('aria-hidden', 'false');
+            document.body.style.overflow = 'hidden';
+
+            overlay.querySelectorAll('.opcion-selector').forEach(op => {
+                op.addEventListener('click', () => {
+                    overlay.querySelectorAll('.opcion-selector').forEach(o => o.classList.remove('seleccionado'));
+                    op.classList.add('seleccionado');
+                    formatoElegido = op.getAttribute('data-formato');
+                });
+            });
+
+            document.getElementById('modal-wa-btn').addEventListener('click', () => {
+                const precio = calcularPrecios(p)[formatoElegido];
+                const mensaje = `Hola, vengo de la página web y me interesa ${p.marca} ${p.nombre} en formato ${etiquetaFormato(formatoElegido, p)} (${formatearPrecio(precio)}). ¿Tienen stock y cómo es el proceso de compra?`;
+                window.open(`https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`, '_blank');
+            });
+        }
+
+        function cerrarModal() {
+            const overlay = document.getElementById('modal-producto');
+            overlay.classList.remove('abierto');
+            overlay.setAttribute('aria-hidden', 'true');
+            document.body.style.overflow = '';
+        }
+
+        document.getElementById('modal-cerrar').addEventListener('click', cerrarModal);
+
+        document.getElementById('modal-producto').addEventListener('click', (e) => {
+            if (e.target === document.getElementById('modal-producto')) cerrarModal();
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') cerrarModal();
+        });
+
+        renderizarFiltros();
+        renderizarProductos(productos);
+
+        const btnColumnas = document.getElementById('btn-columnas');
+        const gridCatalogo = document.getElementById('product-grid');
+        const btnColsLabel = document.getElementById('btn-cols-label');
+        let columnas = parseInt(localStorage.getItem('oudColumnas') || '1', 10);
+        if (isNaN(columnas) || columnas < 1 || columnas > 3) columnas = 1;
+
+        function aplicarColumnas() {
+            gridCatalogo.classList.remove('cols-1', 'cols-2', 'cols-3');
+            if (columnas > 1) gridCatalogo.classList.add('cols-' + columnas);
+            btnColsLabel.textContent = columnas;
+            localStorage.setItem('oudColumnas', columnas);
+        }
+
+        btnColumnas.addEventListener('click', () => {
+            columnas = columnas === 3 ? 1 : columnas + 1;
+            aplicarColumnas();
+        });
+        aplicarColumnas();
+
+        const botonGeneral = document.getElementById('general-wa');
+        const mensajeGeneral = "Hola, estaba viendo la página web y me gustaría recibir asesoramiento sobre las fragancias árabes.";
+        botonGeneral.href = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensajeGeneral)}`;
+
+        document.querySelector('.cta-btn[href="#catalogo"]').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector('#catalogo').scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+
+        const observador = new IntersectionObserver((entradas) => {
+            entradas.forEach(entrada => {
+                if (entrada.isIntersecting) {
+                    entrada.target.classList.add('is-visible');
+                    observador.unobserve(entrada.target);
+                }
+            });
+        }, { threshold: 0.15 });
+
+        document.querySelectorAll('.scroll-reveal').forEach(el => observador.observe(el));
+    </script>
+</body>
+</html>
