@@ -1309,12 +1309,21 @@ h1, h2, h3, h4 {
            (contraste sobre fondo oscuro, composicion y animaciones suaves)
            ============================================================ */
 
-        /* 0. Fix sticky header: `overflow-x: hidden` en body rompe position:sticky.
-              Usamos `clip`, que recorta sin crear un scroll container. */
+        /* 0. Fix sticky header: cualquier `overflow-x` en html/body (hidden o clip)
+              convierte el documento en un scroll container y rompe position:sticky.
+              Los quitamos del html y del body, y recortamos el desborde horizontal
+              solo dentro de los contenedores de contenido que NO son ancestro del header. */
         html {
-            overflow-x: clip;
+            overflow-x: visible;
         }
         body {
+            overflow-x: visible;
+        }
+        main,
+        .hero-banner,
+        .destacados,
+        .catalog,
+        .contacto {
             overflow-x: clip;
         }
 
@@ -1329,12 +1338,20 @@ h1, h2, h3, h4 {
             background-repeat: no-repeat;
         }
 
-        /* 1b. Header pegajoso: al bajar quedan visibles la barra de busqueda,
-              el carrito, WhatsApp y el logo. */
-        .site-header {
+        /* 1b. Franja superior pegajosa: envuelve top-bar + header + nav.
+              Al bajar quedan visibles la barra de busqueda, el carrito,
+              WhatsApp, el logo y la navegacion. */
+        .site-sticky {
             position: sticky;
             top: 0;
             z-index: 150;
+        }
+        .site-sticky + * {
+            margin-top: 0;
+        }
+        .site-header {
+            position: static;
+            top: auto;
         }
 
         /* 2. Paneles claros para las paginas nuevas (evita texto oscuro sobre fondo oscuro) */
