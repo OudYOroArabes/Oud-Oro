@@ -258,12 +258,22 @@ document.getElementById('buscador').addEventListener('input', (() => {
 })());
 
 document.getElementById('product-grid').addEventListener('click', (e) => {
+    const corazon = e.target.closest('.fav-corazon');
+    if (corazon) {
+        e.stopPropagation();
+        const id = corazon.getAttribute('data-id');
+        if (!id) return;
+        const activo = toggleFavorito(id);
+        corazon.classList.toggle('activo', activo);
+        const num = document.getElementById('fav-chip-num');
+        if (num) num.textContent = obtenerFavoritos().length > 0 ? obtenerFavoritos().length : '';
+        return;
+    }
     const card = e.target.closest('.product-card');
     if (!card) return;
     abrirModal(parseInt(card.getAttribute('data-index'), 10));
 });
 
-document.getElementById('product-grid').addEventListener('click', hacerClickFavorito);
 document.getElementById('filtros-marca').addEventListener('click', () => {
     const num = document.getElementById('fav-chip-num');
     if (num) num.textContent = obtenerFavoritos().length > 0 ? obtenerFavoritos().length : '';
@@ -568,13 +578,22 @@ function renderizarDestacados() {
 }
 
 document.getElementById('destacados-grid').addEventListener('click', (e) => {
+    const corazon = e.target.closest('.fav-corazon');
+    if (corazon) {
+        e.stopPropagation();
+        const id = corazon.getAttribute('data-id');
+        if (!id) return;
+        const activo = toggleFavorito(id);
+        corazon.classList.toggle('activo', activo);
+        const num = document.getElementById('fav-chip-num');
+        if (num) num.textContent = obtenerFavoritos().length > 0 ? obtenerFavoritos().length : '';
+        return;
+    }
     const card = e.target.closest('.product-card');
     if (!card) return;
     listaActual = destacados;
     abrirModal(parseInt(card.getAttribute('data-index'), 10));
 });
-
-document.getElementById('destacados-grid').addEventListener('click', hacerClickFavorito);
 
 document.getElementById('destacados-grid').addEventListener('keydown', (e) => {
     if (e.key !== 'Enter' && e.key !== ' ') return;
