@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis favoritos | Oud & Oro</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css?v=8">
+</head>
+<body>
+
+    <div class="site-sticky">
+    <div class="top-bar">✦ 100% Originales ✦ Fragancias certificadas ✦ Envíos a todo el país ✦</div>
+
+    <header class="site-header">
+        <a href="index.html" class="logo" aria-label="Oud &amp; Oro - Volver al inicio">
+            <span>Oud</span>
+            <span class="logo-amp">&amp;</span>
+            <span>Oro</span>
+        </a>
+
+        <div class="header-buscar">
+            <a href="index.html#catalogo" class="header-enlace">Ver catálogo completo</a>
+        </div>
+
+        <div class="header-acciones">
+            <a href="#" class="header-wa" id="header-wa" target="_blank" rel="noopener" aria-label="Consultar por WhatsApp">
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4Ij4KICA8cGF0aCBkPSJNMjQuMDA0IDhDMTUuMTY1IDggOCAxNS4xNjQgOCAyNGMwIDIuODU3Ljc1MyA1LjU1NiAyLjE3NSA3Ljk2TDguMDAyIDQwbDguMjItMi4xNDNBMTUuOTA2IDE1LjkwNiAwIDAgMCAyNC4wMDQgNDBjOC44NCAwIDE2LjAwNC03LjE2NCAxNi4wMDQtMTZTMzIuODQ0IDggMjQuMDA0IDh6bTkuMzY0IDIyLjg0Yy0uMzk3IDEuMTItMS45NDggMi4wNS0zLjE4NCAyLjMyLS44NDMuMTgyLTEuOTQzLjMyNC01LjY1NS0xLjIxNC00Ljc1NC0xLjk2Ni03LjgwNi02Ljc5LTguMDQtNy4xMDYtLjIyNi0uMzE1LTEuODkzLTIuNTItMS44OTMtNC44MDcgMC0yLjI4NyAxLjItMy40MDYgMS42MjctMy44NjIuNDI3LS40NTYuOTMtLjU3IDEuMjM4LS41Ny4zMDggMCAuNjE2LjAwMy44ODUuMDE2LjI4My4wMTMuNjYzLS4xMDcgMS4wMzIuNzg3LjM5Ny45NyAxLjM1IDMuMjkzIDEuNDY4IDMuNTMyLjExOS4yNC4xOTguNTIuMDQ0LjgzNC0uMTU4LjMxNS0uMjM3LjUxMi0uNDczLjc4OC0uMjM3LjI3Ny0uNDk4LjYxOC0uNzEuODI4LS4yMzcuMjQtLjQ4NC40OTgtLjIwNi45ODMuMjc3LjQ4NCAxLjIzMiAyLjAzIDIuNjQ1IDMuMjg4IDEuODE4IDEuNjIgMy4zNSAyLjEyMiAzLjgzNCAyLjM2LjQ4NC4yMzcuNzYzLjE5OCAxLjA0MS0uMTIuMjc3LS4zMTUgMS4xNzUtMS4zNjggMS40ODktMS44NDMuMzE1LS40NzQuNjMxLS4zOTcgMS4wNjgtLjIzNy40MzYuMTU4IDIuNzczIDEuMzA3IDMuMjQ4IDEuNTQ0LjQ3NC4yMzcuNzkuMzU2LjkwOC41NTQuMTE5LjE5Ny4xMTkgMS4xNDMtLjI3OCAyLjI2M3oiIGZpbGw9IiMwMDJGQTciLz4KPC9zdmc+Cg==" alt="" width="20" height="20" style="pointer-events:none;">
+                Consultar
+            </a>
+        </div>
+    </header>
+    </div>
+
+    <nav class="main-nav" aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="recomendador.html">Encontrá tu perfume ideal</a>
+        <a href="como-comprar.html">Cómo Comprar</a>
+        <a href="favoritos.html" class="activo">Mis favoritos ♥</a>
+    </nav>
+
+    <main class="favoritos">
+        <section class="reco-hero">
+            <h1 class="scroll-reveal">Mis favoritos</h1>
+            <p class="reco-sub scroll-reveal">Los perfumes que guardaste con el corazón, listos para elegir tu favorito.</p>
+        </section>
+
+        <div class="favoritos-barra scroll-reveal">
+            <a href="index.html#catalogo" class="cta-btn fav-volver">Explorar más perfumes</a>
+        </div>
+
+        <div class="product-grid" id="fav-grid"></div>
+        <div class="fav-vacio" id="fav-vacio" hidden>
+            <p>♡ Todavía no guardaste ningún perfume.</p>
+            <a href="index.html#catalogo" class="cta-btn">Ver catálogo</a>
+        </div>
+    </main>
+
+    <div class="modal-overlay" id="modal-producto" aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-titulo">
+            <button class="modal-close" id="modal-cerrar" aria-label="Cerrar">&times;</button>
+            <div id="modal-contenido"></div>
+        </div>
+    </div>
+
+    <script>const numeroWhatsApp = "541155136919";</script>
+    <script src="js/favoritos.js?v=8"></script>
+    <script src="js/sticky.js?v=8"></script>
+</body>
+</html>

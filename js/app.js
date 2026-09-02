@@ -16,6 +16,56 @@ function obtenerMarcas() {
     return [...new Set(productos.map(p => p.marca))].sort();
 }
 
+/* ===== Favoritos: corazon en las tarjetas + persistencia en localStorage ===== */
+const FAV_KEY = 'oudOroFavoritos';
+
+function idProducto(p) {
+    return normalizar(p.marca) + '::' + normalizar(p.nombre);
+}
+
+function obtenerFavoritos() {
+    try {
+        return JSON.parse(localStorage.getItem(FAV_KEY)) || [];
+    } catch (e) {
+        return [];
+    }
+}
+
+function guardarFavoritos(lista) {
+    localStorage.setItem(FAV_KEY, JSON.stringify(lista));
+}
+
+function esFavorito(id) {
+    return obtenerFavoritos().includes(id);
+}
+
+function toggleFavorito(id) {
+    let favs = obtenerFavoritos();
+    const i = favs.indexOf(id);
+    if (i === -1) favs.push(id);
+    else favs.splice(i, 1);
+    guardarFavoritos(favs);
+    return favs.includes(id);
+}
+
+function marcarCorazones() {
+    const favs = obtenerFavoritos();
+    document.querySelectorAll('.fav-corazon').forEach(el => {
+        el.classList.toggle('activo', favs.includes(el.getAttribute('data-id')));
+    });
+}
+
+function hacerClickFavorito(e) {
+    const corazon = e.target.closest('.fav-corazon');
+    if (!corazon) return;
+    e.stopPropagation();
+    e.preventDefault();
+    const id = corazon.getAttribute('data-id');
+    if (!id) return;
+    const activo = toggleFavorito(id);
+    corazon.classList.toggle('activo', activo);
+}
+
 function renderizarFiltros() {
     const cont = document.getElementById('filtros-marca');
     const boton = document.getElementById('btn-marcas');
@@ -29,6 +79,14 @@ function renderizarFiltros() {
     btn.setAttribute('aria-expanded', 'false');
     btn.innerHTML = '<span id="btn-marcas-label">Todas las marcas</span> <span class="flecha">▼</span>';
     cont.appendChild(btn);
+
+    const favBtn = document.createElement('a');
+    favBtn.className = 'filtro-chip fav-chip';
+    favBtn.id = 'btn-favoritos';
+    favBtn.href = 'favoritos.html';
+    const nFav = obtenerFavoritos().length;
+    favBtn.innerHTML = '<span class="fav-chip-icono">♥</span> Favoritos <span class="fav-chip-num" id="fav-chip-num">' + (nFav > 0 ? nFav : '') + '</span>';
+    cont.appendChild(favBtn);
 
     const panel = document.createElement('div');
     panel.className = 'marcas-menu';
@@ -142,6 +200,7 @@ function cargarMas() {
 
     const fragmento = listaActual.slice(desde, hasta).map((p, i) => `
         <div class="product-card card-reveal" data-index="${desde + i}" role="button" tabindex="0" aria-label="Ver ${p.marca} ${p.nombre}" style="transition-delay: ${Math.min(i * 0.06, 0.3)}s">
+            <span class="fav-corazon" data-id="${idProducto(p)}" role="button" tabindex="0" aria-label="Guardar ${p.nombre} en favoritos">♥</span>
             <div class="img-container">
                 <img src="${p.imagen}" alt="${p.marca} ${p.nombre}" loading="lazy">
             </div>
@@ -173,6 +232,7 @@ function cargarMas() {
     requestAnimationFrame(() => {
         nuevas.forEach(el => el.classList.add('is-visible'));
     });
+    marcarCorazones();
 }
 
 botonVerMas.addEventListener('click', cargarMas);
@@ -201,6 +261,12 @@ document.getElementById('product-grid').addEventListener('click', (e) => {
     const card = e.target.closest('.product-card');
     if (!card) return;
     abrirModal(parseInt(card.getAttribute('data-index'), 10));
+});
+
+document.getElementById('product-grid').addEventListener('click', hacerClickFavorito);
+document.getElementById('filtros-marca').addEventListener('click', () => {
+    const num = document.getElementById('fav-chip-num');
+    if (num) num.textContent = obtenerFavoritos().length > 0 ? obtenerFavoritos().length : '';
 });
 
 document.getElementById('product-grid').addEventListener('keydown', (e) => {
@@ -482,6 +548,7 @@ function renderizarDestacados() {
     if (!grid || destacados.length === 0) return;
     grid.innerHTML = destacados.map((p, i) => `
         <div class="product-card card-reveal" data-index="${i}" role="button" tabindex="0" aria-label="Ver ${p.marca} ${p.nombre}" style="transition-delay: ${Math.min(i * 0.06, 0.3)}s">
+            <span class="fav-corazon" data-id="${idProducto(p)}" role="button" tabindex="0" aria-label="Guardar ${p.nombre} en favoritos">♥</span>
             <div class="img-container">
                 <img src="${p.imagen}" alt="${p.marca} ${p.nombre}" loading="lazy">
             </div>
@@ -497,6 +564,7 @@ function renderizarDestacados() {
     requestAnimationFrame(() => {
         grid.querySelectorAll('.card-reveal:not(.is-visible)').forEach(el => el.classList.add('is-visible'));
     });
+    marcarCorazones();
 }
 
 document.getElementById('destacados-grid').addEventListener('click', (e) => {
@@ -505,6 +573,8 @@ document.getElementById('destacados-grid').addEventListener('click', (e) => {
     listaActual = destacados;
     abrirModal(parseInt(card.getAttribute('data-index'), 10));
 });
+
+document.getElementById('destacados-grid').addEventListener('click', hacerClickFavorito);
 
 document.getElementById('destacados-grid').addEventListener('keydown', (e) => {
     if (e.key !== 'Enter' && e.key !== ' ') return;
