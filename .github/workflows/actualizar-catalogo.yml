@@ -1,0 +1,34 @@
+name: Actualizar Catalogo
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Ejecutar sync de catalogo
+        shell: powershell
+        run: |
+          Set-Location -LiteralPath $env:GITHUB_WORKSPACE
+          .\scripts\actualizar-productos.ps1
+
+      - name: Commit si hubo cambios
+        shell: powershell
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff-index --quiet HEAD
+          if ($LASTEXITCODE -ne 0) {
+            git commit -m "Actualización automática del catálogo mipodba"
+            git push
+          }
