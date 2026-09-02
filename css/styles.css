@@ -1303,3 +1303,184 @@ h1, h2, h3, h4 {
 
         .como-comprar h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.6rem; color: var(--navy); text-align: center; margin-bottom: 8px; }
         .como-comprar .faq h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.9rem; color: var(--navy); margin-bottom: 16px; }
+
+        /* ============================================================
+           MEJORAS PREMIUM
+           (contraste sobre fondo oscuro, composicion y animaciones suaves)
+           ============================================================ */
+
+        /* 1. Fondo general mas lujoso: navy profundo con reflejos dorados */
+        body {
+            background-color: #131B2C;
+            background-image:
+                radial-gradient(circle at 12% 8%, rgba(197,160,89,0.15), transparent 42%),
+                radial-gradient(circle at 88% 20%, rgba(212,175,55,0.08), transparent 46%),
+                radial-gradient(circle at 55% 90%, rgba(27,38,59,0.45), transparent 58%);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        /* 2. Paneles claros para las paginas nuevas (evita texto oscuro sobre fondo oscuro) */
+        .recomendador,
+        .como-comprar {
+            background: linear-gradient(180deg, #FDFCF6 0%, #F4F0E2 100%);
+            border: 2px solid rgba(197,160,89,0.85);
+            border-radius: 18px;
+            box-shadow: 0 30px 70px rgba(0,0,0,0.55);
+            margin-top: 40px;
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        /* 3. Divisor dorado bajo titulos (conecta titulo con el contenido) */
+        .reco-hero h1::after,
+        .como-comprar > h1::after,
+        .reco-resultados h2::after,
+        .como-comprar .faq h2::after,
+        .catalog h2::after,
+        .destacados h2::after,
+        .decants h2::after {
+            content: '';
+            display: block;
+            width: 72px;
+            height: 2px;
+            margin: 14px auto 0;
+            background: linear-gradient(90deg, transparent, #C5A059, transparent);
+        }
+
+        /* 4. Proceso de compra: numeros en circulo dorado + linea conectora */
+        .paso-num {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #E3C471, #B8932E);
+            color: #1B263B;
+            font-weight: 800;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.05rem;
+            margin-bottom: 12px;
+            border: 2px solid #FDFCF6;
+            box-shadow: 0 4px 12px rgba(27,38,59,0.28);
+        }
+        .pasos-compra { position: relative; }
+        .pasos-compra::before {
+            content: '';
+            position: absolute;
+            top: 45px;
+            left: 6%;
+            right: 6%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, rgba(197,160,89,0.6) 15%, rgba(197,160,89,0.6) 85%, transparent);
+            z-index: 0;
+        }
+        .paso-compra { position: relative; z-index: 1; }
+
+        /* 5. Proceso "Que es un Decant" (inicio): conector entre pasos */
+        .steps { position: relative; }
+        .steps::before {
+            content: '';
+            position: absolute;
+            top: 44px;
+            left: 6%;
+            right: 6%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, rgba(197,160,89,0.6) 15%, rgba(197,160,89,0.6) 85%, transparent);
+            z-index: 0;
+        }
+        .step { position: relative; z-index: 1; }
+
+        /* 6. Transicion compartida (agrega sombra para los hovers de tarjetas) */
+        .scroll-reveal, .card-reveal {
+            transition: opacity 0.6s ease, transform 0.6s ease, box-shadow 0.3s ease;
+        }
+
+        /* 7. Aparicion escalonada de pasos y opciones del cuestionario */
+        .paso-compra.is-visible, .step.is-visible { transition-delay: 0.12s; }
+        .paso-compra.is-visible:nth-child(2), .step.is-visible:nth-child(2) { transition-delay: 0.24s; }
+        .paso-compra.is-visible:nth-child(3), .step.is-visible:nth-child(3) { transition-delay: 0.36s; }
+        .paso-compra.is-visible:nth-child(4) { transition-delay: 0.48s; }
+        .paso-compra:hover, .step:hover { transition-delay: 0s; }
+
+        .quiz-paso:not([hidden]) .quiz-option { animation: fadeInUp 0.5s ease both; }
+        .quiz-paso:not([hidden]) .quiz-option:nth-child(2) { animation-delay: 0.08s; }
+        .quiz-paso:not([hidden]) .quiz-option:nth-child(3) { animation-delay: 0.16s; }
+        .quiz-paso:not([hidden]) .quiz-option:nth-child(4) { animation-delay: 0.24s; }
+
+        /* 8. Hover: elevacion sutil de pasos y tarjetas */
+        .paso-compra:hover,
+        .step:hover {
+            transform: translateY(-6px);
+            border-color: var(--accent-gold-hover);
+            box-shadow: 0 14px 30px rgba(27,38,59,0.16);
+        }
+
+        /* 9. Navegacion: subrayado dorado animado */
+        .main-nav a { position: relative; }
+        .main-nav a::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -4px;
+            height: 2px;
+            width: 100%;
+            background: var(--accent-gold);
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.25s ease;
+        }
+        .main-nav a:hover::after,
+        .main-nav a.activo::after { transform: scaleX(1); }
+
+        /* 10. Boton CTA: brillo dorado sutil */
+        .cta-btn { position: relative; overflow: hidden; }
+        .cta-btn::after {
+            content: '';
+            position: absolute;
+            top: 0; bottom: 0; left: -60%;
+            width: 50%;
+            background: linear-gradient(120deg, transparent, rgba(255,255,255,0.4), transparent);
+            transform: translateX(0) skewX(-20deg);
+            transition: transform 0.6s ease;
+        }
+        .cta-btn:hover::after { transform: translateX(340%) skewX(-20deg); }
+
+        /* 11. Ornamento premium del hero del recomendador */
+        .reco-hero::before {
+            content: '✦ ✦ ✦';
+            display: block;
+            color: var(--accent-gold-hover);
+            letter-spacing: 10px;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+            opacity: 0.85;
+        }
+
+        /* 12. Quiz: acento dorado superior */
+        .quiz { border-top: 4px solid var(--accent-gold); }
+
+        /* 13. Compactar secciones del inicio (menos espacio vacio) */
+        .decants { padding: 56px 6%; margin: 26px auto; }
+        .decants h2 { margin-bottom: 34px; }
+        .steps { gap: 28px; }
+        .catalog { padding: 56px 6%; margin: 26px auto; }
+        .catalog-header-wrapper { margin-bottom: 28px; }
+        .product-grid { gap: 30px; }
+        .ver-mas-wrapper { margin-top: 38px; }
+        .trust { margin: 26px auto; }
+        .destacados { margin: 26px auto; padding: 56px 6% 24px; }
+        .destacados h2 { margin-bottom: 30px; }
+
+        /* 14. Ajustes responsive */
+        @media (max-width: 768px) {
+            .recomendador, .como-comprar {
+                padding: 30px 16px 44px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                border-radius: 14px;
+            }
+            .pasos-compra::before,
+            .steps::before { display: none; }
+        }

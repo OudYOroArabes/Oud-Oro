@@ -260,6 +260,9 @@ const botonGeneral = document.getElementById('general-wa');
 const mensajeGeneral = "Hola, estaba viendo el recomendador de fragancias y me gustaría recibir asesoramiento sobre las fragancias árabes.";
 botonGeneral.href = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensajeGeneral)}`;
 
+const enlaceHeader = document.getElementById('header-wa');
+if (enlaceHeader) enlaceHeader.href = botonGeneral.href;
+
 /* ===== Scroll reveal ===== */
 const observador = new IntersectionObserver((entradas) => {
     entradas.forEach(entrada => {

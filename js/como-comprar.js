@@ -7,6 +7,9 @@ botonGeneral.href = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(m
 const botonComoComprar = document.getElementById('como-comprar-wa');
 if (botonComoComprar) botonComoComprar.href = botonGeneral.href;
 
+const enlaceHeader = document.getElementById('header-wa');
+if (enlaceHeader) enlaceHeader.href = botonGeneral.href;
+
 const observador = new IntersectionObserver((entradas) => {
     entradas.forEach(entrada => {
         if (entrada.isIntersecting) {
