@@ -1545,3 +1545,28 @@ h1, h2, h3, h4 {
             .pasos-compra::before,
             .steps::before { display: none; }
         }
+
+        /* ============================================================
+           SLIDER DEL BANNER: cambia cada 5 seg. con desplazamiento
+           ============================================================ */
+        .banner-slider {
+            position: absolute;
+            inset: 0;
+            overflow: hidden;
+            border-radius: 14px;
+        }
+        .banner-slide {
+            position: absolute;
+            inset: 0;
+            background-size: cover;
+            background-position: center center;
+            opacity: 0;
+            transform: translateX(60px);
+            transition: opacity 1s ease, transform 1s ease;
+            pointer-events: none;
+        }
+        .banner-slide.activo {
+            opacity: 1;
+            transform: translateX(0);
+            pointer-events: auto;
+        }

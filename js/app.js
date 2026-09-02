@@ -553,3 +553,17 @@ function inicializarCatalogo() {
     });
     renderizarDestacados();
 }
+
+
+/* ===== Slider del banner: cambia cada 5 seg. con desplazamiento ===== */
+(function sliderBanner() {
+    var slides = document.querySelectorAll('.banner-slide');
+    if (!slides.length) return;
+    var i = 0;
+    function siguiente() {
+        slides[i].classList.remove('activo');
+        i = (i + 1) % slides.length;
+        slides[i].classList.add('activo');
+    }
+    setInterval(siguiente, 5000);
+})();
