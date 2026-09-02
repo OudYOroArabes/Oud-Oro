@@ -59,100 +59,9 @@
             content: '';
             position: absolute;
             inset: -20%;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='0.35'/%3E%3C/svg%3E");
-            opacity: 0.25;
-            transform: rotate(8deg) scale(1.2);
+            background: radial-gradient(ellipse, rgba(197,160,89,0.04) 0%, transparent 70%);
+            opacity: 0.3;
             pointer-events: none;
-        }
-
-        .smoke {
-            position: absolute;
-            width: 36vw;
-            height: 52vh;
-            border-radius: 50%;
-            background:
-                radial-gradient(ellipse at 38% 42%, rgba(197,160,89,0.7), transparent 46%),
-                radial-gradient(ellipse at 62% 58%, rgba(65,105,225,0.6), transparent 52%);
-            filter: blur(20px);
-            mix-blend-mode: screen;
-            animation-duration: 13s;
-            animation-timing-function: ease-in-out;
-            animation-iteration-count: infinite;
-            will-change: transform, opacity;
-        }
-
-        /* Columnas ascendentes desde el suelo: cubren todo el ancho */
-        .smoke:nth-child(1)  { bottom: -220px; left: -4%;  animation-name: smokeRise;     animation-delay: 0s; }
-        .smoke:nth-child(2)  { bottom: -220px; left: 10%;  animation-name: smokeRise;     animation-delay: 3s; }
-        .smoke:nth-child(3)  { bottom: -220px; left: 22%;  animation-name: smokeRise;     animation-delay: 6s; }
-        .smoke:nth-child(4)  { bottom: -220px; left: 34%;  animation-name: smokeRise;     animation-delay: 9s; }
-        .smoke:nth-child(5)  { bottom: -220px; left: 46%;  animation-name: smokeRise;     animation-delay: 2s; }
-        .smoke:nth-child(6)  { bottom: -220px; left: 58%;  animation-name: smokeRise;     animation-delay: 5s; }
-        .smoke:nth-child(7)  { bottom: -220px; left: 70%;  animation-name: smokeRise;     animation-delay: 8s; }
-        .smoke:nth-child(8)  { bottom: -220px; left: 82%;  animation-name: smokeRise;     animation-delay: 11s; }
-        /* Humo entrando desde la pared izquierda */
-        .smoke:nth-child(9)  { left: -30vw;  top: 8%;  animation-name: smokeFromLeft;  animation-delay: 1s; }
-        .smoke:nth-child(10) { left: -30vw;  top: 25%; animation-name: smokeFromLeft;  animation-delay: 7s; }
-        .smoke:nth-child(11) { left: -30vw;  top: 42%; animation-name: smokeFromLeft;  animation-delay: 10s; }
-        .smoke:nth-child(12) { left: -30vw;  top: 60%; animation-name: smokeFromLeft;  animation-delay: 4s; }
-        .smoke:nth-child(13) { left: -30vw;  top: 78%; animation-name: smokeFromLeft;  animation-delay: 12s; }
-        /* Humo entrando desde la pared derecha */
-        .smoke:nth-child(14) { right: -30vw; top: 10%; animation-name: smokeFromRight; animation-delay: 4s; }
-        .smoke:nth-child(15) { right: -30vw; top: 28%; animation-name: smokeFromRight; animation-delay: 9s; }
-        .smoke:nth-child(16) { right: -30vw; top: 46%; animation-name: smokeFromRight; animation-delay: 2s; }
-        .smoke:nth-child(17) { right: -30vw; top: 64%; animation-name: smokeFromRight; animation-delay: 11s; }
-        .smoke:nth-child(18) { right: -30vw; top: 82%; animation-name: smokeFromRight; animation-delay: 6s; }
-        /* Humo descendiendo desde el techo */
-        .smoke:nth-child(19) { top: -200px; left: 4%;  animation-name: smokeFall; animation-delay: 3s; }
-        .smoke:nth-child(20) { top: -200px; left: 26%; animation-name: smokeFall; animation-delay: 8s; }
-        .smoke:nth-child(21) { top: -200px; left: 48%; animation-name: smokeFall; animation-delay: 12s; }
-        .smoke:nth-child(22) { top: -200px; left: 70%; animation-name: smokeFall; animation-delay: 5s; }
-        .smoke:nth-child(23) { top: -200px; left: 90%; animation-name: smokeFall; animation-delay: 10s; }
-        /* Nubes ambientales que flotan por toda la pantalla */
-        .smoke:nth-child(24) { left: 5%;  top: 20%; animation-name: smokeDrift; animation-duration: 20s; animation-delay: 0s; }
-        .smoke:nth-child(25) { left: 30%; top: 60%; animation-name: smokeDrift; animation-duration: 24s; animation-delay: 6s; }
-        .smoke:nth-child(26) { left: 55%; top: 15%; animation-name: smokeDrift; animation-duration: 22s; animation-delay: 12s; }
-        .smoke:nth-child(27) { left: 75%; top: 50%; animation-name: smokeDrift; animation-duration: 26s; animation-delay: 3s; }
-        .smoke:nth-child(28) { left: 15%; top: 80%; animation-name: smokeDrift; animation-duration: 23s; animation-delay: 9s; }
-        .smoke:nth-child(29) { left: 45%; top: 85%; animation-name: smokeDrift; animation-duration: 25s; animation-delay: 15s; }
-        .smoke:nth-child(30) { left: 85%; top: 88%; animation-name: smokeDrift; animation-duration: 21s; animation-delay: 2s; }
-
-        @keyframes smokeRise {
-            0%   { transform: translateY(34vh) translateX(0) scale(0.9); opacity: 0.4; }
-            25%  { opacity: 0.7; }
-            50%  { transform: translateY(12vh) translateX(40px) scale(1.15); opacity: 0.6; }
-            75%  { opacity: 0.45; }
-            100% { transform: translateY(-30vh) translateX(-40px) scale(1.35); opacity: 0.25; }
-        }
-
-        @keyframes smokeFromLeft {
-            0%   { transform: translateX(-30vw) translateY(0) scale(0.9); opacity: 0.35; }
-            30%  { opacity: 0.65; }
-            60%  { transform: translateX(15vw) translateY(-30px) scale(1.2); opacity: 0.55; }
-            100% { transform: translateX(55vw) translateY(25px) scale(1.4); opacity: 0.2; }
-        }
-
-        @keyframes smokeFromRight {
-            0%   { transform: translateX(30vw) translateY(0) scale(0.9); opacity: 0.35; }
-            30%  { opacity: 0.65; }
-            60%  { transform: translateX(-15vw) translateY(-30px) scale(1.2); opacity: 0.55; }
-            100% { transform: translateX(-55vw) translateY(25px) scale(1.4); opacity: 0.2; }
-        }
-
-        @keyframes smokeFall {
-            0%   { transform: translateY(-30vh) translateX(0) scale(0.9); opacity: 0; }
-            25%  { opacity: 0.5; }
-            50%  { transform: translateY(15vh) translateX(35px) scale(1.15); opacity: 0.45; }
-            75%  { opacity: 0.3; }
-            100% { transform: translateY(55vh) translateX(-35px) scale(1.35); opacity: 0.12; }
-        }
-
-        @keyframes smokeDrift {
-            0%   { transform: translate(0, 0) scale(1); opacity: 0.5; }
-            25%  { opacity: 0.7; }
-            50%  { transform: translate(30px, -40px) scale(1.2); opacity: 0.6; }
-            75%  { opacity: 0.45; }
-            100% { transform: translate(-30px, 20px) scale(0.95); opacity: 0.35; }
         }
 
         button, input {
@@ -310,43 +219,6 @@ h1, h2, h3, h4 {
             box-shadow: 0 25px 60px rgba(0,0,0,0.45);
             overflow: hidden;
             position: relative;
-        }
-
-        .catalog-smoke {
-            position: absolute;
-            inset: 0;
-            z-index: 0;
-            pointer-events: none;
-            overflow: hidden;
-        }
-
-        .catalog-smoke .cs {
-            position: absolute;
-            bottom: -100px;
-            width: 34vw;
-            height: 74vh;
-            border-radius: 50%;
-            background:
-                radial-gradient(ellipse at 40% 45%, rgba(197,160,89,0.8), transparent 45%),
-                radial-gradient(ellipse at 60% 55%, rgba(65,105,225,0.65), transparent 50%);
-            filter: blur(20px);
-            mix-blend-mode: normal;
-            animation: catalogSmokeRise linear infinite;
-            will-change: transform, opacity;
-        }
-
-        .catalog-smoke .cs:nth-child(1) { left: 4%; width: 36vw; animation-duration: 12s; animation-delay: 0s; }
-        .catalog-smoke .cs:nth-child(2) { left: 22%; width: 32vw; animation-duration: 16s; animation-delay: 2s; }
-        .catalog-smoke .cs:nth-child(3) { left: 42%; width: 34vw; animation-duration: 14s; animation-delay: 5s; }
-        .catalog-smoke .cs:nth-child(4) { left: 60%; width: 30vw; animation-duration: 18s; animation-delay: 1s; }
-        .catalog-smoke .cs:nth-child(5) { left: 80%; width: 26vw; animation-duration: 13s; animation-delay: 4s; }
-
-        @keyframes catalogSmokeRise {
-            0% { transform: translateY(32vh) translateX(0) scale(0.95); opacity: 0.55; }
-            25% { opacity: 0.8; }
-            50% { transform: translateY(6vh) translateX(40px) scale(1.15); opacity: 0.7; }
-            75% { opacity: 0.55; }
-            100% { transform: translateY(-30vh) translateX(-40px) scale(1.4); opacity: 0.35; }
         }
 
         .catalog-header-wrapper,
@@ -1388,39 +1260,6 @@ h1, h2, h3, h4 {
 </head>
 <body>
 
-    <div class="smoke-layer" aria-hidden="true">
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-        <span class="smoke"></span>
-    </div>
-
     <div class="top-bar">10% de Descuento con Transferencia Bancaria / Depósito <span class="resaltado">— TODOS LOS DÍAS 10% OFF</span></div>
 
     <header class="site-header">
@@ -1517,13 +1356,6 @@ h1, h2, h3, h4 {
     </section>
 
     <section id="catalogo" class="catalog">
-        <div class="catalog-smoke" aria-hidden="true">
-            <span class="cs"></span>
-            <span class="cs"></span>
-            <span class="cs"></span>
-            <span class="cs"></span>
-            <span class="cs"></span>
-        </div>
         <div class="catalog-header-wrapper">
             <h2 class="scroll-reveal">Selección Exclusiva</h2>
             <p class="catalog-intro scroll-reveal">Cada fragancia con su respectiva fotografía exacta y verificada.</p>
@@ -3919,10 +3751,6 @@ h1, h2, h3, h4 {
 
             grid.innerHTML = '';
             cargarMas();
-
-            requestAnimationFrame(() => {
-                document.querySelectorAll('#product-grid .card-reveal').forEach(el => el.classList.add('is-visible'));
-            });
         }
 
         function cargarMas() {
@@ -3933,7 +3761,7 @@ h1, h2, h3, h4 {
             const hasta = Math.min(visibles + LOTE, listaActual.length);
             visibles = hasta;
 
-            grid.insertAdjacentHTML('beforeend', listaActual.slice(desde, hasta).map((p, i) => `
+            const fragmento = listaActual.slice(desde, hasta).map((p, i) => `
                 <div class="product-card card-reveal" data-index="${desde + i}" role="button" tabindex="0" aria-label="Ver ${p.marca} ${p.nombre}" style="transition-delay: ${Math.min(i * 0.06, 0.3)}s">
                     <div class="img-container">
                         <img src="${p.imagen}" alt="${p.marca} ${p.nombre}" loading="lazy">
@@ -3946,7 +3774,13 @@ h1, h2, h3, h4 {
                     </div>
                     <div class="product-select">Elegir formato</div>
                 </div>
-            `).join(''));
+            `).join('');
+
+            const temp = document.createDocumentFragment();
+            const wrapper = document.createElement('div');
+            wrapper.innerHTML = fragmento;
+            while (wrapper.firstChild) temp.appendChild(wrapper.firstChild);
+            grid.appendChild(temp);
 
             const restantes = listaActual.length - visibles;
             if (restantes > 0) {
@@ -3956,8 +3790,9 @@ h1, h2, h3, h4 {
                 botonVerMas.hidden = true;
             }
 
+            const nuevas = grid.querySelectorAll('.card-reveal:not(.is-visible)');
             requestAnimationFrame(() => {
-                grid.querySelectorAll('.card-reveal').forEach(el => el.classList.add('is-visible'));
+                nuevas.forEach(el => el.classList.add('is-visible'));
             });
         }
 
@@ -3975,7 +3810,13 @@ h1, h2, h3, h4 {
             renderizarProductos(resultado);
         }
 
-        document.getElementById('buscador').addEventListener('input', aplicarFiltros);
+        document.getElementById('buscador').addEventListener('input', (() => {
+            let timer;
+            return () => {
+                clearTimeout(timer);
+                timer = setTimeout(aplicarFiltros, 150);
+            };
+        })());
 
         document.getElementById('product-grid').addEventListener('click', (e) => {
             const card = e.target.closest('.product-card');
@@ -4084,33 +3925,29 @@ h1, h2, h3, h4 {
         let carrito = [];
         let carritoAbierto = false;
 
-        function carritoExiste() {
-            return {
-                btn: document.getElementById('carrito-btn'),
-                panel: document.getElementById('carrito-panel'),
-                lista: document.getElementById('carrito-lista'),
-                contador: document.getElementById('carrito-contador'),
-                total: document.getElementById('carrito-total'),
-                wa: document.getElementById('carrito-wa')
-            };
-        }
+        const carritoEl = {
+            btn: document.getElementById('carrito-btn'),
+            panel: document.getElementById('carrito-panel'),
+            lista: document.getElementById('carrito-lista'),
+            contador: document.getElementById('carrito-contador'),
+            total: document.getElementById('carrito-total'),
+            wa: document.getElementById('carrito-wa')
+        };
 
         function abrirCarrito() {
             carritoAbierto = true;
-            const el = carritoExiste();
             const backdrop = document.getElementById('carrito-backdrop');
-            if (el.btn) el.btn.setAttribute('aria-expanded', 'true');
-            if (el.panel) el.panel.classList.add('abierto');
+            if (carritoEl.btn) carritoEl.btn.setAttribute('aria-expanded', 'true');
+            if (carritoEl.panel) carritoEl.panel.classList.add('abierto');
             if (backdrop) backdrop.classList.add('abierto');
             document.body.style.overflow = 'hidden';
         }
 
         function cerrarCarrito() {
             carritoAbierto = false;
-            const el = carritoExiste();
             const backdrop = document.getElementById('carrito-backdrop');
-            if (el.btn) el.btn.setAttribute('aria-expanded', 'false');
-            if (el.panel) el.panel.classList.remove('abierto');
+            if (carritoEl.btn) carritoEl.btn.setAttribute('aria-expanded', 'false');
+            if (carritoEl.panel) carritoEl.panel.classList.remove('abierto');
             if (backdrop) backdrop.classList.remove('abierto');
             document.body.style.overflow = '';
         }
@@ -4132,7 +3969,7 @@ h1, h2, h3, h4 {
         }
 
         function renderizarCarrito() {
-            const el = carritoExiste();
+            const el = carritoEl;
             const totalItems = carrito.length;
 
             if (el.contador) {
@@ -4185,7 +4022,7 @@ h1, h2, h3, h4 {
         }
 
         (function inicializarCarrito() {
-            const el = carritoExiste();
+            const el = carritoEl;
             if (!el.btn || !el.panel) return;
             el.btn.addEventListener('click', (e) => {
                 e.stopPropagation();
@@ -4287,7 +4124,7 @@ h1, h2, h3, h4 {
                 </div>
             `).join('');
             requestAnimationFrame(() => {
-                grid.querySelectorAll('.card-reveal').forEach(el => el.classList.add('is-visible'));
+                grid.querySelectorAll('.card-reveal:not(.is-visible)').forEach(el => el.classList.add('is-visible'));
             });
         }
         renderizarDestacados();
