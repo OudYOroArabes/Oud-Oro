@@ -86,10 +86,10 @@ $html = [System.IO.File]::ReadAllText((Resolve-Path $archivo), $utf8)
 
 $colon = $html.IndexOf('const productos = [')
 if ($colon -lt 0) { throw 'No se encontro const productos = [' }
-$cierre = $html.IndexOf('        ];', $colon)
-if ($cierre -lt 0) { $cierre = $html.IndexOf('];', $colon) }
+$cierre = $html.IndexOf('];', $colon)
+if ($cierre -lt 0) { throw 'No se encontro el cierre del array de productos' }
 
-$arrayRaw = $html.Substring($colon, $cierre - $colon + 5)
+$arrayRaw = $html.Substring($colon, $cierre - $colon + 2)
 
 # parsear bloques { ... } del array actual
 $patron = '(?s)\{\s*marca:\s*"([^"]*)"\s*,\s*nombre:\s*"([^"]*)"\s*,\s*notas:\s*"((?:[^"\\]|\\.)*)"\s*,\s*inspirado:\s*"((?:[^"\\]|\\.)*)"\s*,\s*tamano:\s*"([^"]*)"\s*,\s*formato:\s*"([^"]*)"\s*,\s*precio:\s*(\d+)\s*,\s*imagen:\s*"([^"]*)"\s*\}'
@@ -217,7 +217,7 @@ foreach ($o in $nuevos) {
 }
 $nuevoArray = $sb.ToString().TrimEnd("`n").TrimEnd(',') + "`n        ];"
 
-$nuevoHtml = $html.Substring(0, $colon) + $nuevoArray + $html.Substring($cierre + 5)
+$nuevoHtml = $html.Substring(0, $colon) + $nuevoArray + $html.Substring($cierre + 2)
 
 [System.IO.File]::WriteAllText((Resolve-Path $archivo), $nuevoHtml, $utf8)
 Write-Output ("total objetos: " + ($manualesRaw.Count + $nuevos.Count))
