@@ -1338,16 +1338,16 @@ h1, h2, h3, h4 {
             background-repeat: no-repeat;
         }
 
-        /* 1b. Franja superior pegajosa: envuelve top-bar + header + nav.
-              Al bajar quedan visibles la barra de busqueda, el carrito,
-              WhatsApp, el logo y la navegacion. */
+        /* 1b. Franja superior pegajosa: envuelve top-bar + header.
+              Usamos `position: fixed` (mas robusto que sticky: no depende de
+              overflow de ancestros) + compensacion de altura via js/sticky.js.
+              El nav queda fuera y baja junto al contenido. */
         .site-sticky {
-            position: sticky;
+            position: fixed;
             top: 0;
+            left: 0;
+            right: 0;
             z-index: 150;
-        }
-        .site-sticky + * {
-            margin-top: 0;
         }
         .site-header {
             position: static;
