@@ -1309,6 +1309,15 @@ h1, h2, h3, h4 {
            (contraste sobre fondo oscuro, composicion y animaciones suaves)
            ============================================================ */
 
+        /* 0. Fix sticky header: `overflow-x: hidden` en body rompe position:sticky.
+              Usamos `clip`, que recorta sin crear un scroll container. */
+        html {
+            overflow-x: clip;
+        }
+        body {
+            overflow-x: clip;
+        }
+
         /* 1. Fondo general mas lujoso: navy profundo con reflejos dorados */
         body {
             background-color: #131B2C;
@@ -1318,6 +1327,14 @@ h1, h2, h3, h4 {
                 radial-gradient(circle at 55% 90%, rgba(27,38,59,0.45), transparent 58%);
             background-attachment: fixed;
             background-repeat: no-repeat;
+        }
+
+        /* 1b. Header pegajoso: al bajar quedan visibles la barra de busqueda,
+              el carrito, WhatsApp y el logo. */
+        .site-header {
+            position: sticky;
+            top: 0;
+            z-index: 150;
         }
 
         /* 2. Paneles claros para las paginas nuevas (evita texto oscuro sobre fondo oscuro) */
@@ -1346,6 +1363,33 @@ h1, h2, h3, h4 {
             height: 2px;
             margin: 14px auto 0;
             background: linear-gradient(90deg, transparent, #C5A059, transparent);
+        }
+
+        /* 3b. Centrado absoluto del hero del recomendador:
+              estrellas, titulo, linea separadora y parrafo en el mismo eje central. */
+        .reco-hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+        }
+        .reco-hero::before {
+            margin: 0 0 8px 0;
+        }
+        .reco-hero h1 {
+            text-align: center;
+            margin-bottom: 0;
+            width: 100%;
+        }
+        .reco-hero h1::after {
+            margin: 14px auto 0;
+        }
+        .reco-hero .reco-sub {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         /* 4. Proceso de compra: numeros en circulo dorado + linea conectora */
