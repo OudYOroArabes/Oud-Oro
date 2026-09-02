@@ -565,5 +565,5 @@ function inicializarCatalogo() {
         i = (i + 1) % slides.length;
         slides[i].classList.add('activo');
     }
-    setInterval(siguiente, 5000);
+    setInterval(siguiente, 8000);
 })();
