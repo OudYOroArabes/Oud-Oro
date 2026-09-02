@@ -2,11 +2,13 @@
 # Sincroniza el catalogo con la API de mipodba:
 #  - Conserva los productos "manuales" (imagen no GCS) tal cual estan.
 #  - Regenera los productos "mipodba" (imagen storage.googleapis.com +35%, lista siempre al final).
+# Escribe el resultado en data/productos.json
 # Uso: powershell -ExecutionPolicy Bypass -File actualizar-productos.ps1
 
 $ErrorActionPreference = 'Stop'
 $utf8 = New-Object System.Text.UTF8Encoding($false)
-$archivo = 'index.html'
+$dataDir = Join-Path $PSScriptRoot '..\data'
+$archivo = Join-Path $dataDir 'productos.json'
 $apiUrl = 'https://mipodba.jarbas.net/api/products?limit=300'
 $hostApodo = 'storage.googleapis.com'
 
@@ -80,36 +82,23 @@ $forzarInclude = @(
     'ODYSSEY MANDARIN SKY ELIXIR'
 )
 
-# ---------- leer HTML actual ----------
+# ---------- leer JSON actual ----------
 if (-not (Test-Path -LiteralPath $archivo)) { throw "No existe: $archivo" }
-$html = [System.IO.File]::ReadAllText((Resolve-Path $archivo), $utf8)
+$jsonRaw = [System.IO.File]::ReadAllText((Resolve-Path $archivo), $utf8)
+$productos = $jsonRaw | ConvertFrom-Json
 
-$colon = $html.IndexOf('const productos = [')
-if ($colon -lt 0) { throw 'No se encontro const productos = [' }
-$cierre = $html.IndexOf('];', $colon)
-if ($cierre -lt 0) { throw 'No se encontro el cierre del array de productos' }
-
-$arrayRaw = $html.Substring($colon, $cierre - $colon + 2)
-
-# parsear bloques { ... } del array actual
-$patron = '(?s)\{\s*marca:\s*"([^"]*)"\s*,\s*nombre:\s*"([^"]*)"\s*,\s*notas:\s*"((?:[^"\\]|\\.)*)"\s*,\s*inspirado:\s*"((?:[^"\\]|\\.)*)"\s*,\s*tamano:\s*"([^"]*)"\s*,\s*formato:\s*"([^"]*)"\s*,\s*precio:\s*(\d+)\s*,\s*imagen:\s*"([^"]*)"\s*\}'
-$bloques = [regex]::Matches($arrayRaw, $patron)
-
-$manualesRaw = @()
+$manuales = @()
 $mipodbaPrevios = 0
-foreach ($b in $bloques) {
-    $img = $b.Groups[8].Value
-    if ($img -like ('*' + $hostApodo + '*')) { $mipodbaPrevios++ }
-    else { $manualesRaw += $b.Value }
+foreach ($p in $productos) {
+    if ($p.imagen -like ('*' + $hostApodo + '*')) { $mipodbaPrevios++ }
+    else { $manuales += $p }
 }
-Write-Output ("manuales: " + $manualesRaw.Count + "   mipodba previos: " + $mipodbaPrevios)
 
 # normalizar nombres manuales (para descartar duplicados de la API)
 $nombresManuales = @()
-foreach ($b in $bloques) {
-    $img = $b.Groups[8].Value
-    if ($img -like ('*' + $hostApodo + '*')) { continue }
-    $nombresManuales += $b.Groups[2].Value
+foreach ($p in $productos) {
+    if ($p.imagen -like ('*' + $hostApodo + '*')) { continue }
+    $nombresManuales += $p.nombre
 }
 
 # ---------- descargar API ----------
@@ -194,31 +183,24 @@ foreach ($p in $j.products) {
     }
 }
 
-Write-Output ("mipodba nuevos: " + $nuevos.Count + "   excluidos: " + $excluidos.Count)
+Write-Output ("manuales: " + $manuales.Count + "   mipodba nuevos: " + $nuevos.Count + "   excluidos: " + $excluidos.Count)
 
-# ---------- recomponer el array ----------
-$sb = New-Object System.Text.StringBuilder
-[void]$sb.Append('const productos = [' + "`n")
-foreach ($b in $manualesRaw) {
-    $indent = "            "
-    [void]$sb.Append($indent + $b + ',' + "`n")
+# ---------- recomponer JSON (manuales primero, mipodba al final) ----------
+$final = @()
+foreach ($m in $manuales) {
+    $final += [pscustomobject]@{
+        marca = $m.marca; nombre = $m.nombre; notas = $m.notas; inspirado = $m.inspirado
+        tamano = $m.tamano; formato = $m.formato; precio = $m.precio; imagen = $m.imagen
+    }
 }
 foreach ($o in $nuevos) {
-    [void]$sb.Append("            {`n")
-    [void]$sb.Append('                marca: "' + $o.marca + '",' + "`n")
-    [void]$sb.Append('                nombre: "' + $o.nombre + '",' + "`n")
-    [void]$sb.Append('                notas: "' + $o.notas + '",' + "`n")
-    [void]$sb.Append('                inspirado: "' + $o.inspirado + '",' + "`n")
-    [void]$sb.Append('                tamano: "' + $o.tamano + '",' + "`n")
-    [void]$sb.Append('                formato: "Botella Completa",' + "`n")
-    [void]$sb.Append('                precio: ' + $o.precio + ',' + "`n")
-    [void]$sb.Append('                imagen: "' + $o.imagen + '"' + "`n")
-    [void]$sb.Append("            }," + "`n")
+    $final += [pscustomobject]@{
+        marca = $o.marca; nombre = $o.nombre; notas = $o.notas; inspirado = $o.inspirado
+        tamano = $o.tamano; formato = 'Botella Completa'; precio = $o.precio; imagen = $o.imagen
+    }
 }
-$nuevoArray = $sb.ToString().TrimEnd("`n").TrimEnd(',') + "`n        ];"
 
-$nuevoHtml = $html.Substring(0, $colon) + $nuevoArray + $html.Substring($cierre + 2)
-
-[System.IO.File]::WriteAllText((Resolve-Path $archivo), $nuevoHtml, $utf8)
-Write-Output ("total objetos: " + ($manualesRaw.Count + $nuevos.Count))
+$jsonOut = $final | ConvertTo-Json -Depth 5
+[System.IO.File]::WriteAllText((Resolve-Path $archivo), $jsonOut, $utf8)
+Write-Output ("total objetos: " + $final.Count)
 Write-Output "OK"

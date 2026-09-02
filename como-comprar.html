@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cómo Comprar | Oud & Oro</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .como-comprar { max-width: 900px; margin: 0 auto; padding: 40px 20px 60px; }
+        .pasos-compra { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 30px 0 50px; }
+        .paso-compra { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 12px; padding: 24px; text-align: center; }
+        .paso-compra .paso-icono { font-size: 2em; margin-bottom: 10px; }
+        .paso-compra h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2em; margin-bottom: 8px; }
+        .paso-compra p { font-size: 0.9em; color: var(--text-dim); }
+        .faq { margin-top: 30px; }
+        .faq-item { border-bottom: 1px solid var(--border-color); }
+        .faq-item summary { cursor: pointer; padding: 18px 6px; font-weight: 600; list-style: none; display: flex; justify-content: space-between; align-items: center; }
+        .faq-item summary::-webkit-details-marker { display: none; }
+        .faq-item summary::after { content: '+'; font-size: 1.4em; color: var(--gold); transition: transform 0.2s; }
+        .faq-item[open] summary::after { transform: rotate(45deg); }
+        .faq-item .faq-respuesta { padding: 0 6px 18px; color: var(--text-dim); }
+        .faq-cta { text-align: center; margin-top: 40px; }
+    </style>
+</head>
+<body>
+
+    <div class="top-bar">✦ 100% Originales ✦ Fragancias certificadas ✦ Envíos a todo el país ✦</div>
+
+    <header class="site-header">
+        <a href="index.html" class="logo" aria-label="Oud &amp; Oro - Volver al inicio">
+            <span>Oud</span>
+            <span class="logo-amp">&amp;</span>
+            <span>Oro</span>
+        </a>
+
+        <div class="header-buscar">
+            <a href="index.html#catalogo" class="header-enlace">Ver catálogo completo</a>
+        </div>
+    </header>
+
+    <nav class="main-nav" aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="recomendador.html">Encontrá tu perfume ideal</a>
+        <a href="como-comprar.html" class="activo">Cómo Comprar</a>
+    </nav>
+
+    <main class="como-comprar">
+        <h1 class="scroll-reveal">Cómo Comprar</h1>
+        <p class="reco-sub scroll-reveal">Así de simple es llevarte tus fragancias favoritas.</p>
+
+        <section class="pasos-compra scroll-reveal">
+            <div class="paso-compra">
+                <div class="paso-icono">🛒</div>
+                <h3>1. Elegí tus fragancias</h3>
+                <p>Explorá el catálogo y elegí el formato que prefieras: decant de 5ml o 10ml, o botella completa.</p>
+            </div>
+            <div class="paso-compra">
+                <div class="paso-icono">📩</div>
+                <h3>2. Enviá tu pedido</h3>
+                <p>Completá tu carrito y enviá el pedido por WhatsApp. Te respondemos para confirmar disponibilidad.</p>
+            </div>
+            <div class="paso-compra">
+                <div class="paso-icono">💳</div>
+                <h3>3. Confirmá el pago</h3>
+                <p>Te coordinamos el medio de pago y confirmamos tu pedido rápidamente por WhatsApp.</p>
+            </div>
+            <div class="paso-compra">
+                <div class="paso-icono">📦</div>
+                <h3>4. Recibí tu pedido</h3>
+                <p>Despachamos con empaque premium y envío asegurado a todo el país.</p>
+            </div>
+        </section>
+
+        <section class="faq scroll-reveal">
+            <h2>Preguntas frecuentes</h2>
+
+            <details class="faq-item">
+                <summary>¿Qué es un decant?</summary>
+                <div class="faq-respuesta">Es una fragancia envasada en un atomizador de cristal de viaje (5ml o 10ml), extraída de la botella original con jeringas esterilizadas. Te permite probar y disfrutar una fragancia de lujo en tu piel antes de comprometerte con la botella completa.</div>
+            </details>
+
+            <details class="faq-item">
+                <summary>¿Cuánto duran los decants de 5ml y 10ml?</summary>
+                <div class="faq-respuesta">Un decant de 5ml equivale aproximadamente a 50-60 aplicaciones y el de 10ml a más de 100 aplicaciones. La duración depende de la cantidad de sprays que uses por día.</div>
+            </details>
+
+            <details class="faq-item">
+                <summary>¿Qué métodos de pago aceptan?</summary>
+                <div class="faq-respuesta">Coordinamos el medio de pago directamente por WhatsApp. Consultanos para conocer las opciones disponibles en el momento.</div>
+            </details>
+
+            <details class="faq-item">
+                <summary>¿Hacen envíos a todo el país?</summary>
+                <div class="faq-respuesta">Sí, realizamos envíos asegurados a todo el país con empaque premium. El costo y los plazos se coordinan según tu ubicación.</div>
+            </details>
+
+            <details class="faq-item">
+                <summary>¿Los productos son 100% originales?</summary>
+                <div class="faq-respuesta">Sí. Todas nuestras fragancias son 100% originales y certificadas. Garantizamos la autenticidad en cada producto.</div>
+            </details>
+
+            <details class="faq-item">
+                <summary>¿Puedo probar una fragancia antes de comprar la botella?</summary>
+                <div class="faq-respuesta">¡Por supuesto! Por eso ofrecemos decants de 5ml y 10ml. Es la mejor manera de vivir la evolución de una fragancia en tu piel antes de invertir en la botella completa.</div>
+            </details>
+        </section>
+
+        <div class="faq-cta scroll-reveal">
+            <p>¿Tenés otra consulta? Escribinos y te asesoramos.</p>
+            <a href="#" class="cta-btn" id="como-comprar-wa" target="_blank" rel="noopener">Consultar por WhatsApp</a>
+        </div>
+    </main>
+
+    <footer id="contacto">
+        <p>© 2026 Oud & Oro. Todos los derechos reservados.</p>
+        <p style="margin-top: 10px;">
+            <a href="https://www.instagram.com/oud_oro_arabes/" target="_blank" rel="noopener">Instagram</a> |
+            <a href="#" target="_blank" rel="noopener">TikTok</a>
+        </p>
+    </footer>
+
+    <a href="#" class="whatsapp-float" id="general-wa" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4Ij4KICA8cGF0aCBkPSJNMjQuMDA0IDhDMTUuMTY1IDggOCAxNS4xNjQgOCAyNGMwIDIuODU3Ljc1MyA1LjU1NiAyLjE3NSA3Ljk2TDguMDAyIDQwbDguMjItMi4xNDNBMTUuOTA2IDE1LjkwNiAwIDAgMCAyNC4wMDQgNDBjOC44NCAwIDE2LjAwNC03LjE2NCAxNi4wMDQtMTZTMzIuODQ0IDggMjQuMDA0IDh6bTkuMzY0IDIyLjg0Yy0uMzk3IDEuMTItMS45NDggMi4wNS0zLjE4NCAyLjMyLS44NDMuMTgyLTEuOTQzLjMyNC01LjY1NS0xLjIxNC00Ljc1NC0xLjk2Ni03LjgwNi02Ljc5LTguMDQtNy4xMDYtLjIyNi0uMzE1LTEuODkzLTIuNTItMS44OTMtNC44MDcgMC0yLjI4NyAxLjItMy40MDYgMS42MjctMy44NjIuNDI3LS40NTYuOTMtLjU3IDEuMjM4LS41Ny4zMDggMCAuNjE2LjAwMy44ODUuMDE2LjI4My4wMTMuNjYzLS4xMDcgMS4wMzIuNzg3LjM5Ny45NyAxLjM1IDMuMjkzIDEuNDY4IDMuNTMyLjExOS4yNC4xOTguNTIuMDQ0LjgzNC0uMTU4LjMxNS0uMjM3LjUxMi0uNDczLjc4OC0uMjM3LjI3Ny0uNDk4LjYxOC0uNzEuODI4LS4yMzcuMjQtLjQ4NC40OTgtLjIwNi45ODMuMjc3LjQ4NCAxLjIzMiAyLjAzIDIuNjQ1IDMuMjg4IDEuODE4IDEuNjIgMy4zNSAyLjEyMiAzLjgzNCAyLjM2LjQ4NC4yMzcuNzYzLjE5OCAxLjA0MS0uMTIuMjc3LS4zMTUgMS4xNzUtMS4zNjggMS40ODktMS44NDMuMzE1LS40NzQuNjMxLS4zOTcgMS4wNjgtLjIzNy40MzYuMTU4IDIuNzczIDEuMzA3IDMuMjQ4IDEuNTQ0LjQ3NC4yMzcuNzkuMzU2LjkwOC41NTQuMTE5LjE5Ny4xMTkgMS4xNDMtLjI3OCAyLjI2M3oiIGZpbGw9IiMwMDJGQTciLz4KPC9zdmc+Cg==" alt="WhatsApp" width="36" height="36" style="pointer-events:none;">
+    </a>
+
+    <script>const numeroWhatsApp = "541155136919";</script>
+    <script src="js/como-comprar.js"></script>
+</body>
+</html>
