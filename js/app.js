@@ -573,18 +573,22 @@ const carritoEl = {
 function abrirCarrito() {
     carritoAbierto = true;
     const backdrop = document.getElementById('carrito-backdrop');
+    const fab = document.getElementById('comparar-abrir-btn');
     if (carritoEl.btn) carritoEl.btn.setAttribute('aria-expanded', 'true');
     if (carritoEl.panel) carritoEl.panel.classList.add('abierto');
     if (backdrop) backdrop.classList.add('abierto');
+    if (fab) fab.style.display = 'none';
     document.body.style.overflow = 'hidden';
 }
 
 function cerrarCarrito() {
     carritoAbierto = false;
     const backdrop = document.getElementById('carrito-backdrop');
+    const fab = document.getElementById('comparar-abrir-btn');
     if (carritoEl.btn) carritoEl.btn.setAttribute('aria-expanded', 'false');
     if (carritoEl.panel) carritoEl.panel.classList.remove('abierto');
     if (backdrop) backdrop.classList.remove('abierto');
+    if (fab) fab.style.display = '';
     document.body.style.overflow = '';
 }
 
