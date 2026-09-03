@@ -152,7 +152,7 @@ function actualizarBotonComparar() {
 function abrirComparar() {
     if (comparar.length < 2) return;
     const cont = document.getElementById('comparar-contenido');
-    let html = '<h3 class="comparar-titulo" id="comparar-titulo">Comparación de fragancias</h3>';
+    let html = '<h3 class="comparar-titulo" id="comparar-titulo">Comparando ' + comparar.length + ' fragancias</h3>';
 
     const filas = [
         ['Marca', e => e.marca],
