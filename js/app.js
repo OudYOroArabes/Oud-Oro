@@ -66,6 +66,186 @@ function hacerClickFavorito(e) {
     corazon.classList.toggle('activo', activo);
 }
 
+/* ===== Comparador: notas reales + precio + opiniones ===== */
+const MAX_COMPARAR = 3;
+let comparar = [];
+let notasExtra = {};
+const COMP_KEY = 'oudOroComparar';
+
+function cargarNotasExtra() {
+    fetch('./data/notas.json')
+        .then(r => {
+            if (!r.ok) throw new Error('sin notas');
+            return r.json();
+        })
+        .then(data => { notasExtra = data || {}; })
+        .catch(() => { notasExtra = {}; });
+}
+
+function obtenerCompararGuardados() {
+    try {
+        return JSON.parse(localStorage.getItem(COMP_KEY)) || [];
+    } catch (e) {
+        return [];
+    }
+}
+
+function guardarCompararGuardados(lista) {
+    localStorage.setItem(COMP_KEY, JSON.stringify(lista));
+}
+
+function infoComparar(p) {
+    const extras = notasExtra[idProducto(p)] || {};
+    return {
+        notas: p.notas,
+        familia: extras.familia || '',
+        salida: extras.salida || '',
+        corazon: extras.corazon || '',
+        fondo: extras.fondo || '',
+        proyeccion: extras.proyeccion || '',
+        duracion: extras.duracion || '',
+        ocasion: extras.ocasion || '',
+        inspirado: p.inspirado,
+        opinion: extras.opinion || ''
+    };
+}
+
+function toggleComparar(id) {
+    const p = productos.find(x => idProducto(x) === id);
+    if (!p) return;
+    const idx = comparar.findIndex(x => idProducto(x) === id);
+    if (idx >= 0) {
+        comparar.splice(idx, 1);
+    } else {
+        if (comparar.length >= MAX_COMPARAR) {
+            comparar.shift();
+        }
+        comparar.push(p);
+    }
+    guardarCompararGuardados(comparar.map(x => idProducto(x)));
+    actualizarBarraComparar();
+    marcarBotonesComparar();
+}
+
+function marcarBotonesComparar() {
+    const ids = comparar.map(idProducto);
+    document.querySelectorAll('.comparar-btn').forEach(btn => {
+        const activo = ids.includes(btn.getAttribute('data-comparar'));
+        btn.classList.toggle('activo', activo);
+        btn.setAttribute('aria-pressed', String(activo));
+    });
+}
+
+function actualizarBarraComparar() {
+    const barra = document.getElementById('comparar-bar');
+    const texto = document.getElementById('comparar-bar-texto');
+    const boton = document.getElementById('comparar-abrir-btn');
+    if (!barra || !texto || !boton) return;
+    const n = comparar.length;
+    if (n === 0) {
+        barra.hidden = true;
+        return;
+    }
+    if (n === 1) {
+        texto.textContent = '1 seleccionado (elegí al menos 2)';
+        boton.disabled = true;
+    } else {
+        texto.textContent = n + ' seleccionados para comparar';
+        boton.disabled = false;
+    }
+    barra.hidden = false;
+}
+
+function abrirComparar() {
+    if (comparar.length < 2) return;
+    const cont = document.getElementById('comparar-contenido');
+    let html = '<h3 class="comparar-titulo" id="comparar-titulo">Comparación de fragancias</h3>';
+
+    const filas = [
+        ['Marca', e => e.marca],
+        ['Nombre', e => `<strong>${e.nombre}</strong>`],
+        ['Precio botella', e => formatearPrecio(e.precio)],
+        ['Texto inspirado en', e => e.inspirado],
+        ['Familia olfativa', e => e.familia || '<span class="na">sin datos</span>'],
+        ['Notas de salida', e => e.salida || '<span class="na">sin datos</span>'],
+        ['Notas de corazón', e => e.corazon || '<span class="na">sin datos</span>'],
+        ['Notas de fondo', e => e.fondo || '<span class="na">sin datos</span>'],
+        ['Proyección', e => e.proyeccion || '<span class="na">sin datos</span>'],
+        ['Duración', e => e.duracion || '<span class="na">sin datos</span>'],
+        ['Ocasión / temporada', e => e.ocasion || '<span class="na">sin datos</span>']
+    ];
+
+    html += '<div class="comparar-tabla-wrap"><table class="comparar-tabla"><thead><tr><th></th>';
+    comparar.forEach(p => {
+        html += `<th><div class="comparar-card-mini">
+            <div class="comparar-mini-img"><img src="${p.imagen}" alt="${p.nombre}"></div>
+            <div class="comparar-mini-nombre">${p.nombre}</div>
+            <div class="comparar-mini-quitar" data-quitar-comp="${idProducto(p)}" role="button" title="Quitar">×</div>
+        </div></th>`;
+    });
+    html += '</tr></thead><tbody>';
+
+    filas.forEach(([etiqueta, fn]) => {
+        html += `<tr><td class="comparar-etiqueta">${etiqueta}</td>`;
+        comparar.forEach(p => {
+            html += `<td>${fn(p)}</td>`;
+        });
+        html += '</tr>';
+    });
+    html += '</tbody></table></div>';
+
+    html += '<div class="comparar-opiniones">';
+    comparar.forEach(p => {
+        const e = infoComparar(p);
+        html += `<div class="comparar-opinion">
+            <div class="comparar-opinion-titulo">Opinión · ${p.marca} ${p.nombre}</div>
+            <p>${e.opinion || 'Sin reseñas recopiladas todavía para este perfume. Podemos asesorarte por WhatsApp.'}</p>
+            <button class="comparar-compra" data-compra="${idProducto(p)}" type="button">Consultar precio por WhatsApp</button>
+        </div>`;
+    });
+    html += '</div>';
+
+    cont.innerHTML = html;
+
+    const overlay = document.getElementById('modal-comparar');
+    overlay.classList.add('abierto');
+    overlay.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+
+    cont.querySelectorAll('[data-quitar-comp]').forEach(el => {
+        el.addEventListener('click', (e) => {
+            e.stopPropagation();
+            toggleComparar(el.getAttribute('data-quitar-comp'));
+            if (comparar.length >= 2) {
+                renderComparar();
+            } else {
+                cerrarComparar();
+            }
+        });
+    });
+
+    cont.querySelectorAll('[data-compra]').forEach(el => {
+        el.addEventListener('click', () => {
+            const p = comparar.find(x => idProducto(x) === el.getAttribute('data-compra'));
+            if (!p) return;
+            const mensaje = `Hola, me interesa ${p.marca} ${p.nombre}. ¿Me pasás precio y disponibilidad?`;
+            window.open(`https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`, '_blank');
+        });
+    });
+}
+
+function renderComparar() {
+    const abierto = document.getElementById('modal-comparar').classList.contains('abierto');
+    if (abierto) abrirComparar();
+}
+
+function cerrarComparar() {
+    const overlay = document.getElementById('modal-comparar');
+    overlay.classList.remove('abierto');
+    overlay.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+}
+
 function renderizarFiltros() {
     const cont = document.getElementById('filtros-marca');
     const boton = document.getElementById('btn-marcas');
@@ -201,6 +381,7 @@ function cargarMas() {
     const fragmento = listaActual.slice(desde, hasta).map((p, i) => `
         <div class="product-card card-reveal" data-index="${desde + i}" role="button" tabindex="0" aria-label="Ver ${p.marca} ${p.nombre}" style="transition-delay: ${Math.min(i * 0.06, 0.3)}s">
             <span class="fav-corazon" data-id="${idProducto(p)}" role="button" tabindex="0" aria-label="Guardar ${p.nombre} en favoritos">♥</span>
+            <button class="comparar-btn" data-comparar="${idProducto(p)}" type="button" aria-label="Comparar ${p.nombre}" aria-pressed="false">⇄ Comparar</button>
             <div class="img-container">
                 <img src="${p.imagen}" alt="${p.marca} ${p.nombre}" loading="lazy">
             </div>
@@ -258,6 +439,12 @@ document.getElementById('buscador').addEventListener('input', (() => {
 })());
 
 document.getElementById('product-grid').addEventListener('click', (e) => {
+    const compararBtn = e.target.closest('.comparar-btn');
+    if (compararBtn) {
+        e.stopPropagation();
+        toggleComparar(compararBtn.getAttribute('data-comparar'));
+        return;
+    }
     const corazon = e.target.closest('.fav-corazon');
     if (corazon) {
         e.stopPropagation();
@@ -502,6 +689,44 @@ function enviarCarrito() {
 
 renderizarCarrito();
 
+/* ===== Inicialización del comparador ===== */
+(function inicializarComparador() {
+    const abrir = document.getElementById('comparar-abrir-btn');
+    if (abrir) abrir.addEventListener('click', abrirComparar);
+
+    const cerrar = document.getElementById('comparar-bar-cerrar');
+    if (cerrar) cerrar.addEventListener('click', () => {
+        comparar = [];
+        guardarCompararGuardados([]);
+        actualizarBarraComparar();
+        marcarBotonesComparar();
+    });
+
+    const cerrarModal = document.getElementById('modal-comparar-cerrar');
+    if (cerrarModal) cerrarModal.addEventListener('click', cerrarComparar);
+
+    const overlayModal = document.getElementById('modal-comparar');
+    if (overlayModal) {
+        overlayModal.addEventListener('click', (e) => {
+            if (e.target === overlayModal) cerrarComparar();
+        });
+    }
+
+    const idsGuardados = obtenerCompararGuardados();
+    if (idsGuardados.length) {
+        document.addEventListener('oudProductosCargados', () => {
+            idsGuardados.forEach(id => {
+                const p = productos.find(x => idProducto(x) === id);
+                if (p && comparar.length < MAX_COMPARAR) comparar.push(p);
+            });
+            actualizarBarraComparar();
+            marcarBotonesComparar();
+        });
+    }
+
+    cargarNotasExtra();
+})();
+
 const btnColumnas = document.getElementById('btn-columnas');
 const gridCatalogo = document.getElementById('product-grid');
 const btnColsLabel = document.getElementById('btn-cols-label');
@@ -559,6 +784,7 @@ function renderizarDestacados() {
     grid.innerHTML = destacados.map((p, i) => `
         <div class="product-card card-reveal" data-index="${i}" role="button" tabindex="0" aria-label="Ver ${p.marca} ${p.nombre}" style="transition-delay: ${Math.min(i * 0.06, 0.3)}s">
             <span class="fav-corazon" data-id="${idProducto(p)}" role="button" tabindex="0" aria-label="Guardar ${p.nombre} en favoritos">♥</span>
+            <button class="comparar-btn" data-comparar="${idProducto(p)}" type="button" aria-label="Comparar ${p.nombre}" aria-pressed="false">⇄ Comparar</button>
             <div class="img-container">
                 <img src="${p.imagen}" alt="${p.marca} ${p.nombre}" loading="lazy">
             </div>
@@ -578,6 +804,12 @@ function renderizarDestacados() {
 }
 
 document.getElementById('destacados-grid').addEventListener('click', (e) => {
+    const compararBtn = e.target.closest('.comparar-btn');
+    if (compararBtn) {
+        e.stopPropagation();
+        toggleComparar(compararBtn.getAttribute('data-comparar'));
+        return;
+    }
     const corazon = e.target.closest('.fav-corazon');
     if (corazon) {
         e.stopPropagation();
@@ -641,6 +873,8 @@ function inicializarCatalogo() {
         if (found) destacados.push(found);
     });
     renderizarDestacados();
+
+    document.dispatchEvent(new CustomEvent('oudProductosCargados'));
 }
 
 
