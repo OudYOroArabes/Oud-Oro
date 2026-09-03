@@ -123,7 +123,7 @@ function toggleComparar(id) {
         comparar.push(p);
     }
     guardarCompararGuardados(comparar.map(x => idProducto(x)));
-    actualizarBarraComparar();
+    actualizarBotonComparar();
     marcarBotonesComparar();
 }
 
@@ -136,24 +136,17 @@ function marcarBotonesComparar() {
     });
 }
 
-function actualizarBarraComparar() {
-    const barra = document.getElementById('comparar-bar');
-    const texto = document.getElementById('comparar-bar-texto');
+function actualizarBotonComparar() {
     const boton = document.getElementById('comparar-abrir-btn');
-    if (!barra || !texto || !boton) return;
+    if (!boton) return;
     const n = comparar.length;
-    if (n === 0) {
-        barra.hidden = true;
+    if (n < 2) {
+        boton.hidden = true;
         return;
     }
-    if (n === 1) {
-        texto.textContent = '1 seleccionado (elegí al menos 2)';
-        boton.disabled = true;
-    } else {
-        texto.textContent = n + ' seleccionados para comparar';
-        boton.disabled = false;
-    }
-    barra.hidden = false;
+    const texto = document.getElementById('comparar-fab-texto');
+    if (texto) texto.textContent = 'Comparar (' + n + ')';
+    boton.hidden = false;
 }
 
 function abrirComparar() {
@@ -694,14 +687,6 @@ renderizarCarrito();
     const abrir = document.getElementById('comparar-abrir-btn');
     if (abrir) abrir.addEventListener('click', abrirComparar);
 
-    const cerrar = document.getElementById('comparar-bar-cerrar');
-    if (cerrar) cerrar.addEventListener('click', () => {
-        comparar = [];
-        guardarCompararGuardados([]);
-        actualizarBarraComparar();
-        marcarBotonesComparar();
-    });
-
     const cerrarModal = document.getElementById('modal-comparar-cerrar');
     if (cerrarModal) cerrarModal.addEventListener('click', cerrarComparar);
 
@@ -719,7 +704,7 @@ renderizarCarrito();
                 const p = productos.find(x => idProducto(x) === id);
                 if (p && comparar.length < MAX_COMPARAR) comparar.push(p);
             });
-            actualizarBarraComparar();
+            actualizarBotonComparar();
             marcarBotonesComparar();
         });
     }
