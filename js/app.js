@@ -1,4 +1,5 @@
 /* Oud & Oro - Lógica principal (catálogo, filtros, carrito, modal, WhatsApp) */
+const JSON_VERSION = 2;
 
 let productos = [];
 let marcasSeleccionadas = new Set();
@@ -73,7 +74,7 @@ let notasExtra = {};
 const COMP_KEY = 'oudOroComparar';
 
 function cargarNotasExtra() {
-    fetch('./data/notas.json')
+    fetch('./data/notas.json?v=' + JSON_VERSION)
         .then(r => {
             if (!r.ok) throw new Error('sin notas');
             return r.json();
@@ -833,7 +834,7 @@ const observador = new IntersectionObserver((entradas) => {
 document.querySelectorAll('.scroll-reveal').forEach(el => observador.observe(el));
 
 /* ===== Carga asíncrona del catálogo desde JSON ===== */
-fetch('./data/productos.json')
+fetch('./data/productos.json?v=' + JSON_VERSION)
     .then(r => {
         if (!r.ok) throw new Error('No se pudo cargar el catálogo (' + r.status + ')');
         return r.json();
