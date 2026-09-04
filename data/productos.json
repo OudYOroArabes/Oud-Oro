@@ -2178,5 +2178,185 @@
         "formato":  "Botella Completa",
         "precio":  67500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/8ba08d37-9308-4913-8ab5-973b475e8296.webp"
+    },
+    {
+        "marca":  "Afnan",
+        "nombre":  "Supremacy Collector\u0027s Edition",
+        "notas":  "bergamota, piña, grosella negra, manzana, jazmín, rosa, vainilla, pachulí, abedul, almizcle, musgo de roble, ámbar gris",
+        "inspirado":  "Creed Aventus",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  152500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/d61f46d5-9abc-4204-91fd-c171e56f4bd6.webp"
+    },
+    {
+        "marca":  "Bharara",
+        "nombre":  "King",
+        "notas":  "naranja, bergamota, limón, notas frutales, almizcle blanco, ámbar, vainilla",
+        "inspirado":  "Xerjoff Erba Pura",
+        "tamano":  "200ml",
+        "formato":  "Botella Completa",
+        "precio":  196000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/96821615-bafd-45fc-9e1d-6fab9e14d66c.webp"
+    },
+    {
+        "marca":  "Bharara",
+        "nombre":  "Mast Perfume Rome Extradose",
+        "notas":  "bergamota, limón, hoja de higuera, musgo blanco, jazmín, manzana verde, sándalo, ámbar gris",
+        "inspirado":  "Valentino Uomo Born in Roma Extradose",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  92500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/44e004b6-1953-401c-87b1-c9874cc8a929.webp"
+    },
+    {
+        "marca":  "Bharara",
+        "nombre":  "Mast Perfume Rome Extradose Pour Femme",
+        "notas":  "bergamota, limón, grosella negra, coco, ciruela, jazmín, rosa, benjuí, ámbar, vainilla, sándalo, haba tonka",
+        "inspirado":  "Valentino Born in Roma Donna Extradose",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  88000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/44bc4405-2f43-494d-ada7-2c2e0a1ce590.webp"
+    },
+    {
+        "marca":  "Bharara",
+        "nombre":  "Rohit Azure",
+        "notas":  "bergamota, naranja sanguina, mandarina, limón, jengibre, mimosa, neroli, osmanthus, mate, jazmín blanco, vainilla, ámbar, musgo, sándalo, almizcle",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  79500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/d8071bc0-c613-4a06-8a3b-4ab21c434b5f.webp"
+    },
+    {
+        "marca":  "Fragrance World",
+        "nombre":  "Ace",
+        "notas":  "clavo, pimienta rosa, azahar, castaña, madera de gaiac, enebro, vainilla, bálsamo de Perú, cachemira",
+        "inspirado":  "Maison Martin Margiela By the Fireplace",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  48500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/24245fce-6d97-4edf-9d29-5b8ac6e63beb.webp"
+    },
+    {
+        "marca":  "Fragrance World",
+        "nombre":  "Prohibit Intense",
+        "notas":  "bergamota, pera, azahar, jazmín sambac, nardos, pachulí, ambroxan, vainilla, vetiver",
+        "inspirado":  "Givenchy L\u0027Interdit EDP",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  44500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/0a9db567-b4e8-41ef-9931-c4ab975885f6.webp"
+    },
+    {
+        "marca":  "French Avenue",
+        "nombre":  "Aromatix Magnetiq",
+        "notas":  "lavanda, bergamota, pimienta rosa, azahar, neroli, iris, romero, almizcle, cedro, musgo de roble, mirra, ámbar, sándalo, vainilla",
+        "inspirado":  "YSL MYSLF",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  115000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/a538dec9-ed64-41a6-a4b5-d7f8226c3fc2.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Ishq Al Shuyukh Gold",
+        "notas":  "caramelo, azafrán, gamuza, cuero, haba tonka, vainilla, ámbar, almizcle",
+        "inspirado":  "YSL Babycat",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  62000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/f6fb9a1a-cd5a-484a-b84d-4e977550140b.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Jouri",
+        "notas":  "pitaya, naranja, cereza confitada, peonía, frambuesa, frangipani, lirio de agua, vainilla, haba tonka, pachulí",
+        "inspirado":  "Carolina Herrera La Bomba",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  71500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/2c1a099b-bd21-4241-881c-bc8ae3204dbc.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Khamrah Dukhan",
+        "notas":  "canela, manzana, pimienta de Jamaica, azafrán, incienso humeado, ládano, tabaco, ámbar, haba tonka, vainilla",
+        "inspirado":  "Kilian Angels\u0027 Share (versión ahumada)",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  66000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/8fec00bc-e0df-4e50-aaa0-0e9b9d37f2cb.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Liam",
+        "notas":  "cardamomo, té negro, higo, iris, vetiver, ládano, sándalo, vainilla, haba tonka, pachulí",
+        "inspirado":  "BDK Gris Charnel",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  52000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/353e5e63-ef56-4e2d-939b-9aaee96cfb13.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Suqraat",
+        "notas":  "bergamota, jengibre, lavanda, hoja de violeta, almizcle, sándalo, ámbar",
+        "inspirado":  "Giorgio Armani Acqua di Giò Profumo",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  44500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/08642c1d-bce8-4a9e-a8c3-bfbb123a4b1b.webp"
+    },
+    {
+        "marca":  "Maison Alhambra",
+        "nombre":  "Jean Lowe Immortel",
+        "notas":  "bergamota, jengibre, notas frescas, guayacán, vetiver ahumado, ámbar gris, almizcle",
+        "inspirado":  "Louis Vuitton L\u0027Immensité",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  58000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/eab3399e-8578-4994-9535-018bdd390ed2.webp"
+    },
+    {
+        "marca":  "Maison Alhambra",
+        "nombre":  "Smoky",
+        "notas":  "ciruela, miel, tabaco de pipa, tabaco blanco, ámbar, humo",
+        "inspirado":  "Dior Tobacolor",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  51500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/639e377c-038b-4709-8114-39a4f76dcdd3.webp"
+    },
+    {
+        "marca":  "Maison Alhambra",
+        "nombre":  "True Word",
+        "notas":  "cardamomo, piña, salvia, vainilla, incienso, haba tonka, sándalo, pachulí",
+        "inspirado":  "Ex Nihilo Blue Talisman",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  54000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/99db2d0c-c806-4b5e-8d8d-3795f10b2214.webp"
+    },
+    {
+        "marca":  "Maison Alhambra",
+        "nombre":  "Victorioso Fearless",
+        "notas":  "cardamomo, manzana, clavo, lavanda, geranio, canela, vainilla, cedro, ámbar",
+        "inspirado":  "Parfums de Marly Althair",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  43000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3455fc27-e48f-41e8-9075-5dbb5e2aab12.webp"
+    },
+    {
+        "marca":  "Maison Alhambra",
+        "nombre":  "Victorioso Heroic",
+        "notas":  "violeta, lavanda, geranio, madera de cedro, manzanilla, haba tonka, cachemira, sándalo",
+        "inspirado":  "Jean Paul Gaultier Le Beau Paradise Garden",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  44500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4a5af4e8-261c-4c27-988e-5b0f48641adb.webp"
     }
 ]
