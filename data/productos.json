@@ -631,6 +631,16 @@
     },
     {
         "marca":  "Armaf",
+        "nombre":  "Odyssey Aqua",
+        "notas":  "naranja, toronja (pomelo) y abrótano, menta y lavanda, ambroxan, pachulí y ciprés",
+        "inspirado":  "Paco Rabanne Invictus Platinum",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  79500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/82e83ddd-86a4-422b-b35c-0ba648610dd9.webp"
+    },
+    {
+        "marca":  "Armaf",
         "nombre":  "Odyssey Artisto",
         "notas":  "bergamota, Notas de frutos secos y salvia, coco, frutas tropicales y canela, vainilla, haba tonka y ámbar",
         "inspirado":  "Jean Paul Gaultier Le Beau le Parfum",
@@ -981,6 +991,16 @@
     },
     {
         "marca":  "Fragrance World",
+        "nombre":  "Supreme L’homme",
+        "notas":  "flor de azahar del naranjo, naranja amarga, romero y cítricos, almendra y haba tonka, vetiver, cedro y cuero",
+        "inspirado":  "L’Homme Idéal Eau de Parfum Guerlain",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  43000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/7e6f0f95-1b93-4508-9e84-8826e3db18f9.webp"
+    },
+    {
+        "marca":  "Fragrance World",
         "nombre":  "Venti Absolu",
         "notas":  "pimienta rosa, piña, caramelo, limón (lima ácida), bergamota, pera y pimienta negra, incienso, lirio de los valles (muguete), jengibre, musgo de roble, madera blanca, anís y jazmín, vetiver, sándalo y cedro",
         "inspirado":  "Absolu Aventus 2025 Creed",
@@ -998,16 +1018,6 @@
         "formato":  "Botella Completa",
         "precio":  47500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/c89df7e9-242a-4c51-a155-5c8bb3ab2909.webp"
-    },
-    {
-        "marca":  "French Avenue",
-        "nombre":  "Aromatix Carnal Desire Extrait De Parfum",
-        "notas":  "frambuesa, canela y bergamota, algodón de azúcar, raíz de lirio y rosa, cuero, madera de oud, pachulí, cedro y vainilla",
-        "inspirado":  "Cuir InfraRouge Maison Crivelli",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  97000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/b7a4b874-0585-4b12-8fb6-b32517c918e9.webp"
     },
     {
         "marca":  "French Avenue",
@@ -1176,8 +1186,18 @@
         "inspirado":  "My Devotion Eau de Parfum Intense Dolce\u0026amp;Gabbana",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  79500,
+        "precio":  69000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/72ce1626-bd13-4f90-a951-84b01a9a1d68.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Art Of Nature Ii",
+        "notas":  "incienso de olíbano (franquincienso), mandarina, bergamota y manzana, cardamomo, flor de azahar del naranjo y rosa, vainilla, almizcle, ambroxan, madera de gaiac y cedro",
+        "inspirado":  "Parfums de Marly Althair",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  81000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/62aa0288-3f60-467a-a5b8-25179fcc972d.webp"
     },
     {
         "marca":  "Lattafa",
@@ -1188,6 +1208,26 @@
         "formato":  "Botella Completa",
         "precio":  83500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/0a5ec781-4cd4-4be7-ad3b-c6dffafebb09.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Asad Black",
+        "notas":  "piña y toronja (pomelo), higo y lavanda, vainilla, haba tonka y pachulí",
+        "inspirado":  "Dior Souvage Elixir",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  74500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/2c99a084-745b-4379-9d47-3b1827379714.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Atlas",
+        "notas":  "notas marinas, sal y limón (lima ácida), Davana y iris, ámbar gris, musgo de roble y sándalo",
+        "inspirado":  "Megamare Orto Parisi",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  78500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/04a03055-3998-49f7-8e0d-04125735892f.webp"
     },
     {
         "marca":  "Lattafa",
@@ -1278,6 +1318,26 @@
         "formato":  "Botella Completa",
         "precio":  67500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/942d89ea-3e5a-4000-b837-d60968866924.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Hayaati Black",
+        "notas":  "manzana y bergamota, canela y notas amaderadas, almizcle y vainilla",
+        "inspirado":  "Paco Rabanne Invictus",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  48500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/360ab825-8d84-4dad-9ced-c858a2b494aa.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Her Confession",
+        "notas":  "Místico y canela, nardos, jazmín, incienso y Mahonial, vainilla, haba tonka y almizcle",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  86500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/73df0d96-bae3-4193-9721-6b3d5436c59c.webp"
     },
     {
         "marca":  "Lattafa",
@@ -1428,6 +1488,16 @@
         "formato":  "Botella Completa",
         "precio":  46000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/bbf552e0-e3d4-4900-a943-0e384f48738f.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Qimmah For Women",
+        "notas":  "almendra y café, nardos, jazmín y haba tonka, vainilla, cacao y sándalo",
+        "inspirado":  "Good Girl Carolina Herrera",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  51500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/fa2b9744-9c59-40ed-aa2e-969d700aa30e.webp"
     },
     {
         "marca":  "Lattafa",
@@ -1631,16 +1701,6 @@
     },
     {
         "marca":  "Maison Alhambra",
-        "nombre":  "Intrude",
-        "notas":  "pera y bergamota, nardos, flor de azahar del naranjo y jazmín sambac (sampaguita), pachulí, ambroxan, vainilla y vetiver",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  48500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/7a06c6a9-0cbd-44ef-8182-76a37b7db694.webp"
-    },
-    {
-        "marca":  "Maison Alhambra",
         "nombre":  "Jardin De Rêve",
         "notas":  "magnolia, pera, durazno (melocotón), bergamota y mandarina, jazmín, nardos, lirio de los valles (muguete), fresia, orquídea, rosa, violeta y ciruela, almizcle, vainilla, cedro y zarzamora (frambuesa negra)",
         "inspirado":  "J\u0026#39;adore Dior",
@@ -1788,6 +1848,16 @@
         "formato":  "Botella Completa",
         "precio":  47500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/e3fb1955-f9a0-41da-930d-9b07206d86d2.webp"
+    },
+    {
+        "marca":  "Maison Alhambra",
+        "nombre":  "Philos Centro",
+        "notas":  "jacinto y piña, iris, jazmín y pimienta rosa, almizcle, ámbar, vainilla, pachulí y vetiver",
+        "inspirado":  "XERJOFF ACCENTO",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  40500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/d746dfce-1af3-4ab5-a8bd-96022a40b94d.webp"
     },
     {
         "marca":  "Maison Alhambra",
@@ -2308,6 +2378,16 @@
         "formato":  "Botella Completa",
         "precio":  94000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/e44b7ddb-ec91-435e-b11b-3682b84fe399.webp"
+    },
+    {
+        "marca":  "Riiffs",
+        "nombre":  "Momento Extrait De Parfum",
+        "notas":  "azúcar, azafrán y mandarina, haba tonka, rosa de Damasco y madera de oud, Amberwood, caramelo y cedro",
+        "inspirado":  "Arabians Tonka Montale",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  104000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/09598aba-3cb5-4458-8b38-20a49d4a3da2.webp"
     },
     {
         "marca":  "Zimaya",
