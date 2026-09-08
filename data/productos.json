@@ -17,7 +17,7 @@
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  95000,
-        "imagen":  "https://th.bing.com/th/id/R.0980783dd82c631e57b6cde4d1f14d7f?rik=PXB4b4zsJ3nNPQ&riu=http%3a%2f%2femiratesoud.co.uk%2fcdn%2fshop%2ffiles%2fVeneno-Perfume-100ml-EDP-French-Avenue-169423263.jpg%3fv%3d1749774958&ehk=j2%2fNRtPujQ%2bthhWZ7ScSgsjPykK3oKLa3zOyH8uOfTs%3d&risl=&pid=ImgRaw&r=0"
+        "imagen":  "https://th.bing.com/th/id/R.0980783dd82c631e57b6cde4d1f14d7f?rik=PXB4b4zsJ3nNPQ\u0026riu=http%3a%2f%2femiratesoud.co.uk%2fcdn%2fshop%2ffiles%2fVeneno-Perfume-100ml-EDP-French-Avenue-169423263.jpg%3fv%3d1749774958\u0026ehk=j2%2fNRtPujQ%2bthhWZ7ScSgsjPykK3oKLa3zOyH8uOfTs%3d\u0026risl=\u0026pid=ImgRaw\u0026r=0"
     },
     {
         "marca":  "Lattafa",
@@ -57,7 +57,7 @@
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  95000,
-        "imagen":  "https://afnan.com/cdn/shop/files/72.png?v=1768480402&width=2048"
+        "imagen":  "https://afnan.com/cdn/shop/files/72.png?v=1768480402\u0026width=2048"
     },
     {
         "marca":  "Afnan",
@@ -67,17 +67,7 @@
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  89000,
-        "imagen":  "https://us.afnan.com/cdn/shop/files/9PM_ELIXIR-1.png?v=1775218857&width=2048"
-    },
-    {
-        "marca":  "Armaf",
-        "nombre":  "Odyssey Mandarin Sky",
-        "notas":  "mandarina, naranja, azafran y salvia, caramelo, haba tonka y tagetes, vetiver, cedro y ambroxan",
-        "inspirado":  "Jean Paul Gaultier Scandal Pour Homme",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  75500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3e6cc9c8-8b7e-4ffe-8d51-a92f0bcf4c00.webp"
+        "imagen":  "https://us.afnan.com/cdn/shop/files/9PM_ELIXIR-1.png?v=1775218857\u0026width=2048"
     },
     {
         "marca":  "Armaf",
@@ -97,7 +87,7 @@
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  74000,
-        "imagen":  "https://us.afnan.com/cdn/shop/files/9PM-Product-01_ac1d61da-68bc-4cf8-8086-8cdc3accfbdf.jpg?v=1775552887&width=2048"
+        "imagen":  "https://us.afnan.com/cdn/shop/files/9PM-Product-01_ac1d61da-68bc-4cf8-8086-8cdc3accfbdf.jpg?v=1775552887\u0026width=2048"
     },
     {
         "marca":  "Afnan",
@@ -107,7 +97,7 @@
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  70000,
-        "imagen":  "https://us.afnan.com/cdn/shop/files/SupremacySilver-Product-01.jpg?v=1775552976&width=2048"
+        "imagen":  "https://us.afnan.com/cdn/shop/files/SupremacySilver-Product-01.jpg?v=1775552976\u0026width=2048"
     },
     {
         "marca":  "Al Haramain",
@@ -237,7 +227,7 @@
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  71000,
-        "imagen":  "https://orientalaromas.com/cdn/shop/files/B50A9C96-B602-4C2B-9FC0-746F5D59DBE9.webp?v=1767580994&width=1024"
+        "imagen":  "https://orientalaromas.com/cdn/shop/files/B50A9C96-B602-4C2B-9FC0-746F5D59DBE9.webp?v=1767580994\u0026width=1024"
     },
     {
         "marca":  "Fragrance World",
@@ -267,7 +257,7 @@
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  90000,
-        "imagen":  "https://www.jeansmellgood.com/cdn/shop/files/Shop-for-french-avenue-vulcan-black-friday-limited-edition-3-4-oz-perfume-fragrance-online-and-in-miami.webp?crop=center&height=1200&v=1765662472&width=1200"
+        "imagen":  "https://www.jeansmellgood.com/cdn/shop/files/Shop-for-french-avenue-vulcan-black-friday-limited-edition-3-4-oz-perfume-fragrance-online-and-in-miami.webp?crop=center\u0026height=1200\u0026v=1765662472\u0026width=1200"
     },
     {
         "marca":  "French Avenue",
@@ -291,7 +281,7 @@
     },
     {
         "marca":  "Lattafa",
-        "nombre":  "Bade'e Al Oud Amethyst",
+        "nombre":  "Bade\u0027e Al Oud Amethyst",
         "notas":  "Azafr├ín, Nuez moscada, Lavanda, Madera de Oud, Pachul├¡, Almizcle, Vainilla",
         "inspirado":  "Initio Atomic Rose",
         "tamano":  "100ml",
@@ -301,7 +291,7 @@
     },
     {
         "marca":  "Lattafa",
-        "nombre":  "Bade'e Al Oud Sublime",
+        "nombre":  "Bade\u0027e Al Oud Sublime",
         "notas":  "Azafr├ín, Madera de Oud, Canela, Rosa, Pachul├¡, Vainilla, ├ümbar",
         "inspirado":  "Kayali Eden Juicy Apple",
         "tamano":  "100ml",
@@ -323,7 +313,7 @@
         "marca":  "Lattafa",
         "nombre":  "Khamrah",
         "notas":  "Canela, Nuez moscada, D├ítiles, Pralin├®, Vainilla, ├ümbar, Haba Tonka",
-        "inspirado":  "By Kilian Angel's Share",
+        "inspirado":  "By Kilian Angel\u0027s Share",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  59000,
@@ -333,7 +323,7 @@
         "marca":  "Lattafa",
         "nombre":  "Khamrah Qahwa",
         "notas":  "Caf├®, Canela, D├ítiles, Pralin├®, Vainilla, ├ümbar",
-        "inspirado":  "By Kilian Angel's Share (versi├│n caf├®)",
+        "inspirado":  "By Kilian Angel\u0027s Share (versi├│n caf├®)",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  59000,
@@ -397,7 +387,7 @@
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  94000,
-        "imagen":  "https://cdn2.jomashop.com/media/catalog/product/cache/b3e31d40bbb1abcc90b26106659d5d3f/r/a/rasasi-mens-hawas-ice-eau-de-perfume-spray-3-38-oz-fragrances-614514331040_1.jpg?width=800&height=800"
+        "imagen":  "https://cdn2.jomashop.com/media/catalog/product/cache/b3e31d40bbb1abcc90b26106659d5d3f/r/a/rasasi-mens-hawas-ice-eau-de-perfume-spray-3-38-oz-fragrances-614514331040_1.jpg?width=800\u0026height=800"
     },
     {
         "marca":  "Rasasi",
@@ -407,7 +397,7 @@
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  96000,
-        "imagen":  "https://cdn2.jomashop.com/media/catalog/product/cache/b3e31d40bbb1abcc90b26106659d5d3f/r/a/rasasi-mens-hawas-kobra-edp-spray-34-oz-fragrances-614514331064.jpg?width=800&height=800"
+        "imagen":  "https://cdn2.jomashop.com/media/catalog/product/cache/b3e31d40bbb1abcc90b26106659d5d3f/r/a/rasasi-mens-hawas-kobra-edp-spray-34-oz-fragrances-614514331064.jpg?width=800\u0026height=800"
     },
     {
         "marca":  "Rasasi",
@@ -417,7 +407,7 @@
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  95000,
-        "imagen":  "https://cdn2.jomashop.com/media/catalog/product/cache/b3e31d40bbb1abcc90b26106659d5d3f/r/a/rasasi-mens-hawas-malibu-edp-spray-34-oz-fragrances-614514331071.jpg?width=800&height=800"
+        "imagen":  "https://cdn2.jomashop.com/media/catalog/product/cache/b3e31d40bbb1abcc90b26106659d5d3f/r/a/rasasi-mens-hawas-malibu-edp-spray-34-oz-fragrances-614514331071.jpg?width=800\u0026height=800"
     },
     {
         "marca":  "Rasasi",
@@ -427,7 +417,7 @@
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  83000,
-        "imagen":  "https://cdn2.jomashop.com/media/catalog/product/cache/b3e31d40bbb1abcc90b26106659d5d3f/r/a/rasasi-mens-hawas-tropical-edp-spray-33-oz-fragrances-614514464441.jpg?width=800&height=800"
+        "imagen":  "https://cdn2.jomashop.com/media/catalog/product/cache/b3e31d40bbb1abcc90b26106659d5d3f/r/a/rasasi-mens-hawas-tropical-edp-spray-33-oz-fragrances-614514464441.jpg?width=800\u0026height=800"
     },
     {
         "marca":  "Rayhaan",
@@ -472,7 +462,7 @@
     {
         "marca":  "Afnan",
         "nombre":  "Rare Reef Extrait De Parfum",
-        "notas":  "naranja, cidra, menta, toronja (pomelo), grosellas negras y cilantro, chabacano, hojas de violeta, albahaca y rosa, higo, almizcle ambreta, Amberwood y d├ítiles",
+        "notas":  "naranja, cidra, menta, toronja (pomelo), grosellas negras y cilantro, chabacano, hojas de violeta, albahaca y rosa, higo, almizcle ambreta, Amberwood y dátiles",
         "inspirado":  "Louis Vuitton Pacific Chill",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -482,8 +472,8 @@
     {
         "marca":  "Afnan",
         "nombre":  "Turathi Electric",
-        "notas":  "pera, mandarina, toronja (pomelo) rosada y bergamota, flor de azahar del naranjo, manzana y cedro, almizcle, vainilla y ├ímbar",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "pera, mandarina, toronja (pomelo) rosada y bergamota, flor de azahar del naranjo, manzana y cedro, almizcle, vainilla y ámbar",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  88000,
@@ -492,7 +482,7 @@
     {
         "marca":  "Al Haramain",
         "nombre":  "Amber Oud Gold",
-        "notas":  "bergamota y notas verdes, notas dulces, mel├│n, pi├▒a y ├ímbar, almizcle, vainilla y notas amaderadas",
+        "notas":  "bergamota y notas verdes, notas dulces, melón, piña y ámbar, almizcle, vainilla y notas amaderadas",
         "inspirado":  "Xerjoff Erba Pura",
         "tamano":  "120ml",
         "formato":  "Botella Completa",
@@ -502,7 +492,7 @@
     {
         "marca":  "Al Wataniah",
         "nombre":  "Attar Al Wesal",
-        "notas":  "lavanda, pera, menta, lim├│n (lima ├ícida) y bergamota, canela, esclarea y comino, vaina de vainilla negra, ├ímbar, cedro y pachul├¡",
+        "notas":  "lavanda, pera, menta, limón (lima ácida) y bergamota, canela, esclarea y comino, vaina de vainilla negra, ámbar, cedro y pachulí",
         "inspirado":  "Ultra Male Jean Paul Gaultier",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -512,7 +502,7 @@
     {
         "marca":  "Al Wataniah",
         "nombre":  "Kayaan Classic",
-        "notas":  "naranja y bergamota, iris de la Toscana, especias, jazm├¡n y rosa, vainilla, s├índalo, pachul├¡ y almizcle",
+        "notas":  "naranja y bergamota, iris de la Toscana, especias, jazmín y rosa, vainilla, sándalo, pachulí y almizcle",
         "inspirado":  "Dior Homme Intense 2011 Dior",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -520,10 +510,50 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1a73e9a5-298b-40a8-9232-7dce8c4922f0.webp"
     },
     {
+        "marca":  "Anfar",
+        "nombre":  "Artisan Blu Extrait De Parfum",
+        "notas":  "cidra, bergamota de Calabria y naranja siciliana, neroli de Túnez, jengibre nigeriano y canela de Ceylan, té negro de China, madera de gaiac, incienso de olíbano (franquincienso) y ambroxan",
+        "inspirado":  "LOUIS VUITTON IMAGINATION",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  91000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1da277f4-eb67-407f-8f57-666f0f5a36e7.webp"
+    },
+    {
+        "marca":  "Anfar",
+        "nombre":  "Midnight Homme Intnese Extrait De Parfum",
+        "notas":  "toronja (pomelo), cardamomo, canela y nuez moscada, lavanda, hoja de laurel y jazmín, sándalo, ámbar, pachulí y vetiver",
+        "inspirado":  "CreaciÃ³n original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  90500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/f0e9c416-5112-41c7-b33a-1873df9a7809.webp"
+    },
+    {
+        "marca":  "Anfar",
+        "nombre":  "Midnigth Frost Tangerine Extrait De Parfum",
+        "notas":  "naranja tangerina, mandarina, bergamota de Sicilia, manzana y azafrán, Hielo, flor de azahar del naranjo, ciruela, cardamomo y azafrán, trozos de madera a la deriva, almizcle, ámbar y musgo",
+        "inspirado":  "Rabanne Invictus Aqua\u0026#47; Similar a Rasasi Hawas Ice",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  93000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/69009c19-25f3-48d2-9845-7f9a9258d0b6.webp"
+    },
+    {
+        "marca":  "Anfar",
+        "nombre":  "Royal Imperial Extrait De Parfum",
+        "notas":  "pachulí y Terciopelo, almizcle blanco y pachulí, vetiver y almizcle",
+        "inspirado":  "CreaciÃ³n original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  88000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/c539470b-f841-4564-8b36-d32eb2b415eb.webp"
+    },
+    {
         "marca":  "Armaf",
         "nombre":  "Club De Nuit Maleka",
-        "notas":  "lichi, bergamota y pimienta rosa, pralin├®, s├índalo y ambroxan",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "lichi, bergamota y pimienta rosa, praliné, sándalo y ambroxan",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  93000,
@@ -532,7 +562,7 @@
     {
         "marca":  "Armaf",
         "nombre":  "Club De Nuit Untold",
-        "notas":  "azafr├ín y jazm├¡n, Amberwood y ├ímbar gris, resina de abeto y cedro",
+        "notas":  "azafrán y jazmín, Amberwood y ámbar gris, resina de abeto y cedro",
         "inspirado":  "Baccarat Rouge 540",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -542,8 +572,8 @@
     {
         "marca":  "Armaf",
         "nombre":  "Club De Nuit Woman",
-        "notas":  "naranja, bergamota, toronja (pomelo) y durazno (melocot├│n), rosa, jazm├¡n, lichi y geranio, pachul├¡, almizcle, vainilla y vetiver",
-        "inspirado":  "Chanel Coco Madmoiselle&nbsp;",
+        "notas":  "naranja, bergamota, toronja (pomelo) y durazno (melocotón), rosa, jazmín, lichi y geranio, pachulí, almizcle, vainilla y vetiver",
+        "inspirado":  "Chanel Coco Madmoiselle\u0026nbsp;",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  86500,
@@ -552,7 +582,7 @@
     {
         "marca":  "Armaf",
         "nombre":  "Dubai Nights Midnight",
-        "notas":  "lavanda y bergamota, flor de azahar del naranjo y geranio, pachul├¡ y notas amaderadas",
+        "notas":  "lavanda y bergamota, flor de azahar del naranjo y geranio, pachulí y notas amaderadas",
         "inspirado":  "MYSLF Eau de Parfum Yves Saint Laurent",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -562,8 +592,8 @@
     {
         "marca":  "Armaf",
         "nombre":  "Dubai Nights Umbra",
-        "notas":  "toronja (pomelo), jengibre, pimienta rosa, menta y yuzu, hojas de violeta y notas acuosas, madera de gaiac, cedro y ├ímbar gris",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "toronja (pomelo), jengibre, pimienta rosa, menta y yuzu, hojas de violeta y notas acuosas, madera de gaiac, cedro y ámbar gris",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  69000,
@@ -573,7 +603,7 @@
         "marca":  "Armaf",
         "nombre":  "Dunescape Extrait De Parfum",
         "notas":  "ARMAF DUNESCAPE EXTRAIT DE PARFUM",
-        "inspirado":  "Creaci├│n original",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  110500,
@@ -582,7 +612,7 @@
     {
         "marca":  "Armaf",
         "nombre":  "Odyssey Aqua",
-        "notas":  "naranja, toronja (pomelo) y abr├│tano, menta y lavanda, ambroxan, pachul├¡ y cipr├®s",
+        "notas":  "naranja, toronja (pomelo) y abrótano, menta y lavanda, ambroxan, pachulí y ciprés",
         "inspirado":  "Paco Rabanne Invictus Platinum",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -592,7 +622,7 @@
     {
         "marca":  "Armaf",
         "nombre":  "Odyssey Artisto",
-        "notas":  "bergamota, Notas de frutos secos y salvia, coco, frutas tropicales y canela, vainilla, haba tonka y ├ímbar",
+        "notas":  "bergamota, Notas de frutos secos y salvia, coco, frutas tropicales y canela, vainilla, haba tonka y ámbar",
         "inspirado":  "Jean Paul Gaultier Le Beau le Parfum",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -602,8 +632,8 @@
     {
         "marca":  "Armaf",
         "nombre":  "Odyssey Ba Ha Mas",
-        "notas":  "Mel├│n cantalupo, mel├│n, Algas, manzana Granny Smith, pera, sal y ciruela, Notas acu├íticas, nen├║far (lirio de agua), musgo de roble y Incienso, ├ímbar, almizcle, cedro y az├║car",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "Melón cantalupo, melón, Algas, manzana Granny Smith, pera, sal y ciruela, Notas acuáticas, nenúfar (lirio de agua), musgo de roble y Incienso, ámbar, almizcle, cedro y azúcar",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  83500,
@@ -612,8 +642,8 @@
     {
         "marca":  "Armaf",
         "nombre":  "Odyssey Candee",
-        "notas":  "fresa, frambuesa, geranio, bergamota y durazno (melocot├│n), caramelo, jazm├¡n y maracuy├í (fruta de la pasi├│n), pachul├¡, almizcle y ├ímbar",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "fresa, frambuesa, geranio, bergamota y durazno (melocotón), caramelo, jazmín y maracuyá (fruta de la pasión), pachulí, almizcle y ámbar",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  62000,
@@ -622,7 +652,7 @@
     {
         "marca":  "Armaf",
         "nombre":  "Odyssey Eau De Montagne",
-        "notas":  "almendra, Lactonas y especias, vainilla, s├índalo, almizcle y cacao",
+        "notas":  "almendra, Lactonas y especias, vainilla, sándalo, almizcle y cacao",
         "inspirado":  "PARFUMS DE MARLY VALAYA EXCLUSIF EDP",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -632,7 +662,7 @@
     {
         "marca":  "Armaf",
         "nombre":  "Odyssey Homme Black",
-        "notas":  "vainilla y ├ímbar, notas orientales, especias y iris, vainilla, cuero y jazm├¡n",
+        "notas":  "vainilla y ámbar, notas orientales, especias y iris, vainilla, cuero y jazmín",
         "inspirado":  "Tom Ford Noir Extreme",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -642,8 +672,8 @@
     {
         "marca":  "Armaf",
         "nombre":  "Odyssey Limoni",
-        "notas":  "lim├│n (lima ├ícida), naranja dulce, bergamota y mandarina, Notas marinas, flor de azahar del naranjo y jengibre, t├®, almizcle y ├ímbar",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "limón (lima ácida), naranja dulce, bergamota y mandarina, Notas marinas, flor de azahar del naranjo y jengibre, té, almizcle y ámbar",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  65000,
@@ -651,8 +681,18 @@
     },
     {
         "marca":  "Armaf",
+        "nombre":  "Odyssey Mandarin Sky",
+        "notas":  "mandarina, naranja, azafrán y salvia, caramelo, haba tonka y cempasúchil (tagete, clavelón), ambroxan, cedro y vetiver",
+        "inspirado":  "Jean Paul Gaultier Scandal",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  75500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3e6cc9c8-8b7e-4ffe-8d51-a92f0bcf4c00.webp"
+    },
+    {
+        "marca":  "Armaf",
         "nombre":  "Odyssey Mandarin Sky Vintage",
-        "notas":  "mandarina y c├¡tricos, especias y notas florales, notas amaderadas y ├ímbar",
+        "notas":  "mandarina y cítricos, especias y notas florales, notas amaderadas y ámbar",
         "inspirado":  "Scandal Pour Homme Absolu Jean Paul Gaultier",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -662,8 +702,8 @@
     {
         "marca":  "Armaf",
         "nombre":  "Odyssey Revolution Ultra Edition",
-        "notas":  "pi├▒a, grosellas negras, naranja sanguina y salvia, pralin├®, vainilla, ciruela y cardamomo, pachul├¡ y haba tonka",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "piña, grosellas negras, naranja sanguina y salvia, praliné, vainilla, ciruela y cardamomo, pachulí y haba tonka",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  67500,
@@ -672,7 +712,7 @@
     {
         "marca":  "Armaf",
         "nombre":  "Odyssey Spectra",
-        "notas":  "canela, manzana y bergamota, canela, lavanda, flor de azahar del naranjo y lirio de los valles (muguete), vainilla, tabaco, haba tonka, pachul├¡ y ├ímbar",
+        "notas":  "canela, manzana y bergamota, canela, lavanda, flor de azahar del naranjo y lirio de los valles (muguete), vainilla, tabaco, haba tonka, pachulí y ámbar",
         "inspirado":  "Ultra Male Jean Paul Gaultier*",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -682,8 +722,8 @@
     {
         "marca":  "Armaf",
         "nombre":  "Shk I By Saoud Alkaabi",
-        "notas":  "vetiver, pimienta rosa y madera de cachemira, cedro, almizcle blanco y ├ímbar",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "vetiver, pimienta rosa y madera de cachemira, cedro, almizcle blanco y ámbar",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  94500,
@@ -691,8 +731,18 @@
     },
     {
         "marca":  "Armaf",
+        "nombre":  "Shk Ii By Saoud Alkaabi",
+        "notas":  "rosa, durazno (melocotón) y bergamota, caramelo, madera de oud, azafrán y jazmín, cuero, almizcle, benjuí, vainilla, notas amaderadas, ládano y pachulí",
+        "inspirado":  "CreaciÃ³n original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  98500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/5f0e11a0-ba5d-4ccc-8154-5baad40ec103.webp"
+    },
+    {
+        "marca":  "Armaf",
         "nombre":  "Tag Uomo Nero",
-        "notas":  "bergamota, pimienta negra, lavanda, cilantro y lim├│n (lima ├ícida), lirio de los valles (muguete), hojas de violeta y rosa, pachul├¡, ├ímbar gris y vainilla",
+        "notas":  "bergamota, pimienta negra, lavanda, cilantro y limón (lima ácida), lirio de los valles (muguete), hojas de violeta y rosa, pachulí, ámbar gris y vainilla",
         "inspirado":  "Tuxedo Yves Saint Laurent",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -701,9 +751,9 @@
     },
     {
         "marca":  "Armaf",
-        "nombre":  "├Üniq Oud Forever",
-        "notas":  "cardamomo, azafr├ín, pimienta rosa y bergamota, cipriol (nagarmota), osmanto (olivo oloroso) y jazm├¡n, Ambrocenide, ambroxan, pachul├¡ y cachemira",
-        "inspirado":  "Creaci├│n original",
+        "nombre":  "Úniq Oud Forever",
+        "notas":  "cardamomo, azafrán, pimienta rosa y bergamota, cipriol (nagarmota), osmanto (olivo oloroso) y jazmín, Ambrocenide, ambroxan, pachulí y cachemira",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  75500,
@@ -713,7 +763,7 @@
         "marca":  "Asten",
         "nombre":  "Majestic Hibiscus",
         "notas":  "ASTEN MAJESTIC HIBISCUS",
-        "inspirado":  "Creaci├│n original",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  46000,
@@ -722,7 +772,7 @@
     {
         "marca":  "Bharara",
         "nombre":  "King",
-        "notas":  "naranja, lim├│n (lima ├ícida) y bergamota, vainilla, almizcle blanco y ├ímbar",
+        "notas":  "naranja, limón (lima ácida) y bergamota, vainilla, almizcle blanco y ámbar",
         "inspirado":  "Xerjoff Erba Pura 200 ML",
         "tamano":  "200ml",
         "formato":  "Botella Completa",
@@ -731,39 +781,99 @@
     },
     {
         "marca":  "Bharara",
-        "nombre":  "Mast Perfume Rome Extradose",
-        "notas":  "BHARARA MAST PERFUME ROME EXTRADOSE",
-        "inspirado":  "VALENTINO UOMO BORN IN ROMA EXTRADOSE EDP",
+        "nombre":  "Mast Perfume Rome Ivory Pour Homme",
+        "notas":  "BHARARA MAST PERFUME ROME IVORY POUR HOMME",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  92500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/44e004b6-1953-401c-87b1-c9874cc8a929.webp"
+        "precio":  89000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4824a0b0-7896-400b-8769-0344aaf9f4bb.webp"
     },
     {
         "marca":  "Bharara",
-        "nombre":  "Mast Perfume Rome Extradose Pour Femme",
-        "notas":  "BHARARA MAST PERFUME ROME EXTRADOSE POUR FEMME",
-        "inspirado":  "Creaci├│n original",
+        "nombre":  "Mast Perfume Rome Melancholia Pour Femme",
+        "notas":  "flores blancas, lavanda, caramelo y violeta",
+        "inspirado":  "Valentino Donna Born in Roma Purple Melancholia Valentino",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  88000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/44bc4405-2f43-494d-ada7-2c2e0a1ce590.webp"
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/27c96e6a-8689-4296-9648-818b9399f4e2.webp"
+    },
+    {
+        "marca":  "Bharara",
+        "nombre":  "Mast Perfume Rome Pour Homme",
+        "notas":  "geranio y rosa, salvia y jengibre, cedro y vetiver",
+        "inspirado":  "Valentino Uomo Born in Roma Valentino",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  86500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/40a469c4-1bb2-420d-986e-2674b266b614.webp"
+    },
+    {
+        "marca":  "Bharara",
+        "nombre":  "Rey De Reyes",
+        "notas":  "enebro, cardamomo, pimienta rosa y bergamota, lavanda, nuez moscada y geranio, pachulí, sándalo y ambroxan",
+        "inspirado":  "CreaciÃ³n original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  171500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/b410c8a3-44a2-428c-af48-f4503b00b068.webp"
+    },
+    {
+        "marca":  "Bharara",
+        "nombre":  "Rohit Azure X Perfu-adictos",
+        "notas":  "BHARARA ROHIT AZURE  X PERFU-ADICTOS",
+        "inspirado":  "CreaciÃ³n original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  79500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/d8071bc0-c613-4a06-8a3b-4ab21c434b5f.webp"
+    },
+    {
+        "marca":  "Maison Alhambra",
+        "nombre":  "Door Sport",
+        "notas":  "toronja (pomelo), limón (lima ácida), resina de elemí y bergamota, jengibre, cedro y vetiver, lavanda, romero y sándalo",
+        "inspirado":  "CreaciÃ³n original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  44500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/09645a2f-4817-41c1-9788-3fdcd3beaaa4.webp"
+    },
+    {
+        "marca":  "Dumont",
+        "nombre":  "Nitro Blue",
+        "notas":  "flor de azahar del naranjo, canela, salvia, limón (lima ácida) y albahaca, praliné, bálsamo de Tolú, notas amaderadas y cardamomo negro, notas dulces, pachulí, ámbar negro y palo de rosa de Brasil",
+        "inspirado":  "Parfums De Marly Pegasus",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  77000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/8f66b94d-5df1-44de-b24f-1760a6f8db77.webp"
     },
     {
         "marca":  "Dumont",
         "nombre":  "Nitro Intense",
-        "notas":  "pi├▒a, grosellas negras, ciruela, bergamota, canela y co├▒ac, abedul, lavanda, pachul├¡, mirra, pimienta, jazm├¡n, iris y rosa, ├ímbar, almizcle, s├índalo, vainilla y haba tonka",
+        "notas":  "piña, grosellas negras, ciruela, bergamota, canela y coñac, abedul, lavanda, pachulí, mirra, pimienta, jazmín, iris y rosa, ámbar, almizcle, sándalo, vainilla y haba tonka",
         "inspirado":  "Absolu Aventus 2023 Creed",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  83500,
+        "precio":  81000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/b55b9392-c9de-4c2b-8aff-6d59a9493ec5.webp"
     },
     {
         "marca":  "Dumont",
+        "nombre":  "Nitro Platinum",
+        "notas":  "grosellas negras, naranja, manzana, bergamota, pimienta rosa y cardamomo, vainilla, azúcar, ámbar, Madera seca, azafrán y lirio de los valles (muguete), vainilla, ámbar, cedro, cedro, musgo, almizcle y madera de gaiac",
+        "inspirado":  "Black XS L\u0026#39;Exces for Him Rabanne",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  75500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/ab03fa2f-6fdf-4c59-9984-a6b7d77bd24a.webp"
+    },
+    {
+        "marca":  "Dumont",
         "nombre":  "Nitro Pour Homme",
-        "notas":  "mandarina, toronja (pomelo), cardamomo, lim├│n (lima ├ícida), bergamota y nuez moscada, flor de azahar del naranjo, jazm├¡n y cedro, almizcle, cedro, s├índalo, haba tonka y madera de gaiac",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "mandarina, toronja (pomelo), cardamomo, limón (lima ácida), bergamota y nuez moscada, flor de azahar del naranjo, jazmín y cedro, almizcle, cedro, sándalo, haba tonka y madera de gaiac",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  82500,
@@ -772,8 +882,8 @@
     {
         "marca":  "Dumont",
         "nombre":  "Nitro Red Intensely Extrait De Parfum",
-        "notas":  "mel├│n, durazno (melocot├│n), manzana y bergamota, ├ímbar, sal de mar, cedro y lirio de los valles (muguete), ├ímbar, s├índalo, pachul├¡ y musgo",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "melón, durazno (melocotón), manzana y bergamota, ámbar, sal de mar, cedro y lirio de los valles (muguete), ámbar, sándalo, pachulí y musgo",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  120000,
@@ -782,7 +892,7 @@
     {
         "marca":  "Emper",
         "nombre":  "Phantom My Hero",
-        "notas":  "almendra y heliotropo, chocolate y ron, caf├®, caramelo, ca├▒a de az├║car y s├índalo",
+        "notas":  "almendra y heliotropo, chocolate y ron, café, caramelo, caña de azúcar y sándalo",
         "inspirado":  "KILIAN BLACK PHANTOM",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -792,7 +902,7 @@
     {
         "marca":  "Fragrance World",
         "nombre":  "Ace",
-        "notas":  "clavos de olor, pimienta rosa y flor de azahar del naranjo, casta├▒a, madera de gaiac y enebro, vainilla, b├ílsamo del Per├║ y cachemira",
+        "notas":  "clavos de olor, pimienta rosa y flor de azahar del naranjo, castaña, madera de gaiac y enebro, vainilla, bálsamo del Perú y cachemira",
         "inspirado":  "By the Fireplace Maison Martin Margiela",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -801,19 +911,9 @@
     },
     {
         "marca":  "Fragrance World",
-        "nombre":  "Bad Lad Le Parfum",
-        "notas":  "marihuana (cannabis) y toronja (pomelo), pimienta negra y geranio, cuero y vetiver",
-        "inspirado":  "Bad Boy Le Parfum Carolina Herrera",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  44500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3cad283a-0c45-456d-ab2c-14fdf20cf940.webp"
-    },
-    {
-        "marca":  "Fragrance World",
         "nombre":  "Barakkat Rouge 540",
         "notas":  "FRAGRANCE WORLD BARAKKAT ROUGE 540",
-        "inspirado":  "Creaci├│n original",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  43000,
@@ -822,8 +922,8 @@
     {
         "marca":  "Fragrance World",
         "nombre":  "Fabulous Life",
-        "notas":  "esclarea y lavanda, almendra amarga, cuero, vainilla y ra├¡z de lirio, maderas blancas, cuero, haba tonka, cachemira y ├ímbar",
-        "inspirado":  "&nbsp; Fucking Fabulous Tom Ford",
+        "notas":  "esclarea y lavanda, almendra amarga, cuero, vainilla y raíz de lirio, maderas blancas, cuero, haba tonka, cachemira y ámbar",
+        "inspirado":  "\u0026nbsp; Fucking Fabulous Tom Ford",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  44500,
@@ -832,7 +932,7 @@
     {
         "marca":  "Fragrance World",
         "nombre":  "Harmony Code",
-        "notas":  "bergamota y hojas del bergamoto, iris, ra├¡z de lirio, esclarea y aldeh├¡dos, haba tonka y cedro",
+        "notas":  "bergamota y hojas del bergamoto, iris, raíz de lirio, esclarea y aldehídos, haba tonka y cedro",
         "inspirado":  "Armani Code Parfum Giorgio Armani",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -843,7 +943,7 @@
         "marca":  "Fragrance World",
         "nombre":  "Hunted By Night",
         "notas":  "FRAGRANCE WORLD HUNTED BY NIGHT",
-        "inspirado":  "Creaci├│n original",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  48500,
@@ -853,7 +953,7 @@
         "marca":  "Fragrance World",
         "nombre":  "Jack Of Clubs",
         "notas":  "cardamomo, jengibre y bergamota, lavanda y geranio, cedro y vetiver",
-        "inspirado":  "La Nuit de L&#39;Homme Bleu ├ëlectrique Yves Saint Laurent",
+        "inspirado":  "La Nuit de L\u0026#39;Homme Bleu Électrique Yves Saint Laurent",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  61000,
@@ -861,9 +961,19 @@
     },
     {
         "marca":  "Fragrance World",
-        "nombre":  "LÔÇÖuomo",
-        "notas":  "bergamota, jengibre y lim├│n (lima ├ícida), hojas de violeta, albahaca y pimienta blanca, vetiver, haba tonka y cedro",
-        "inspirado":  "L&#39;Homme Yves Saint Laurent",
+        "nombre":  "Jovian",
+        "notas":  "FRAGRANCE WORLD JOVIAN",
+        "inspirado":  "ALÍEN-MUGLER",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  52000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/a2906900-9740-4cf7-8164-bf94e4538a1b.webp"
+    },
+    {
+        "marca":  "Fragrance World",
+        "nombre":  "L’uomo",
+        "notas":  "bergamota, jengibre y limón (lima ácida), hojas de violeta, albahaca y pimienta blanca, vetiver, haba tonka y cedro",
+        "inspirado":  "L\u0026#39;Homme Yves Saint Laurent",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  40500,
@@ -873,7 +983,7 @@
         "marca":  "Fragrance World",
         "nombre":  "Ophylia Fiore",
         "notas":  "FRAGRANCE WORLD OPHYLIA FIORE",
-        "inspirado":  "Creaci├│n original",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  40500,
@@ -881,33 +991,13 @@
     },
     {
         "marca":  "Fragrance World",
-        "nombre":  "Prohibit Intense",
-        "notas":  "bergamota y pera, flor de azahar del naranjo, jazm├¡n sambac (sampaguita) y nardos, pachul├¡, ambroxan, vainilla y vetiver *inspirado en: &nbsp",
-        "inspirado":  "&nbsp; L'Interdit Eau de Parfum Givenchy*",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  44500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/0a9db567-b4e8-41ef-9931-c4ab975885f6.webp"
-    },
-    {
-        "marca":  "Fragrance World",
         "nombre":  "Redriguez Azure Pour Homme",
-        "notas":  "cardamomo y nuez moscada, vetiver, cedro, ├ímbar y ├®bano",
+        "notas":  "cardamomo y nuez moscada, vetiver, cedro, ámbar y ébano",
         "inspirado":  "Narciso Rodriguez for Him Bleu Noir Narciso Rodriguez",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  42000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/dd162913-348d-455c-a868-eeb35fa278fe.webp"
-    },
-    {
-        "marca":  "Fragrance World",
-        "nombre":  "Renheit",
-        "notas":  "manzanilla, lavanda, mandarina, flor del espino, bergamota y nuez moscada, clavos de olor, madreselva, jazm├¡n y nuez moscada",
-        "inspirado":  "Fahrenheit Dior",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  46000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3f035d5b-8788-4dcb-974b-be9a51a94e4a.webp"
     },
     {
         "marca":  "Fragrance World",
@@ -922,7 +1012,7 @@
     {
         "marca":  "Fragrance World",
         "nombre":  "Solo Black",
-        "notas":  "mango y salvia, hediona y Plata, s├índalo, haba tonka, pachul├¡ y Timberol",
+        "notas":  "mango y salvia, hediona y Plata, sándalo, haba tonka, pachulí y Timberol",
         "inspirado":  "Polo Black Ralph Lauren",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -931,9 +1021,9 @@
     },
     {
         "marca":  "Fragrance World",
-        "nombre":  "Supreme LÔÇÖhomme",
-        "notas":  "flor de azahar del naranjo, naranja amarga, romero y c├¡tricos, almendra y haba tonka, vetiver, cedro y cuero",
-        "inspirado":  "LÔÇÖHomme Id├®al Eau de Parfum Guerlain",
+        "nombre":  "Supreme L’homme",
+        "notas":  "flor de azahar del naranjo, naranja amarga, romero y cítricos, almendra y haba tonka, vetiver, cedro y cuero",
+        "inspirado":  "L’Homme Idéal Eau de Parfum Guerlain",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  43000,
@@ -941,18 +1031,8 @@
     },
     {
         "marca":  "Fragrance World",
-        "nombre":  "Venti Absolu",
-        "notas":  "pimienta rosa, pi├▒a, caramelo, lim├│n (lima ├ícida), bergamota, pera y pimienta negra, incienso, lirio de los valles (muguete), jengibre, musgo de roble, madera blanca, an├¡s y jazm├¡n, vetiver, s├índalo y cedro",
-        "inspirado":  "Absolu Aventus 2025 Creed",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  51500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/b02a675c-414c-4631-843d-c4219fb55838.webp"
-    },
-    {
-        "marca":  "Fragrance World",
         "nombre":  "Versus Ocean Bleu",
-        "notas":  "notas acu├íticas, bergamota de Calabria, toronja (pomelo) y hojas de higuera, ambroxan, papiro de Egipto, pimienta negra, hojas de violeta y pachul├¡, haba tonka, azafr├ín, incienso y almizcle",
+        "notas":  "notas acuáticas, bergamota de Calabria, toronja (pomelo) y hojas de higuera, ambroxan, papiro de Egipto, pimienta negra, hojas de violeta y pachulí, haba tonka, azafrán, incienso y almizcle",
         "inspirado":  "Versace Pour Homme Dylan Blue Versace",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -961,8 +1041,28 @@
     },
     {
         "marca":  "French Avenue",
+        "nombre":  "Aromatix Magnetic Extrait De Parfum",
+        "notas":  "lavanda, bergamota y pimienta rosa, flor de azahar del naranjo, iris, almizcle, neroli y romero, cedro, ámbar, sándalo, vainilla, mirra y musgo de roble",
+        "inspirado":  "MYSLF Eau de Parfum Yves Saint Laurent",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  115000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/a538dec9-ed64-41a6-a4b5-d7f8226c3fc2.webp"
+    },
+    {
+        "marca":  "French Avenue",
+        "nombre":  "Aromatix Royal Taboo Extrait De Parfum",
+        "notas":  "cardamomo, canela, ámbar y benjuí, tabaco, madera de cachemira, heliotropo y jazmín, vainilla, haba tonka, pachulí y Madera seca",
+        "inspirado":  "CREED CENTAURUS",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  97000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/f0bfa844-17c4-4a03-a2ee-268b905e100b.webp"
+    },
+    {
+        "marca":  "French Avenue",
         "nombre":  "Atlantis Extrait De Parfum",
-        "notas":  "naranja, mandarina y lim├│n (lima ├ícida), sand├¡a y coco, ├ímbar gris, cacao y Amberwood",
+        "notas":  "naranja, mandarina y limón (lima ácida), sandía y coco, ámbar gris, cacao y Amberwood",
         "inspirado":  "Wavechild Room 1015",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -971,8 +1071,18 @@
     },
     {
         "marca":  "French Avenue",
+        "nombre":  "Eclair Affair",
+        "notas":  "vaina de vainilla, leche de coco y jazmín, caramelo, Acorde goloso y ámbar, vainilla, haba tonka y almizcle",
+        "inspirado":  "Bianco Latte Giardini Di Toscana",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  70000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1b9753c6-caab-4988-9bbf-1f784cc866b7.webp"
+    },
+    {
+        "marca":  "French Avenue",
         "nombre":  "Pinace Noir",
-        "notas":  "manzana, flor de azahar del naranjo, lim├│n (lima ├ícida) y bergamota, canela, geranio, clavo de olor y palo de rosa de Brasil, vainilla, s├índalo y cedro",
+        "notas":  "manzana, flor de azahar del naranjo, limón (lima ácida) y bergamota, canela, geranio, clavo de olor y palo de rosa de Brasil, vainilla, sándalo y cedro",
         "inspirado":  "Boss Bottled Intense Eau de Parfum Hugo Boss",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -982,8 +1092,8 @@
     {
         "marca":  "French Avenue",
         "nombre":  "Royal Blend Nero Extrait De Parfum",
-        "notas":  "nuez moscada, manzana y bergamota, canela, Madera seca y azafr├ín, vainilla, haba tonka, benju├¡ y almizcle",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "nuez moscada, manzana y bergamota, canela, Madera seca y azafrán, vainilla, haba tonka, benjuí y almizcle",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  82500,
@@ -991,9 +1101,9 @@
     },
     {
         "marca":  "French Avenue",
-        "nombre":  "Royal Blend S├®quoia Extrait De Parfum",
-        "notas":  "frambuesa, co├▒ac y Licor, rosa y musgo, pralin├®, roble y s├índalo",
-        "inspirado":  "Angels&#39; Share Paradis By Kilian",
+        "nombre":  "Royal Blend Séquoia Extrait De Parfum",
+        "notas":  "frambuesa, coñac y Licor, rosa y musgo, praliné, roble y sándalo",
+        "inspirado":  "Angels\u0026#39; Share Paradis By Kilian",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  89000,
@@ -1002,17 +1112,17 @@
     {
         "marca":  "Game of Spades",
         "nombre":  "Full-house Parfum",
-        "notas":  "cidra, bergamota de Calabria y naranja siciliana, jengibre nigeriano, neroli de T├║nez y canela de Ceylan, t├® negro de China, ambroxan, madera de gaiac y incienso de ol├¡bano (franquincienso)",
+        "notas":  "cidra, bergamota de Calabria y naranja siciliana, jengibre nigeriano, neroli de Túnez y canela de Ceylan, té negro de China, ambroxan, madera de gaiac y incienso de olíbano (franquincienso)",
         "inspirado":  "Imagination Louis Vuitton",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  209500,
+        "precio":  202500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/18e9ba78-b6da-4946-b4dd-51e634c098a4.webp"
     },
     {
         "marca":  "Gulf Orchid",
-        "nombre":  "El Capit├ín Elixir",
-        "notas":  "lavanda, bergamota y menta, benju├¡, ├ímbar y canela, haba tonka, vainilla y almizcle",
+        "nombre":  "El Capitán Elixir",
+        "notas":  "lavanda, bergamota y menta, benjuí, ámbar y canela, haba tonka, vainilla y almizcle",
         "inspirado":  "JEAN PAUL GAULTIER LE MALE ELIXIR",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1021,8 +1131,8 @@
     },
     {
         "marca":  "Gulf Orchid",
-        "nombre":  "El Capit├ín Extreme",
-        "notas":  "lavanda, Ralladura de lim├│n, bergamota y menta, canela y esclarea",
+        "nombre":  "El Capitán Extreme",
+        "notas":  "lavanda, Ralladura de limón, bergamota y menta, canela y esclarea",
         "inspirado":  "JEAN PAUL GAULTIER ULTRA MALE",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1032,7 +1142,7 @@
     {
         "marca":  "Khadlaj",
         "nombre":  "Island",
-        "notas":  "pi├▒a, iris, jengibre y cipr├®s, coco y notas amaderadas, haba tonka, ├ímbar, s├índalo y ├ímbar gris",
+        "notas":  "piña, iris, jengibre y ciprés, coco y notas amaderadas, haba tonka, ámbar, sándalo y ámbar gris",
         "inspirado":  "Jean Paul Gaultier Le Beau Le Parfum",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1052,7 +1162,7 @@
     {
         "marca":  "Khadlaj",
         "nombre":  "Shiyaaka Shadow",
-        "notas":  "toronja (pomelo), pimienta rosa y lavanda, cedro, ├ímbar y madera de cachemira, pachul├¡, musgo y almizcle",
+        "notas":  "toronja (pomelo), pimienta rosa y lavanda, cedro, ámbar y madera de cachemira, pachulí, musgo y almizcle",
         "inspirado":  "Bad Boy Cobalt Parfum Electrique Carolina Herrera",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1060,9 +1170,9 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4b09a17a-61a6-468a-b3b3-6d9786c9083d.webp"
     },
     {
-        "marca":  "Lattafa",
+        "marca":  "Lataffa",
         "nombre":  "Badee Oud For Glory",
-        "notas":  "azafr├ín, nuez moscada y lavanda, madera de oud y pachul├¡, madera de oud, pachul├¡ y almizcle",
+        "notas":  "azafrán, nuez moscada y lavanda, madera de oud y pachulí, madera de oud, pachulí y almizcle",
         "inspirado":  "Initio Oud for Greatness",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1072,8 +1182,8 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Ajayeb Dubai",
-        "notas":  "azafr├ín y pi├▒a, caf├® y hojas de violeta, Caramelo de mantequilla, vainilla y s├índalo",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "azafrán y piña, café y hojas de violeta, Caramelo de mantequilla, vainilla y sándalo",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  44500,
@@ -1082,8 +1192,8 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Ana Abiyedh",
-        "notas":  "bergamota y naranja, vainilla y pera, almizcle y ├ímbar",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "bergamota y naranja, vainilla y pera, almizcle y ámbar",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  42000,
@@ -1092,7 +1202,7 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Ana Abiyedh Leather",
-        "notas":  "bayas de enebro, cardamomo, pimienta rosa y frambuesa, iris, jengibre y rosa, cuero, almizcle blanco y ├ímbar",
+        "notas":  "bayas de enebro, cardamomo, pimienta rosa y frambuesa, iris, jengibre y rosa, cuero, almizcle blanco y ámbar",
         "inspirado":  "La Yuqawam Ambergris Showers Pour Homme*",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1102,7 +1212,7 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Angham",
-        "notas":  "jengibre, mandarina y pimienta rosa, lavanda, pralin├®, cacao y jazm├¡n, vainilla, ├ímbar y almizcle",
+        "notas":  "jengibre, mandarina y pimienta rosa, lavanda, praliné, cacao y jazmín, vainilla, ámbar y almizcle",
         "inspirado":  "Goddess Burberry",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1112,8 +1222,8 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Angham Second Song",
-        "notas":  "flor del peral y bergamota, peon├¡a, flor de azahar del naranjo y pralin├®, vainilla, almizcle, haba tonka y ambroxan",
-        "inspirado":  "My Devotion Eau de Parfum Intense Dolce&amp;Gabbana",
+        "notas":  "flor del peral y bergamota, peonía, flor de azahar del naranjo y praliné, vainilla, almizcle, haba tonka y ambroxan",
+        "inspirado":  "My Devotion Eau de Parfum Intense Dolce\u0026amp;Gabbana",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  69000,
@@ -1122,7 +1232,7 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Art Of Nature Ii",
-        "notas":  "incienso de ol├¡bano (franquincienso), mandarina, bergamota y manzana, cardamomo, flor de azahar del naranjo y rosa, vainilla, almizcle, ambroxan, madera de gaiac y cedro",
+        "notas":  "incienso de olíbano (franquincienso), mandarina, bergamota y manzana, cardamomo, flor de azahar del naranjo y rosa, vainilla, almizcle, ambroxan, madera de gaiac y cedro",
         "inspirado":  "Parfums de Marly Althair",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1132,7 +1242,7 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Art Of Universe",
-        "notas":  "mandarina, jengibre, bergamota y menta, pera y flor de azahar del naranjo, almizcle, ├ímbar y cedro",
+        "notas":  "mandarina, jengibre, bergamota y menta, pera y flor de azahar del naranjo, almizcle, ámbar y cedro",
         "inspirado":  "BLUE TALISMAN EX NIHILO",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1142,7 +1252,7 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Asad Black",
-        "notas":  "pi├▒a y toronja (pomelo), higo y lavanda, vainilla, haba tonka y pachul├¡",
+        "notas":  "piña y toronja (pomelo), higo y lavanda, vainilla, haba tonka y pachulí",
         "inspirado":  "Dior Souvage Elixir",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1152,7 +1262,7 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Atlas",
-        "notas":  "notas marinas, sal y lim├│n (lima ├ícida), Davana y iris, ├ímbar gris, musgo de roble y s├índalo",
+        "notas":  "notas marinas, sal y limón (lima ácida), Davana y iris, ámbar gris, musgo de roble y sándalo",
         "inspirado":  "Megamare Orto Parisi",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1161,9 +1271,9 @@
     },
     {
         "marca":  "Lattafa",
-        "nombre":  "Badee Honor & Glory",
-        "notas":  "pi├▒a y cr├®me brul├®e, canela, c├║rcuma (azafr├ín de la India), pimienta negra y benju├¡, vainilla, s├índalo, cachemira y musgo",
-        "inspirado":  "Nishane Ani",
+        "nombre":  "Badee Honor \u0026 Glory",
+        "notas":  "piña y créme brulée, canela, cúrcuma (azafrán de la India), pimienta negra y benjuí, vainilla, sándalo, cachemira y musgo",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  58000,
@@ -1172,8 +1282,8 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Badee Noble Blush",
-        "notas":  "merengue y almendra, vainilla, almizcle y s├índalo",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "merengue y almendra, vainilla, almizcle y sándalo",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  59500,
@@ -1182,7 +1292,7 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Breeze",
-        "notas":  "bergamota, cardamomo y incienso, jazm├¡n y ciclamen (violeta persa), almizcle, cedro y s├índalo",
+        "notas":  "bergamota, cardamomo y incienso, jazmín y ciclamen (violeta persa), almizcle, cedro y sándalo",
         "inspirado":  "724 Maison Francis Kurkdjian",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1192,7 +1302,7 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Dynasty",
-        "notas":  "bergamota, jengibre, esclarea, frambuesa y nuez moscada, t├® rooibos y gamuza, cedro, cachemira y Amberwood",
+        "notas":  "bergamota, jengibre, esclarea, frambuesa y nuez moscada, té rooibos y gamuza, cedro, cachemira y Amberwood",
         "inspirado":  "L Red Tea Vetiver Clive Christian",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1202,7 +1312,7 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Ejaazi Intensive Silver",
-        "notas":  "mandarina y toronja (pomelo), notas marinas y cedro, ├ímbar y musgo",
+        "notas":  "mandarina y toronja (pomelo), notas marinas y cedro, ámbar y musgo",
         "inspirado":  "Vodka on the Rocks By Kilian",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1212,7 +1322,7 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Eternal Oud",
-        "notas":  "ciruela y toronja (pomelo), heliotropo y orqu├¡dea, ├ímbar, benju├¡, vainilla, l├ídano, haba tonka y madera de oud",
+        "notas":  "ciruela y toronja (pomelo), heliotropo y orquídea, ámbar, benjuí, vainilla, ládano, haba tonka y madera de oud",
         "inspirado":  "Grand Soir Maison Francis Kurkdjian",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1222,8 +1332,8 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Fakhar Rose",
-        "notas":  "frutas, azucena, granada y aldeh├¡dos, nardos, jazm├¡n, gardenia, ylang-ylang, madreselva, rosa y peon├¡a, vainilla, almizcle blanco, s├índalo y ambroxan",
-        "inspirado":  "Givenchy L'interdit",
+        "notas":  "frutas, azucena, granada y aldehídos, nardos, jazmín, gardenia, ylang-ylang, madreselva, rosa y peonía, vainilla, almizcle blanco, sándalo y ambroxan",
+        "inspirado":  "Givenchy L\u0027interdit",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  67000,
@@ -1232,7 +1342,7 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Habik For Men",
-        "notas":  "cardamomo, pimienta, abr├│tano y bergamota, lavanda, canela y salvia, haba tonka, s├índalo, almizcle, pachul├¡ y Amberwood",
+        "notas":  "cardamomo, pimienta, abrótano y bergamota, lavanda, canela y salvia, haba tonka, sándalo, almizcle, pachulí y Amberwood",
         "inspirado":  "Jean Paul Gaultier Le Male Essence",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1242,8 +1352,8 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Haya Pink",
-        "notas":  "champa├▒a, fresa, naranja tangerina, naranja sanguina y rosa, gardenia, jazm├¡n y orqu├¡dea de vainilla, ├ímbar, s├índalo y casta├▒a",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "champaña, fresa, naranja tangerina, naranja sanguina y rosa, gardenia, jazmín y orquídea de vainilla, ámbar, sándalo y castaña",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  67500,
@@ -1262,8 +1372,8 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Her Confession",
-        "notas":  "M├¡stico y canela, nardos, jazm├¡n, incienso y Mahonial, vainilla, haba tonka y almizcle",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "Místico y canela, nardos, jazmín, incienso y Mahonial, vainilla, haba tonka y almizcle",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  86500,
@@ -1272,8 +1382,8 @@
     {
         "marca":  "Lattafa",
         "nombre":  "His Confession",
-        "notas":  "canela, lavanda y mandarina, iris, benju├¡, cipr├®s y Mahonial, vainilla, haba tonka, ├ímbar, cedro, incienso y pachul├¡",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "canela, lavanda y mandarina, iris, benjuí, ciprés y Mahonial, vainilla, haba tonka, ámbar, cedro, incienso y pachulí",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  91000,
@@ -1282,8 +1392,8 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Ishq Al Shuyuk",
-        "notas":  "lim├│n (lima ├ícida) y bergamota, pi├▒a y pimienta negra, vainilla, cedro, Amberwood y pachul├¡",
-        "inspirado":  "Paco Rabanne One Millon Lucky&nbsp;",
+        "notas":  "limón (lima ácida) y bergamota, piña y pimienta negra, vainilla, cedro, Amberwood y pachulí",
+        "inspirado":  "Paco Rabanne One Millon Lucky\u0026nbsp;",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  67000,
@@ -1292,7 +1402,7 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Ishq Al Shuyukh Gold",
-        "notas":  "caramelo y azafr├ín, gamuza, cuero y haba tonka, vainilla, ├ímbar y almizcle",
+        "notas":  "caramelo y azafrán, gamuza, cuero y haba tonka, vainilla, ámbar y almizcle",
         "inspirado":  "Rosendo Mateu N5",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1302,7 +1412,7 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Jasoor",
-        "notas":  "manzana, cardamomo y bergamota, tabaco, lavanda y geranio, haba tonka, cuero, vetiver y pachul├¡",
+        "notas":  "manzana, cardamomo y bergamota, tabaco, lavanda y geranio, haba tonka, cuero, vetiver y pachulí",
         "inspirado":  "Valentino Born In Roma Coral Fantasy",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1312,7 +1422,7 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Jouri",
-        "notas":  "pitahaya, cereza y naranja, peon├¡a, frambuesa, frangipani (plumeria, plumaria, atapaima) y nen├║far (lirio de agua), vainilla, pachul├¡ y haba tonka",
+        "notas":  "pitahaya, cereza y naranja, peonía, frambuesa, frangipani (plumeria, plumaria, atapaima) y nenúfar (lirio de agua), vainilla, pachulí y haba tonka",
         "inspirado":  "CAROLINA HERRERA LA BOMBA",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1322,7 +1432,7 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Liam",
-        "notas":  "cardamomo, t├® negro y higo, iris, vetiver y l├ídano, s├índalo, vainilla, haba tonka y pachul├¡",
+        "notas":  "cardamomo, té negro y higo, iris, vetiver y ládano, sándalo, vainilla, haba tonka y pachulí",
         "inspirado":  "Gris Charnel BDK Parfums",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1332,7 +1442,7 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Mashrabya",
-        "notas":  "Acorde de shisha de manzana y pimienta rosa, tabaco, canela y d├ítiles, Humo de oud, caramelo, vainilla y pachul├¡",
+        "notas":  "Acorde de shisha de manzana y pimienta rosa, tabaco, canela y dátiles, Humo de oud, caramelo, vainilla y pachulí",
         "inspirado":  "Smoking Hot By Kilian",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1342,8 +1452,8 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Mayar",
-        "notas":  "lichi, frambuesa y hojas de violeta, rosa blanca, peon├¡a y jazm├¡n, almizcle y vainilla",
-        "inspirado":  "&nbsp;Angel Nova Mugler",
+        "notas":  "lichi, frambuesa y hojas de violeta, rosa blanca, peonía y jazmín, almizcle y vainilla",
+        "inspirado":  "\u0026nbsp;Angel Nova Mugler",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  56500,
@@ -1352,7 +1462,7 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Mayar Cherry Intnese",
-        "notas":  "fresa y bergamota, Cherry Jam y cacao, vainilla, ├ímbar y pachul├¡",
+        "notas":  "fresa y bergamota, Cherry Jam y cacao, vainilla, ámbar y pachulí",
         "inspirado":  "Black Opium Over Red Yves Saint Laurent",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1361,9 +1471,19 @@
     },
     {
         "marca":  "Lattafa",
+        "nombre":  "Mayar Natural Intnese",
+        "notas":  "Mandarina verde, higo, melón y Agua de coco, nenúfar (lirio de agua), flor de loto y jazmín, almizcle, ambroxan, sándalo y vainilla",
+        "inspirado":  "Acqua di Gioia Giorgio Armani",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  55500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/70107cfd-35c1-4ed0-9da7-0e5538ad70df.webp"
+    },
+    {
+        "marca":  "Lattafa",
         "nombre":  "Musamam Black Intense",
-        "notas":  "lavanda, nuez moscada, salvia y bergamota, cedro, geranio, Rosyfolia y Mahonial, CocoapulseÔäó, haba tonka, arce, AmbrofixÔäó y pachul├¡",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "lavanda, nuez moscada, salvia y bergamota, cedro, geranio, Rosyfolia y Mahonial, Cocoapulse™, haba tonka, arce, Ambrofix™ y pachulí",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  105500,
@@ -1372,7 +1492,7 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Najdia Intense",
-        "notas":  "pi├▒a, manzana, menta y jengibre, Notas marinas, lavanda y geranio, haba tonka, s├índalo, almizcle y pachul├¡",
+        "notas":  "piña, manzana, menta y jengibre, Notas marinas, lavanda y geranio, haba tonka, sándalo, almizcle y pachulí",
         "inspirado":  "Le Beau Paradise Garden Jean Paul Gaultier",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1382,7 +1502,7 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Nebras",
-        "notas":  "bayas rojas y mandarina, vainilla, cacao y rosa, az├║car, haba tonka, ├ímbar y almizcle",
+        "notas":  "bayas rojas y mandarina, vainilla, cacao y rosa, azúcar, haba tonka, ámbar y almizcle",
         "inspirado":  "Eilish Billie Eilish",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1392,8 +1512,8 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Opulent Dubai",
-        "notas":  "mango, toronja (pomelo), lim├│n (lima ├ícida) y jengibre, jazm├¡n, cedro y violeta, notas amaderadas, benju├¡, ├ímbar gris y musgo de roble",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "mango, toronja (pomelo), limón (lima ácida) y jengibre, jazmín, cedro y violeta, notas amaderadas, benjuí, ámbar gris y musgo de roble",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  51500,
@@ -1402,8 +1522,8 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Petra",
-        "notas":  "ron y ciruela, nardos y coco, vainilla, almizcle y pralin├®",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "ron y ciruela, nardos y coco, vainilla, almizcle y praliné",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  76500,
@@ -1412,7 +1532,7 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Qaed Al Fursan",
-        "notas":  "pi├▒a y azafr├ín, abeto bals├ímico y jazm├¡n, ├ímbar, cedro y madera de oud",
+        "notas":  "piña y azafrán, abeto balsámico y jazmín, ámbar, cedro y madera de oud",
         "inspirado":  "Paco Rabanne Black XS",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1421,8 +1541,18 @@
     },
     {
         "marca":  "Lattafa",
+        "nombre":  "Qaed Al Fursan Untamed",
+        "notas":  "canela, mandarina, nuez moscada y cardamomo, caramelo, lavanda, geranio, esclarea y ciprés, ládano, incienso de olíbano (franquincienso), ámbar, vetiver y cedro",
+        "inspirado":  "CreaciÃ³n original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  44500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/a450fd11-6a04-4e88-9ca8-ca96570cf3b1.webp"
+    },
+    {
+        "marca":  "Lattafa",
         "nombre":  "Qimmah For Women",
-        "notas":  "almendra y caf├®, nardos, jazm├¡n y haba tonka, vainilla, cacao y s├índalo",
+        "notas":  "almendra y café, nardos, jazmín y haba tonka, vainilla, cacao y sándalo",
         "inspirado":  "Good Girl Carolina Herrera",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1432,8 +1562,8 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Suqraat",
-        "notas":  "bergamota y jengibre, lavanda y hojas de violeta, almizcle, s├índalo y ├ímbar",
-        "inspirado":  "Acqua di Gi├▓ Profumo Giorgio Armani",
+        "notas":  "bergamota y jengibre, lavanda y hojas de violeta, almizcle, sándalo y ámbar",
+        "inspirado":  "Acqua di Giò Profumo Giorgio Armani",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  44500,
@@ -1451,9 +1581,19 @@
     },
     {
         "marca":  "Lattafa",
+        "nombre":  "Teriaq",
+        "notas":  "caramelo, almendra amarga, chabacano y pimienta rosa, miel, ruibarbo, flores blancas y rosa, cuero, vainilla, almizcle, ládano y vetiver",
+        "inspirado":  "\u0026nbsp; La Belle Jean Paul Gaultier",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  73000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/8e8ab361-5c3b-45bb-bb36-8b601e991780.webp"
+    },
+    {
+        "marca":  "Lattafa",
         "nombre":  "The Kingdom",
-        "notas":  "lavanda, menta y salvia, vainilla, tabaco y flor de azahar del naranjo, haba tonka, benju├¡ y l├ídano",
-        "inspirado":  "Jean Paul Gaultier Le Male Elixir&nbsp;",
+        "notas":  "lavanda, menta y salvia, vainilla, tabaco y flor de azahar del naranjo, haba tonka, benjuí y ládano",
+        "inspirado":  "Jean Paul Gaultier Le Male Elixir\u0026nbsp;",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  75500,
@@ -1462,8 +1602,8 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Yara Rosa",
-        "notas":  "orqu├¡dea, heliotropo y naranja tangerina, Acuerdo goloso y frutas tropicales, vainilla, almizcle y s├índalo",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "orquídea, heliotropo y naranja tangerina, Acuerdo goloso y frutas tropicales, vainilla, almizcle y sándalo",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  65000,
@@ -1472,7 +1612,7 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Yara Tous",
-        "notas":  "mango, coco y maracuy├í (fruta de la pasi├│n), jazm├¡n, flor de azahar del naranjo y heliotropo, vainilla, almizcle y cachemira",
+        "notas":  "mango, coco y maracuyá (fruta de la pasión), jazmín, flor de azahar del naranjo y heliotropo, vainilla, almizcle y cachemira",
         "inspirado":  "Paco Rabanne Fame",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1482,8 +1622,8 @@
     {
         "marca":  "Le Bonheur",
         "nombre":  "Black Cavalier Xi",
-        "notas":  "bergamota, cardamomo, aceite de naranja, azafr├ín y menta, ajenjo (absenta), tomillo rojo, lavanda y canela, pachul├¡, cedro, haba tonka, vainilla, musgo de roble y ├ímbar",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "bergamota, cardamomo, aceite de naranja, azafrán y menta, ajenjo (absenta), tomillo rojo, lavanda y canela, pachulí, cedro, haba tonka, vainilla, musgo de roble y ámbar",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  90500,
@@ -1492,7 +1632,7 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "Athena",
-        "notas":  "naranja tangerina, pimienta rosa y bergamota, jazm├¡n sambac (sampaguita), ylang-ylang y lirio de los valles (muguete), vainilla, s├índalo y pachul├¡",
+        "notas":  "naranja tangerina, pimienta rosa y bergamota, jazmín sambac (sampaguita), ylang-ylang y lirio de los valles (muguete), vainilla, sándalo y pachulí",
         "inspirado":  "Goddess Burberry",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1502,7 +1642,7 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "B.a.d Homme",
-        "notas":  "lim├│n (lima ├ícida), pimienta blanca y pimienta rosa, cedro y salvia, cacao y haba tonka",
+        "notas":  "limón (lima ácida), pimienta blanca y pimienta rosa, cedro y salvia, cacao y haba tonka",
         "inspirado":  "Bad Boy Carolina Herrera",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1512,7 +1652,7 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "By Saffron",
-        "notas":  "bayas de enebro, azafr├ín y toronja (pomelo), violeta negra, cuero y rosa, frambuesa, vetiver y Maderas transparentes",
+        "notas":  "bayas de enebro, azafrán y toronja (pomelo), violeta negra, cuero y rosa, frambuesa, vetiver y Maderas transparentes",
         "inspirado":  "Black Saffron Byredo",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1523,7 +1663,7 @@
         "marca":  "Maison Alhambra",
         "nombre":  "Daring Blue For Life",
         "notas":  "pomelo y bergamota",
-        "inspirado":  "Dolce &amp; Gabanna Ligth Blue Forever",
+        "inspirado":  "Dolce \u0026amp; Gabanna Ligth Blue Forever",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  47500,
@@ -1532,7 +1672,7 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "Dark Aoud",
-        "notas":  "cardamomo, pimienta y palo de rosa de Brasil, madera de oud, s├índalo y vetiver, vainilla, haba tonka y ├ímbar gris",
+        "notas":  "cardamomo, pimienta y palo de rosa de Brasil, madera de oud, sándalo y vetiver, vainilla, haba tonka y ámbar gris",
         "inspirado":  "Oud Wood Tom Ford",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1543,7 +1683,7 @@
         "marca":  "Maison Alhambra",
         "nombre":  "Encode Mountain",
         "notas":  "MAISON ALHAMBRA ENCODE MOUNTAIN",
-        "inspirado":  "Creaci├│n original",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  46000,
@@ -1562,8 +1702,8 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "Flaming Elixir",
-        "notas":  "cereza ├ícida (guinda) y azafr├ín, cuero, oliva, osmanto chino (olivo oloroso de China) y chabacano, Humo, notas amaderadas y cipriol (nagarmota)",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "cereza ácida (guinda) y azafrán, cuero, oliva, osmanto chino (olivo oloroso de China) y chabacano, Humo, notas amaderadas y cipriol (nagarmota)",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  48500,
@@ -1572,7 +1712,7 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "Galactic Men",
-        "notas":  "tabaco y miel, vainilla, cacao y pachul├¡, ├ímbar, s├índalo y styrax",
+        "notas":  "tabaco y miel, vainilla, cacao y pachulí, ámbar, sándalo y styrax",
         "inspirado":  "Mugler Pure Havane",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1583,7 +1723,7 @@
         "marca":  "Maison Alhambra",
         "nombre":  "Galactic Men Elixir",
         "notas":  "MAISON ALHAMBRA GALACTIC MEN ELIXIR",
-        "inspirado":  "Creaci├│n original",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  43000,
@@ -1593,7 +1733,7 @@
         "marca":  "Maison Alhambra",
         "nombre":  "Glacier Bold",
         "notas":  "MAISON ALHAMBRA GLACIER BOLD",
-        "inspirado":  "Creaci├│n original",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  52500,
@@ -1601,8 +1741,18 @@
     },
     {
         "marca":  "Maison Alhambra",
+        "nombre":  "Hercules",
+        "notas":  "canela y pimienta, hojas de tabaco, incienso, ládano y osmanto (olivo oloroso), vainilla, Iso E Super, cedro, almizcle y vetiver",
+        "inspirado":  "Herod Parfums de Marly",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  48500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/63dfe6dd-243f-4010-b7ed-11fcf4cc379b.webp"
+    },
+    {
+        "marca":  "Maison Alhambra",
         "nombre":  "In Perfect Harmony",
-        "notas":  "lichi, zarzamora (frambuesa negra), frambuesa y bergamota, rosa, violeta, magnolia y incienso, almizcle, vainilla y ├ímbar",
+        "notas":  "lichi, zarzamora (frambuesa negra), frambuesa y bergamota, rosa, violeta, magnolia y incienso, almizcle, vainilla y ámbar",
         "inspirado":  "MAISON CRIVELLI HIBISCUS MAHAJAD EXTRAIT",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1612,8 +1762,8 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "Incense Ebony",
-        "notas":  "incienso, palo santo, pimienta negra y hojas de violeta, Aceite de cade, cuero, l├ídano, papiro de Egipto y rosa, resinas, ├®bano y madera de gaiac",
-        "inspirado":  "├ëb├¿ne Fum├® Tom Ford",
+        "notas":  "incienso, palo santo, pimienta negra y hojas de violeta, Aceite de cade, cuero, ládano, papiro de Egipto y rosa, resinas, ébano y madera de gaiac",
+        "inspirado":  "Ébène Fumé Tom Ford",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  51500,
@@ -1623,7 +1773,7 @@
         "marca":  "Maison Alhambra",
         "nombre":  "Infini Intoxicating Cherry",
         "notas":  "MAISON ALHAMBRA INFINI INTOXICATING CHERRY",
-        "inspirado":  "Narcotic Delight by Initio Parfums Priv├®s",
+        "inspirado":  "Narcotic Delight by Initio Parfums Privés",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  51500,
@@ -1631,9 +1781,9 @@
     },
     {
         "marca":  "Maison Alhambra",
-        "nombre":  "Jardin De R├¬ve",
-        "notas":  "magnolia, pera, durazno (melocot├│n), bergamota y mandarina, jazm├¡n, nardos, lirio de los valles (muguete), fresia, orqu├¡dea, rosa, violeta y ciruela, almizcle, vainilla, cedro y zarzamora (frambuesa negra)",
-        "inspirado":  "J&#39;adore Dior",
+        "nombre":  "Jardin De Rêve",
+        "notas":  "magnolia, pera, durazno (melocotón), bergamota y mandarina, jazmín, nardos, lirio de los valles (muguete), fresia, orquídea, rosa, violeta y ciruela, almizcle, vainilla, cedro y zarzamora (frambuesa negra)",
+        "inspirado":  "J\u0026#39;adore Dior",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  52500,
@@ -1642,7 +1792,7 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "Jean Lowe Azure",
-        "notas":  "mandarina y bergamota, jengibre y ├ímbar gris",
+        "notas":  "mandarina y bergamota, jengibre y ámbar gris",
         "inspirado":  "Afternoon Swim Louis Vuitton",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1652,8 +1802,8 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "Jean Lowe Immortel",
-        "notas":  "jengibre, toronja (pomelo) y bergamota, romero, notas acu├íticas, salvia y geranio, ambroxan, ├ímbar y l├ídano",
-        "inspirado":  "Luis Vuitton L'Immensite&nbsp;",
+        "notas":  "jengibre, toronja (pomelo) y bergamota, romero, notas acuáticas, salvia y geranio, ambroxan, ámbar y ládano",
+        "inspirado":  "Luis Vuitton L\u0027Immensite\u0026nbsp;",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  58000,
@@ -1662,7 +1812,7 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "Jean Lowe Summer Vibes",
-        "notas":  "grosellas negras, cilantro, menta, naranja, cidra y lim├│n (lima ├ícida), rosa de mayo, semillas de zanahoria, chabacano y albahaca, higo, d├ítiles y almizcle ambreta",
+        "notas":  "grosellas negras, cilantro, menta, naranja, cidra y limón (lima ácida), rosa de mayo, semillas de zanahoria, chabacano y albahaca, higo, dátiles y almizcle ambreta",
         "inspirado":  "Sun Song 2025 Louis Vuitton",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1671,9 +1821,9 @@
     },
     {
         "marca":  "Maison Alhambra",
-        "nombre":  "Jean Lowe Verd├® Aura",
-        "notas":  "MAISON ALHAMBRA JEAN LOWE VERD├ë AURA",
-        "inspirado":  "Creaci├│n original",
+        "nombre":  "Jean Lowe Verdé Aura",
+        "notas":  "MAISON ALHAMBRA JEAN LOWE VERDÉ AURA",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  83500,
@@ -1682,7 +1832,7 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "Jean Lowe Vibe",
-        "notas":  "menta, cidra, naranja, lim├│n (lima ├ícida), grosellas negras y cilantro, chabacano, albahaca, rosa de mayo y semillas de zanahoria, higo, almizcle ambreta y d├ítiles",
+        "notas":  "menta, cidra, naranja, limón (lima ácida), grosellas negras y cilantro, chabacano, albahaca, rosa de mayo y semillas de zanahoria, higo, almizcle ambreta y dátiles",
         "inspirado":  "Pacific Chill Louis Vuitton",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1692,8 +1842,8 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "Jorge Di Profumo",
-        "notas":  "bergamota, lim├│n siciliano (lima siciliana) y pimienta negra, lavanda, tabaco y geranio, s├índalo, almizcle y vetiver",
-        "inspirado":  "&nbsp; Acqua di Gi├▓ Profumo Giorgio Armani&nbsp;",
+        "notas":  "bergamota, limón siciliano (lima siciliana) y pimienta negra, lavanda, tabaco y geranio, sándalo, almizcle y vetiver",
+        "inspirado":  "\u0026nbsp; Acqua di Giò Profumo Giorgio Armani\u0026nbsp;",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  50000,
@@ -1703,7 +1853,7 @@
         "marca":  "Maison Alhambra",
         "nombre":  "Moondrift Blue Intnese",
         "notas":  "MAISON ALHAMBRA MOONDRIFT BLUE INTNESE",
-        "inspirado":  "Creaci├│n original",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  55500,
@@ -1712,7 +1862,7 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "Mysterious Amber",
-        "notas":  "├ímbar y notas amaderadas, l├ídano y vainilla",
+        "notas":  "ámbar y notas amaderadas, ládano y vainilla",
         "inspirado":  "Amber Absolute Tom Ford",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1722,8 +1872,8 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "No.2 Men",
-        "notas":  "bergamota y lavanda, jengibre y cardamomo, vetiver, incienso, almizcle, s├índalo, l├ídano y madera de gaiac",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "bergamota y lavanda, jengibre y cardamomo, vetiver, incienso, almizcle, sándalo, ládano y madera de gaiac",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  52500,
@@ -1732,8 +1882,8 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "Opera Rouge",
-        "notas":  "cereza y mandarina verde, jazm├¡n, flor de azahar del naranjo y t├® negro, vainilla de Madagascar, caf├® y hojas de pachul├¡ de Indonesia",
-        "inspirado":  "Yves Saint Laurent &nbsp;Black Opium Over Red",
+        "notas":  "cereza y mandarina verde, jazmín, flor de azahar del naranjo y té negro, vainilla de Madagascar, café y hojas de pachulí de Indonesia",
+        "inspirado":  "Yves Saint Laurent \u0026nbsp;Black Opium Over Red",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  48500,
@@ -1743,7 +1893,7 @@
         "marca":  "Maison Alhambra",
         "nombre":  "Opulence Leather",
         "notas":  "MAISON ALHAMBRA OPULENCE LEATHER",
-        "inspirado":  "Tom Ford ├Æmbre Leather&nbsp;",
+        "inspirado":  "Tom Ford Òmbre Leather\u0026nbsp;",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  58000,
@@ -1752,7 +1902,7 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "Pacific Blue",
-        "notas":  "lim├│n (lima ├ícida), bergamota, mandarina, naranja amarga, lavanda, mirto y romero, neroli, jazm├¡n y flor de azahar del naranjo, ang├®lica, almizcle ambreta y ├ímbar",
+        "notas":  "limón (lima ácida), bergamota, mandarina, naranja amarga, lavanda, mirto y romero, neroli, jazmín y flor de azahar del naranjo, angélica, almizcle ambreta y ámbar",
         "inspirado":  "Tom Ford Neroli Portofino*",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1762,7 +1912,7 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "Perseus",
-        "notas":  "heliotropo, comino y bergamota, almendra, lavanda y jazm├¡n, vainilla, ├ímbar y s├índalo",
+        "notas":  "heliotropo, comino y bergamota, almendra, lavanda y jazmín, vainilla, ámbar y sándalo",
         "inspirado":  "Pegasus Parfums de Marly",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1772,7 +1922,7 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "Perseus Exclusif",
-        "notas":  "cardamomo, heliotropo, chile rojo (aj├¡ rojo) y bergamota, almendra, lavanda, jazm├¡n y geranio, madera de gaiac, vainilla, s├índalo y ├ímbar gris",
+        "notas":  "cardamomo, heliotropo, chile rojo (ají rojo) y bergamota, almendra, lavanda, jazmín y geranio, madera de gaiac, vainilla, sándalo y ámbar gris",
         "inspirado":  "Pegasus Exclusif Parfums de Marly",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1782,7 +1932,7 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "Philos Centro",
-        "notas":  "jacinto y pi├▒a, iris, jazm├¡n y pimienta rosa, almizcle, ├ímbar, vainilla, pachul├¡ y vetiver",
+        "notas":  "jacinto y piña, iris, jazmín y pimienta rosa, almizcle, ámbar, vainilla, pachulí y vetiver",
         "inspirado":  "XERJOFF ACCENTO",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1792,8 +1942,8 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "Philos Pura",
-        "notas":  "naranja, bergamota y lim├│n (lima ├ícida), vainilla de Madagascar, almizcle blanco y ├ímbar",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "naranja, bergamota y limón (lima ácida), vainilla de Madagascar, almizcle blanco y ámbar",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  52500,
@@ -1802,7 +1952,7 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "Sceptre Amazonite",
-        "notas":  "nuez moscada y canela, cipriol (nagarmota) y incienso de ol├¡bano (franquincienso), madera de oud, azafr├ín y almizcle negro",
+        "notas":  "nuez moscada y canela, cipriol (nagarmota) y incienso de olíbano (franquincienso), madera de oud, azafrán y almizcle negro",
         "inspirado":  "Falkar Bvlgari",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1822,8 +1972,8 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "Sceptre Malachite",
-        "notas":  "Mandarina verde, bergamota y grosellas negras, Notas arom├íticas, notas especiadas, lavanda, pimienta rosa y jazm├¡n, ├ímbar, almizcle, notas amaderadas y vetiver",
-        "inspirado":  "God &nbsp;of Fire Stephane Lucas",
+        "notas":  "Mandarina verde, bergamota y grosellas negras, Notas aromáticas, notas especiadas, lavanda, pimienta rosa y jazmín, ámbar, almizcle, notas amaderadas y vetiver",
+        "inspirado":  "God \u0026nbsp;of Fire Stephane Lucas",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  63500,
@@ -1832,7 +1982,7 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "Smoky",
-        "notas":  "ciruela, durazno (melocot├│n), bergamota y c├¡tricos, miel, Humo y notas orientales, hojas de tabaco, tabaco, ├ímbar y tabaco de flor blanca",
+        "notas":  "ciruela, durazno (melocotón), bergamota y cítricos, miel, Humo y notas orientales, hojas de tabaco, tabaco, ámbar y tabaco de flor blanca",
         "inspirado":  "DIOR TOBACOLOR",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1842,7 +1992,7 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "Terra",
-        "notas":  "cipr├®s y bergamota, ├ímbar, cedro, l├ídano y caramelo, vetiver, almizcle y jazm├¡n",
+        "notas":  "ciprés y bergamota, ámbar, cedro, ládano y caramelo, vetiver, almizcle y jazmín",
         "inspirado":  "Terroni Orto Parisi",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1852,7 +2002,7 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "True Word",
-        "notas":  "cardamomo y pi├▒a, salvia, vainilla y incienso, haba tonka, s├índalo y pachul├¡",
+        "notas":  "cardamomo y piña, salvia, vainilla y incienso, haba tonka, sándalo y pachulí",
         "inspirado":  "Blue Talisman Ex Nihilo",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1862,7 +2012,7 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "Victorioso",
-        "notas":  "Notas marinas y bergamota, hoja de laurel y jazm├¡n, ├ímbar gris, musgo de roble, madera de gaiac y pachul├¡",
+        "notas":  "Notas marinas y bergamota, hoja de laurel y jazmín, ámbar gris, musgo de roble, madera de gaiac y pachulí",
         "inspirado":  "INVICTUS PACO RABANNE",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1873,7 +2023,7 @@
         "marca":  "Maison Alhambra",
         "nombre":  "Victorioso Fearless",
         "notas":  "MAISON ALHAMBRA VICTORIOSO FEARLESS",
-        "inspirado":  "Creaci├│n original",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  43000,
@@ -1883,7 +2033,7 @@
         "marca":  "Maison Alhambra",
         "nombre":  "Victorioso Heroic",
         "notas":  "MAISON ALHAMBRA VICTORIOSO HEROIC",
-        "inspirado":  "Creaci├│n original",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  44500,
@@ -1902,7 +2052,7 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "Victorioso Myth",
-        "notas":  "sal, Notas marinas y toronja (pomelo), hoja de laurel, geranio y especias, ├ímbar y madera de gaiac",
+        "notas":  "sal, Notas marinas y toronja (pomelo), hoja de laurel, geranio y especias, ámbar y madera de gaiac",
         "inspirado":  "Paco Rabanne Invictus Legend",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1913,7 +2063,7 @@
         "marca":  "Maison Alhambra",
         "nombre":  "Winsome",
         "notas":  "MAISON ALHAMBRA WINSOME",
-        "inspirado":  "Creaci├│n original",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  50000,
@@ -1922,8 +2072,8 @@
     {
         "marca":  "Maison Alhambra",
         "nombre":  "Yeah Man Parfum",
-        "notas":  "aldeh├¡dos, manzana, jengibre y toronja (pomelo), lavanda, salvia y geranio, haba tonka, Incienso, cedro y pachul├¡",
-        "inspirado":  "&nbsp; Y Le Parfum Yves Saint Laurent",
+        "notas":  "aldehídos, manzana, jengibre y toronja (pomelo), lavanda, salvia y geranio, haba tonka, Incienso, cedro y pachulí",
+        "inspirado":  "\u0026nbsp; Y Le Parfum Yves Saint Laurent",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  51500,
@@ -1933,7 +2083,7 @@
         "marca":  "Maison Alhambra",
         "nombre":  "Your Touch Amber",
         "notas":  "lavanda, vainilla de Madagascar",
-        "inspirado":  "Creaci├│n original",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  44500,
@@ -1943,7 +2093,7 @@
         "marca":  "Maison Alhambra",
         "nombre":  "Your Touch Extrait",
         "notas":  "MAISON ALHAMBRA YOUR TOUCH EXTRAIT",
-        "inspirado":  "Creaci├│n original",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  44500,
@@ -1951,8 +2101,8 @@
     },
     {
         "marca":  "Maison Alhambra",
-        "nombre":  "├ëb├¿ne",
-        "notas":  "clavos de olor, elem├¡ y abr├│tano, incienso de ol├¡bano (franquincienso) y madera de gaiac",
+        "nombre":  "Ébène",
+        "notas":  "clavos de olor, elemí y abrótano, incienso de olíbano (franquincienso) y madera de gaiac",
         "inspirado":  "Babycat Yves Saint Laurent",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1962,7 +2112,7 @@
     {
         "marca":  "Maison Asrar",
         "nombre":  "Flair",
-        "notas":  "notas acu├íticas, pimienta rosa, incienso, notas verdes y toronja (pomelo), lavanda, nuez moscada, g├ílbano y caf├®, cachemira, pachul├¡, ├ímbar y vetiver",
+        "notas":  "notas acuáticas, pimienta rosa, incienso, notas verdes y toronja (pomelo), lavanda, nuez moscada, gálbano y café, cachemira, pachulí, ámbar y vetiver",
         "inspirado":  "Sauvage Elixir Dior",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -1972,8 +2122,8 @@
     {
         "marca":  "Maison Asrar",
         "nombre":  "Leo",
-        "notas":  "cuero, lirio de los valles (muguete) y pimienta negra, gamuza, styrax y pachul├¡, vainilla, ├ímbar gris y almizcle",
-        "inspirado":  "Ombr├® Leather (2018) Tom Ford",
+        "notas":  "cuero, lirio de los valles (muguete) y pimienta negra, gamuza, styrax y pachulí, vainilla, ámbar gris y almizcle",
+        "inspirado":  "Ombré Leather (2018) Tom Ford",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  86500,
@@ -1982,8 +2132,8 @@
     {
         "marca":  "Maison Asrar",
         "nombre":  "Masterpiece",
-        "notas":  "clavo de olor, manzana y cardamomo, lavanda, canela y geranio, vainilla, cedro y ├ímbar",
-        "inspirado":  "Altha├»r Parfums de Marly",
+        "notas":  "clavo de olor, manzana y cardamomo, lavanda, canela y geranio, vainilla, cedro y ámbar",
+        "inspirado":  "Althaïr Parfums de Marly",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  74500,
@@ -1991,8 +2141,18 @@
     },
     {
         "marca":  "Maison Asrar",
+        "nombre":  "Throne Eclipse",
+        "notas":  "cardamomo, manzana y clavo de olor, canela, lavanda y geranio, ámbar, vainilla y cedro",
+        "inspirado":  "Althaïr Parfums de Marly",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  89000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/a89fed00-4a3e-4481-8523-31655e4ecac5.webp"
+    },
+    {
+        "marca":  "Maison Asrar",
         "nombre":  "Timeless",
-        "notas":  "bergamota, lim├│n (lima ├ícida) y elem├¡, romero, grosellas negras y manzana verde, ├ímbar gris y pachul├¡",
+        "notas":  "bergamota, limón (lima ácida) y elemí, romero, grosellas negras y manzana verde, ámbar gris y pachulí",
         "inspirado":  "Aventus Creed",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -2001,8 +2161,8 @@
     },
     {
         "marca":  "Paris Corner",
-        "nombre":  "Emir Vibrant Orange & Neroli",
-        "notas":  "mandarina y lim├│n California (lima California), neroli y jazm├¡n sambac (sampaguita), algod├│n de az├║car y almizcle blanco",
+        "nombre":  "Emir Vibrant Orange \u0026 Neroli",
+        "notas":  "mandarina y limón California (lima California), neroli y jazmín sambac (sampaguita), algodón de azúcar y almizcle blanco",
         "inspirado":  "Sundazed Byredo",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -2012,7 +2172,7 @@
     {
         "marca":  "Paris Corner",
         "nombre":  "Frenetic Men Extrait De Parfum",
-        "notas":  "toronja (pomelo), cardamomo, canela y nuez moscada, vetiver de Hait├¡, s├índalo, pachul├¡, ├ímbar y regaliz",
+        "notas":  "toronja (pomelo), cardamomo, canela y nuez moscada, vetiver de Haití, sándalo, pachulí, ámbar y regaliz",
         "inspirado":  "DIOR SAUVAGE ELIXIR",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -2022,7 +2182,7 @@
     {
         "marca":  "Paris Corner",
         "nombre":  "Frenetic Red Tempt Extrait De Parfum",
-        "notas":  "bergamota, nuez moscada, lim├│n (lima ├ícida), mandarina y lavanda, hojas de violeta, s├índalo, cedro y jazm├¡n, cuero, vetiver, ├ímbar, almizcle, pachul├¡ y haba tonka",
+        "notas":  "bergamota, nuez moscada, limón (lima ácida), mandarina y lavanda, hojas de violeta, sándalo, cedro y jazmín, cuero, vetiver, ámbar, almizcle, pachulí y haba tonka",
         "inspirado":  "Fahrenheit Dior",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -2032,8 +2192,8 @@
     {
         "marca":  "Paris Corner",
         "nombre":  "Frenetic Tobacco Honey Extrait De Parfum",
-        "notas":  "tabaco y miel, Humo, ciruela y tabaco de flor blanca, ├ímbar, notas orientales y durazno (melocot├│n)",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "tabaco y miel, Humo, ciruela y tabaco de flor blanca, ámbar, notas orientales y durazno (melocotón)",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  54000,
@@ -2053,7 +2213,7 @@
         "marca":  "Paris Corner",
         "nombre":  "Pendora Black Extremo",
         "notas":  "PARIS CORNER PENDORA BLACK EXTREMO",
-        "inspirado":  "Creaci├│n original",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  50000,
@@ -2071,29 +2231,9 @@
     },
     {
         "marca":  "Paris Corner",
-        "nombre":  "Pendora Dream Catcher",
-        "notas":  "PARIS CORNER PENDORA DREAM CATCHER",
-        "inspirado":  "Creaci├│n original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  50000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/ef2832f9-f62d-4873-aab0-5b9c980b234d.webp"
-    },
-    {
-        "marca":  "Paris Corner",
-        "nombre":  "Pendora Wayfarer",
-        "notas":  "PARIS CORNER PENDORA WAYFARER",
-        "inspirado":  "Creaci├│n original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  52500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/199783c2-e641-4168-9f23-09901de822dd.webp"
-    },
-    {
-        "marca":  "Paris Corner",
         "nombre":  "Prodigy",
-        "notas":  "canela, manzana verde y naranja, ├ímbar, flores blancas y esclarea, vainilla, Amberwood, haba tonka y almizcle",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "canela, manzana verde y naranja, ámbar, flores blancas y esclarea, vainilla, Amberwood, haba tonka y almizcle",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  81000,
@@ -2102,7 +2242,7 @@
     {
         "marca":  "Paris Corner",
         "nombre":  "Rifaaqat",
-        "notas":  "pimienta negra, elem├¡ y pimienta rosa, incienso de ol├¡bano (franquincienso) y azafr├ín, vainilla y cedro",
+        "notas":  "pimienta negra, elemí y pimienta rosa, incienso de olíbano (franquincienso) y azafrán, vainilla y cedro",
         "inspirado":  "Babycat Yves Saint Laurent",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -2112,7 +2252,7 @@
     {
         "marca":  "Paris Corner",
         "nombre":  "Virilis",
-        "notas":  "lavanda, menta, pi├▒a, abr├│tano, canela y bergamota, ├ímbar, Amberwood, benju├¡ y pachul├¡, vainilla, t├│fe, musgo de roble y almizcle",
+        "notas":  "lavanda, menta, piña, abrótano, canela y bergamota, ámbar, Amberwood, benjuí y pachulí, vainilla, tófe, musgo de roble y almizcle",
         "inspirado":  "Le Male Elixir Jean Paul Gaultier",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -2123,7 +2263,7 @@
         "marca":  "Pendora",
         "nombre":  "Platina",
         "notas":  "PENDORA SCENTS MILANO PLATINA",
-        "inspirado":  "Creaci├│n original",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  50500,
@@ -2132,8 +2272,8 @@
     {
         "marca":  "Pendora",
         "nombre":  "Prive",
-        "notas":  "canela y mandarina roja, mirra y tabaco, haba tonka y pachul├¡",
-        "inspirado":  "1 Million Priv├® Rabanne",
+        "notas":  "canela y mandarina roja, mirra y tabaco, haba tonka y pachulí",
+        "inspirado":  "1 Million Privé Rabanne",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  51500,
@@ -2142,8 +2282,8 @@
     {
         "marca":  "Lattafa",
         "nombre":  "Qaed Al Fursan Unlimited",
-        "notas":  "coco, c├¡tricos y pi├▒a, ylang-ylang, frangipani (plumeria, plumaria, atapaima) y jazm├¡n, vainilla, almizcle, s├índalo y notas dulces",
-        "inspirado":  "Creaci├│n original",
+        "notas":  "coco, cítricos y piña, ylang-ylang, frangipani (plumeria, plumaria, atapaima) y jazmín, vainilla, almizcle, sándalo y notas dulces",
+        "inspirado":  "CreaciÃ³n original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  40500,
@@ -2151,9 +2291,19 @@
     },
     {
         "marca":  "Rasasi",
+        "nombre":  "Hawas Chrome",
+        "notas":  "durazno (melocotón), Frutas amarillas y naranja dulce, frutas, Maracuyá, mango y Agua, almizcle, ámbar y vainilla",
+        "inspirado":  "XERJOFF ERBA GOLD",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  120000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/f3b682e6-99cb-4537-bea9-4b214f82b097.webp"
+    },
+    {
+        "marca":  "Rasasi",
         "nombre":  "Hawas For Her",
-        "notas":  "granada, manzana y toronja (pomelo), iris, jazm├¡n sambac (sampaguita) y c├¡tricos, pralin├®, pachul├¡ y vetiver",
-        "inspirado":  "La Vie Est Belle Lanc├┤me",
+        "notas":  "granada, manzana y toronja (pomelo), iris, jazmín sambac (sampaguita) y cítricos, praliné, pachulí y vetiver",
+        "inspirado":  "La Vie Est Belle Lancôme",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  71500,
@@ -2162,27 +2312,17 @@
     {
         "marca":  "Rasasi",
         "nombre":  "Marha Pour Homme",
-        "notas":  "frambuesa, azafr├ín y tomillo, incienso de ol├¡bano (franquincienso) y jazm├¡n, cuero, gamuza, notas amaderadas y ├ímbar",
-        "inspirado":  "Ombr├® Leather (2018) Tom Ford",
+        "notas":  "frambuesa, azafrán y tomillo, incienso de olíbano (franquincienso) y jazmín, cuero, gamuza, notas amaderadas y ámbar",
+        "inspirado":  "Ombré Leather (2018) Tom Ford",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  54000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/fc18b9b4-0d30-43d7-ba79-da2db33bcbdd.webp"
     },
     {
-        "marca":  "Rasasi",
-        "nombre":  "Yumn Pour Homme",
-        "notas":  "cedro y ├ímbar, cardamomo y bergamota",
-        "inspirado":  "La Nuit de l&#39;Homme Yves Saint Laurent",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  54000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/7e46a834-39ec-42b9-ac76-1a46f172ec7b.webp"
-    },
-    {
         "marca":  "Rayhaan",
         "nombre":  "Cordova",
-        "notas":  "pachul├¡ y cipr├®s, ├ímbar, notas amaderadas y vetiver",
+        "notas":  "pachulí y ciprés, ámbar, notas amaderadas y vetiver",
         "inspirado":  "Gucci Guilty Absolute Gucci",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -2192,7 +2332,7 @@
     {
         "marca":  "Rayhaan",
         "nombre":  "Corium",
-        "notas":  "casta├▒a, especias y elem├¡, vainilla, cuero y madera de oud",
+        "notas":  "castaña, especias y elemí, vainilla, cuero y madera de oud",
         "inspirado":  "Emporio Armani Stronger With You Leather Giorgio Armani",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -2202,7 +2342,7 @@
     {
         "marca":  "Rayhaan",
         "nombre":  "Elixir",
-        "notas":  "menta y bergamota, benju├¡ y lavanda, vainilla y haba tonka",
+        "notas":  "menta y bergamota, benjuí y lavanda, vainilla y haba tonka",
         "inspirado":  "Le Male Elixir Jean Paul Gaultier",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -2212,7 +2352,7 @@
     {
         "marca":  "Rayhaan",
         "nombre":  "Italia",
-        "notas":  "lavanda, lim├│n (lima ├ícida) y bergamota, miel, canela, cachemira y jazm├¡n, hojas de tabaco, vainilla y haba tonka",
+        "notas":  "lavanda, limón (lima ácida) y bergamota, miel, canela, cachemira y jazmín, hojas de tabaco, vainilla y haba tonka",
         "inspirado":  "Xerjoff Naxos",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -2222,17 +2362,17 @@
     {
         "marca":  "Rayhaan",
         "nombre":  "Jungle Vibes",
-        "notas":  "higo, toronja (pomelo) y bergamota, notas verdes y Notas acu├íticas",
+        "notas":  "higo, toronja (pomelo) y bergamota, notas verdes y Notas acuáticas",
         "inspirado":  "Santal Greenery Dries Van Noten",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  90500,
+        "precio":  88000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/2b6d2d3c-cd7b-43f7-a66a-7c62036eff91.webp"
     },
     {
         "marca":  "Rayhaan",
         "nombre":  "Lion",
-        "notas":  "lavanda, pera, menta y bergamota, canela, esclarea y comino, vainilla, ├ímbar, cedro y pachul├¡",
+        "notas":  "lavanda, pera, menta y bergamota, canela, esclarea y comino, vainilla, ámbar, cedro y pachulí",
         "inspirado":  "Ultra Male Jean Paul Gaultier",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -2242,7 +2382,7 @@
     {
         "marca":  "Rayhaan",
         "nombre":  "Obsidian",
-        "notas":  "iris y c├¡tricos, s├índalo, almizcle ambreta, cedro y madera de oud",
+        "notas":  "iris y cítricos, sándalo, almizcle ambreta, cedro y madera de oud",
         "inspirado":  "Dior Homme Parfum 2025 Dior",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -2252,7 +2392,7 @@
     {
         "marca":  "Rayhaan",
         "nombre":  "Pacific Aura",
-        "notas":  "menta, mandarina, cidra, bergamota, grosellas negras y cilantro, albahaca, zanahoria y rosa, ambroxan, higo y ├ímbar",
+        "notas":  "menta, mandarina, cidra, bergamota, grosellas negras y cilantro, albahaca, zanahoria y rosa, ambroxan, higo y ámbar",
         "inspirado":  "Pacific Chill Louis Vuitton",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -2262,7 +2402,7 @@
     {
         "marca":  "Rayhaan",
         "nombre":  "Terra",
-        "notas":  "cardamomo, elem├¡, pimienta de Sichuan, bergamota y lim├│n (lima ├ícida), pachul├¡, comino, cilantro, an├¡s, azafr├ín, flor de azahar del naranjo, ajenjo (absenta), rosa y geranio, Incienso, ├ímbar, vainilla, benju├¡, opop├│naco, madera de oud, l├ídano, abedul, almizcle, Maltol y ├ímbar gris",
+        "notas":  "cardamomo, elemí, pimienta de Sichuan, bergamota y limón (lima ácida), pachulí, comino, cilantro, anís, azafrán, flor de azahar del naranjo, ajenjo (absenta), rosa y geranio, Incienso, ámbar, vainilla, benjuí, opopónaco, madera de oud, ládano, abedul, almizcle, Maltol y ámbar gris",
         "inspirado":  "Outlands Amouage",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -2272,8 +2412,8 @@
     {
         "marca":  "Rayhaan",
         "nombre":  "Tiger Cal Cologne Edition",
-        "notas":  "nuez moscada, clavo de olor y lim├│n (lima ├ícida), leche, rosa y Davana, ├ímbar, pachul├¡, Incienso y l├ídano INSPIRADO EN: Halfeti Penhaligon&#39",
-        "inspirado":  "Halfeti Penhaligon&#39;s",
+        "notas":  "nuez moscada, clavo de olor y limón (lima ácida), leche, rosa y Davana, ámbar, pachulí, Incienso y ládano INSPIRADO EN: Halfeti Penhaligon\u0026#39",
+        "inspirado":  "Halfeti Penhaligon\u0026#39;s",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  82500,
@@ -2282,22 +2422,12 @@
     {
         "marca":  "Rayhaan",
         "nombre":  "Tropical Vibe",
-        "notas":  "bergamota, mango y pi├▒a, almizcle, ├ímbar, s├índalo y vetiver",
+        "notas":  "bergamota, mango y piña, almizcle, ámbar, sándalo y vetiver",
         "inspirado":  "Lorenzo Pazzaglia Summer Hammer",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  88000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/fb54e2ba-b1df-45bf-968f-f588824e6bce.webp"
-    },
-    {
-        "marca":  "Rayhaan",
-        "nombre":  "Valhalla",
-        "notas":  "frambuesa, co├▒ac y Licor, rosa de Bulgaria (rosa Damascena de Bulgaria), haba tonka y musgo de roble, s├índalo, roble y pralin├®",
-        "inspirado":  "Angels&#39; Share Paradis By Kilian",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  88000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/d495775b-71c7-4e3a-847e-baadf5cc9a2b.webp"
     },
     {
         "marca":  "Rayhaan",
@@ -2312,7 +2442,7 @@
     {
         "marca":  "Riiffs",
         "nombre":  "Momento Extrait De Parfum",
-        "notas":  "az├║car, azafr├ín y mandarina, haba tonka, rosa de Damasco y madera de oud, Amberwood, caramelo y cedro",
+        "notas":  "azúcar, azafrán y mandarina, haba tonka, rosa de Damasco y madera de oud, Amberwood, caramelo y cedro",
         "inspirado":  "Arabians Tonka Montale",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -2321,8 +2451,18 @@
     },
     {
         "marca":  "Zimaya",
+        "nombre":  "Fatima Velvet Love",
+        "notas":  "ZIMAYA FATIMA VELVET LOVE",
+        "inspirado":  "CreaciÃ³n original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  57500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/fc134a58-908c-4fa8-9527-5b1c765095d2.webp"
+    },
+    {
+        "marca":  "Zimaya",
         "nombre":  "Icon",
-        "notas":  "pachul├¡, madera de oud, cuero, incienso, cedro y almizcle, pimienta rosa, cardamomo, incienso de ol├¡bano (franquincienso), azafr├ín y nuez moscada, geranio y mirra",
+        "notas":  "pachulí, madera de oud, cuero, incienso, cedro y almizcle, pimienta rosa, cardamomo, incienso de olíbano (franquincienso), azafrán y nuez moscada, geranio y mirra",
         "inspirado":  "Epic Man Amouage",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
@@ -2331,252 +2471,12 @@
     },
     {
         "marca":  "Zimaya",
-        "nombre":  "Tiramis├║ Coco",
-        "notas":  "amaretto y caf├®, helado, bizcocho y vainilla, vainilla, az├║car moreno y ├ímbar",
-        "inspirado":  "MANCERA AMORE CAFF├ê",
+        "nombre":  "Tiramisú Coco",
+        "notas":  "amaretto y café, helado, bizcocho y vainilla, vainilla, azúcar moreno y ámbar",
+        "inspirado":  "MANCERA AMORE CAFFÈ",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  67500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/8ba08d37-9308-4913-8ab5-973b475e8296.webp"
-    },
-    {
-        "marca":  "Anfar",
-        "nombre":  "Artisan Blu",
-        "notas":  "citricos, bergamota de Calabria, naranja de Sicilia, neroli de Tunez, jengibre, canela, te negro chino, palo guayaco, olibano, ambroxan",
-        "inspirado":  "Louis Vuitton Imagination",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  91000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1da277f4-eb67-407f-8f57-666f0f5a36e7.webp"
-    },
-    {
-        "marca":  "Anfar",
-        "nombre":  "Azule Elite",
-        "notas":  "pachuli, cardamomo, oud, canela, notas amaderadas, ambar, almizcle, sandalo, haba tonka",
-        "inspirado":  "Creacion original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  92500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/c382a63f-c8b2-4066-94f3-1371e1a2659c.webp"
-    },
-    {
-        "marca":  "Anfar",
-        "nombre":  "Midnight Homme Intnese",
-        "notas":  "pomelo, cardamomo, canela, nuez moscada, lavanda, laurel, jazmin, sandalo, ambar, pachuli, vetiver",
-        "inspirado":  "Dior Sauvage Elixir",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  90500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/f0e9c416-5112-41c7-b33a-1873df9a7809.webp"
-    },
-    {
-        "marca":  "Anfar",
-        "nombre":  "Midnigth Frost Tangerine",
-        "notas":  "mandarina, bergamota, manzana, azafran, azahar, cardamomo, ciruela, ambar, almizcle, madera flotada, musgo",
-        "inspirado":  "Rasasi Hawas Ice",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  93000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/69009c19-25f3-48d2-9845-7f9a9258d0b6.webp"
-    },
-    {
-        "marca":  "Anfar",
-        "nombre":  "Royal Imperial",
-        "notas":  "pachuli, notas aterciopeladas, almizcle blanco, vetiver, almizcle",
-        "inspirado":  "Creacion original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  88000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/c539470b-f841-4564-8b36-d32eb2b415eb.webp"
-    },
-    {
-        "marca":  "Armaf",
-        "nombre":  "SHK II",
-        "notas":  "melocoton, rosa, bergamota, caramelo, jazmin, oud, azafran, cuero, almizcle, vainilla, benjui, maderas, ladano, pachuli",
-        "inspirado":  "Creacion original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  98500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/5f0e11a0-ba5d-4ccc-8154-5baad40ec103.webp"
-    },
-    {
-        "marca":  "Bharara",
-        "nombre":  "Mast Perfume Rome Pour Homme",
-        "notas":  "geranio, rosa, salvia, jengibre, cedro, vetiver",
-        "inspirado":  "Valentino Uomo Born in Roma",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  86500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/40a469c4-1bb2-420d-986e-2674b266b614.webp"
-    },
-    {
-        "marca":  "Bharara",
-        "nombre":  "Mast Perfume Rome Ivory Pour Homme",
-        "notas":  "limon, bergamota, naranja, crema, pimienta, nuez moscada, geranio, lavandin, sandalo, pachuli, ladano, ahumado, oud, cedro, incienso, vetiver, almizcle, benjui, vainilla, ambar",
-        "inspirado":  "Valentino Uomo Born in Roma Ivory",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  89000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4824a0b0-7896-400b-8769-0344aaf9f4bb.webp"
-    },
-    {
-        "marca":  "Bharara",
-        "nombre":  "Mast Perfume Rome Melancholia Pour Femme",
-        "notas":  "frutas amarillas, flores blancas, lavanda, caramelo, violeta, ambar blanco, acentos gourmand",
-        "inspirado":  "Creacion original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  88000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/27c96e6a-8689-4296-9648-818b9399f4e2.webp"
-    },
-    {
-        "marca":  "Bharara",
-        "nombre":  "Rey de Reyes",
-        "notas":  "enebro, cardamomo, pimienta rosa, bergamota, lavanda, nuez moscada, geranio, pachuli, sandalo, ambroxan",
-        "inspirado":  "Creacion original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  171500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/b410c8a3-44a2-428c-af48-f4503b00b068.webp"
-    },
-    {
-        "marca":  "Maison Alhambra",
-        "nombre":  "Dark Door Sport",
-        "notas":  "limon, pomelo, resina elemi, bergamota, jengibre, cedro, vetiver, romero, lavanda, sandalo",
-        "inspirado":  "Dior Homme Sport 2021",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  44500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/09645a2f-4817-41c1-9788-3fdcd3beaaa4.webp"
-    },
-    {
-        "marca":  "Dumont",
-        "nombre":  "Nitro Blue",
-        "notas":  "azahar, canela, limon, salvia, albahaca, praline, balsamo de tolu, maderas, cardamomo negro, notas dulces, ambar negro, pachuli, palo de rosa",
-        "inspirado":  "Parfums de Marly Pegasus",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  77000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/8f66b94d-5df1-44de-b24f-1760a6f8db77.webp"
-    },
-    {
-        "marca":  "Dumont",
-        "nombre":  "Nitro Platinum",
-        "notas":  "grosella negra, naranja, manzana, bergamota, pimienta rosa, cardamomo, vainilla, azucar, ambar, madera seca, azafran, muguete, cedro, guayaco, almizcle, musgo",
-        "inspirado":  "Creed Aventus",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  75500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/ab03fa2f-6fdf-4c59-9984-a6b7d77bd24a.webp"
-    },
-    {
-        "marca":  "Fragrance World",
-        "nombre":  "Jovian",
-        "notas":  "jazmin sambac, cachemiran, ambar blanco",
-        "inspirado":  "Mugler Alien",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  52000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/a2906900-9740-4cf7-8164-bf94e4538a1b.webp"
-    },
-    {
-        "marca":  "French Avenue",
-        "nombre":  "Aromatix Royal Taboo",
-        "notas":  "cardamomo, canela, ambar, benjui, tabaco, cachemira, heliotropo, jazmin, vainilla, haba tonka, pachuli, madera seca",
-        "inspirado":  "Creed Centaurus",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  97000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/f0bfa844-17c4-4a03-a2ee-268b905e100b.webp"
-    },
-    {
-        "marca":  "French Avenue",
-        "nombre":  "Eclair Affair",
-        "notas":  "vainilla en rama, leche de coco, jazmin, caramelo, acorde gourmand, ambar, haba tonka, almizcle",
-        "inspirado":  "Giardini di Toscana Bianco Latte",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  70000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1b9753c6-caab-4988-9bbf-1f784cc866b7.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Mayar Natural Intnese",
-        "notas":  "mandarina verde, higo, agua de coco, melon, loto, nenufar, jazmin, almizcle, ambroxan, vainilla, sandalo",
-        "inspirado":  "Giorgio Armani Acqua di Gioia",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  55500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/70107cfd-35c1-4ed0-9da7-0e5538ad70df.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Qaed Al Fursan Untamed",
-        "notas":  "canela, cardamomo, mandarina, nuez moscada, caramelo, lavanda, salvia, geranio, cipres, ambar, cedro, olibano, vetiver, ladano",
-        "inspirado":  "Versace Eros Najim",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  44500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/a450fd11-6a04-4e88-9ca8-ca96570cf3b1.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Teriaq",
-        "notas":  "caramelo, almendra amarga, albaricoque, pimienta rosa, miel, ruibarbo, flores blancas, rosa, cuero, vainilla, almizcle, ladano, vetiver",
-        "inspirado":  "Creacion original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  73000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/8e8ab361-5c3b-45bb-bb36-8b601e991780.webp"
-    },
-    {
-        "marca":  "Maison Alhambra",
-        "nombre":  "Hercules",
-        "notas":  "canela, pimienta, hoja de tabaco, incienso, ladano, osmanto, vainilla, cedro, almizcle, vetiver",
-        "inspirado":  "Parfums de Marly Herod",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  48500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/63dfe6dd-243f-4010-b7ed-11fcf4cc379b.webp"
-    },
-    {
-        "marca":  "Maison Asrar",
-        "nombre":  "Throne Eclipse",
-        "notas":  "cardamomo, manzana, clavo, lavanda, canela, geranio, ambar, vainilla, cedro",
-        "inspirado":  "Parfums de Marly Althair",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  89000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/a89fed00-4a3e-4481-8523-31655e4ecac5.webp"
-    },
-    {
-        "marca":  "Mykonos",
-        "nombre":  "Reflection",
-        "notas":  "pomelo, jengibre, bergamota, notas marinas, cardamomo, lirio de los valles, almizcle, pachuli, ambar, ambroxan",
-        "inspirado":  "Creacion original",
-        "tamano":  "50ml",
-        "formato":  "Botella Completa",
-        "precio":  54500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/cf2be06a-25e3-430c-ad0c-6628c4988e4c.webp"
-    },
-    {
-        "marca":  "Rasasi",
-        "nombre":  "Hawas Chrome",
-        "notas":  "melocoton, frutas amarillas, naranja dulce, maracuya, mango, notas acuaticas, almizcle, ambar, vainilla",
-        "inspirado":  "Xerjoff Erba Pura",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  120000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/f3b682e6-99cb-4537-bea9-4b214f82b097.webp"
-    },
-    {
-        "marca":  "Zimaya",
-        "nombre":  "Fatima Velvet Love",
-        "notas":  "maracuya, notas acuaticas, pera, ambar, durazno, lirio de los valles, jazmin, ylang-ylang, almizcle, sandalo, caramelo",
-        "inspirado":  "Parfums de Marly Safanad",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  57500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/fc134a58-908c-4fa8-9527-5b1c765095d2.webp"
     }
 ]
