@@ -552,7 +552,7 @@ document.querySelectorAll('a[href^="#"]').forEach(enlace => {
     });
 });
 
-const destacadosBuscados = ['9PM Night Out', 'Mandarin Sky Aqua', '9PM Elixir', 'Checkmate King', 'Khamrah Waha', 'Asad Elixir'];
+const destacadosBuscados = ['9PM Night Out', 'Odyssey Mandarin Sky', '9PM Elixir', 'Checkmate King', 'Khamrah Waha', 'Asad Elixir'];
 let destacados = [];
 
 function renderizarDestacados() {
