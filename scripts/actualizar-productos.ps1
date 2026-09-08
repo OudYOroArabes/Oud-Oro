@@ -1,4 +1,4 @@
-﻿# actualizar-productos.ps1
+# actualizar-productos.ps1
 # Sincroniza el catalogo con la API de mipodba:
 #  - Conserva los productos "manuales" (imagen no GCS) tal cual estan.
 #  - Regenera los productos "mipodba" (imagen storage.googleapis.com +35%, lista siempre al final).
@@ -74,7 +74,6 @@ $marcas = @{
 $forzarNombre = @{ 'QAED AL FURSAN UNLIMITED' = 'Qaed Al Fursan Unlimited' }
 
 $excluir = @(
-    'ARMAF ODYSSEY MANDARIN SKY',
     'EMPER DONNA INTNESE BY STALLION 53'
 )
 $forzarInclude = @(
