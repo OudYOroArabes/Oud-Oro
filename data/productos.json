@@ -1,36 +1,6 @@
 [
     {
         "marca":  "Lattafa",
-        "nombre":  "Oud for Glory (Bade'e Al Oud)",
-        "notas":  "Azafr├ín, Nuez moscada, Lavanda, Madera de Oud, Pachul├¡, Almizcle",
-        "inspirado":  "Initio Oud for Greatness",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  50500,
-        "imagen":  "https://www.intenseoud.com/cdn/shop/files/13_0446c1a7-a09e-44ea-ad05-59fb9d28df08.png?v=1685027211"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Honor & Glory (Bade'e Al Oud)",
-        "notas":  "Pi├▒a, Br├╗l├®e de pi├▒a, Canela, Benju├¡, Vainilla, S├índalo, Cachemira",
-        "inspirado":  "Nishane Ani",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  51500,
-        "imagen":  "https://static.wixstatic.com/media/1b0cdc_393000c241d248f4a3122c682f7e6cc2~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg"
-    },
-    {
-        "marca":  "Al Haramain",
-        "nombre":  "Amber Oud Gold Edition",
-        "notas":  "Notas Frutales, Bergamota, Mel├│n, Pi├▒a, Notas Ambarinas, Almizcle, Vainilla",
-        "inspirado":  "Xerjoff Erba Pura",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  119500,
-        "imagen":  "https://oudroma.com/cdn/shop/files/61x3GvRF53L.jpg?v=1740087129"
-    },
-    {
-        "marca":  "Lattafa",
         "nombre":  "Fakhar Black",
         "notas":  "Manzana, Bergamota, Jengibre, Salvia, Lavanda, Enebro, Haba Tonka, Amberwood",
         "inspirado":  "Yves Saint Laurent Y EDP",
@@ -248,16 +218,6 @@
         "formato":  "Botella Completa",
         "precio":  63500,
         "imagen":  "https://oasisperfumesusa.com/cdn/shop/files/uawoh0phm2hx0q5vbrapownk.png?v=1755205057"
-    },
-    {
-        "marca":  "French Avenue",
-        "nombre":  "Dark Door Sport EDP",
-        "notas":  "Lim├│n, Bergamota, Nuez moscada, S├índalo, Vetiver, Almizcle",
-        "inspirado":  "Dior Homme Sport",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  39500,
-        "imagen":  "https://cdn2.jomashop.com/media/catalog/product/cache/b3e31d40bbb1abcc90b26106659d5d3f/m/a/maison-alhambra-unisex-dark-door-sport-edp-3-4-oz-fragrances-6290360590820.jpg"
     },
     {
         "marca":  "Emper",
@@ -1213,7 +1173,7 @@
         "marca":  "Lattafa",
         "nombre":  "Badee Honor & Glory",
         "notas":  "pi├▒a y cr├®me brul├®e, canela, c├║rcuma (azafr├ín de la India), pimienta negra y benju├¡, vainilla, s├índalo, cachemira y musgo",
-        "inspirado":  "Creaci├│n original",
+        "inspirado":  "Nishane Ani",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  58000,
