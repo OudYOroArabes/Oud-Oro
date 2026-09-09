@@ -90,6 +90,14 @@ function renderizarFiltros() {
     favBtn.innerHTML = '<span class="fav-chip-icono">♥</span> Favoritos <span class="fav-chip-num" id="fav-chip-num">' + (nFav > 0 ? nFav : '') + '</span>';
     cont.appendChild(favBtn);
 
+    const ultBtn = document.createElement('a');
+    ultBtn.className = 'filtro-chip fav-chip';
+    ultBtn.id = 'btn-ultimos';
+    ultBtn.href = 'ultimos.html';
+    ultBtn.setAttribute('aria-label', 'Ver últimos agregados');
+    ultBtn.innerHTML = '<svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg> Últimos agregados';
+    cont.appendChild(ultBtn);
+
     const panel = document.createElement('div');
     panel.className = 'marcas-menu';
     panel.id = 'marcas-menu';
