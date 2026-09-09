@@ -1658,3 +1658,10 @@ h1, h2, h3, h4 {
         }
         .fav-vacio p { margin-bottom: 24px; }
         .fav-vacio .cta-btn { display: inline-block; text-decoration: none; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .card-reveal, .scroll-reveal { opacity: 1 !important; transform: none !important; transition: none !important; }
+            .product-card { transition: box-shadow 0.4s ease; }
+            .product-card:hover { transform: none; }
+            .hero h1, .hero p, .banner-texto * { animation: none !important; opacity: 1 !important; }
+        }

@@ -53,42 +53,64 @@ function marcarCorazones() {
     });
 }
 
-function renderizar() {
+function cardHTML(p, i, conDelay) {
+    const el = document.createElement('div');
+    el.className = 'product-card card-reveal';
+    el.dataset.index = i;
+    el.setAttribute('role', 'button');
+    el.setAttribute('tabindex', '0');
+    el.setAttribute('aria-label', `Ver ${p.marca} ${p.nombre}`);
+    if (conDelay) el.style.transitionDelay = `${Math.min(i * 0.05, 0.15)}s`;
+    el.innerHTML = `
+        <span class="fav-corazon" data-id="${idProducto(p)}" role="button" tabindex="0" aria-label="Guardar ${p.nombre} en favoritos">♥</span>
+        <div class="img-container">
+            <img src="${p.imagen}" alt="${p.marca} ${p.nombre}" loading="lazy" decoding="async">
+        </div>
+        <div>
+            <div class="product-house">${p.marca}</div>
+            <h3 class="product-title">${p.nombre}</h3>
+            <p class="product-notes">${formatearPrecio(p.precio)} · Botella completa ${p.tamano}</p>
+            <div class="product-price">${formatearPrecio(p.precio)}</div>
+        </div>
+        <div class="product-select">Elegir formato</div>
+    `;
+    return el;
+}
+
+function anexar(lote, conDelay) {
     const fragmento = document.createDocumentFragment();
-
-    listaActual.slice(0, visibles).forEach((p, i) => {
-        const el = document.createElement('div');
-        el.className = 'product-card card-reveal';
-        el.dataset.index = i;
-        el.setAttribute('role', 'button');
-        el.setAttribute('tabindex', '0');
-        el.setAttribute('aria-label', `Ver ${p.marca} ${p.nombre}`);
-        el.style.transitionDelay = `${Math.min(i * 0.06, 0.3)}s`;
-        el.innerHTML = `
-            <span class="fav-corazon" data-id="${idProducto(p)}" role="button" tabindex="0" aria-label="Guardar ${p.nombre} en favoritos">♥</span>
-            <div class="img-container">
-                <img src="${p.imagen}" alt="${p.marca} ${p.nombre}" loading="lazy">
-            </div>
-            <div>
-                <div class="product-house">${p.marca}</div>
-                <h3 class="product-title">${p.nombre}</h3>
-                <p class="product-notes">${formatearPrecio(p.precio)} · Botella completa ${p.tamano}</p>
-                <div class="product-price">${formatearPrecio(p.precio)}</div>
-            </div>
-            <div class="product-select">Elegir formato</div>
-        `;
-        fragmento.appendChild(el);
-    });
-
-    grid.innerHTML = '';
+    for (let i = 0; i < lote.length; i++) {
+        fragmento.appendChild(cardHTML(lote[i], visibles - lote.length + i, conDelay));
+    }
     grid.appendChild(fragmento);
     marcarCorazones();
 
+    const nuevas = grid.querySelectorAll('.card-reveal:not(.is-visible)');
     requestAnimationFrame(() => {
-        grid.querySelectorAll('.card-reveal').forEach(el => el.classList.add('is-visible'));
+        nuevas.forEach(el => el.classList.add('is-visible'));
     });
+}
 
+function renderizar() {
+    grid.innerHTML = '';
+    visibles = Math.min(LOTE, listaActual.length);
+    anexar(listaActual.slice(0, visibles), true);
     botonVerMas.hidden = visibles >= listaActual.length;
+}
+
+function cargarMas() {
+    const desde = visibles;
+    const hasta = Math.min(visibles + LOTE, listaActual.length);
+    visibles = hasta;
+    anexar(listaActual.slice(desde, hasta), false);
+
+    const restantes = listaActual.length - visibles;
+    if (restantes > 0) {
+        botonVerMas.hidden = false;
+        botonVerMas.textContent = `Ver más perfumes (${restantes})`;
+    } else {
+        botonVerMas.hidden = true;
+    }
 }
 
 grid.addEventListener('click', (e) => {
@@ -121,8 +143,7 @@ grid.addEventListener('keydown', (e) => {
 });
 
 botonVerMas.addEventListener('click', () => {
-    visibles += LOTE;
-    renderizar();
+    cargarMas();
 });
 
 function abrirModal(indice) {
@@ -132,7 +153,7 @@ function abrirModal(indice) {
     formatoElegido = '10ml';
 
     document.getElementById('modal-contenido').innerHTML = `
-        <div class="modal-img"><img src="${p.imagen}" alt="${p.marca} ${p.nombre}"></div>
+        <div class="modal-img"><img src="${p.imagen}" alt="${p.marca} ${p.nombre}" decoding="async"></div>
         <div class="modal-house">${p.marca}</div>
         <h3 class="modal-title" id="modal-titulo">${p.nombre}</h3>
         <p class="modal-info"><strong>Inspirado en:</strong> ${p.inspirado}</p>
@@ -206,7 +227,6 @@ fetch('./data/productos.json')
     })
     .then(data => {
         listaActual = data.slice().reverse();
-        visibles = Math.min(LOTE, listaActual.length);
         renderizar();
     })
     .catch(() => {

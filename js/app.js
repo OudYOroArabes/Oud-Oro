@@ -212,7 +212,7 @@ function cargarMas() {
         <div class="product-card card-reveal" data-index="${desde + i}" role="button" tabindex="0" aria-label="Ver ${p.marca} ${p.nombre}" style="transition-delay: ${Math.min(i * 0.06, 0.3)}s">
             <span class="fav-corazon" data-id="${idProducto(p)}" role="button" tabindex="0" aria-label="Guardar ${p.nombre} en favoritos">♥</span>
             <div class="img-container">
-                <img src="${p.imagen}" alt="${p.marca} ${p.nombre}" loading="lazy">
+                <img src="${p.imagen}" alt="${p.marca} ${p.nombre}" loading="lazy" decoding="async">
             </div>
             <div>
                 <div class="product-house">${p.marca}</div>
@@ -321,7 +321,7 @@ function abrirModal(indice) {
 
     const contenido = `
         <div class="modal-img">
-            <img src="${p.imagen}" alt="${p.marca} ${p.nombre}">
+            <img src="${p.imagen}" alt="${p.marca} ${p.nombre}" decoding="async">
         </div>
         <div class="modal-house">${p.marca}</div>
         <h3 class="modal-title" id="modal-titulo">${p.nombre}</h3>
@@ -570,7 +570,7 @@ function renderizarDestacados() {
         <div class="product-card card-reveal" data-index="${i}" role="button" tabindex="0" aria-label="Ver ${p.marca} ${p.nombre}" style="transition-delay: ${Math.min(i * 0.06, 0.3)}s">
             <span class="fav-corazon" data-id="${idProducto(p)}" role="button" tabindex="0" aria-label="Guardar ${p.nombre} en favoritos">♥</span>
             <div class="img-container">
-                <img src="${p.imagen}" alt="${p.marca} ${p.nombre}" loading="lazy">
+                <img src="${p.imagen}" alt="${p.marca} ${p.nombre}" loading="lazy" decoding="async">
             </div>
             <div>
                 <div class="product-house">${p.marca}</div>
