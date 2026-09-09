@@ -16,7 +16,7 @@ $prefix = 'https://storage.googleapis.com/jarbas-b5be5.appspot.com/'
 function Norm([string]$t) {
     $t = [System.Text.RegularExpressions.Regex]::Replace($t, '<.*?>', '')
     $t = $t.ToLowerInvariant()
-    $t = $t -replace '[áàäâ]', 'a' -replace '[éèëê]', 'e' -replace '[íìïî]', 'i' -replace '[óòöô]', 'o' -replace '[úùüû]', 'u' -replace 'ñ', 'n'
+    $t = $t -replace '[\u00E1\u00E0\u00E2\u00E3\u00E4\u00E5]', 'a' -replace '[\u00E9\u00E8\u00EA\u00EB]', 'e' -replace '[\u00ED\u00EC\u00EE\u00EF]', 'i' -replace '[\u00F3\u00F2\u00F4\u00F5\u00F6]', 'o' -replace '[\u00FA\u00F9\u00FB\u00FC]', 'u' -replace '\u00F1', 'n'
     $t = $t -replace '[^a-z0-9]', ''
     return $t
 }
@@ -183,9 +183,9 @@ $script:bloqueGenerar = {
     if ($desc -match 'INSPIRADO EN:\s*(.*)') {
         $inspirado = Limpiar $matches[1]
         $inspirado = $inspirado -replace ' para (Hombres|Mujeres)$', ''
-        $inspirado = $inspirado -replace '[“”"]+', ''
+        $inspirado = $inspirado -replace '[\u201C\u201D"]+', ''
     }
-    if (-not $inspirado) { $inspirado = 'Creación original' }
+    if (-not $inspirado) { $inspirado = ('Creaci' + [char]0x00F3 + 'n original') }
 
     $base = [double]$p.salePrice
     $precio = [int]([Math]::Round($base * 1.35 / 500.0, [System.MidpointRounding]::AwayFromZero) * 500)
