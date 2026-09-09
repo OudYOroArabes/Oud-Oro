@@ -658,20 +658,23 @@ h1, h2, h3, h4 {
             position: fixed;
             inset: 0;
             background: rgba(0, 0, 0, 0.55);
-            backdrop-filter: blur(3px);
             display: flex;
             align-items: center;
             justify-content: center;
             z-index: 200;
             opacity: 0;
+            visibility: hidden;
             pointer-events: none;
-            transition: opacity 0.3s ease;
+            transition: opacity 0.3s ease, visibility 0s linear 0.3s;
             padding: 20px;
         }
 
         .modal-overlay.abierto {
             opacity: 1;
+            visibility: visible;
             pointer-events: auto;
+            backdrop-filter: blur(3px);
+            transition: opacity 0.3s ease;
         }
 
         .modal {
@@ -872,8 +875,7 @@ h1, h2, h3, h4 {
             justify-content: space-between;
             gap: 16px;
             padding: 14px 7%;
-            background: rgba(255,255,255,0.96);
-            backdrop-filter: blur(6px);
+            background: #FFFFFF;
             border-bottom: 1px solid rgba(212,175,55,0.5);
             box-shadow: 0 6px 20px rgba(27,38,59,0.12);
         }
