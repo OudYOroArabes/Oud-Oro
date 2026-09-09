@@ -143,7 +143,16 @@ grid.addEventListener('keydown', (e) => {
 });
 
 botonVerMas.addEventListener('click', () => {
-    cargarMas();
+    if (!catalogoCompleto.length) {
+        botonVerMas.disabled = true;
+        botonVerMas.textContent = 'Cargando…';
+        cargarCompleto().finally(() => {
+            botonVerMas.disabled = false;
+            botonVerMas.hidden = false;
+        });
+    } else {
+        cargarMas();
+    }
 });
 
 function abrirModal(indice) {
@@ -220,15 +229,59 @@ if (generalWa) {
     generalWa.href = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent('Hola! Quería consultar por un perfume.')}`;
 }
 
-fetch('./data/productos.json')
-    .then(r => {
-        if (!r.ok) throw new Error('No se pudo cargar el catálogo (' + r.status + ')');
-        return r.json();
-    })
-    .then(data => {
-        listaActual = data.slice().reverse();
-        renderizar();
-    })
-    .catch(() => {
-        grid.innerHTML = '<p class="empty-state">No pudimos cargar el catálogo. Probá de nuevo en unos segundos.</p>';
+let catalogoCompleto = [];
+let cargandoCompleto = false;
+
+function mensajeError() {
+    grid.innerHTML = '<p class="empty-state">No pudimos cargar el catálogo. Probá de nuevo en unos segundos.</p>';
+}
+
+function cargarRecientes() {
+    return fetch('./data/productos-recientes.json')
+        .then(r => {
+            if (!r.ok) throw new Error('No se pudo cargar los recientes (' + r.status + ')');
+            return r.json();
+        })
+        .then(datos => {
+            listaActual = datos;
+            renderizar();
+        });
+}
+
+function cargarCompleto() {
+    if (catalogoCompleto.length || cargandoCompleto) return Promise.resolve();
+    cargandoCompleto = true;
+    return fetch('./data/productos.json')
+        .then(r => {
+            if (!r.ok) throw new Error('No se pudo cargar el catálogo (' + r.status + ')');
+            return r.json();
+        })
+        .then(data => {
+            catalogoCompleto = data.slice().reverse();
+            const mismoInicio = listaActual.length > 0 &&
+                catalogoCompleto.slice(0, listaActual.length).every((p, i) => idProducto(p) === idProducto(listaActual[i]));
+            if (mismoInicio && listaActual.length >= LOTE) {
+                listaActual = catalogoCompleto;
+                cargarMas();
+            } else {
+                listaActual = catalogoCompleto;
+                visibles = Math.min(LOTE, listaActual.length);
+                renderizar();
+            }
+        })
+        .catch(() => mensajeError())
+        .finally(() => { cargandoCompleto = false; });
+}
+
+const observadorReveal = new IntersectionObserver((entradas) => {
+    entradas.forEach(en => {
+        if (en.isIntersecting) {
+            en.target.classList.add('is-visible');
+            observadorReveal.unobserve(en.target);
+        }
     });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.scroll-reveal').forEach(el => observadorReveal.observe(el));
+
+cargarRecientes().catch(() => cargarCompleto());

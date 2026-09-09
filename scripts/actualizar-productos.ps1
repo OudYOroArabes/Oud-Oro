@@ -321,5 +321,11 @@ foreach ($o in $nuevos) {
 
 $jsonOut = $final | ConvertTo-Json -Depth 5
 [System.IO.File]::WriteAllText((Resolve-Path $archivo), $jsonOut, $utf8)
+
+$recientes = @($final | Select-Object -Last 12)
+[array]::Reverse($recientes)
+$jsonRec = $recientes | ConvertTo-Json -Depth 5
+[System.IO.File]::WriteAllText((Join-Path $dataDir 'productos-recientes.json'), $jsonRec, $utf8)
+
 Write-Output ("total objetos: " + $final.Count)
 Write-Output "OK"
