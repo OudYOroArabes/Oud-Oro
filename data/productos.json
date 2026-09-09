@@ -491,16 +491,6 @@
     },
     {
         "marca":  "Al Wataniah",
-        "nombre":  "Attar Al Wesal",
-        "notas":  "lavanda, pera, menta, limón (lima ácida) y bergamota, canela, esclarea y comino, vaina de vainilla negra, ámbar, cedro y pachulí",
-        "inspirado":  "Ultra Male Jean Paul Gaultier",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  48500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/a9ad03cc-5b35-4b7d-baac-bbfdbed03ec3.webp"
-    },
-    {
-        "marca":  "Al Wataniah",
         "nombre":  "Kayaan Classic",
         "notas":  "naranja y bergamota, iris de la Toscana, especias, jazmín y rosa, vainilla, sándalo, pachulí y almizcle",
         "inspirado":  "Dior Homme Intense 2011 Dior",
@@ -536,7 +526,7 @@
         "inspirado":  "Rabanne Invictus Aqua\u0026#47; Similar a Rasasi Hawas Ice",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  93000,
+        "precio":  92000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/69009c19-25f3-48d2-9845-7f9a9258d0b6.webp"
     },
     {
@@ -1446,7 +1436,7 @@
         "inspirado":  "Smoking Hot By Kilian",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  59500,
+        "precio":  58000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/aac82913-e9cd-40ce-9277-2c04674c086f.webp"
     },
     {
@@ -2071,16 +2061,6 @@
     },
     {
         "marca":  "Maison Alhambra",
-        "nombre":  "Yeah Man Parfum",
-        "notas":  "aldehídos, manzana, jengibre y toronja (pomelo), lavanda, salvia y geranio, haba tonka, Incienso, cedro y pachulí",
-        "inspirado":  "\u0026nbsp; Y Le Parfum Yves Saint Laurent",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  51500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1393d2c5-6e99-4a96-94d2-9c753ba7f247.webp"
-    },
-    {
-        "marca":  "Maison Alhambra",
         "nombre":  "Your Touch Amber",
         "notas":  "lavanda, vainilla de Madagascar",
         "inspirado":  "CreaciÃ³n original",
@@ -2430,26 +2410,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/fb54e2ba-b1df-45bf-968f-f588824e6bce.webp"
     },
     {
-        "marca":  "Rayhaan",
-        "nombre":  "Wolf",
-        "notas":  "RAYHAAN WOLF",
-        "inspirado":  "Azzaro The Most Wanted intense",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  94000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/e44b7ddb-ec91-435e-b11b-3682b84fe399.webp"
-    },
-    {
-        "marca":  "Riiffs",
-        "nombre":  "Momento Extrait De Parfum",
-        "notas":  "azúcar, azafrán y mandarina, haba tonka, rosa de Damasco y madera de oud, Amberwood, caramelo y cedro",
-        "inspirado":  "Arabians Tonka Montale",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  104000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/09598aba-3cb5-4458-8b38-20a49d4a3da2.webp"
-    },
-    {
         "marca":  "Zimaya",
         "nombre":  "Fatima Velvet Love",
         "notas":  "ZIMAYA FATIMA VELVET LOVE",
@@ -2478,5 +2438,25 @@
         "formato":  "Botella Completa",
         "precio":  67500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/8ba08d37-9308-4913-8ab5-973b475e8296.webp"
+    },
+    {
+        "marca":  "Anfar",
+        "nombre":  "Azule Elite Extrait De Parfum",
+        "notas":  "pachulí, cardamomo, madera de oud y canela, notas amaderadas, ámbar y almizcle, sándalo y haba tonka",
+        "inspirado":  "CreaciÃ³n original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  92500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/c382a63f-c8b2-4066-94f3-1371e1a2659c.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Khamrah Dukhan",
+        "notas":  "especias, pimiento morrón y mandarina, incienso, ládano, flor de azahar del naranjo y pachulí, tabaco, praliné, ámbar, benjuí y haba tonka",
+        "inspirado":  "CreaciÃ³n original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  66000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/8fec00bc-e0df-4e50-aaa0-0e9b9d37f2cb.webp"
     }
 ]

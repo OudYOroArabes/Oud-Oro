@@ -11,6 +11,7 @@ $dataDir = Join-Path $PSScriptRoot '..\data'
 $archivo = Join-Path $dataDir 'productos.json'
 $apiUrl = 'https://mipodba.jarbas.net/api/products?limit=300'
 $hostApodo = 'storage.googleapis.com'
+$prefix = 'https://storage.googleapis.com/jarbas-b5be5.appspot.com/'
 
 function Norm([string]$t) {
     $t = [System.Text.RegularExpressions.Regex]::Replace($t, '<.*?>', '')
@@ -25,6 +26,33 @@ function Limpiar([string]$t) {
     $t = $t -replace '["\\`]', ''
     $t = $t -replace '\s+', ' '
     return $t.Trim()
+}
+
+# reparador de bytes: interpreta bytes sueltos Latin-1 (0xC0-0xFF sin continuacion UTF-8) como caracter
+function Reparar-MiPodBytes([byte[]]$buf) {
+    $sb = New-Object System.Text.StringBuilder
+    $len = $buf.Length
+    $i = 0
+    while ($i -lt $len) {
+        $b = $buf[$i]
+        if ($b -ge 0xC0 -and $b -le 0xDF -and $i + 1 -lt $len -and (($buf[$i + 1] -band 0xC0) -eq 0x80)) {
+            $cp = (($b -band 0x1F) -shl 6) -bor ($buf[$i + 1] -band 0x3F)
+            [void]$sb.Append([char]$cp); $i += 2; continue
+        }
+        if ($b -ge 0xE0 -and $b -le 0xEF -and $i + 2 -lt $len -and (($buf[$i + 1] -band 0xC0) -eq 0x80) -and (($buf[$i + 2] -band 0xC0) -eq 0x80)) {
+            $cp = (($b -band 0x0F) -shl 12) -bor (($buf[$i + 1] -band 0x3F) -shl 6) -bor ($buf[$i + 2] -band 0x3F)
+            [void]$sb.Append([char]$cp); $i += 3; continue
+        }
+        if ($b -ge 0xF0 -and $b -le 0xF7 -and $i + 3 -lt $len -and (($buf[$i + 1] -band 0xC0) -eq 0x80) -and (($buf[$i + 2] -band 0xC0) -eq 0x80)) {
+            $cp = ((($b -band 0x07) -shl 18) -bor (($buf[$i + 1] -band 0x3F) -shl 12) -bor (($buf[$i + 2] -band 0x3F) -shl 6) -bor ($buf[$i + 3] -band 0x3F)) - 0x10000
+            [void]$sb.Append([char](0xD800 + [int]($cp / 0x400)))
+            [void]$sb.Append([char](0xDC00 + ($cp % 0x400)))
+            $i += 4; continue
+        }
+        [void]$sb.Append([char]$b)
+        $i += 1
+    }
+    return $sb.ToString()
 }
 
 function Titulo([string]$t) {
@@ -83,13 +111,14 @@ $forzarInclude = @(
 
 # ---------- leer JSON actual ----------
 if (-not (Test-Path -LiteralPath $archivo)) { throw "No existe: $archivo" }
-$jsonRaw = [System.IO.File]::ReadAllText((Resolve-Path $archivo), $utf8)
+$bytesActual = [System.IO.File]::ReadAllBytes((Resolve-Path $archivo))
+$jsonRaw = Reparar-MiPodBytes $bytesActual
 $productos = $jsonRaw | ConvertFrom-Json
 
 $manuales = @()
-$mipodbaPrevios = 0
+$mipodbaPrev = @()
 foreach ($p in $productos) {
-    if ($p.imagen -like ('*' + $hostApodo + '*')) { $mipodbaPrevios++ }
+    if ($p.imagen -like ('*' + $hostApodo + '*')) { $mipodbaPrev += $p }
     else { $manuales += $p }
 }
 
@@ -100,36 +129,25 @@ foreach ($p in $productos) {
     $nombresManuales += $p.nombre
 }
 
-# ---------- descargar API ----------
-$r = Invoke-WebRequest -Uri $apiUrl -UseBasicParsing -TimeoutSec 60
-$j = $r.Content | ConvertFrom-Json
+# ---------- descargar API (una llamada trae todos) ----------
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 -bor [Net.SecurityProtocolType]::Tls
+$req = [System.Net.HttpWebRequest]::Create($apiUrl)
+$req.Timeout = 60000
+$resp = $req.GetResponse()
+$stream = $resp.GetResponseStream()
+$ms = New-Object System.IO.MemoryStream
+$respBytes = New-Object byte[] 65536
+while (($leidos = $stream.Read($respBytes, 0, $respBytes.Length)) -gt 0) { $ms.Write($respBytes, 0, $leidos) }
+$stream.Dispose()
+$resp.Close()
+$contenido = Reparar-MiPodBytes $ms.ToArray()
+$j = $contenido | ConvertFrom-Json
+$listaApi = @($j.products)
 
-$conNombreNormalizado = @{}
-foreach ($m0 in $nombresManuales) { $conNombreNormalizado[(Norm $m0)] = $true }
-
-$nuevos = @()
-$excluidos = @()
-
-foreach ($p in $j.products) {
+# generador de objeto de catalogo desde un producto API
+$script:bloqueGenerar = {
+    param($p)
     $name = ([string]$p.name).Trim()
-    if ($name -match '^ZZ|^KIT |DECANTS 10ML|VAPE|ELFBAR|30ML') { continue }
-    if (-not $p.images -or @($p.images).Count -eq 0) { continue }
-    if (-not $p.salePrice -or $p.salePrice -le 0) { continue }
-
-    $nn = Norm $name
-    $dupe = $false
-    if ($forzarInclude -contains $name) { $dupe = $false }
-    elseif ($excluir -contains $name) { $excluidos += $name; continue }
-    else {
-        foreach ($c in $nombresManuales) {
-            $cn = Norm $c
-            if ($nn -eq $cn -or $nn.Contains($cn) -or $cn.Contains($nn)) { $dupe = $true; break }
-        }
-        if (-not $dupe -and $conNombreNormalizado.ContainsKey($nn)) { $dupe = $true }
-    }
-    if ($dupe) { $excluidos += $name; continue }
-    $conNombreNormalizado[$nn] = $true
-
     $marca = ''
     $resto = $name
     foreach ($k in $marcas.Keys) {
@@ -147,9 +165,9 @@ foreach ($p in $j.products) {
 
     $tamano = '100ml'
     if ($name -match '(\d{2,3})\s*ML') { $tamano = $matches[1] + 'ml' }
-    $nombre = $resto -replace '\s*\d{2,3}\s*ML\s*$', ''
+    $nombre = ($resto -replace '\s*\d{2,3}\s*ML\s*$', '') -replace '\s*EDP\s*$', ''
     if ($forzarNombre.ContainsKey($name)) { $nombre = $forzarNombre[$name] }
-    else { $nombre = Titulo ($nombre -replace '\s*EDP\s*$', '') }
+    else { $nombre = Titulo $nombre }
 
     $desc = [System.Text.RegularExpressions.Regex]::Replace([string]$p.description, '<[^>]+>', ' ')
     $desc = $desc -replace '\s+', ' '
@@ -176,13 +194,115 @@ foreach ($p in $j.products) {
     $ruta = [string]$imgs[0]
     $img = 'https://storage.googleapis.com/jarbas-b5be5.appspot.com/' + $ruta
 
-    $nuevos += [pscustomobject]@{
+    return [pscustomobject]@{
         marca = $marca; nombre = $nombre; notas = $notasStr; inspirado = $inspirado
         tamano = $tamano; precio = $precio; imagen = $img; apiName = $name
     }
 }
 
-Write-Output ("manuales: " + $manuales.Count + "   mipodba nuevos: " + $nuevos.Count + "   excluidos: " + $excluidos.Count)
+$nuevos = @()
+$agregadosNorm = @{}
+foreach ($m0 in $nombresManuales) { $agregadosNorm[(Norm $m0)] = $true }
+
+$dropeados = @()
+
+# indice de la API por nombre de catalogo normalizado (maneja aliases de marca, tamano y EDP)
+$apiPorGenNorm = @{}
+foreach ($p in $listaApi) {
+    $name = ([string]$p.name).Trim()
+    if ($name -match '^ZZ|^KIT |DECANTS 10ML|VAPE|ELFBAR|30ML') { continue }
+    $g = & $script:bloqueGenerar $p
+    $gn = Norm $g.nombre
+    if (-not $apiPorGenNorm.ContainsKey($gn)) { $apiPorGenNorm[$gn] = $p }
+}
+
+# indice por imagen exacta (todas las imagenes del producto)
+$apiPorImg = @{}
+foreach ($p in $listaApi) {
+    foreach ($im in @($p.images)) {
+        $camino = [string]$im
+        if (-not $apiPorImg.ContainsKey($camino)) { $apiPorImg[$camino] = $p }
+    }
+}
+
+# 1) conserva el orden previo; refresca los que siguen en la API y descarta los que ya no estan
+#    clave primaria: imagen exacta (estable aun si MiPod renombra o corrompe el nombre);
+#    clave secundaria: nombre normalizado.
+$usadosPasada1 = @{}
+foreach ($viejo in $mipodbaPrev) {
+    $caminoViejo = ''
+    if ($viejo.imagen -like ($prefix + '*')) { $caminoViejo = $viejo.imagen.Substring($prefix.Length) }
+    $gn = Norm $viejo.nombre
+
+    $api = $null
+    if ($caminoViejo -and $apiPorImg.ContainsKey($caminoViejo)) { $api = $apiPorImg[$caminoViejo] }
+    elseif ($apiPorGenNorm.ContainsKey($gn)) { $api = $apiPorGenNorm[$gn] }
+
+    if (-not $api) {
+        $dropeados += ($viejo.marca + ' ' + $viejo.nombre)
+        continue
+    }
+
+    # consumir el producto API de ambos indices
+    foreach ($im in @($api.images)) { $apiPorImg.Remove([string]$im) }
+    $genNombre = (& $script:bloqueGenerar $api).nombre
+    $apiPorGenNorm.Remove((Norm $genNombre))
+
+    if ($api.images -and @($api.images).Count -gt 0 -and $api.salePrice) {
+        $o = & $script:bloqueGenerar $api
+        $o.marca = $viejo.marca
+        $o.nombre = $viejo.nombre
+        $nuevos += $o
+    } else {
+        $nuevos += $viejo
+    }
+    $usadosPasada1[(Norm $viejo.nombre)] = $true
+    $usadosPasada1[(Norm $genNombre)] = $true
+    $agregadosNorm[(Norm $viejo.nombre)] = $true
+}
+
+# 2) agrega al final los productos nuevos de la API (los que no estaban antes)
+$excluidosAntes = @()
+foreach ($p in $listaApi) {
+    $name = ([string]$p.name).Trim()
+    if ($name -match '^ZZ|^KIT |DECANTS 10ML|VAPE|ELFBAR|30ML') { continue }
+
+    $g = & $script:bloqueGenerar $p
+    $gn = Norm $g.nombre
+    if ($usadosPasada1.ContainsKey($gn)) { continue }
+
+    if (-not $p.images -or @($p.images).Count -eq 0) { continue }
+    if (-not $p.salePrice -or $p.salePrice -le 0) { continue }
+    if ($excluir -contains $name) { $excluidosAntes += $name; continue }
+
+    $nn = Norm $name
+    $nnCore = $nn -replace '(\d+ml|edp)$', ''
+    $tokApi = ($name -split ' ')[0].ToLowerInvariant()
+    $dupe = $false
+    if ($forzarInclude -contains $name) { $dupe = $false }
+    else {
+        foreach ($c in $manuales) {
+            $cn = Norm $c.nombre
+            $tokMan = (($c.marca -split ' ')[0]).ToLowerInvariant()
+            if ($tokMan -ne $tokApi) { continue }
+            $igualFin = $nnCore.EndsWith($cn) -or $cn.EndsWith($nnCore)
+            $medio = $cn.Length -ge 8 -and ($nn.Contains($cn) -or $cn.Contains($nn))
+            if ($igualFin -or $medio) { $dupe = $true; break }
+        }
+        if (-not $dupe -and $agregadosNorm.ContainsKey($nn)) { $dupe = $true }
+    }
+    if ($dupe) { $excluidosAntes += $name; continue }
+
+    $o = & $script:bloqueGenerar $p
+    $agregadosNorm[$nn] = $true
+    $nuevos += $o
+}
+
+Write-Output ("manuales: " + $manuales.Count + "   mipodba conservados/nuevos: " + $nuevos.Count + "   excluidos: " + $excluidosAntes.Count)
+if ($dropeados.Count -gt 0) {
+    Write-Output ("descartados (ya no estan en la API): " + $dropeados.Count)
+    foreach ($d in $dropeados) { Write-Output ("  - " + $d) }
+}
 
 # ---------- recomponer JSON (manuales primero, mipodba al final) ----------
 $final = @()
