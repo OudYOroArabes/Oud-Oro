@@ -8,5 +8,10 @@
   }
   document.addEventListener('DOMContentLoaded', ajustar);
   window.addEventListener('load', ajustar);
-  window.addEventListener('resize', ajustar);
+  
+  var resizeTimer;
+  window.addEventListener('resize', function () {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(ajustar, 150);
+  }, { passive: true });
 })();

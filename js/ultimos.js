@@ -61,10 +61,11 @@ function cardHTML(p, i, conDelay) {
     el.setAttribute('tabindex', '0');
     el.setAttribute('aria-label', `Ver ${p.marca} ${p.nombre}`);
     if (conDelay) el.style.transitionDelay = `${Math.min(i * 0.05, 0.15)}s`;
+    const cargarInmediato = conDelay && i < 4;
     el.innerHTML = `
         <span class="fav-corazon" data-id="${idProducto(p)}" role="button" tabindex="0" aria-label="Guardar ${p.nombre} en favoritos">♥</span>
         <div class="img-container">
-            <img src="${p.imagen}" alt="${p.marca} ${p.nombre}" loading="lazy" decoding="async">
+            <img src="${p.imagen}" alt="${p.marca} ${p.nombre}" loading="${cargarInmediato ? 'eager' : 'lazy'}" decoding="async">
         </div>
         <div>
             <div class="product-house">${p.marca}</div>

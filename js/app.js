@@ -176,9 +176,13 @@ document.addEventListener('click', (e) => {
 window.addEventListener('scroll', () => {
     if (menuFiltrasAbierto) actualizarMenuMarcas();
 }, { passive: true });
+let resizeTimer;
 window.addEventListener('resize', () => {
-    if (menuFiltrasAbierto) actualizarMenuMarcas();
-});
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+        if (menuFiltrasAbierto) actualizarMenuMarcas();
+    }, 150);
+}, { passive: true });
 
 let listaActual = [];
 let visibles = 0;
