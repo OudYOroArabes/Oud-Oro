@@ -880,16 +880,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/c5bcf549-1f50-456b-a095-e45b999ac335.webp"
     },
     {
-        "marca":  "Emper",
-        "nombre":  "Phantom My Hero",
-        "notas":  "almendra y heliotropo, chocolate y ron, café, caramelo, caña de azúcar y sándalo",
-        "inspirado":  "KILIAN BLACK PHANTOM",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  52500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/15371143-b015-4660-993d-e558e586f1ec.webp"
-    },
-    {
         "marca":  "Fragrance World",
         "nombre":  "Ace",
         "notas":  "clavos de olor, pimienta rosa y flor de azahar del naranjo, castaña, madera de gaiac y enebro, vainilla, bálsamo del Perú y cachemira",
@@ -1876,7 +1866,7 @@
         "inspirado":  "Yves Saint Laurent \u0026nbsp;Black Opium Over Red",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  48500,
+        "precio":  46000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/dc39096a-a7b9-4ae5-9e46-6c3e7e571e88.webp"
     },
     {
@@ -1968,16 +1958,6 @@
         "formato":  "Botella Completa",
         "precio":  63500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/d25dbce1-0f01-4131-8e3c-434078010c85.webp"
-    },
-    {
-        "marca":  "Maison Alhambra",
-        "nombre":  "Smoky",
-        "notas":  "ciruela, durazno (melocotón), bergamota y cítricos, miel, Humo y notas orientales, hojas de tabaco, tabaco, ámbar y tabaco de flor blanca",
-        "inspirado":  "DIOR TOBACOLOR",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  51500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/639e377c-038b-4709-8114-39a4f76dcdd3.webp"
     },
     {
         "marca":  "Maison Alhambra",
@@ -2268,16 +2248,6 @@
         "formato":  "Botella Completa",
         "precio":  40500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/082d355f-e570-4df5-a2f5-00569eb7db56.webp"
-    },
-    {
-        "marca":  "Rasasi",
-        "nombre":  "Hawas Chrome",
-        "notas":  "durazno (melocotón), Frutas amarillas y naranja dulce, frutas, Maracuyá, mango y Agua, almizcle, ámbar y vainilla",
-        "inspirado":  "XERJOFF ERBA GOLD",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  120000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/f3b682e6-99cb-4537-bea9-4b214f82b097.webp"
     },
     {
         "marca":  "Rasasi",
