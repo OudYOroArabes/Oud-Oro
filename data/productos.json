@@ -671,16 +671,6 @@
     },
     {
         "marca":  "Armaf",
-        "nombre":  "Odyssey Mandarin Sky",
-        "notas":  "mandarina, naranja, azafrán y salvia, caramelo, haba tonka y cempasúchil (tagete, clavelón), ambroxan, cedro y vetiver",
-        "inspirado":  "Jean Paul Gaultier Scandal",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  75500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3e6cc9c8-8b7e-4ffe-8d51-a92f0bcf4c00.webp"
-    },
-    {
-        "marca":  "Armaf",
         "nombre":  "Odyssey Mandarin Sky Vintage",
         "notas":  "mandarina y cítricos, especias y notas florales, notas amaderadas y ámbar",
         "inspirado":  "Scandal Pour Homme Absolu Jean Paul Gaultier",
@@ -891,16 +881,6 @@
     },
     {
         "marca":  "Fragrance World",
-        "nombre":  "Barakkat Rouge 540",
-        "notas":  "FRAGRANCE WORLD BARAKKAT ROUGE 540",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  43000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/6e05b577-8872-4c91-ae76-0f0419c08eff.webp"
-    },
-    {
-        "marca":  "Fragrance World",
         "nombre":  "Fabulous Life",
         "notas":  "esclarea y lavanda, almendra amarga, cuero, vainilla y raíz de lirio, maderas blancas, cuero, haba tonka, cachemira y ámbar",
         "inspirado":  "\u0026nbsp; Fucking Fabulous Tom Ford",
@@ -951,16 +931,6 @@
     },
     {
         "marca":  "Fragrance World",
-        "nombre":  "L’uomo",
-        "notas":  "bergamota, jengibre y limón (lima ácida), hojas de violeta, albahaca y pimienta blanca, vetiver, haba tonka y cedro",
-        "inspirado":  "L\u0026#39;Homme Yves Saint Laurent",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  40500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4ef6b1c1-ba13-4a64-8629-7d2f46d6a772.webp"
-    },
-    {
-        "marca":  "Fragrance World",
         "nombre":  "Ophylia Fiore",
         "notas":  "FRAGRANCE WORLD OPHYLIA FIORE",
         "inspirado":  "Creación original",
@@ -991,16 +961,6 @@
     },
     {
         "marca":  "Fragrance World",
-        "nombre":  "Solo Black",
-        "notas":  "mango y salvia, hediona y Plata, sándalo, haba tonka, pachulí y Timberol",
-        "inspirado":  "Polo Black Ralph Lauren",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  39000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/67af5237-ce5e-4f18-9689-9e028a71c2b7.webp"
-    },
-    {
-        "marca":  "Fragrance World",
         "nombre":  "Supreme L’homme",
         "notas":  "flor de azahar del naranjo, naranja amarga, romero y cítricos, almendra y haba tonka, vetiver, cedro y cuero",
         "inspirado":  "L’Homme Idéal Eau de Parfum Guerlain",
@@ -1008,16 +968,6 @@
         "formato":  "Botella Completa",
         "precio":  43000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/7e6f0f95-1b93-4508-9e84-8826e3db18f9.webp"
-    },
-    {
-        "marca":  "Fragrance World",
-        "nombre":  "Versus Ocean Bleu",
-        "notas":  "notas acuáticas, bergamota de Calabria, toronja (pomelo) y hojas de higuera, ambroxan, papiro de Egipto, pimienta negra, hojas de violeta y pachulí, haba tonka, azafrán, incienso y almizcle",
-        "inspirado":  "Versace Pour Homme Dylan Blue Versace",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  47500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/c89df7e9-242a-4c51-a155-5c8bb3ab2909.webp"
     },
     {
         "marca":  "French Avenue",
@@ -1568,16 +1518,6 @@
         "formato":  "Botella Completa",
         "precio":  73000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/8e8ab361-5c3b-45bb-bb36-8b601e991780.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "The Kingdom",
-        "notas":  "lavanda, menta y salvia, vainilla, tabaco y flor de azahar del naranjo, haba tonka, benjuí y ládano",
-        "inspirado":  "Jean Paul Gaultier Le Male Elixir\u0026nbsp;",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  75500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/d3566250-74d5-496b-baa8-e1254df97173.webp"
     },
     {
         "marca":  "Lattafa",
@@ -2428,5 +2368,15 @@
         "formato":  "Botella Completa",
         "precio":  66000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/8fec00bc-e0df-4e50-aaa0-0e9b9d37f2cb.webp"
+    },
+    {
+        "marca":  "Emper",
+        "nombre":  "Phantom My Hero",
+        "notas":  "almendra y heliotropo, chocolate y ron, café, caramelo, caña de azúcar y sándalo",
+        "inspirado":  "KILIAN BLACK PHANTOM",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  52500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/15371143-b015-4660-993d-e558e586f1ec.webp"
     }
 ]

@@ -1,5 +1,15 @@
 [
     {
+        "marca":  "Emper",
+        "nombre":  "Phantom My Hero",
+        "notas":  "almendra y heliotropo, chocolate y ron, café, caramelo, caña de azúcar y sándalo",
+        "inspirado":  "KILIAN BLACK PHANTOM",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  52500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/15371143-b015-4660-993d-e558e586f1ec.webp"
+    },
+    {
         "marca":  "Lattafa",
         "nombre":  "Khamrah Dukhan",
         "notas":  "especias, pimiento morrón y mandarina, incienso, ládano, flor de azahar del naranjo y pachulí, tabaco, praliné, ámbar, benjuí y haba tonka",
@@ -108,15 +118,5 @@
         "formato":  "Botella Completa",
         "precio":  69000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/32cf900c-4b83-4183-b54d-77c7f7a9bea6.webp"
-    },
-    {
-        "marca":  "Rayhaan",
-        "nombre":  "Jungle Vibes",
-        "notas":  "higo, toronja (pomelo) y bergamota, notas verdes y Notas acuáticas",
-        "inspirado":  "Santal Greenery Dries Van Noten",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  88000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/2b6d2d3c-cd7b-43f7-a66a-7c62036eff91.webp"
     }
 ]
