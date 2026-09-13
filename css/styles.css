@@ -373,6 +373,23 @@ h1, h2, h3, h4 {
             color: #1B263B;
         }
 
+        .filtro-chip.orden-chip .orden-icono {
+            font-weight: 800;
+            color: var(--accent-gold);
+            font-size: 1rem;
+            line-height: 1;
+        }
+
+        .filtro-chip.orden-chip.activo {
+            border-color: var(--accent-gold);
+            background: var(--accent-gold);
+            color: #1B263B;
+        }
+
+        .filtro-chip.orden-chip.activo .orden-icono {
+            color: #1B263B;
+        }
+
         .filtro-chip.abierto .flecha {
             transform: rotate(180deg);
         }

@@ -4,6 +4,7 @@ const JSON_VERSION = 2;
 let productos = [];
 let marcasSeleccionadas = new Set();
 let menuFiltrasAbierto = false;
+let ordenPrecio = 0;
 
 function normalizar(texto) {
     return texto.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
@@ -68,12 +69,37 @@ function hacerClickFavorito(e) {
 }
 
 
+function etiquetaOrden() {
+    if (ordenPrecio === 1) return 'Precio: menor a mayor';
+    if (ordenPrecio === 2) return 'Precio: mayor a menor';
+    return 'Ordenar por precio';
+}
+
 function renderizarFiltros() {
     const cont = document.getElementById('filtros-marca');
     const boton = document.getElementById('btn-marcas');
     if (boton) boton.remove();
     const menu = document.getElementById('marcas-menu');
     if (menu) menu.remove();
+
+    const ordenBtn = document.createElement('button');
+    ordenBtn.type = 'button';
+    ordenBtn.className = 'filtro-chip orden-chip';
+    ordenBtn.id = 'btn-orden';
+    ordenBtn.setAttribute('aria-pressed', String(ordenPrecio !== 0));
+    ordenBtn.innerHTML = '<span class="orden-icono" id="btn-orden-icono">' + (ordenPrecio === 1 ? '↑' : ordenPrecio === 2 ? '↓' : '⇅') + '</span> <span id="btn-orden-label">' + etiquetaOrden() + '</span>';
+    cont.appendChild(ordenBtn);
+
+    ordenBtn.addEventListener('click', () => {
+        ordenPrecio = ordenPrecio === 2 ? 0 : ordenPrecio + 1;
+        const label = document.getElementById('btn-orden-label');
+        if (label) label.textContent = etiquetaOrden();
+        const icono = document.getElementById('btn-orden-icono');
+        if (icono) icono.textContent = ordenPrecio === 1 ? '↑' : ordenPrecio === 2 ? '↓' : '⇅';
+        ordenBtn.classList.toggle('activo', ordenPrecio !== 0);
+        ordenBtn.setAttribute('aria-pressed', String(ordenPrecio !== 0));
+        aplicarFiltros();
+    });
 
     const btn = document.createElement('button');
     btn.className = 'filtro-chip';
@@ -259,6 +285,9 @@ function aplicarFiltros() {
         const coincideTexto = texto === '' || normalizar(`${p.marca} ${p.nombre} ${p.notas} ${p.inspirado}`).includes(texto);
         return coincideMarca && coincideTexto;
     });
+
+    if (ordenPrecio === 1) resultado.sort((a, b) => a.precio - b.precio);
+    else if (ordenPrecio === 2) resultado.sort((a, b) => b.precio - a.precio);
 
     renderizarProductos(resultado);
 }
