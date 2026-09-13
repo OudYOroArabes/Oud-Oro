@@ -29,6 +29,6 @@ jobs:
           git add -A
           git diff-index --quiet HEAD
           if ($LASTEXITCODE -ne 0) {
-            git commit -m "Actualización automática del catálogo mipodba"
+            git commit -m "Actualizacion automatica del catalogo mipodba"
             git push
           }

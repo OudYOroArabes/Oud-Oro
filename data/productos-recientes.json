@@ -70,16 +70,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/34b050fe-652d-432c-913d-458f5d63c99f.webp"
     },
     {
-        "marca":  "Mykonos",
-        "nombre":  "Glitch Extrait De Parfum",
-        "notas":  "chile rojo (ají rojo), jengibre, notas ozónicas y notas acuosas, lirio de los valles (muguete), cedro y ylang-ylang, notas amaderadas, vainilla y almizcle",
-        "inspirado":  "Creación original",
-        "tamano":  "50ml",
-        "formato":  "Botella Completa",
-        "precio":  54500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/f69830f6-16ca-45f3-87a9-b62d122f824d.webp"
-    },
-    {
         "marca":  "Maison Alhambra",
         "nombre":  "Intrude",
         "notas":  "pera y bergamota, nardos, flor de azahar del naranjo y jazmín sambac (sampaguita), pachulí, ambroxan, vainilla y vetiver",
@@ -118,5 +108,15 @@
         "formato":  "Botella Completa",
         "precio":  101500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4a48dafa-240d-4e48-ad70-1e2037fd1011.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Eclaire",
+        "notas":  "caramelo, leche y azúcar, miel y flores blancas, vainilla, praliné y almizcle",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  82500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/b09683f5-4a45-4a0f-bf13-b045a4c858a0.webp"
     }
 ]

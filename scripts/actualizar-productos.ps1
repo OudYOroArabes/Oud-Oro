@@ -9,7 +9,7 @@ $ErrorActionPreference = 'Stop'
 $utf8 = New-Object System.Text.UTF8Encoding($false)
 $dataDir = Join-Path $PSScriptRoot '..\data'
 $archivo = Join-Path $dataDir 'productos.json'
-$apiUrl = 'https://mipodba.jarbas.net/api/products?limit=300'
+$apiUrl = 'https://mipodba.jarbas.net/api/products?limit=500'
 $hostApodo = 'storage.googleapis.com'
 $prefix = 'https://storage.googleapis.com/jarbas-b5be5.appspot.com/'
 

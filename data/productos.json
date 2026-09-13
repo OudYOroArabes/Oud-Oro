@@ -960,16 +960,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1460778a-1ff5-47b7-9398-c692f579b473.webp"
     },
     {
-        "marca":  "Fragrance World",
-        "nombre":  "Supreme L’homme",
-        "notas":  "flor de azahar del naranjo, naranja amarga, romero y cítricos, almendra y haba tonka, vetiver, cedro y cuero",
-        "inspirado":  "L’Homme Idéal Eau de Parfum Guerlain",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  43000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/7e6f0f95-1b93-4508-9e84-8826e3db18f9.webp"
-    },
-    {
         "marca":  "French Avenue",
         "nombre":  "Aromatix Magnetic Extrait De Parfum",
         "notas":  "lavanda, bergamota y pimienta rosa, flor de azahar del naranjo, iris, almizcle, neroli y romero, cedro, ámbar, sándalo, vainilla, mirra y musgo de roble",
@@ -2081,16 +2071,6 @@
     },
     {
         "marca":  "Paris Corner",
-        "nombre":  "Pandora Adine",
-        "notas":  "PARIS CORNER PANDORA ADINE",
-        "inspirado":  "Terry Mugler Alien",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  51500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/b8fe3e05-9ad3-4f48-82ba-69d818c11cbb.webp"
-    },
-    {
-        "marca":  "Paris Corner",
         "nombre":  "Pendora Black Extremo",
         "notas":  "PARIS CORNER PENDORA BLACK EXTREMO",
         "inspirado":  "Creación original",
@@ -2461,16 +2441,6 @@
     },
     {
         "marca":  "Fragrance World",
-        "nombre":  "Bad Lad Le Parfum",
-        "notas":  "marihuana (cannabis) y toronja (pomelo), pimienta negra y geranio, cuero y vetiver",
-        "inspirado":  "Bad Boy Le Parfum Carolina Herrera",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  44500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3cad283a-0c45-456d-ab2c-14fdf20cf940.webp"
-    },
-    {
-        "marca":  "Fragrance World",
         "nombre":  "Intro Aftermatch",
         "notas":  "tabaco y vainilla",
         "inspirado":  "Side Effect Initio Parfums Prives",
@@ -2536,7 +2506,7 @@
         "inspirado":  "Fahrenheit Dior",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  47500,
+        "precio":  46000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3f035d5b-8788-4dcb-974b-be9a51a94e4a.webp"
     },
     {
@@ -2586,7 +2556,7 @@
         "inspirado":  "Creación original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  88000,
+        "precio":  82500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/b09683f5-4a45-4a0f-bf13-b045a4c858a0.webp"
     },
     {
@@ -2628,16 +2598,6 @@
         "formato":  "Botella Completa",
         "precio":  48500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/7a06c6a9-0cbd-44ef-8182-76a37b7db694.webp"
-    },
-    {
-        "marca":  "Mykonos",
-        "nombre":  "Glitch Extrait De Parfum",
-        "notas":  "chile rojo (ají rojo), jengibre, notas ozónicas y notas acuosas, lirio de los valles (muguete), cedro y ylang-ylang, notas amaderadas, vainilla y almizcle",
-        "inspirado":  "Creación original",
-        "tamano":  "50ml",
-        "formato":  "Botella Completa",
-        "precio":  54500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/f69830f6-16ca-45f3-87a9-b62d122f824d.webp"
     },
     {
         "marca":  "Mykonos",
