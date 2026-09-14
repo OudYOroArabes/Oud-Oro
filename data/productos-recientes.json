@@ -1,5 +1,15 @@
 [
     {
+        "marca":  "Fragrance World",
+        "nombre":  "Barakkat Rouge 540",
+        "notas":  "FRAGRANCE WORLD BARAKKAT ROUGE 540",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  56500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/6fb78a81-bb76-4e38-86be-f5d5d39719e8.webp"
+    },
+    {
         "marca":  "Rayhaan",
         "nombre":  "Valhalla",
         "notas":  "frambuesa, coñac y Licor, rosa de Bulgaria (rosa Damascena de Bulgaria), haba tonka y musgo de roble, sándalo, roble y praliné",
@@ -108,15 +118,5 @@
         "formato":  "Botella Completa",
         "precio":  101500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4a48dafa-240d-4e48-ad70-1e2037fd1011.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Eclaire",
-        "notas":  "caramelo, leche y azúcar, miel y flores blancas, vainilla, praliné y almizcle",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  82500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/b09683f5-4a45-4a0f-bf13-b045a4c858a0.webp"
     }
 ]
