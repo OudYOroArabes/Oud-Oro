@@ -210,7 +210,7 @@ $dropeados = @()
 $apiPorGenNorm = @{}
 foreach ($p in $listaApi) {
     $name = ([string]$p.name).Trim()
-    if ($name -match '^ZZ|^KIT |DECANTS 10ML|VAPE|ELFBAR|30ML') { continue }
+    if ($name -match '^ZZ|^KIT |DECANTS 10ML|VAPE|ELFBAR|30ML|^LOST MARY') { continue }
     $g = & $script:bloqueGenerar $p
     $gn = Norm $g.nombre
     if (-not $apiPorGenNorm.ContainsKey($gn)) { $apiPorGenNorm[$gn] = $p }
@@ -265,7 +265,7 @@ foreach ($viejo in $mipodbaPrev) {
 $excluidosAntes = @()
 foreach ($p in $listaApi) {
     $name = ([string]$p.name).Trim()
-    if ($name -match '^ZZ|^KIT |DECANTS 10ML|VAPE|ELFBAR|30ML') { continue }
+    if ($name -match '^ZZ|^KIT |DECANTS 10ML|VAPE|ELFBAR|30ML|^LOST MARY') { continue }
 
     $g = & $script:bloqueGenerar $p
     $gn = Norm $g.nombre

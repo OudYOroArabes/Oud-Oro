@@ -100,16 +100,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/7a06c6a9-0cbd-44ef-8182-76a37b7db694.webp"
     },
     {
-        "marca":  "Lost",
-        "nombre":  "Mary Dura 35k",
-        "notas":  "LOST MARY DURA 35K",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  32500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/bfd5ca94-666c-4480-a3ac-a1721c987148.webp"
-    },
-    {
         "marca":  "Lattafa",
         "nombre":  "Nebras Elixir",
         "notas":  "Caramelo de leche y crema batida, caña de azúcar y heliotropo, vainilla, almizcle y ambroxan",
@@ -118,5 +108,15 @@
         "formato":  "Botella Completa",
         "precio":  74500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/5c76c2b7-cea1-49f1-8e18-c7c2acff7b7b.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Musaman White Intense",
+        "notas":  "especias, bergamota y naranja, coco, ylang-ylang, ambroxan y Mahonial, sándalo, almizcle y benjuí",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  101500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4a48dafa-240d-4e48-ad70-1e2037fd1011.webp"
     }
 ]
