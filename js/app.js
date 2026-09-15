@@ -1,5 +1,5 @@
 /* Oud & Oro - Lógica principal (catálogo, filtros, carrito, modal, WhatsApp) */
-const JSON_VERSION = 2;
+const JSON_VERSION = 16;
 
 let productos = [];
 let marcasSeleccionadas = new Set();
