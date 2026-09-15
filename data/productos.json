@@ -2668,5 +2668,25 @@
         "formato":  "Botella Completa",
         "precio":  56500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/6fb78a81-bb76-4e38-86be-f5d5d39719e8.webp"
+    },
+    {
+        "marca":  "Afnan",
+        "nombre":  "Supremacy Collector Edition",
+        "notas":  "piña, bergamota, flores blancas y manzana, flor de azahar del naranjo, abedul y ámbar, musgo de roble, almizcle y ámbar gris",
+        "inspirado":  "Absolu Aventus 2023 Creed",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  147000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/d61f46d5-9abc-4204-91fd-c171e56f4bd6.webp"
+    },
+    {
+        "marca":  "Armaf",
+        "nombre":  "Club De Nuit Intense Man",
+        "notas":  "limón (lima ácida), piña, bergamota, grosellas negras y manzana, abedul, jazmín y rosa, almizcle, ámbar gris, pachulí y vainilla",
+        "inspirado":  "Creed Aventus",
+        "tamano":  "200ml",
+        "formato":  "Botella Completa",
+        "precio":  129500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4922df8e-818f-4001-97fe-56de004dc8c0.webp"
     }
 ]
