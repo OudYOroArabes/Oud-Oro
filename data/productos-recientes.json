@@ -1,15 +1,5 @@
 [
     {
-        "marca":  "Armaf",
-        "nombre":  "Club De Nuit Intense Man",
-        "notas":  "limón (lima ácida), piña, bergamota, grosellas negras y manzana, abedul, jazmín y rosa, almizcle, ámbar gris, pachulí y vainilla",
-        "inspirado":  "Creed Aventus",
-        "tamano":  "200ml",
-        "formato":  "Botella Completa",
-        "precio":  129500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4922df8e-818f-4001-97fe-56de004dc8c0.webp"
-    },
-    {
         "marca":  "Afnan",
         "nombre":  "Supremacy Collector Edition",
         "notas":  "piña, bergamota, flores blancas y manzana, flor de azahar del naranjo, abedul y ámbar, musgo de roble, almizcle y ámbar gris",
@@ -46,7 +36,7 @@
         "inspirado":  "Creación original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  74500,
+        "precio":  73000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/bb56ee0e-988f-4beb-8305-b12f4670d117.webp"
     },
     {
@@ -118,5 +108,15 @@
         "formato":  "Botella Completa",
         "precio":  101500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4a48dafa-240d-4e48-ad70-1e2037fd1011.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Eclaire",
+        "notas":  "caramelo, leche y azúcar, miel y flores blancas, vainilla, praliné y almizcle",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  82500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/b09683f5-4a45-4a0f-bf13-b045a4c858a0.webp"
     }
 ]
