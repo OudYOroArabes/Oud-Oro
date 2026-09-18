@@ -363,7 +363,7 @@ function abrirModal(indice) {
             <div class="opcion-label">Elegí tu formato:</div>
             <div class="opcion-selector seleccionado" data-formato="10ml">
                 <span class="nombre">10ml · Decant</span>
-                <span class="precio">${formatearPrecio(precios['10ml'])}</span>
+                <span class="precio">Consultar stock</span>
             </div>
             <div class="opcion-selector" data-formato="botella">
                 <span class="nombre">Botella completa (${p.tamano})</span>
@@ -420,7 +420,7 @@ const CART_KEY = 'oudCarrito';
 function cargarCarritoLS() {
     try {
         const v = JSON.parse(localStorage.getItem(CART_KEY));
-        return Array.isArray(v) ? v.filter(i => i && i.marca && i.nombre && typeof i.precio === 'number') : [];
+        return Array.isArray(v) ? v.filter(i => i && i.marca && i.nombre && (i.formato !== 'botella' || typeof i.precio === 'number')) : [];
     } catch (e) { return []; }
 }
 
@@ -463,7 +463,7 @@ function agregarAlCarrito(p, formato) {
         marca: p.marca,
         nombre: p.nombre,
         formato: formato,
-        precio: calcularPrecios(p)[formato]
+        precio: formato === 'botella' ? p.precio : null
     });
     guardarCarritoLS();
     renderizarCarrito();
@@ -486,7 +486,7 @@ function renderizarCarrito() {
     }
 
     if (el.total) {
-        const suma = carrito.reduce((acc, item) => acc + item.precio, 0);
+        const suma = carrito.reduce((acc, item) => acc + (typeof item.precio === 'number' ? item.precio : 0), 0);
         el.total.textContent = suma > 0 ? formatearPrecio(suma) : '';
     }
 
@@ -503,7 +503,7 @@ function renderizarCarrito() {
                     <div class="carrito-item">
                         <div class="carrito-item-top">
                             <span class="carrito-item-nombre">${item.marca} ${item.nombre}</span>
-                            <span class="carrito-item-precio">${formatearPrecio(item.precio)}</span>
+                            <span class="carrito-item-precio">${item.formato === 'botella' ? formatearPrecio(item.precio) : 'Consultar stock'}</span>
                         </div>
                         <span class="carrito-item-formato${esDecant ? ' decant' : ''}">${formatoTexto}</span>
                         <button class="carrito-quitar" data-quitar="${i}" type="button">Quitar</button>
@@ -522,10 +522,12 @@ function enviarCarrito() {
         const formatoTexto = item.formato === 'botella'
             ? 'Botella completa'
             : `${item.formato} Decant`;
-        return `• ${item.marca} ${item.nombre} — ${formatoTexto} (${formatearPrecio(item.precio)})`;
+        const precioTexto = item.formato === 'botella' ? formatearPrecio(item.precio) : 'Consultar stock';
+        return `• ${item.marca} ${item.nombre} — ${formatoTexto} (${precioTexto})`;
     });
-    const total = carrito.reduce((acc, item) => acc + item.precio, 0);
-    const mensaje = `Hola, quiero hacer este pedido:\n\n${lineas.join('\n')}\n\nTotal: ${formatearPrecio(total)}. ¿Me confirmás disponibilidad y el proceso de compra?`;
+    const total = carrito.reduce((acc, item) => acc + (typeof item.precio === 'number' ? item.precio : 0), 0);
+    const cierre = total > 0 ? `Total: ${formatearPrecio(total)}. ` : '';
+    const mensaje = `Hola, quiero hacer este pedido:\n\n${lineas.join('\n')}\n\n${cierre}¿Me confirmás disponibilidad y el proceso de compra?`;
     window.open(`https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`, '_blank');
 }
 

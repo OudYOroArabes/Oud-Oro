@@ -118,7 +118,7 @@ function abrirModal(indice) {
             <div class="opcion-label">Elegí tu formato:</div>
             <div class="opcion-selector seleccionado" data-formato="10ml">
                 <span class="nombre">10ml · Decant</span>
-                <span class="precio">${formatearPrecio(precios['10ml'])}</span>
+                <span class="precio">Consultar stock</span>
             </div>
             <div class="opcion-selector" data-formato="botella">
                 <span class="nombre">Botella completa (${p.tamano})</span>
@@ -142,9 +142,9 @@ function abrirModal(indice) {
     });
 
     document.getElementById('modal-wa-btn').addEventListener('click', () => {
-        const precio = precios[formatoElegido];
         const etiqueta = formatoElegido === 'botella' ? `Botella completa (${p.tamano})` : `${formatoElegido} Decant`;
-        const msg = encodeURIComponent(`Hola! Me interesa el perfume ${p.marca} - ${p.nombre} en ${etiqueta} (${formatearPrecio(precio)}). ¿Tenés disponibilidad?`);
+        const precioTexto = formatoElegido === 'botella' ? formatearPrecio(precios[formatoElegido]) : 'Consultar stock';
+        const msg = encodeURIComponent(`Hola! Me interesa el perfume ${p.marca} - ${p.nombre} en ${etiqueta} (${precioTexto}). ¿Tenés disponibilidad?`);
         window.open(`https://wa.me/${numeroWhatsApp}?text=${msg}`, '_blank');
         cerrarModal();
     });

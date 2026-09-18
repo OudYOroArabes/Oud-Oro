@@ -203,7 +203,7 @@ function abrirModal(indice) {
         <p class="modal-notas"><strong>Notas:</strong> ${p.notas}</p>
         <div class="modal-opciones">
             <div class="opcion-label">Elegí tu formato:</div>
-            <div class="opcion-selector seleccionado" data-formato="10ml"><span class="nombre">10ml · Decant</span><span class="precio">${formatearPrecio(precios['10ml'])}</span></div>
+            <div class="opcion-selector seleccionado" data-formato="10ml"><span class="nombre">10ml · Decant</span><span class="precio">Consultar stock</span></div>
             <div class="opcion-selector" data-formato="botella"><span class="nombre">Botella completa (${p.tamano})</span><span class="precio">${formatearPrecio(precios['botella'])}</span></div>
         </div>
         <button class="cta-btn modal-wa" id="modal-wa-btn">Añadir al carrito</button>
@@ -229,11 +229,11 @@ function abrirModal(indice) {
 
 function agregarAlCarrito(p, formato) {
     const clave = formato;
-    const precio = calcularPrecios(p)[clave];
+    const precioTexto = clave === 'botella' ? formatearPrecio(calcularPrecios(p)[clave]) : 'Consultar stock';
     const formatoTexto = clave === 'botella'
         ? `Botella completa (${p.tamano})`
         : `${clave} Decant`;
-    const mensaje = `Hola, me interesa esta fragancia:\n\n• ${p.marca} ${p.nombre} — ${formatoTexto} (${formatearPrecio(precio)})\n\n¿Me confirmás disponibilidad y el proceso de compra?`;
+    const mensaje = `Hola, me interesa esta fragancia:\n\n• ${p.marca} ${p.nombre} — ${formatoTexto} (${precioTexto})\n\n¿Me confirmás disponibilidad y el proceso de compra?`;
     window.open(`https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`, '_blank');
 }
 
