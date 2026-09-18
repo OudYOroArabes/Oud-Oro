@@ -1,5 +1,15 @@
 [
     {
+        "marca":  "Fragrance World",
+        "nombre":  "Supreme L\u0027Homme",
+        "notas":  "flor de azahar del naranjo, naranja amarga, romero y cítricos, almendra y haba tonka, vetiver, cedro y cuero",
+        "inspirado":  "L’Homme Idéal Eau de Parfum Guerlain",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  43000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/7e6f0f95-1b93-4508-9e84-8826e3db18f9.webp"
+    },
+    {
         "marca":  "Afnan",
         "nombre":  "Supremacy Collector Edition",
         "notas":  "piña, bergamota, flores blancas y manzana, flor de azahar del naranjo, abedul y ámbar, musgo de roble, almizcle y ámbar gris",
@@ -108,15 +118,5 @@
         "formato":  "Botella Completa",
         "precio":  101500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4a48dafa-240d-4e48-ad70-1e2037fd1011.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Eclaire",
-        "notas":  "caramelo, leche y azúcar, miel y flores blancas, vainilla, praliné y almizcle",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  82500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/b09683f5-4a45-4a0f-bf13-b045a4c858a0.webp"
     }
 ]

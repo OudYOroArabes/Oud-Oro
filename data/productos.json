@@ -2598,5 +2598,15 @@
         "formato":  "Botella Completa",
         "precio":  147000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/d61f46d5-9abc-4204-91fd-c171e56f4bd6.webp"
+    },
+    {
+        "marca":  "Fragrance World",
+        "nombre":  "Supreme L\u0027Homme",
+        "notas":  "flor de azahar del naranjo, naranja amarga, romero y cítricos, almendra y haba tonka, vetiver, cedro y cuero",
+        "inspirado":  "L’Homme Idéal Eau de Parfum Guerlain",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  43000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/7e6f0f95-1b93-4508-9e84-8826e3db18f9.webp"
     }
 ]
