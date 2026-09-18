@@ -415,7 +415,20 @@ document.addEventListener('keydown', (e) => {
 });
 
 /* ===== Carrito de compras ===== */
-let carrito = [];
+const CART_KEY = 'oudCarrito';
+
+function cargarCarritoLS() {
+    try {
+        const v = JSON.parse(localStorage.getItem(CART_KEY));
+        return Array.isArray(v) ? v.filter(i => i && i.marca && i.nombre && typeof i.precio === 'number') : [];
+    } catch (e) { return []; }
+}
+
+function guardarCarritoLS() {
+    try { localStorage.setItem(CART_KEY, JSON.stringify(carrito)); } catch (e) {}
+}
+
+let carrito = cargarCarritoLS();
 let carritoAbierto = false;
 
 const carritoEl = {
@@ -452,12 +465,14 @@ function agregarAlCarrito(p, formato) {
         formato: formato,
         precio: calcularPrecios(p)[formato]
     });
+    guardarCarritoLS();
     renderizarCarrito();
     abrirCarrito();
 }
 
 function quitarDelCarrito(indice) {
     carrito.splice(indice, 1);
+    guardarCarritoLS();
     renderizarCarrito();
 }
 
