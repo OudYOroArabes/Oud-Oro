@@ -334,7 +334,6 @@ let formatoElegido = '10ml';
 
 function calcularPrecios(p) {
     return {
-        '5ml': Math.round(p.precio * 0.08 * 1.2 * 1.2),
         '10ml': Math.round(p.precio * 0.15 * 1.2),
         'botella': p.precio
     };
@@ -362,10 +361,6 @@ function abrirModal(indice) {
         <p class="modal-notas"><strong>Notas:</strong> ${p.notas}</p>
         <div class="modal-opciones">
             <div class="opcion-label">Elegí tu formato:</div>
-            <div class="opcion-selector" data-formato="5ml">
-                <span class="nombre">5ml · Decant</span>
-                <span class="precio">${formatearPrecio(precios['5ml'])}</span>
-            </div>
             <div class="opcion-selector seleccionado" data-formato="10ml">
                 <span class="nombre">10ml · Decant</span>
                 <span class="precio">${formatearPrecio(precios['10ml'])}</span>
