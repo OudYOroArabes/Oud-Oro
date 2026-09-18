@@ -591,16 +591,6 @@
     },
     {
         "marca":  "Armaf",
-        "nombre":  "Dunescape Extrait De Parfum",
-        "notas":  "ARMAF DUNESCAPE EXTRAIT DE PARFUM",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  110500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/f1811fea-adab-4e51-8313-7089c2fe8f38.webp"
-    },
-    {
-        "marca":  "Armaf",
         "nombre":  "Odyssey Aqua",
         "notas":  "naranja, toronja (pomelo) y abrótano, menta y lavanda, ambroxan, pachulí y ciprés",
         "inspirado":  "Paco Rabanne Invictus Platinum",
@@ -856,7 +846,7 @@
         "inspirado":  "Creación original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  82500,
+        "precio":  81000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/84b908f5-5626-43fd-b70b-9e0bd1eabcd8.webp"
     },
     {
@@ -1181,26 +1171,6 @@
     },
     {
         "marca":  "Lattafa",
-        "nombre":  "Breeze",
-        "notas":  "bergamota, cardamomo y incienso, jazmín y ciclamen (violeta persa), almizcle, cedro y sándalo",
-        "inspirado":  "724 Maison Francis Kurkdjian",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  58500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/54e0f5ae-e7be-4b39-ae8d-0dd4986e42c7.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Dynasty",
-        "notas":  "bergamota, jengibre, esclarea, frambuesa y nuez moscada, té rooibos y gamuza, cedro, cachemira y Amberwood",
-        "inspirado":  "L Red Tea Vetiver Clive Christian",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  69000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/a88108ce-de14-4a03-9acc-07a9ddad05e9.webp"
-    },
-    {
-        "marca":  "Lattafa",
         "nombre":  "Ejaazi Intensive Silver",
         "notas":  "mandarina y toronja (pomelo), notas marinas y cedro, ámbar y musgo",
         "inspirado":  "Vodka on the Rocks By Kilian",
@@ -1421,16 +1391,6 @@
     },
     {
         "marca":  "Lattafa",
-        "nombre":  "Qaed Al Fursan Untamed",
-        "notas":  "canela, mandarina, nuez moscada y cardamomo, caramelo, lavanda, geranio, esclarea y ciprés, ládano, incienso de olíbano (franquincienso), ámbar, vetiver y cedro",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  44500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/a450fd11-6a04-4e88-9ca8-ca96570cf3b1.webp"
-    },
-    {
-        "marca":  "Lattafa",
         "nombre":  "Qimmah For Women",
         "notas":  "almendra y café, nardos, jazmín y haba tonka, vainilla, cacao y sándalo",
         "inspirado":  "Good Girl Carolina Herrera",
@@ -1568,16 +1528,6 @@
         "formato":  "Botella Completa",
         "precio":  48500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/d7330015-5a62-4dcd-876a-d08b255e6302.webp"
-    },
-    {
-        "marca":  "Maison Alhambra",
-        "nombre":  "Galactic Men",
-        "notas":  "tabaco y miel, vainilla, cacao y pachulí, ámbar, sándalo y styrax",
-        "inspirado":  "Mugler Pure Havane",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  43000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/b99b4c4e-c674-4a36-90f4-b20012e83a80.webp"
     },
     {
         "marca":  "Maison Alhambra",
