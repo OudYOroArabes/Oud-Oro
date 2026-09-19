@@ -706,7 +706,7 @@
         "inspirado":  "Creación original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  98500,
+        "precio":  97000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/5f0e11a0-ba5d-4ccc-8154-5baad40ec103.webp"
     },
     {
@@ -1000,16 +1000,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1dd5d560-0114-4250-bd72-001edf11ab67.webp"
     },
     {
-        "marca":  "Game of Spades",
-        "nombre":  "Full-house Parfum",
-        "notas":  "cidra, bergamota de Calabria y naranja siciliana, jengibre nigeriano, neroli de Túnez y canela de Ceylan, té negro de China, ambroxan, madera de gaiac y incienso de olíbano (franquincienso)",
-        "inspirado":  "Imagination Louis Vuitton",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  202500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/18e9ba78-b6da-4946-b4dd-51e634c098a4.webp"
-    },
-    {
         "marca":  "Gulf Orchid",
         "nombre":  "El Capitán Elixir",
         "notas":  "lavanda, bergamota y menta, benjuí, ámbar y canela, haba tonka, vainilla y almizcle",
@@ -1198,16 +1188,6 @@
         "formato":  "Botella Completa",
         "precio":  67000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/5ec7981a-7033-4a71-8fb3-55cac963f2f0.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Habik For Men",
-        "notas":  "cardamomo, pimienta, abrótano y bergamota, lavanda, canela y salvia, haba tonka, sándalo, almizcle, pachulí y Amberwood",
-        "inspirado":  "Jean Paul Gaultier Le Male Essence",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  61000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/90645319-a8cc-452b-97ef-80fd9d9a7510.webp"
     },
     {
         "marca":  "Lattafa",
@@ -2361,16 +2341,6 @@
     },
     {
         "marca":  "Fragrance World",
-        "nombre":  "Oud Madness",
-        "notas":  "azafrán y rosa turca, madera de oud, madera de oud, hojas de pachulí de Indonesia y benjuí, cuero, ámbar, vainilla y ládano",
-        "inspirado":  "Oud Maracujá Maison Crivelli",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  42000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/2c596bda-3172-40e8-849a-54ce8eab9dba.webp"
-    },
-    {
-        "marca":  "Fragrance World",
         "nombre":  "Prohibit Intense",
         "notas":  "bergamota y pera, flor de azahar del naranjo, jazmín sambac (sampaguita) y nardos, pachulí, ambroxan, vainilla y vetiver *inspirado en: \u0026nbsp",
         "inspirado":  "\u0026nbsp; L\u0027Interdit Eau de Parfum Givenchy*",
@@ -2558,5 +2528,125 @@
         "formato":  "Botella Completa",
         "precio":  43000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/7e6f0f95-1b93-4508-9e84-8826e3db18f9.webp"
+    },
+    {
+        "marca":  "Dumont",
+        "nombre":  "Nitro Red",
+        "notas":  "manzana, lavanda y bergamota, sandía, cedro y cálamo aromático, ámbar, sándalo y pachulí",
+        "inspirado":  "Invictus Rabanne",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  90500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/ea4e4a5a-d5cf-435b-962c-c8a98848b3eb.webp"
+    },
+    {
+        "marca":  "Dumont",
+        "nombre":  "Nitro White",
+        "notas":  "bayas de enebro, iris y ciprés, mirra y pachulí, miel, vainilla, ámbar, almizcle y cuero",
+        "inspirado":  "Armani Stronger With You",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  90500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3abbe04b-0709-4a74-8b7c-0d3db74ee365.webp"
+    },
+    {
+        "marca":  "Emper",
+        "nombre":  "Uomo Intnese By Stallion 53",
+        "notas":  "EMPER UOMO INTNESE BY STALLION 53",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  79500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/080bb9bd-0ef6-4146-b1af-493e1240845a.webp"
+    },
+    {
+        "marca":  "Maison Alhambra",
+        "nombre":  "Jorge Di Profumo Aqua",
+        "notas":  "lima (limón verde), limón (lima ácida), neroli, mandarina, naranja, bergamota y jazmín, Notas marinas, calone, fresia, reseda, romero, ciclamen (violeta persa), cilantro, jazmín, jacinto, violeta, nuez moscada, durazno (melocotón) y rosa, almizcle blanco, cedro, musgo de roble, pachulí y ámbar",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  54000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/b01f4500-8624-416f-a9c5-c9d884bccf96.webp"
+    },
+    {
+        "marca":  "Matin",
+        "nombre":  "Martin Santorini",
+        "notas":  "cítricos y notas ozónicas, fresia y notas florales, almizcle, musgo y ámbar gris",
+        "inspirado":  "Costa Azzurra Tom Ford",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  117500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3c73eadb-0203-439d-b448-e21a1286abb6.webp"
+    },
+    {
+        "marca":  "Mykonos",
+        "nombre":  "California Signature Extrait De Parfum",
+        "notas":  "mandarina y limón (lima ácida), lavanda, lichi, Notas acuáticas, romero, cardamomo y geranio, madera de teca, haba tonka y vetiver",
+        "inspirado":  "Lafayette Street Bond No 9",
+        "tamano":  "50ml",
+        "formato":  "Botella Completa",
+        "precio":  56000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/6e1f0946-f9d4-4c5c-8378-0778ba676318.webp"
+    },
+    {
+        "marca":  "Mykonos",
+        "nombre":  "Dreamscape Extrait De Parfum",
+        "notas":  "mango, limón italiano (lima italiana) y ruibarbo, jengibre, pimienta rosa, violeta, jazmín y praliné, cedro, ámbar, musgo y haba tonka",
+        "inspirado":  "God of Fire Stéphane Humbert Lucas 777",
+        "tamano":  "50ml",
+        "formato":  "Botella Completa",
+        "precio":  56000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/563ac225-ad2d-4ab3-8668-bddc7a7b2679.webp"
+    },
+    {
+        "marca":  "Mykonos",
+        "nombre":  "Invade Extrait De Parfum",
+        "notas":  "piña, toronja (pomelo) y bergamota, rosa de Taif, salvia y hojas de violeta, cedro, vetiver, sándalo y pachulí",
+        "inspirado":  "Creación original",
+        "tamano":  "50ml",
+        "formato":  "Botella Completa",
+        "precio":  56000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/559ffd82-e367-4380-ba31-4bcd2722894f.webp"
+    },
+    {
+        "marca":  "Mykonos",
+        "nombre":  "Reflection Extrait De Parfum",
+        "notas":  "toronja (pomelo), mandarina, notas afrutadas, bergamota y notas verdes, durazno (melocotón), jazmín, pachulí, geranio y rosa, almizcle, ámbar, cedro, sándalo y vainilla",
+        "inspirado":  "Creación original",
+        "tamano":  "50ml",
+        "formato":  "Botella Completa",
+        "precio":  56000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/cf2be06a-25e3-430c-ad0c-6628c4988e4c.webp"
+    },
+    {
+        "marca":  "Nusuk",
+        "nombre":  "Ateeq Extrait De Parfum",
+        "notas":  "miel, canela, ámbar, toronja (pomelo) y lima (limón verde), tabaco, lavanda y jazmín, haba tonka, cumarina, cedro, almizcle y orquídea de vainilla",
+        "inspirado":  "XJ 1861 Naxos Xerjoff",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  104000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/45d15328-f054-4590-8206-c265b8e629d0.webp"
+    },
+    {
+        "marca":  "Rayhaan",
+        "nombre":  "Nova Sol",
+        "notas":  "chicozapote y almizcle ambreta, magnolia, violeta y sándalo, almizcle, ámbar gris y cedro",
+        "inspirado":  "Mojave Ghost Absolu Byredo",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  98500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/84deaae2-7cf0-4e90-8465-6266bd75accf.webp"
+    },
+    {
+        "marca":  "Riiffs",
+        "nombre":  "Momento Extrait De Parfum",
+        "notas":  "azúcar, azafrán y mandarina, haba tonka, rosa de Damasco y madera de oud, Amberwood, caramelo y cedro",
+        "inspirado":  "Arabians Tonka Montale",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  104000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/09598aba-3cb5-4458-8b38-20a49d4a3da2.webp"
     }
 ]
