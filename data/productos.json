@@ -591,16 +591,6 @@
     },
     {
         "marca":  "Armaf",
-        "nombre":  "Odyssey Aqua",
-        "notas":  "naranja, toronja (pomelo) y abrótano, menta y lavanda, ambroxan, pachulí y ciprés",
-        "inspirado":  "Paco Rabanne Invictus Platinum",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  79500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/82e83ddd-86a4-422b-b35c-0ba648610dd9.webp"
-    },
-    {
-        "marca":  "Armaf",
         "nombre":  "Odyssey Artisto",
         "notas":  "bergamota, Notas de frutos secos y salvia, coco, frutas tropicales y canela, vainilla, haba tonka y ámbar",
         "inspirado":  "Jean Paul Gaultier Le Beau le Parfum",
@@ -2610,16 +2600,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/559ffd82-e367-4380-ba31-4bcd2722894f.webp"
     },
     {
-        "marca":  "Mykonos",
-        "nombre":  "Reflection Extrait De Parfum",
-        "notas":  "toronja (pomelo), mandarina, notas afrutadas, bergamota y notas verdes, durazno (melocotón), jazmín, pachulí, geranio y rosa, almizcle, ámbar, cedro, sándalo y vainilla",
-        "inspirado":  "Creación original",
-        "tamano":  "50ml",
-        "formato":  "Botella Completa",
-        "precio":  56000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/cf2be06a-25e3-430c-ad0c-6628c4988e4c.webp"
-    },
-    {
         "marca":  "Nusuk",
         "nombre":  "Ateeq Extrait De Parfum",
         "notas":  "miel, canela, ámbar, toronja (pomelo) y lima (limón verde), tabaco, lavanda y jazmín, haba tonka, cumarina, cedro, almizcle y orquídea de vainilla",
@@ -2648,5 +2628,15 @@
         "formato":  "Botella Completa",
         "precio":  104000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/09598aba-3cb5-4458-8b38-20a49d4a3da2.webp"
+    },
+    {
+        "marca":  "Rasasi",
+        "nombre":  "Hawas For Him",
+        "notas":  "manzana, bergamota, limón (lima ácida) y canela, notas acuosas, ciruela, cardamomo y flor de azahar del naranjo, ámbar gris, almizcle, pachulí y trozos de madera a la deriva",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  65000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/87402202-187a-4fd3-8184-a6b49382c360.webp"
     }
 ]
