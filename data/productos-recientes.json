@@ -60,16 +60,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/563ac225-ad2d-4ab3-8668-bddc7a7b2679.webp"
     },
     {
-        "marca":  "Mykonos",
-        "nombre":  "California Signature Extrait De Parfum",
-        "notas":  "mandarina y limón (lima ácida), lavanda, lichi, Notas acuáticas, romero, cardamomo y geranio, madera de teca, haba tonka y vetiver",
-        "inspirado":  "Lafayette Street Bond No 9",
-        "tamano":  "50ml",
-        "formato":  "Botella Completa",
-        "precio":  56000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/6e1f0946-f9d4-4c5c-8378-0778ba676318.webp"
-    },
-    {
         "marca":  "Matin",
         "nombre":  "Martin Santorini",
         "notas":  "cítricos y notas ozónicas, fresia y notas florales, almizcle, musgo y ámbar gris",
@@ -118,5 +108,15 @@
         "formato":  "Botella Completa",
         "precio":  90500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/ea4e4a5a-d5cf-435b-962c-c8a98848b3eb.webp"
+    },
+    {
+        "marca":  "Fragrance World",
+        "nombre":  "Supreme L\u0027Homme",
+        "notas":  "flor de azahar del naranjo, naranja amarga, romero y cítricos, almendra y haba tonka, vetiver, cedro y cuero",
+        "inspirado":  "L’Homme Idéal Eau de Parfum Guerlain",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  43000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/7e6f0f95-1b93-4508-9e84-8826e3db18f9.webp"
     }
 ]
