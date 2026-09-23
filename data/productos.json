@@ -541,16 +541,6 @@
     },
     {
         "marca":  "Armaf",
-        "nombre":  "Club De Nuit Maleka",
-        "notas":  "lichi, bergamota y pimienta rosa, praliné, sándalo y ambroxan",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  93000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/09fed342-ec4c-474a-9706-df786ef21d93.webp"
-    },
-    {
-        "marca":  "Armaf",
         "nombre":  "Club De Nuit Untold",
         "notas":  "azafrán y jazmín, Amberwood y ámbar gris, resina de abeto y cedro",
         "inspirado":  "Baccarat Rouge 540",
@@ -1101,16 +1091,6 @@
     },
     {
         "marca":  "Lattafa",
-        "nombre":  "Asad Black",
-        "notas":  "piña y toronja (pomelo), higo y lavanda, vainilla, haba tonka y pachulí",
-        "inspirado":  "Dior Souvage Elixir",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  74500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/2c99a084-745b-4379-9d47-3b1827379714.webp"
-    },
-    {
-        "marca":  "Lattafa",
         "nombre":  "Atlas",
         "notas":  "notas marinas, sal y limón (lima ácida), Davana y iris, ámbar gris, musgo de roble y sándalo",
         "inspirado":  "Megamare Orto Parisi",
@@ -1176,18 +1156,8 @@
         "inspirado":  "Paco Rabanne Invictus",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  48500,
+        "precio":  47500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/360ab825-8d84-4dad-9ced-c858a2b494aa.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Her Confession",
-        "notas":  "Místico y canela, nardos, jazmín, incienso y Mahonial, vainilla, haba tonka y almizcle",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  86500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/73df0d96-bae3-4193-9721-6b3d5436c59c.webp"
     },
     {
         "marca":  "Lattafa",
@@ -1338,16 +1308,6 @@
         "formato":  "Botella Completa",
         "precio":  46000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/bbf552e0-e3d4-4900-a943-0e384f48738f.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Qimmah For Women",
-        "notas":  "almendra y café, nardos, jazmín y haba tonka, vainilla, cacao y sándalo",
-        "inspirado":  "Good Girl Carolina Herrera",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  51500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/fa2b9744-9c59-40ed-aa2e-969d700aa30e.webp"
     },
     {
         "marca":  "Lattafa",
@@ -2608,5 +2568,135 @@
         "formato":  "Botella Completa",
         "precio":  65000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/87402202-187a-4fd3-8184-a6b49382c360.webp"
+    },
+    {
+        "marca":  "Fragance",
+        "nombre":  "World La Uno Forever Blue",
+        "notas":  "toronja (pomelo), mandarina siciliana, bergamota y enebro de Virginia, notas ozónicas, hojas de violeta, romero y pimienta, aceite de vetiver de Java, almizcle blanco, pachulí, musgo de roble y incienso",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  47500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/863687df-cc8a-4631-a5f1-3f840b6be820.webp"
+    },
+    {
+        "marca":  "Fragrance World",
+        "nombre":  "Ace",
+        "notas":  "clavos de olor, pimienta rosa y flor de azahar del naranjo, castaña, madera de gaiac y enebro, vainilla, bálsamo del Perú y cachemira",
+        "inspirado":  "By the Fireplace Maison Martin Margiela",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  54000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/24245fce-6d97-4edf-9d29-5b8ac6e63beb.webp"
+    },
+    {
+        "marca":  "Fragrance World",
+        "nombre":  "Bad Lad Le Parfum",
+        "notas":  "marihuana (cannabis) y toronja (pomelo), pimienta negra y geranio, cuero y vetiver",
+        "inspirado":  "Bad Boy Le Parfum Carolina Herrera",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  46000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3cad283a-0c45-456d-ab2c-14fdf20cf940.webp"
+    },
+    {
+        "marca":  "Fragrance World",
+        "nombre":  "Montera Instan Love",
+        "notas":  "azafrán, jengibre, frutas y cítricos, ámbar, rosa y jazmín, vainilla, sándalo, almizcle blanco y musgo de roble",
+        "inspirado":  "Instant Crush Mancera",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  48500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/70df07aa-c182-4669-82eb-760ffb594a63.webp"
+    },
+    {
+        "marca":  "Fragrance World",
+        "nombre":  "Montera Rouge Tobacco",
+        "notas":  "FRAGRANCE WORLD MONTERA ROUGE TOBACCO",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  48500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/27d2db2b-e7dc-430e-bb7c-2e7d8e08d2d9.webp"
+    },
+    {
+        "marca":  "Fragrance World",
+        "nombre":  "Prohibit Parfum Intense",
+        "notas":  "FRAGRANCE WORLD PROHIBIT PARFUM INTENSE",
+        "inspirado":  "Givenchy - L\u0027interdit eau de parfum Intense",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  44500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/ffdf9f03-8a4b-4260-9709-9863cb3159db.webp"
+    },
+    {
+        "marca":  "Fragrance World",
+        "nombre":  "Versus Ocean Bleu",
+        "notas":  "notas acuáticas, bergamota de Calabria, toronja (pomelo) y hojas de higuera, ambroxan, papiro de Egipto, pimienta negra, hojas de violeta y pachulí, haba tonka, azafrán, incienso y almizcle",
+        "inspirado":  "Versace Pour Homme Dylan Blue Versace",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  47500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/c89df7e9-242a-4c51-a155-5c8bb3ab2909.webp"
+    },
+    {
+        "marca":  "French Avenue",
+        "nombre":  "Ripple Extrait De Parfum",
+        "notas":  "lavanda, bergamota y salvia, Notas marinas, agua de mar, cedro y sándalo, incienso, almizcle y ámbar",
+        "inspirado":  "Y Elixir Yves Saint Laurent",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  109500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/f7788686-0d61-45da-89b4-0fca2f5e38b0.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Ameer Al Oudh Intense",
+        "notas":  "notas amaderadas y madera de oud, azúcar y vainilla, madera de oud, sándalo y notas herbales",
+        "inspirado":  "By the Fireplace Maison Martin Margiela",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  44500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/784a9860-3247-437f-8b5b-9f82d16be20c.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Sherif",
+        "notas":  "manzana, petit grain y bergamota, cedro, cachemira y violeta, musgo de roble, almizcle y ámbar",
+        "inspirado":  "Greenley Parfums de Marly",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  66000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/260267a5-777f-4b3c-8a57-141861c799a1.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "The Kingdom",
+        "notas":  "lavanda, menta y salvia, vainilla, tabaco y flor de azahar del naranjo, haba tonka, benjuí y ládano",
+        "inspirado":  "Jean Paul Gaultier Le Male Elixir\u0026nbsp;",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  75500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/d3566250-74d5-496b-baa8-e1254df97173.webp"
+    },
+    {
+        "marca":  "Mast",
+        "nombre":  "Perfume Rome Paradox",
+        "notas":  "MAST PERFUME ROME PARADOX",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  86500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3c25dabb-4337-433b-a305-894e55adc3a7.webp"
+    },
+    {
+        "marca":  "Rasasi",
+        "nombre":  "Hawas Overdose",
+        "notas":  "notas especiadas y Notas aromáticas, flor de azahar del naranjo, ámbar y madera de gaiac, vainilla, chocolate, ámbar gris y praliné",
+        "inspirado":  "Althaïr Parfums de Marly",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  142000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3764e173-21e8-4b0d-bc12-5923d7eeca4a.webp"
     }
 ]
