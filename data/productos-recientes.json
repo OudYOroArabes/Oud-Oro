@@ -1,5 +1,15 @@
 [
     {
+        "marca":  "Armaf",
+        "nombre":  "Odyssey Aqua",
+        "notas":  "Pomelo, naranja y artemisia, lavanda y menta, ciprés, pachulí y ambroxán",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  67500,
+        "imagen":  "https://armaf.com/cdn/shop/files/image-2023-05-04T112339.859.jpg?v=1739111570\u0026width=2048"
+    },
+    {
         "marca":  "Rasasi",
         "nombre":  "Hawas Overdose",
         "notas":  "notas especiadas y Notas aromáticas, flor de azahar del naranjo, ámbar y madera de gaiac, vainilla, chocolate, ámbar gris y praliné",
@@ -108,15 +118,5 @@
         "formato":  "Botella Completa",
         "precio":  46000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3cad283a-0c45-456d-ab2c-14fdf20cf940.webp"
-    },
-    {
-        "marca":  "Fragrance World",
-        "nombre":  "Ace",
-        "notas":  "clavos de olor, pimienta rosa y flor de azahar del naranjo, castaña, madera de gaiac y enebro, vainilla, bálsamo del Perú y cachemira",
-        "inspirado":  "By the Fireplace Maison Martin Margiela",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  54000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/24245fce-6d97-4edf-9d29-5b8ac6e63beb.webp"
     }
 ]

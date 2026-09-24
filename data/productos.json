@@ -2638,5 +2638,15 @@
         "formato":  "Botella Completa",
         "precio":  142000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3764e173-21e8-4b0d-bc12-5923d7eeca4a.webp"
+    },
+    {
+        "marca":  "Armaf",
+        "nombre":  "Odyssey Aqua",
+        "notas":  "Pomelo, naranja y artemisia, lavanda y menta, ciprés, pachulí y ambroxán",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  67500,
+        "imagen":  "https://armaf.com/cdn/shop/files/image-2023-05-04T112339.859.jpg?v=1739111570\u0026width=2048"
     }
 ]
