@@ -460,6 +460,16 @@
         "imagen":  "https://cdn.shopify.com/s/files/1/0589/3849/0927/files/dark-leather-rayhaan-perfumes-1.png?v=1725879481"
     },
     {
+        "marca":  "Armaf",
+        "nombre":  "Odyssey Aqua",
+        "notas":  "Pomelo, naranja y artemisia, lavanda y menta, ciprés, pachulí y ambroxán",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  72000,
+        "imagen":  "https://armaf.com/cdn/shop/files/image-2023-05-04T112339.859.jpg?v=1739111570\u0026width=2048"
+    },
+    {
         "marca":  "Afnan",
         "nombre":  "Turathi Electric",
         "notas":  "pera, mandarina, toronja (pomelo) rosada y bergamota, flor de azahar del naranjo, manzana y cedro, almizcle, vainilla y ámbar",
@@ -1320,16 +1330,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/635ffe1f-9223-4fd7-9fbd-2f9cf9e345af.webp"
     },
     {
-        "marca":  "Le Bonheur",
-        "nombre":  "Black Cavalier Xi",
-        "notas":  "bergamota, cardamomo, aceite de naranja, azafrán y menta, ajenjo (absenta), tomillo rojo, lavanda y canela, pachulí, cedro, haba tonka, vainilla, musgo de roble y ámbar",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  90500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/bac05ca4-1165-49fb-9d6d-4c9be58f6350.webp"
-    },
-    {
         "marca":  "Maison Alhambra",
         "nombre":  "Athena",
         "notas":  "naranja tangerina, pimienta rosa y bergamota, jazmín sambac (sampaguita), ylang-ylang y lirio de los valles (muguete), vainilla, sándalo y pachulí",
@@ -1418,16 +1418,6 @@
         "formato":  "Botella Completa",
         "precio":  52500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/f571e015-44b9-47ea-a6cd-22d1f00b9c2c.webp"
-    },
-    {
-        "marca":  "Maison Alhambra",
-        "nombre":  "Hercules",
-        "notas":  "canela y pimienta, hojas de tabaco, incienso, ládano y osmanto (olivo oloroso), vainilla, Iso E Super, cedro, almizcle y vetiver",
-        "inspirado":  "Herod Parfums de Marly",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  48500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/63dfe6dd-243f-4010-b7ed-11fcf4cc379b.webp"
     },
     {
         "marca":  "Maison Alhambra",
@@ -1900,16 +1890,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/73731d85-9789-404d-bc2c-05fa9fa2d411.webp"
     },
     {
-        "marca":  "Pendora",
-        "nombre":  "Prive",
-        "notas":  "canela y mandarina roja, mirra y tabaco, haba tonka y pachulí",
-        "inspirado":  "1 Million Privé Rabanne",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  51500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/22d749d8-6e38-47f3-9e9a-1fefb287f214.webp"
-    },
-    {
         "marca":  "Lattafa",
         "nombre":  "Qaed Al Fursan Unlimited",
         "notas":  "coco, cítricos y piña, ylang-ylang, frangipani (plumeria, plumaria, atapaima) y jazmín, vainilla, almizcle, sándalo y notas dulces",
@@ -2128,16 +2108,6 @@
         "formato":  "Botella Completa",
         "precio":  125500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/782e8b16-9a82-4659-bf78-d2e653bf7060.webp"
-    },
-    {
-        "marca":  "Armaf",
-        "nombre":  "Club De Nuit Iconic Blue",
-        "notas":  "toronja (pomelo), limón (lima ácida), menta, pimienta rosa y cilantro, jengibre, melón, jazmín y nuez moscada, notas amaderadas, incienso, sándalo, ámbar, cedro, pachulí y ládano",
-        "inspirado":  "Bleu de Chanel",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  98500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/f4c963d1-a3db-4365-b922-bd7eebf3d76d.webp"
     },
     {
         "marca":  "Armaf",
@@ -2430,36 +2400,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/080bb9bd-0ef6-4146-b1af-493e1240845a.webp"
     },
     {
-        "marca":  "Maison Alhambra",
-        "nombre":  "Jorge Di Profumo Aqua",
-        "notas":  "lima (limón verde), limón (lima ácida), neroli, mandarina, naranja, bergamota y jazmín, Notas marinas, calone, fresia, reseda, romero, ciclamen (violeta persa), cilantro, jazmín, jacinto, violeta, nuez moscada, durazno (melocotón) y rosa, almizcle blanco, cedro, musgo de roble, pachulí y ámbar",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  54000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/b01f4500-8624-416f-a9c5-c9d884bccf96.webp"
-    },
-    {
-        "marca":  "Matin",
-        "nombre":  "Martin Santorini",
-        "notas":  "cítricos y notas ozónicas, fresia y notas florales, almizcle, musgo y ámbar gris",
-        "inspirado":  "Costa Azzurra Tom Ford",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  117500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3c73eadb-0203-439d-b448-e21a1286abb6.webp"
-    },
-    {
-        "marca":  "Mykonos",
-        "nombre":  "Dreamscape Extrait De Parfum",
-        "notas":  "mango, limón italiano (lima italiana) y ruibarbo, jengibre, pimienta rosa, violeta, jazmín y praliné, cedro, ámbar, musgo y haba tonka",
-        "inspirado":  "God of Fire Stéphane Humbert Lucas 777",
-        "tamano":  "50ml",
-        "formato":  "Botella Completa",
-        "precio":  56000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/563ac225-ad2d-4ab3-8668-bddc7a7b2679.webp"
-    },
-    {
         "marca":  "Mykonos",
         "nombre":  "Invade Extrait De Parfum",
         "notas":  "piña, toronja (pomelo) y bergamota, rosa de Taif, salvia y hojas de violeta, cedro, vetiver, sándalo y pachulí",
@@ -2636,17 +2576,7 @@
         "inspirado":  "Althaïr Parfums de Marly",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  142000,
+        "precio":  133500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3764e173-21e8-4b0d-bc12-5923d7eeca4a.webp"
-    },
-    {
-        "marca":  "Armaf",
-        "nombre":  "Odyssey Aqua",
-        "notas":  "Pomelo, naranja y artemisia, lavanda y menta, ciprés, pachulí y ambroxán",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  72000,
-        "imagen":  "https://armaf.com/cdn/shop/files/image-2023-05-04T112339.859.jpg?v=1739111570\u0026width=2048"
     }
 ]
