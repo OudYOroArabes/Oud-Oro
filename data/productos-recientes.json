@@ -61,16 +61,6 @@
     },
     {
         "marca":  "Fragrance World",
-        "nombre":  "Versus Ocean Bleu",
-        "notas":  "notas acuáticas, bergamota de Calabria, toronja (pomelo) y hojas de higuera, ambroxan, papiro de Egipto, pimienta negra, hojas de violeta y pachulí, haba tonka, azafrán, incienso y almizcle",
-        "inspirado":  "Versace Pour Homme Dylan Blue Versace",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  47500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/c89df7e9-242a-4c51-a155-5c8bb3ab2909.webp"
-    },
-    {
-        "marca":  "Fragrance World",
         "nombre":  "Prohibit Parfum Intense",
         "notas":  "FRAGRANCE WORLD PROHIBIT PARFUM INTENSE",
         "inspirado":  "Givenchy - L\u0027interdit eau de parfum Intense",
@@ -118,5 +108,15 @@
         "formato":  "Botella Completa",
         "precio":  54000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/24245fce-6d97-4edf-9d29-5b8ac6e63beb.webp"
+    },
+    {
+        "marca":  "Fragance",
+        "nombre":  "World La Uno Forever Blue",
+        "notas":  "toronja (pomelo), mandarina siciliana, bergamota y enebro de Virginia, notas ozónicas, hojas de violeta, romero y pimienta, aceite de vetiver de Java, almizcle blanco, pachulí, musgo de roble y incienso",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  47500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/863687df-cc8a-4631-a5f1-3f840b6be820.webp"
     }
 ]
