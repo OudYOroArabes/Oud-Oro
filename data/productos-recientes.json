@@ -71,16 +71,6 @@
     },
     {
         "marca":  "Fragrance World",
-        "nombre":  "Montera Rouge Tobacco",
-        "notas":  "FRAGRANCE WORLD MONTERA ROUGE TOBACCO",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  48500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/27d2db2b-e7dc-430e-bb7c-2e7d8e08d2d9.webp"
-    },
-    {
-        "marca":  "Fragrance World",
         "nombre":  "Montera Instan Love",
         "notas":  "azafrán, jengibre, frutas y cítricos, ámbar, rosa y jazmín, vainilla, sándalo, almizcle blanco y musgo de roble",
         "inspirado":  "Instant Crush Mancera",
@@ -118,5 +108,15 @@
         "formato":  "Botella Completa",
         "precio":  47500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/863687df-cc8a-4631-a5f1-3f840b6be820.webp"
+    },
+    {
+        "marca":  "Rasasi",
+        "nombre":  "Hawas For Him",
+        "notas":  "manzana, bergamota, limón (lima ácida) y canela, notas acuosas, ciruela, cardamomo y flor de azahar del naranjo, ámbar gris, almizcle, pachulí y trozos de madera a la deriva",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  65000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/87402202-187a-4fd3-8184-a6b49382c360.webp"
     }
 ]
