@@ -1016,7 +1016,7 @@
         "inspirado":  "Grand Soir Maison Francis Kurkdjian",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  63500,
+        "precio":  59500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/8432cabe-9a62-4c89-b036-ec635c7835de.webp"
     },
     {
@@ -1058,26 +1058,6 @@
         "formato":  "Botella Completa",
         "precio":  67500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/dae2cc2a-0eae-4639-9fd1-8bb7afdef640.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Jouri",
-        "notas":  "pitahaya, cereza y naranja, peonía, frambuesa, frangipani (plumeria, plumaria, atapaima) y nenúfar (lirio de agua), vainilla, pachulí y haba tonka",
-        "inspirado":  "CAROLINA HERRERA LA BOMBA",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  71500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/2c1a099b-bd21-4241-881c-bc8ae3204dbc.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Liam",
-        "notas":  "cardamomo, té negro y higo, iris, vetiver y ládano, sándalo, vainilla, haba tonka y pachulí",
-        "inspirado":  "Gris Charnel BDK Parfums",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  52000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/353e5e63-ef56-4e2d-939b-9aaee96cfb13.webp"
     },
     {
         "marca":  "Lattafa",
@@ -2130,16 +2110,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/d3566250-74d5-496b-baa8-e1254df97173.webp"
     },
     {
-        "marca":  "Mast",
-        "nombre":  "Perfume Rome Paradox",
-        "notas":  "MAST PERFUME ROME PARADOX",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  86500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3c25dabb-4337-433b-a305-894e55adc3a7.webp"
-    },
-    {
         "marca":  "Rasasi",
         "nombre":  "Hawas Overdose",
         "notas":  "notas especiadas y Notas aromáticas, flor de azahar del naranjo, ámbar y madera de gaiac, vainilla, chocolate, ámbar gris y praliné",
@@ -2431,16 +2401,6 @@
     },
     {
         "marca":  "Armaf",
-        "nombre":  "Club De Nuit Maleka",
-        "notas":  "lichi, bergamota y pimienta rosa, praliné, sándalo y ambroxan",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  92000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/09fed342-ec4c-474a-9706-df786ef21d93.webp"
-    },
-    {
-        "marca":  "Armaf",
         "nombre":  "Shk I By Saoud Alkaabi",
         "notas":  "vetiver, pimienta rosa y madera de cachemira, cedro, almizcle blanco y ámbar",
         "inspirado":  "Creación original",
@@ -2608,16 +2568,6 @@
         "formato":  "Botella Completa",
         "precio":  51500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/c1cde716-05ba-4d9e-a4c1-e301aba1bbbc.webp"
-    },
-    {
-        "marca":  "Maison Asrar",
-        "nombre":  "Rey",
-        "notas":  "bergamota, toronja (pomelo) y geranio, Notas aromáticas, pimienta negra y haba tonka, vainilla, almizcle y ámbar gris",
-        "inspirado":  "MYSLF Eau de Parfum Yves Saint Laurent",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  92000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/59c67e46-c6cd-42e8-9b37-977b8bebaf29.webp"
     },
     {
         "marca":  "Mykonos",

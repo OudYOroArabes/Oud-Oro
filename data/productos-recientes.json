@@ -70,16 +70,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/7131c431-9386-4de8-b3b3-b35644f618d0.webp"
     },
     {
-        "marca":  "Maison Asrar",
-        "nombre":  "Rey",
-        "notas":  "bergamota, toronja (pomelo) y geranio, Notas aromáticas, pimienta negra y haba tonka, vainilla, almizcle y ámbar gris",
-        "inspirado":  "MYSLF Eau de Parfum Yves Saint Laurent",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  92000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/59c67e46-c6cd-42e8-9b37-977b8bebaf29.webp"
-    },
-    {
         "marca":  "Maison Alhambra",
         "nombre":  "Pacific Blue",
         "notas":  "limón (lima ácida), bergamota, mandarina, naranja amarga, lavanda, mirto y romero, neroli, jazmín y flor de azahar del naranjo, angélica, almizcle ambreta y ámbar",
@@ -118,5 +108,15 @@
         "formato":  "Botella Completa",
         "precio":  48500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/63dfe6dd-243f-4010-b7ed-11fcf4cc379b.webp"
+    },
+    {
+        "marca":  "Maison Alhambra",
+        "nombre":  "Galactic Men",
+        "notas":  "tabaco y miel, vainilla, cacao y pachulí, ámbar, sándalo y styrax",
+        "inspirado":  "Mugler Pure Havane",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  44500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/b99b4c4e-c674-4a36-90f4-b20012e83a80.webp"
     }
 ]
