@@ -11,16 +11,6 @@
     },
     {
         "marca":  "Risala",
-        "nombre":  "Elite Fragaby 2",
-        "notas":  "frutas y cítricos, ámbar, almizcle y Notas terrosas",
-        "inspirado":  "XERJOFF TORINO24",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  67500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/57798451-219c-483d-8264-cf359a99663b.webp"
-    },
-    {
-        "marca":  "Risala",
         "nombre":  "Elite Fragaby 1",
         "notas":  "cítricos y notas herbales, té, lavanda, romero y notas florales, almizcle y cuero",
         "inspirado":  "XERJOFF TORINO21",
@@ -118,5 +108,15 @@
         "formato":  "Botella Completa",
         "precio":  56000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/f39016be-da61-41ff-9a17-5d85f2809e13.webp"
+    },
+    {
+        "marca":  "Mykonos",
+        "nombre":  "Royal Ispahan Extrait De Parfum",
+        "notas":  "rosa, naranja, toronja (pomelo), mandarina y jazmín, rosa, notas florales, lirio de los valles (muguete) y jazmín",
+        "inspirado":  "Delina Exclusif Parfums de Marly",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  56000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3a904243-a4d5-40e5-966a-fb6233cbd875.webp"
     }
 ]
