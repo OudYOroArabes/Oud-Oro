@@ -771,16 +771,6 @@
     },
     {
         "marca":  "Fragrance World",
-        "nombre":  "Redriguez Azure Pour Homme",
-        "notas":  "cardamomo y nuez moscada, vetiver, cedro, ámbar y ébano",
-        "inspirado":  "Narciso Rodriguez for Him Bleu Noir Narciso Rodriguez",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  42000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/dd162913-348d-455c-a868-eeb35fa278fe.webp"
-    },
-    {
-        "marca":  "Fragrance World",
         "nombre":  "Scandat Home Le Parfum",
         "notas":  "FRAGRANCE WORLD SCANDAT HOME LE PARFUM",
         "inspirado":  "Scandal Pour Homme Le Parfum Jean Paul Gaultier",
@@ -1176,7 +1166,7 @@
         "inspirado":  "Creación original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  83500,
+        "precio":  79500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/41273170-0f93-48f0-9b06-d7e122e613a9.webp"
     },
     {
@@ -1298,16 +1288,6 @@
         "formato":  "Botella Completa",
         "precio":  43000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3455fc27-e48f-41e8-9075-5dbb5e2aab12.webp"
-    },
-    {
-        "marca":  "Maison Alhambra",
-        "nombre":  "Victorioso Myth",
-        "notas":  "sal, Notas marinas y toronja (pomelo), hoja de laurel, geranio y especias, ámbar y madera de gaiac",
-        "inspirado":  "Paco Rabanne Invictus Legend",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  50000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/5280d16a-c721-48e4-86bd-6cc7b6cf8876.webp"
     },
     {
         "marca":  "Maison Alhambra",
@@ -2288,5 +2268,175 @@
         "formato":  "Botella Completa",
         "precio":  79500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/080bb9bd-0ef6-4146-b1af-493e1240845a.webp"
+    },
+    {
+        "marca":  "Armaf",
+        "nombre":  "Art Du’ Parfum",
+        "notas":  "haba tonka, pachulí, vainilla y almizcle, lavanda, nuez moscada y jengibre, vetiver, ámbar, sándalo y pachulí",
+        "inspirado":  "DIOR SAUVAGE ELIXIR",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  74500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/39724966-a9fa-4a3b-98d9-7b934e9aa9b0.webp"
+    },
+    {
+        "marca":  "Armaf",
+        "nombre":  "Art Du’ Parfum Abstracto",
+        "notas":  "cardamomo y cítricos, lavanda y café, vainilla, notas amaderadas, vetiver y almizcle",
+        "inspirado":  "Valentino Uomo Born In Roma Intense Valentino",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  75500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/18109ac7-d8ee-4545-812f-b93823dd1faf.webp"
+    },
+    {
+        "marca":  "Armaf",
+        "nombre":  "Hunter Intense",
+        "notas":  "bergamota, toronja (pomelo), mandarina y limón (lima ácida), lavanda, geranio, ylang-ylang y nardos, pimienta negra y cardamomo",
+        "inspirado":  "DIOR SAUVAGE",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  74500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/0dbbd6ac-43a8-42b3-9fe8-87e008421b7b.webp"
+    },
+    {
+        "marca":  "Armaf",
+        "nombre":  "Le Parfait Mon Amour",
+        "notas":  "flor de azahar del naranjo, pimienta rosa y pera, café, jazmín, almendra amarga y regaliz, madera de cachemira, pachulí, vainilla y cedro",
+        "inspirado":  "Black Opium Yves Saint Laurent",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  71500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4280315f-a921-4a25-ba36-1af14c1881e9.webp"
+    },
+    {
+        "marca":  "Armaf",
+        "nombre":  "Tag-him Prestige Edition Man",
+        "notas":  "toronja (pomelo), menta y bergamota, lavanda, naranja sanguina, canela y pimienta, vainilla, ámbar, madera blanca y pachulí",
+        "inspirado":  "1 MILLON RABANNE",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  67500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4380935a-aaba-4c3a-9716-0c6a04ce0ecb.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Ana Abiyedh",
+        "notas":  "bergamota y naranja, vainilla y pera, almizcle y ámbar",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  42000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/83f177bf-3777-49a3-8bd4-0a20b0f267a8.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Emaan",
+        "notas":  "flor de azahar del naranjo, grosellas negras y bergamota, nardos, jazmín y caléndula, almizcle, vainilla, cedro y pachulí",
+        "inspirado":  "My Way Giorgio Armani",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  56500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/d2a6b7cd-670e-4607-a959-284e65d9b42f.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Qaed Al Fursan Untamed",
+        "notas":  "canela, mandarina, nuez moscada y cardamomo, caramelo, lavanda, geranio, esclarea y ciprés, ládano, incienso de olíbano (franquincienso), ámbar, vetiver y cedro",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  44500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/a450fd11-6a04-4e88-9ca8-ca96570cf3b1.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Qimmah For Women",
+        "notas":  "almendra y café, nardos, jazmín y haba tonka, vainilla, cacao y sándalo",
+        "inspirado":  "Good Girl Carolina Herrera",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  51500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/fa2b9744-9c59-40ed-aa2e-969d700aa30e.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Sakeena",
+        "notas":  "maracuyá (fruta de la pasión), notas ozónicas y mandarina, frambuesa, rosa, flor de azahar del naranjo y sal de mar, tófe, praliné, vainilla y almizcle",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  56500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1dfabd3c-0dd5-415f-adb8-41eb8e03a164.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Yara Tous",
+        "notas":  "mango, coco y maracuyá (fruta de la pasión), jazmín, flor de azahar del naranjo y heliotropo, vainilla, almizcle y cachemira",
+        "inspirado":  "Paco Rabanne Fame",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  53500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/635ffe1f-9223-4fd7-9fbd-2f9cf9e345af.webp"
+    },
+    {
+        "marca":  "Maison Alhambra",
+        "nombre":  "Jean Lowe Vibe",
+        "notas":  "menta, cidra, naranja, limón (lima ácida), grosellas negras y cilantro, chabacano, albahaca, rosa de mayo y semillas de zanahoria, higo, almizcle ambreta y dátiles",
+        "inspirado":  "Pacific Chill Louis Vuitton",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  65000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/77a1691e-7b1e-4d0d-8523-18a704f18713.webp"
+    },
+    {
+        "marca":  "Maison Alhambra",
+        "nombre":  "Jorge Di Profumo",
+        "notas":  "bergamota, limón siciliano (lima siciliana) y pimienta negra, lavanda, tabaco y geranio, sándalo, almizcle y vetiver",
+        "inspirado":  "\u0026nbsp; Acqua di Giò Profumo Giorgio Armani\u0026nbsp;",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  50000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/5380009b-ed6e-4076-878b-e789f9150e8e.webp"
+    },
+    {
+        "marca":  "Maison Alhambra",
+        "nombre":  "Your Touch Amber",
+        "notas":  "lavanda, vainilla de Madagascar",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  44500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4a195f34-b5ac-4836-bef0-0e7db23f9ea6.webp"
+    },
+    {
+        "marca":  "Maison Alhambra",
+        "nombre":  "Your Touch Extrait",
+        "notas":  "MAISON ALHAMBRA YOUR TOUCH EXTRAIT",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  44500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/28a0cff1-c68e-4f87-82f3-1f41064e26f2.webp"
+    },
+    {
+        "marca":  "Rayhaan",
+        "nombre":  "Lion",
+        "notas":  "lavanda, pera, menta y bergamota, canela, esclarea y comino, vainilla, ámbar, cedro y pachulí",
+        "inspirado":  "Ultra Male Jean Paul Gaultier",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  69000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/32cf900c-4b83-4183-b54d-77c7f7a9bea6.webp"
+    },
+    {
+        "marca":  "Riiffs",
+        "nombre":  "Momento Extrait De Parfum",
+        "notas":  "azúcar, azafrán y mandarina, haba tonka, rosa de Damasco y madera de oud, Amberwood, caramelo y cedro",
+        "inspirado":  "Arabians Tonka Montale",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  104000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/09598aba-3cb5-4458-8b38-20a49d4a3da2.webp"
     }
 ]
