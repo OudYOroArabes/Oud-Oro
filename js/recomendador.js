@@ -273,7 +273,7 @@ const observador = new IntersectionObserver((entradas) => {
 document.querySelectorAll('.scroll-reveal').forEach(el => observador.observe(el));
 
 /* ===== Carga de datos ===== */
-fetch('./data/productos.json')
+fetch('./data/productos.json?v=17')
     .then(r => {
         if (!r.ok) throw new Error('No se pudo cargar el catálogo (' + r.status + ')');
         return r.json();

@@ -167,7 +167,7 @@ if (headerWa) {
     headerWa.href = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent('Hola! Quería consultar por un perfume.')}`;
 }
 
-fetch('./data/productos.json')
+fetch('./data/productos.json?v=17')
     .then(r => {
         if (!r.ok) throw new Error('No se pudo cargar el catálogo (' + r.status + ')');
         return r.json();

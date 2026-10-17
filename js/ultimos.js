@@ -233,7 +233,7 @@ function mensajeError() {
 }
 
 function cargarRecientes() {
-    return fetch('./data/productos-recientes.json')
+    return fetch('./data/productos-recientes.json?v=17')
         .then(r => {
             if (!r.ok) throw new Error('No se pudo cargar los recientes (' + r.status + ')');
             return r.json();
@@ -247,7 +247,7 @@ function cargarRecientes() {
 function cargarCompleto() {
     if (catalogoCompleto.length || cargandoCompleto) return Promise.resolve();
     cargandoCompleto = true;
-    return fetch('./data/productos.json')
+    return fetch('./data/productos.json?v=17')
         .then(r => {
             if (!r.ok) throw new Error('No se pudo cargar el catálogo (' + r.status + ')');
             return r.json();
