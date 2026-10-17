@@ -80,16 +80,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/eab3399e-8578-4994-9535-018bdd390ed2.webp"
     },
     {
-        "marca":  "Le",
-        "nombre":  "Chameau Arabia Emotion",
-        "notas":  "panacota, ron y flor de azahar del naranjo",
-        "inspirado":  "Devotion Dolce\u0026amp;Gabbana",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  51500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1a378459-308a-41ad-bf98-6b099070d4c9.webp"
-    },
-    {
         "marca":  "Lattafa",
         "nombre":  "Mayar",
         "notas":  "lichi, frambuesa y hojas de violeta, rosa blanca, peonía y jazmín, almizcle y vainilla",
@@ -118,5 +108,15 @@
         "formato":  "Botella Completa",
         "precio":  64000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/a3c85ed8-edce-42df-a44f-aaef01059418.webp"
+    },
+    {
+        "marca":  "Fragrance World",
+        "nombre":  "Classy Chic Girl",
+        "notas":  "almendra, café, bergamota y limón (lima ácida), flor de azahar del naranjo, nardos, jazmín y rosa, haba tonka, canela, vainilla, praliné, cedro, ámbar, cacao, pachulí y almizcle",
+        "inspirado":  "Good Girl Carolina Herrera",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  52500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/df4a4ec7-3a95-4015-bf60-fd64cebd9cc3.webp"
     }
 ]
