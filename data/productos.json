@@ -480,6 +480,16 @@
         "imagen":  "https://frenchavenue.com/cdn/shop/files/1_df3eb3b6-b5ec-4012-b5c8-4498292c450c.jpg?v=1751979320"
     },
     {
+        "marca":  "Armaf",
+        "nombre":  "Checkmate Queen",
+        "notas":  "nardos y notas verdes, higo y especias, notas atalcadas y sándalo",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  120000,
+        "imagen":  "https://armaf.com/cdn/shop/files/checkmate-queen_100d85a0-5e64-4f23-b988-6b591e374fa4.png?v=1771606328\u0026width=2048"
+    },
+    {
         "marca":  "Afnan",
         "nombre":  "Turathi Electric",
         "notas":  "pera, mandarina, toronja (pomelo) rosada y bergamota, flor de azahar del naranjo, manzana y cedro, almizcle, vainilla y ámbar",
@@ -981,16 +991,6 @@
     },
     {
         "marca":  "Lattafa",
-        "nombre":  "Mayar Natural Intnese",
-        "notas":  "Mandarina verde, higo, melón y Agua de coco, nenúfar (lirio de agua), flor de loto y jazmín, almizcle, ambroxan, sándalo y vainilla",
-        "inspirado":  "Acqua di Gioia Giorgio Armani",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  55500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/70107cfd-35c1-4ed0-9da7-0e5538ad70df.webp"
-    },
-    {
-        "marca":  "Lattafa",
         "nombre":  "Musamam Black Intense",
         "notas":  "lavanda, nuez moscada, salvia y bergamota, cedro, geranio, Rosyfolia y Mahonial, Cocoapulse™, haba tonka, arce, Ambrofix™ y pachulí",
         "inspirado":  "Creación original",
@@ -1038,16 +1038,6 @@
         "formato":  "Botella Completa",
         "precio":  90500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1ebeab51-c713-4b69-adbf-4d4da4d4a7aa.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Yara Rosa",
-        "notas":  "orquídea, heliotropo y naranja tangerina, Acuerdo goloso y frutas tropicales, vainilla, almizcle y sándalo",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  67500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/a17aaa1a-bfe6-4516-af62-0a609adedf91.webp"
     },
     {
         "marca":  "Maison Alhambra",
@@ -1118,16 +1108,6 @@
         "formato":  "Botella Completa",
         "precio":  43000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/300ba0d1-5306-44d5-9250-4430663d4a10.webp"
-    },
-    {
-        "marca":  "Maison Alhambra",
-        "nombre":  "Glacier Bold",
-        "notas":  "MAISON ALHAMBRA GLACIER BOLD",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  52500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/f571e015-44b9-47ea-a6cd-22d1f00b9c2c.webp"
     },
     {
         "marca":  "Maison Alhambra",
@@ -1421,16 +1401,6 @@
     },
     {
         "marca":  "Rasasi",
-        "nombre":  "Hawas For Her",
-        "notas":  "granada, manzana y toronja (pomelo), iris, jazmín sambac (sampaguita) y cítricos, praliné, pachulí y vetiver",
-        "inspirado":  "La Vie Est Belle Lancôme",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  66000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/def41e0a-ce0f-4a05-a07b-6a3a93a40143.webp"
-    },
-    {
-        "marca":  "Rasasi",
         "nombre":  "Marha Pour Homme",
         "notas":  "frambuesa, azafrán y tomillo, incienso de olíbano (franquincienso) y jazmín, cuero, gamuza, notas amaderadas y ámbar",
         "inspirado":  "Ombré Leather (2018) Tom Ford",
@@ -1538,16 +1508,6 @@
         "formato":  "Botella Completa",
         "precio":  52500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/15371143-b015-4660-993d-e558e586f1ec.webp"
-    },
-    {
-        "marca":  "Ajayeb",
-        "nombre":  "Dubai Portrait",
-        "notas":  "naranja y limón (lima ácida), mango, osmanto (olivo oloroso) y jazmín, madera de oud, sándalo, almizcle y ámbar",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  46000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/8dea2991-51b9-4360-abef-d822f1d3d807.webp"
     },
     {
         "marca":  "Al Haramain",
@@ -2210,16 +2170,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/b5766bba-ba1a-4483-844c-52a8670f49fa.webp"
     },
     {
-        "marca":  "Rasasi",
-        "nombre":  "Hawas Reina",
-        "notas":  "chabacano, pera y canela, jazmín, frangipani (plumeria, plumaria, atapaima), flor de azahar del naranjo, coco y café, vainilla, almizcle blanco, ámbar, sándalo y azúcar",
-        "inspirado":  "Olympéa Absolu Rabanne",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  112000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/81170e38-3ec9-4c60-aadb-98e4671f9452.webp"
-    },
-    {
         "marca":  "Risala",
         "nombre":  "Elite Fragaby 1",
         "notas":  "cítricos y notas herbales, té, lavanda, romero y notas florales, almizcle y cuero",
@@ -2298,16 +2248,6 @@
         "formato":  "Botella Completa",
         "precio":  42000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/83f177bf-3777-49a3-8bd4-0a20b0f267a8.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Emaan",
-        "notas":  "flor de azahar del naranjo, grosellas negras y bergamota, nardos, jazmín y caléndula, almizcle, vainilla, cedro y pachulí",
-        "inspirado":  "My Way Giorgio Armani",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  56500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/d2a6b7cd-670e-4607-a959-284e65d9b42f.webp"
     },
     {
         "marca":  "Lattafa",
@@ -2408,16 +2348,6 @@
         "formato":  "Botella Completa",
         "precio":  76500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/80a095ec-568b-4e9e-9fe0-ebb9dea9abe2.webp"
-    },
-    {
-        "marca":  "Armaf",
-        "nombre":  "Checkmate Queen",
-        "notas":  "nardos y notas verdes, higo y especias, notas atalcadas y sándalo",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  120000,
-        "imagen":  "https://armaf.com/cdn/shop/files/checkmate-queen_100d85a0-5e64-4f23-b988-6b591e374fa4.png?v=1771606328\u0026width=2048"
     },
     {
         "marca":  "Armaf",
