@@ -981,16 +981,6 @@
     },
     {
         "marca":  "Lattafa",
-        "nombre":  "Najdia Intense",
-        "notas":  "piña, manzana, menta y jengibre, Notas marinas, lavanda y geranio, haba tonka, sándalo, almizcle y pachulí",
-        "inspirado":  "Le Beau Paradise Garden Jean Paul Gaultier",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  52500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4bc12a18-3b43-41d9-9163-a775816291cd.webp"
-    },
-    {
-        "marca":  "Lattafa",
         "nombre":  "Petra",
         "notas":  "ron y ciruela, nardos y coco, vainilla, almizcle y praliné",
         "inspirado":  "Creación original",
@@ -1006,7 +996,7 @@
         "inspirado":  "Acqua di Giò Profumo Giorgio Armani",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  44500,
+        "precio":  46000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/08642c1d-bce8-4a9e-a8c3-bfbb123a4b1b.webp"
     },
     {
@@ -1106,7 +1096,7 @@
         "inspirado":  "Afternoon Swim Louis Vuitton",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  73000,
+        "precio":  71500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/0e23288e-f5fd-4ad6-a88d-be8229e9de5f.webp"
     },
     {
@@ -2458,5 +2448,195 @@
         "formato":  "Botella Completa",
         "precio":  88000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/8643e930-000f-4af8-89ac-a18f69bf1e58.webp"
+    },
+    {
+        "marca":  "Armaf",
+        "nombre":  "Club De Nuit Precieux Iv",
+        "notas":  "sal de mar, bergamota y manzana, ylang-ylang, bayas rojas, azucena blanca y jazmín, crema batida, vainilla, almizcle, haba tonka y pachulí",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  133500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/f989fcba-d488-4bb9-aa83-1fb1b9a3bf3e.webp"
+    },
+    {
+        "marca":  "Armaf",
+        "nombre":  "Club De Nuit Iconic Blue",
+        "notas":  "toronja (pomelo), limón (lima ácida), menta, pimienta rosa y cilantro, jengibre, melón, jazmín y nuez moscada, notas amaderadas, incienso, sándalo, ámbar, cedro, pachulí y ládano",
+        "inspirado":  "Bleu de Chanel",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  101500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/f4c963d1-a3db-4365-b922-bd7eebf3d76d.webp"
+    },
+    {
+        "marca":  "Armaf",
+        "nombre":  "Club De Nuit Maleka",
+        "notas":  "lichi, bergamota y pimienta rosa, praliné, sándalo y ambroxan",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  92000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/09fed342-ec4c-474a-9706-df786ef21d93.webp"
+    },
+    {
+        "marca":  "Armaf",
+        "nombre":  "Odyssey Candee",
+        "notas":  "fresa, frambuesa, geranio, bergamota y durazno (melocotón), caramelo, jazmín y maracuyá (fruta de la pasión), pachulí, almizcle y ámbar",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  61000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/abd9faec-fe41-48b5-ab7d-9c71fbfe68be.webp"
+    },
+    {
+        "marca":  "Bharara",
+        "nombre":  "King",
+        "notas":  "naranja, limón (lima ácida) y bergamota, vainilla, almizcle blanco y ámbar",
+        "inspirado":  "Xerjoff Erba Pura 200 ML",
+        "tamano":  "200ml",
+        "formato":  "Botella Completa",
+        "precio":  196000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/96821615-bafd-45fc-9e1d-6fab9e14d66c.webp"
+    },
+    {
+        "marca":  "Bharara",
+        "nombre":  "Mast Perfume Rome Extradose Pour Femme",
+        "notas":  "BHARARA MAST PERFUME ROME EXTRADOSE POUR FEMME",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  88000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/44bc4405-2f43-494d-ada7-2c2e0a1ce590.webp"
+    },
+    {
+        "marca":  "Fragrance World",
+        "nombre":  "Allure Couture",
+        "notas":  "panacota y flor de azahar del naranjo, vainilla y ron",
+        "inspirado":  "Devotion Dolce\u0026amp;Gabbana",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  63500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/8f70ef58-6fe0-4713-9736-b2fa45272adb.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Asad Black",
+        "notas":  "piña y toronja (pomelo), higo y lavanda, vainilla, haba tonka y pachulí",
+        "inspirado":  "Dior Souvage Elixir",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  74500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/2c99a084-745b-4379-9d47-3b1827379714.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Atheeri",
+        "notas":  "flor de pasionaria y Gota del rocío, orquídea y jazmín, vainilla y Amberwood",
+        "inspirado":  "Flora Gorgeous Orchid Gucci",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  128500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4e968b0b-3e32-4512-97b3-0090457d0fba.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Body Splash",
+        "notas":  "LATTAFA BODY SPLASH 250ML",
+        "inspirado":  "Creación original",
+        "tamano":  "250ml",
+        "formato":  "Botella Completa",
+        "precio":  31000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/546b0e71-0add-41ef-aa3a-480a64783940.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Cookie Crave Give Me Gourmand",
+        "notas":  "cacao y mantequilla, Galleta, leche y azúcar, vainilla, crema batida y sándalo",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  76500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/7e242035-0652-4790-afa4-8f98210daa8f.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Fakhar Rose",
+        "notas":  "frutas, azucena, granada y aldehídos, nardos, jazmín, gardenia, ylang-ylang, madreselva, rosa y peonía, vainilla, almizcle blanco, sándalo y ambroxan",
+        "inspirado":  "Givenchy L\u0027interdit",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  67500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/5ec7981a-7033-4a71-8fb3-55cac963f2f0.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Jouri",
+        "notas":  "pitahaya, cereza y naranja, peonía, frambuesa, frangipani (plumeria, plumaria, atapaima) y nenúfar (lirio de agua), vainilla, pachulí y haba tonka",
+        "inspirado":  "CAROLINA HERRERA LA BOMBA",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  71500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/2c1a099b-bd21-4241-881c-bc8ae3204dbc.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Mallow Madness Give Me Gourmand",
+        "notas":  "fresa y frambuesa, malvavisco (bombón) y fresia, crema batida, vainilla y almizcle",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  76500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4c905bde-6623-474e-9dcc-eee5a8b6be7b.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Yara Rosa",
+        "notas":  "orquídea, heliotropo y naranja tangerina, Acuerdo goloso y frutas tropicales, vainilla, almizcle y sándalo",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  70000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/a17aaa1a-bfe6-4516-af62-0a609adedf91.webp"
+    },
+    {
+        "marca":  "Mast",
+        "nombre":  "Perfume Rome Paradox",
+        "notas":  "MAST PERFUME ROME PARADOX",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  88000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3c25dabb-4337-433b-a305-894e55adc3a7.webp"
+    },
+    {
+        "marca":  "Risala",
+        "nombre":  "Elite Fragaby 2",
+        "notas":  "frutas y cítricos, ámbar, almizcle y Notas terrosas",
+        "inspirado":  "XERJOFF TORINO24",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  67500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/57798451-219c-483d-8264-cf359a99663b.webp"
+    },
+    {
+        "marca":  "Risala",
+        "nombre":  "Hikmah Of Life Intnense",
+        "notas":  "RISALA HIKMAH OF LIFE INTNENSE",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  58000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/fdbbc9ef-f9bd-4a3d-8251-21fdad7cd1a9.webp"
+    },
+    {
+        "marca":  "Zimaya",
+        "nombre":  "Tiramisú Caramel",
+        "notas":  "miel, cumarina y notas amaderadas, vainilla, whisky y almizcle",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  65000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1af1f59e-2957-40b3-8b1c-d83f4f1db9fa.webp"
     }
 ]
