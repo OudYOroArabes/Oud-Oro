@@ -1,5 +1,15 @@
 [
     {
+        "marca":  "Lattafa",
+        "nombre":  "Ejaazi",
+        "notas":  "cítricos, naranja, lavanda, cardamomo y mirto, pimienta, pachulí, lirio de los valles (muguete) y Hoja de la canela, ambroxan, notas amaderadas, ámbar, cedro, musgo de roble y vetiver",
+        "inspirado":  "Office For Men Fragrance One",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  44500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/707e0bf7-96c4-41bb-b76f-a14e496367f2.webp"
+    },
+    {
         "marca":  "Zimaya",
         "nombre":  "Tiramisú Caramel",
         "notas":  "miel, cumarina y notas amaderadas, vainilla, whisky y almizcle",
@@ -108,15 +118,5 @@
         "formato":  "Botella Completa",
         "precio":  128500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4e968b0b-3e32-4512-97b3-0090457d0fba.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Asad Black",
-        "notas":  "piña y toronja (pomelo), higo y lavanda, vainilla, haba tonka y pachulí",
-        "inspirado":  "Dior Souvage Elixir",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  74500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/2c99a084-745b-4379-9d47-3b1827379714.webp"
     }
 ]

@@ -556,7 +556,7 @@
         "inspirado":  "MYSLF Eau de Parfum Yves Saint Laurent",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  100000,
+        "precio":  106500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/9a0dfc62-40f1-4cbb-ad41-fc55c0ecfeb5.webp"
     },
     {
@@ -1406,7 +1406,7 @@
         "inspirado":  "Xerjoff Naxos",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  129500,
+        "precio":  124000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/64a3f821-9920-4cd9-a609-d6362eab176a.webp"
     },
     {
@@ -1458,16 +1458,6 @@
         "formato":  "Botella Completa",
         "precio":  85000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/fb54e2ba-b1df-45bf-968f-f588824e6bce.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Khamrah Dukhan",
-        "notas":  "especias, pimiento morrón y mandarina, incienso, ládano, flor de azahar del naranjo y pachulí, tabaco, praliné, ámbar, benjuí y haba tonka",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  66000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/8fec00bc-e0df-4e50-aaa0-0e9b9d37f2cb.webp"
     },
     {
         "marca":  "Emper",
@@ -1738,16 +1728,6 @@
         "formato":  "Botella Completa",
         "precio":  65000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/87402202-187a-4fd3-8184-a6b49382c360.webp"
-    },
-    {
-        "marca":  "Fragrance World",
-        "nombre":  "Bad Lad Le Parfum",
-        "notas":  "marihuana (cannabis) y toronja (pomelo), pimienta negra y geranio, cuero y vetiver",
-        "inspirado":  "Bad Boy Le Parfum Carolina Herrera",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  46000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3cad283a-0c45-456d-ab2c-14fdf20cf940.webp"
     },
     {
         "marca":  "Fragrance World",
@@ -2420,16 +2400,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/59c67e46-c6cd-42e8-9b37-977b8bebaf29.webp"
     },
     {
-        "marca":  "Paris Corner",
-        "nombre":  "Zodíac Solmarís",
-        "notas":  "sal de mar y jengibre, Notas acuáticas y Algas, cedro, musgo de roble y vetiver",
-        "inspirado":  "Le Sel d’Issey Issey Miyake",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  63500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/95472368-25c2-4e46-ae7d-2b761c217df2.webp"
-    },
-    {
         "marca":  "Riiffs",
         "nombre":  "Bleu Absolu",
         "notas":  "baya de enebro, mandarina verde y toronja (pomelo), lavanda, elemí y nuez moscada, musgo de roble, Iso E Super y sándalo",
@@ -2638,5 +2608,15 @@
         "formato":  "Botella Completa",
         "precio":  65000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1af1f59e-2957-40b3-8b1c-d83f4f1db9fa.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Ejaazi",
+        "notas":  "cítricos, naranja, lavanda, cardamomo y mirto, pimienta, pachulí, lirio de los valles (muguete) y Hoja de la canela, ambroxan, notas amaderadas, ámbar, cedro, musgo de roble y vetiver",
+        "inspirado":  "Office For Men Fragrance One",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  44500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/707e0bf7-96c4-41bb-b76f-a14e496367f2.webp"
     }
 ]
