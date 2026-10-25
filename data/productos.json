@@ -490,16 +490,6 @@
         "imagen":  "https://armaf.com/cdn/shop/files/checkmate-queen_100d85a0-5e64-4f23-b988-6b591e374fa4.png?v=1771606328\u0026width=2048"
     },
     {
-        "marca":  "Afnan",
-        "nombre":  "Turathi Electric",
-        "notas":  "pera, mandarina, toronja (pomelo) rosada y bergamota, flor de azahar del naranjo, manzana y cedro, almizcle, vainilla y ámbar",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  88000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/de850cc3-cdfb-4afc-bb60-056cefe094a7.webp"
-    },
-    {
         "marca":  "Al Haramain",
         "nombre":  "Amber Oud Gold",
         "notas":  "bergamota y notas verdes, notas dulces, melón, piña y ámbar, almizcle, vainilla y notas amaderadas",
@@ -1610,16 +1600,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/559ffd82-e367-4380-ba31-4bcd2722894f.webp"
     },
     {
-        "marca":  "Nusuk",
-        "nombre":  "Ateeq Extrait De Parfum",
-        "notas":  "miel, canela, ámbar, toronja (pomelo) y lima (limón verde), tabaco, lavanda y jazmín, haba tonka, cumarina, cedro, almizcle y orquídea de vainilla",
-        "inspirado":  "XJ 1861 Naxos Xerjoff",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  104000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/45d15328-f054-4590-8206-c265b8e629d0.webp"
-    },
-    {
         "marca":  "Rasasi",
         "nombre":  "Hawas For Him",
         "notas":  "manzana, bergamota, limón (lima ácida) y canela, notas acuosas, ciruela, cardamomo y flor de azahar del naranjo, ámbar gris, almizcle, pachulí y trozos de madera a la deriva",
@@ -1778,16 +1758,6 @@
         "formato":  "Botella Completa",
         "precio":  90500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/34b050fe-652d-432c-913d-458f5d63c99f.webp"
-    },
-    {
-        "marca":  "Armaf",
-        "nombre":  "Mandarin Sky Elixir",
-        "notas":  "mandarina, naranja, lavanda, cardamomo y pimienta negra, caramelo, haba tonka, pachulí y incienso, vainilla y vetiver",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  97000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/ecc2c7e3-6933-4c84-8b39-6df5b8358848.webp"
     },
     {
         "marca":  "Rasasi",
@@ -2130,26 +2100,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/09598aba-3cb5-4458-8b38-20a49d4a3da2.webp"
     },
     {
-        "marca":  "Afnan",
-        "nombre":  "9am Pour Femme",
-        "notas":  "toronja (pomelo), bergamota y mandarina, frambuesa y grosellas negras, almizcle, ámbar y naranja",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  76500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/80a095ec-568b-4e9e-9fe0-ebb9dea9abe2.webp"
-    },
-    {
-        "marca":  "Armaf",
-        "nombre":  "Club De Nuit Impériale",
-        "notas":  "lichi, bergamota y nuez moscada, rosa turca, vainilla, almizcle y peonía, vainilla, incienso, cachemira y cedro",
-        "inspirado":  "Delina Exclusif Parfums de Marly",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  92000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/e37c8cd5-80e3-453c-b7ba-018cfa27c480.webp"
-    },
-    {
         "marca":  "Fragrance World",
         "nombre":  "Classy Chic Girl",
         "notas":  "almendra, café, bergamota y limón (lima ácida), flor de azahar del naranjo, nardos, jazmín y rosa, haba tonka, canela, vainilla, praliné, cedro, ámbar, cacao, pachulí y almizcle",
@@ -2438,5 +2388,15 @@
         "formato":  "Botella Completa",
         "precio":  132500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/ceabdc2e-33f4-4b8f-99ed-0de83ab601d1.webp"
+    },
+    {
+        "marca":  "Dumont",
+        "nombre":  "Nitro Intense",
+        "notas":  "piña, grosellas negras, ciruela, bergamota, canela y coñac, abedul, lavanda, pachulí, mirra, pimienta, jazmín, iris y rosa, ámbar, almizcle, sándalo, vainilla y haba tonka",
+        "inspirado":  "Absolu Aventus 2023 Creed",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  88000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/b55b9392-c9de-4c2b-8aff-6d59a9493ec5.webp"
     }
 ]

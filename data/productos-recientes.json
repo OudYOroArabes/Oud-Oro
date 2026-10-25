@@ -1,5 +1,15 @@
 [
     {
+        "marca":  "Dumont",
+        "nombre":  "Nitro Intense",
+        "notas":  "piña, grosellas negras, ciruela, bergamota, canela y coñac, abedul, lavanda, pachulí, mirra, pimienta, jazmín, iris y rosa, ámbar, almizcle, sándalo, vainilla y haba tonka",
+        "inspirado":  "Absolu Aventus 2023 Creed",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  88000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/b55b9392-c9de-4c2b-8aff-6d59a9493ec5.webp"
+    },
+    {
         "marca":  "Al Haramain",
         "nombre":  "Amber Oud Gold 999.9 Extrait De Parfum",
         "notas":  "naranja, pera, bergamota y limón (lima ácida), caramelo, melón, pera, manzana verde, cardamomo y jazmín, ámbar, vainilla, pachulí y cedro",
@@ -108,15 +118,5 @@
         "formato":  "Botella Completa",
         "precio":  31000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/546b0e71-0add-41ef-aa3a-480a64783940.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Atheeri",
-        "notas":  "flor de pasionaria y Gota del rocío, orquídea y jazmín, vainilla y Amberwood",
-        "inspirado":  "Flora Gorgeous Orchid Gucci",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  128500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4e968b0b-3e32-4512-97b3-0090457d0fba.webp"
     }
 ]
