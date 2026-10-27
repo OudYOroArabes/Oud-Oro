@@ -61,16 +61,6 @@
     },
     {
         "marca":  "Lattafa",
-        "nombre":  "Yara Rosa",
-        "notas":  "orquídea, heliotropo y naranja tangerina, Acuerdo goloso y frutas tropicales, vainilla, almizcle y sándalo",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  70000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/a17aaa1a-bfe6-4516-af62-0a609adedf91.webp"
-    },
-    {
-        "marca":  "Lattafa",
         "nombre":  "Mallow Madness Give Me Gourmand",
         "notas":  "fresa y frambuesa, malvavisco (bombón) y fresia, crema batida, vainilla y almizcle",
         "inspirado":  "Creación original",
@@ -118,5 +108,15 @@
         "formato":  "Botella Completa",
         "precio":  31000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/546b0e71-0add-41ef-aa3a-480a64783940.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Atheeri",
+        "notas":  "flor de pasionaria y Gota del rocío, orquídea y jazmín, vainilla y Amberwood",
+        "inspirado":  "Flora Gorgeous Orchid Gucci",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  128500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4e968b0b-3e32-4512-97b3-0090457d0fba.webp"
     }
 ]
