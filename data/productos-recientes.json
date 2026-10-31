@@ -1,122 +1,122 @@
 [
     {
-        "marca":  "Dumont",
-        "nombre":  "Nitro Intense",
-        "notas":  "piña, grosellas negras, ciruela, bergamota, canela y coñac, abedul, lavanda, pachulí, mirra, pimienta, jazmín, iris y rosa, ámbar, almizcle, sándalo, vainilla y haba tonka",
-        "inspirado":  "Absolu Aventus 2023 Creed",
+        "marca":  "Paris Corner",
+        "nombre":  "Zodiac Stratos",
+        "notas":  "bergamota, jengibre y aldehídos, lavanda, madera de cachemira y ámbar, almizcle, musgo y pachulí",
+        "inspirado":  "Y Elixir Yves Saint Laurent",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  88000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/b55b9392-c9de-4c2b-8aff-6d59a9493ec5.webp"
+        "precio":  55500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/36c2c7c0-afa5-4d46-a333-89350b014a69.webp"
     },
     {
-        "marca":  "Al Haramain",
-        "nombre":  "Amber Oud Gold 999.9 Extrait De Parfum",
-        "notas":  "naranja, pera, bergamota y limón (lima ácida), caramelo, melón, pera, manzana verde, cardamomo y jazmín, ámbar, vainilla, pachulí y cedro",
-        "inspirado":  "Xerjoff Erba Pura",
+        "marca":  "Paris Corner",
+        "nombre":  "Zodiac",
+        "notas":  "pera, jengibre y bergamota, notas amaderadas, flor de azahar del naranjo y jazmín, almizcle, ámbar y vainilla",
+        "inspirado":  "Blue Talisman Ex Nihilo",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  132500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/ceabdc2e-33f4-4b8f-99ed-0de83ab601d1.webp"
+        "precio":  55500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3ce5d0a4-693c-476f-92da-302863d9cebf.webp"
     },
     {
-        "marca":  "Lattafa",
-        "nombre":  "Ejaazi",
-        "notas":  "cítricos, naranja, lavanda, cardamomo y mirto, pimienta, pachulí, lirio de los valles (muguete) y Hoja de la canela, ambroxan, notas amaderadas, ámbar, cedro, musgo de roble y vetiver",
-        "inspirado":  "Office For Men Fragrance One",
+        "marca":  "Paris Corner",
+        "nombre":  "Stag Expression I Un Extrait De Parfum",
+        "notas":  "PARIS CORNER STAG EXPRESSION I UN EXTRAIT DE PARFUM",
+        "inspirado":  "Tygar Bvlgari",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  67500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/faa0f660-fb07-4604-8df9-05b7d5f069e1.webp"
+    },
+    {
+        "marca":  "Paris Corner",
+        "nombre":  "Pendora Neón Star",
+        "notas":  "frambuesa, lichi, grosellas negras y mandarina, rosa, lirio de los valles (muguete) y magnolia, vainilla, azúcar y almizcle",
+        "inspirado":  "Angel Nova Mugler",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  52500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/20b62b31-45cd-4631-9fa4-06c6c868dc1a.webp"
+    },
+    {
+        "marca":  "Paris Corner",
+        "nombre":  "Pendora Megaron",
+        "notas":  "PARIS CORNER PENDORA MEGARON",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  52500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/b9d4867f-b73a-4b52-a125-857b4ac0e604.webp"
+    },
+    {
+        "marca":  "Paris Corner",
+        "nombre":  "Pendora Club Intense",
+        "notas":  "PARIS CORNER PENDORA CLUB INTENSE",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  48500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/defa3a31-a1af-41a3-8f40-d25ed685e976.webp"
+    },
+    {
+        "marca":  "Paris Corner",
+        "nombre":  "North Stag Expression Ii Deux Extrait De Parfum",
+        "notas":  "manzana, lavanda, bergamota y mandarina, geranio, jazmín y violeta, vainilla, cardamomo, sándalo, pimienta, pachulí y madera de gaiac",
+        "inspirado":  "Layton Parfums de Marly",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  67500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/c8efa175-e318-474d-957b-2f18967e1be2.webp"
+    },
+    {
+        "marca":  "Paris Corner",
+        "nombre":  "Cosmic Giardino",
+        "notas":  "higo, coco y sal de mar, lavanda, violeta y geranio, haba tonka, sándalo y ambroxan",
+        "inspirado":  "Le Beau Paradise Garden Jean Paul Gaultier",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  63500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/a3710c0b-5eb3-4ffa-8699-17a5ef2e2705.webp"
+    },
+    {
+        "marca":  "Maison Alhambra",
+        "nombre":  "Your Touch Amber",
+        "notas":  "lavanda, vainilla de Madagascar",
+        "inspirado":  "Creación original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  44500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/707e0bf7-96c4-41bb-b76f-a14e496367f2.webp"
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4a195f34-b5ac-4836-bef0-0e7db23f9ea6.webp"
     },
     {
-        "marca":  "Zimaya",
-        "nombre":  "Tiramisú Caramel",
-        "notas":  "miel, cumarina y notas amaderadas, vainilla, whisky y almizcle",
+        "marca":  "Maison Alhambra",
+        "nombre":  "Incense Ebony",
+        "notas":  "incienso, palo santo, pimienta negra y hojas de violeta, Aceite de cade, cuero, ládano, papiro de Egipto y rosa, resinas, ébano y madera de gaiac",
+        "inspirado":  "Ébène Fumé Tom Ford",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  51500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/2b702730-0cf0-4f47-885c-62f2df3884be.webp"
+    },
+    {
+        "marca":  "Maison Alhambra",
+        "nombre":  "Glacier Bold",
+        "notas":  "MAISON ALHAMBRA GLACIER BOLD",
         "inspirado":  "Creación original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  65000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1af1f59e-2957-40b3-8b1c-d83f4f1db9fa.webp"
+        "precio":  52500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/f571e015-44b9-47ea-a6cd-22d1f00b9c2c.webp"
     },
     {
-        "marca":  "Risala",
-        "nombre":  "Hikmah Of Life Intnense",
-        "notas":  "RISALA HIKMAH OF LIFE INTNENSE",
-        "inspirado":  "Creación original",
+        "marca":  "Le",
+        "nombre":  "Chameau Arabia Emotion",
+        "notas":  "panacota, ron y flor de azahar del naranjo",
+        "inspirado":  "Devotion Dolce\u0026amp;Gabbana",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  58000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/fdbbc9ef-f9bd-4a3d-8251-21fdad7cd1a9.webp"
-    },
-    {
-        "marca":  "Risala",
-        "nombre":  "Elite Fragaby 2",
-        "notas":  "frutas y cítricos, ámbar, almizcle y Notas terrosas",
-        "inspirado":  "XERJOFF TORINO24",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  67500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/57798451-219c-483d-8264-cf359a99663b.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Mallow Madness Give Me Gourmand",
-        "notas":  "fresa y frambuesa, malvavisco (bombón) y fresia, crema batida, vainilla y almizcle",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  76500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4c905bde-6623-474e-9dcc-eee5a8b6be7b.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Jouri",
-        "notas":  "pitahaya, cereza y naranja, peonía, frambuesa, frangipani (plumeria, plumaria, atapaima) y nenúfar (lirio de agua), vainilla, pachulí y haba tonka",
-        "inspirado":  "CAROLINA HERRERA LA BOMBA",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  71500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/2c1a099b-bd21-4241-881c-bc8ae3204dbc.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Fakhar Rose",
-        "notas":  "frutas, azucena, granada y aldehídos, nardos, jazmín, gardenia, ylang-ylang, madreselva, rosa y peonía, vainilla, almizcle blanco, sándalo y ambroxan",
-        "inspirado":  "Givenchy L\u0027interdit",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  67500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/5ec7981a-7033-4a71-8fb3-55cac963f2f0.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Cookie Crave Give Me Gourmand",
-        "notas":  "cacao y mantequilla, Galleta, leche y azúcar, vainilla, crema batida y sándalo",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  76500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/7e242035-0652-4790-afa4-8f98210daa8f.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Body Splash",
-        "notas":  "LATTAFA BODY SPLASH 250ML",
-        "inspirado":  "Creación original",
-        "tamano":  "250ml",
-        "formato":  "Botella Completa",
-        "precio":  31000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/546b0e71-0add-41ef-aa3a-480a64783940.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Atheeri",
-        "notas":  "flor de pasionaria y Gota del rocío, orquídea y jazmín, vainilla y Amberwood",
-        "inspirado":  "Flora Gorgeous Orchid Gucci",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  128500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4e968b0b-3e32-4512-97b3-0090457d0fba.webp"
+        "precio":  51500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1a378459-308a-41ad-bf98-6b099070d4c9.webp"
     }
 ]
