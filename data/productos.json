@@ -841,16 +841,6 @@
     },
     {
         "marca":  "Lattafa",
-        "nombre":  "Hayaati Black",
-        "notas":  "manzana y bergamota, canela y notas amaderadas, almizcle y vainilla",
-        "inspirado":  "Paco Rabanne Invictus",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  47500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/360ab825-8d84-4dad-9ced-c858a2b494aa.webp"
-    },
-    {
-        "marca":  "Lattafa",
         "nombre":  "Mashrabya",
         "notas":  "Acorde de shisha de manzana y pimienta rosa, tabaco, canela y dátiles, Humo de oud, caramelo, vainilla y pachulí",
         "inspirado":  "Smoking Hot By Kilian",
@@ -1901,16 +1891,6 @@
     },
     {
         "marca":  "Lattafa",
-        "nombre":  "Qimmah For Women",
-        "notas":  "almendra y café, nardos, jazmín y haba tonka, vainilla, cacao y sándalo",
-        "inspirado":  "Good Girl Carolina Herrera",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  51500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/fa2b9744-9c59-40ed-aa2e-969d700aa30e.webp"
-    },
-    {
-        "marca":  "Lattafa",
         "nombre":  "Sakeena",
         "notas":  "maracuyá (fruta de la pasión), notas ozónicas y mandarina, frambuesa, rosa, flor de azahar del naranjo y sal de mar, tófe, praliné, vainilla y almizcle",
         "inspirado":  "Creación original",
@@ -2106,7 +2086,7 @@
         "inspirado":  "Creación original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  61000,
+        "precio":  65000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/abd9faec-fe41-48b5-ab7d-9c71fbfe68be.webp"
     },
     {
@@ -2240,16 +2220,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1af1f59e-2957-40b3-8b1c-d83f4f1db9fa.webp"
     },
     {
-        "marca":  "Lattafa",
-        "nombre":  "Ejaazi",
-        "notas":  "cítricos, naranja, lavanda, cardamomo y mirto, pimienta, pachulí, lirio de los valles (muguete) y Hoja de la canela, ambroxan, notas amaderadas, ámbar, cedro, musgo de roble y vetiver",
-        "inspirado":  "Office For Men Fragrance One",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  44500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/707e0bf7-96c4-41bb-b76f-a14e496367f2.webp"
-    },
-    {
         "marca":  "Al Haramain",
         "nombre":  "Amber Oud Gold 999.9 Extrait De Parfum",
         "notas":  "naranja, pera, bergamota y limón (lima ácida), caramelo, melón, pera, manzana verde, cardamomo y jazmín, ámbar, vainilla, pachulí y cedro",
@@ -2278,16 +2248,6 @@
         "formato":  "Botella Completa",
         "precio":  115000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1b3aeeae-8825-4bd2-8498-dd293e996b7e.webp"
-    },
-    {
-        "marca":  "Armaf",
-        "nombre":  "Odyssey Mega",
-        "notas":  "naranja, bergamota, limón (lima ácida), jengibre y menta, piña, enebro de Virginia, geranio y salvia, almizcle, haba tonka, cedro y vetiver",
-        "inspirado":  "Yves Saint Laurent Y",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  70000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/2c01bdfe-59a2-4ac3-b49e-632b0538a15f.webp"
     },
     {
         "marca":  "Asten",
