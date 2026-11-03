@@ -1,122 +1,122 @@
 [
     {
-        "marca":  "Paris Corner",
-        "nombre":  "Zodiac",
-        "notas":  "pera, jengibre y bergamota, notas amaderadas, flor de azahar del naranjo y jazmín, almizcle, ámbar y vainilla",
-        "inspirado":  "Blue Talisman Ex Nihilo",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  55500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3ce5d0a4-693c-476f-92da-302863d9cebf.webp"
-    },
-    {
-        "marca":  "Paris Corner",
-        "nombre":  "Stag Expression I Un Extrait De Parfum",
-        "notas":  "PARIS CORNER STAG EXPRESSION I UN EXTRAIT DE PARFUM",
-        "inspirado":  "Tygar Bvlgari",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  67500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/faa0f660-fb07-4604-8df9-05b7d5f069e1.webp"
-    },
-    {
-        "marca":  "Paris Corner",
-        "nombre":  "Pendora Neón Star",
-        "notas":  "frambuesa, lichi, grosellas negras y mandarina, rosa, lirio de los valles (muguete) y magnolia, vainilla, azúcar y almizcle",
-        "inspirado":  "Angel Nova Mugler",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  52500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/20b62b31-45cd-4631-9fa4-06c6c868dc1a.webp"
-    },
-    {
-        "marca":  "Paris Corner",
-        "nombre":  "Pendora Megaron",
-        "notas":  "PARIS CORNER PENDORA MEGARON",
+        "marca":  "Riiffs",
+        "nombre":  "Freeze Extrait De Parfum",
+        "notas":  "Menta verde, Ralladura de limón, bergamota de Calabria, toronja (pomelo) y Nieve, Hielo, té, jengibre y salvia, Ambermax™, peonía y cedro",
         "inspirado":  "Creación original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  52500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/b9d4867f-b73a-4b52-a125-857b4ac0e604.webp"
+        "precio":  121500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/64896f19-c9a5-46a8-a45f-6d8ffe9bfc67.webp"
     },
     {
-        "marca":  "Paris Corner",
-        "nombre":  "Pendora Club Intense",
-        "notas":  "PARIS CORNER PENDORA CLUB INTENSE",
-        "inspirado":  "Creación original",
+        "marca":  "Riiffs",
+        "nombre":  "Desert De Sáhara Extrait De Parfum",
+        "notas":  "canela, cardamomo, Corteza y ciruela pasa, nuez moscada, regaliz y comino, notas amaderadas, vainilla, azafrán y Humo",
+        "inspirado":  "Spicebomb Extreme Viktor\u0026amp;Rolf",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  48500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/defa3a31-a1af-41a3-8f40-d25ed685e976.webp"
+        "precio":  90500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/8643e930-000f-4af8-89ac-a18f69bf1e58.webp"
+    },
+    {
+        "marca":  "Rayhaan",
+        "nombre":  "Vantage",
+        "notas":  "pimienta rosa, cardamomo y bergamota, Incienso, mirra y bayas de enebro, cedro y pachulí",
+        "inspirado":  "Decision Amouage",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  100000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/81821393-2387-449d-811c-1d5ee6778398.webp"
+    },
+    {
+        "marca":  "Rayhaan",
+        "nombre":  "Nova Sol",
+        "notas":  "chicozapote y almizcle ambreta, magnolia, violeta y sándalo, almizcle, ámbar gris y cedro",
+        "inspirado":  "Mojave Ghost Absolu Byredo",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  97000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/84deaae2-7cf0-4e90-8465-6266bd75accf.webp"
+    },
+    {
+        "marca":  "Rasasi",
+        "nombre":  "Hawas Reina",
+        "notas":  "chabacano, pera y canela, jazmín, frangipani (plumeria, plumaria, atapaima), flor de azahar del naranjo, coco y café, vainilla, almizcle blanco, ámbar, sándalo y azúcar",
+        "inspirado":  "Olympéa Absolu Rabanne",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  102500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/81170e38-3ec9-4c60-aadb-98e4671f9452.webp"
+    },
+    {
+        "marca":  "Rasasi",
+        "nombre":  "Hawas Nautilus",
+        "notas":  "ámbar gris y agua de mar, ciprés y cedro, arena y trozos de madera a la deriva",
+        "inspirado":  "40 Knots Xerjoff",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  117500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/7ea1b542-f7e4-4b33-8ab0-475fcf98499a.webp"
+    },
+    {
+        "marca":  "Rasasi",
+        "nombre":  "Hawas Majestic",
+        "notas":  "azafrán, cítricos, jazmín y hojas verdes, Notas minerales, ámbar gris, Amberwood y Madera seca, musgo de roble, almizcle, cedro y abeto",
+        "inspirado":  "Baccarat Rouge 540 Maison Francis Kurkdjian",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  108000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4b604e9d-7c2e-447e-8737-82aee9a2086d.webp"
     },
     {
         "marca":  "Paris Corner",
-        "nombre":  "Cosmic Giardino",
-        "notas":  "higo, coco y sal de mar, lavanda, violeta y geranio, haba tonka, sándalo y ambroxan",
-        "inspirado":  "Le Beau Paradise Garden Jean Paul Gaultier",
+        "nombre":  "Zodíac Solmarís",
+        "notas":  "sal de mar y jengibre, Notas acuáticas y Algas, cedro, musgo de roble y vetiver",
+        "inspirado":  "Le Sel d’Issey Issey Miyake",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  63500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/a3710c0b-5eb3-4ffa-8699-17a5ef2e2705.webp"
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/95472368-25c2-4e46-ae7d-2b761c217df2.webp"
     },
     {
-        "marca":  "Maison Alhambra",
-        "nombre":  "Your Touch Amber",
-        "notas":  "lavanda, vainilla de Madagascar",
+        "marca":  "Armaf",
+        "nombre":  "Mandarin Sky Elixir",
+        "notas":  "mandarina, naranja, lavanda, cardamomo y pimienta negra, caramelo, haba tonka, pachulí y incienso, vainilla y vetiver",
         "inspirado":  "Creación original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  44500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4a195f34-b5ac-4836-bef0-0e7db23f9ea6.webp"
+        "precio":  94500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/ecc2c7e3-6933-4c84-8b39-6df5b8358848.webp"
     },
     {
-        "marca":  "Maison Alhambra",
-        "nombre":  "Incense Ebony",
-        "notas":  "incienso, palo santo, pimienta negra y hojas de violeta, Aceite de cade, cuero, ládano, papiro de Egipto y rosa, resinas, ébano y madera de gaiac",
-        "inspirado":  "Ébène Fumé Tom Ford",
+        "marca":  "Mykonos",
+        "nombre":  "Silent Whisper Extrait De Parfum",
+        "notas":  "notas afrutadas, limón (lima ácida), mandarina y bergamota, ylang-ylang, jazmín y rosa, vainilla, almizcle, ámbar, sándalo y cedro",
+        "inspirado":  "Erba Gold Xerjoff",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  51500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/2b702730-0cf0-4f47-885c-62f2df3884be.webp"
+        "precio":  93000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/dcdfaca5-3a5c-47f1-8da7-1fb767de24e2.webp"
     },
     {
-        "marca":  "Maison Alhambra",
-        "nombre":  "Glacier Bold",
-        "notas":  "MAISON ALHAMBRA GLACIER BOLD",
+        "marca":  "Mykonos",
+        "nombre":  "Reflection Extrait De Parfum",
+        "notas":  "toronja (pomelo), mandarina, notas afrutadas, bergamota y notas verdes, durazno (melocotón), jazmín, pachulí, geranio y rosa, almizcle, ámbar, cedro, sándalo y vainilla",
         "inspirado":  "Creación original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  52500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/f571e015-44b9-47ea-a6cd-22d1f00b9c2c.webp"
+        "precio":  94500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/39083260-dd2c-4813-9d46-7b95f3a1e1aa.webp"
     },
     {
-        "marca":  "Le",
-        "nombre":  "Chameau Arabia Emotion",
-        "notas":  "panacota, ron y flor de azahar del naranjo",
-        "inspirado":  "Devotion Dolce\u0026amp;Gabbana",
-        "tamano":  "100ml",
+        "marca":  "Mykonos",
+        "nombre":  "Monaco Royale Extrait De Parfum",
+        "notas":  "bergamota, jazmín, naranja y limón (lima ácida), rosa, chabacano, notas florales, almizcle ambreta, jazmín, frambuesa y ciruela, cedro, ámbar, vetiver y almizcle",
+        "inspirado":  "Million Gold For Her Rabanne",
+        "tamano":  "50ml",
         "formato":  "Botella Completa",
-        "precio":  51500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1a378459-308a-41ad-bf98-6b099070d4c9.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Hayaati Gold Elixir",
-        "notas":  "bergamota, toronja (pomelo) y casis (grosellero negro), cuero, durazno (melocotón) y azafrán, vainilla, ámbar, almizcle y vetiver",
-        "inspirado":  "Armani Code Profumo",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  42000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/af175d70-2c55-41ff-b89f-7e9cb953c0f0.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Hayaam",
-        "notas":  "Notas marinas, sal, limón (lima ácida) y Davana, lirio de los valles (muguete) y iris, ámbar gris, musgo de roble y sándalo",
-        "inspirado":  "Megamare Orto Parisi",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  89000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1193160c-4b86-4eba-b4c7-0567d8be57d4.webp"
+        "precio":  56500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/98066dfe-699c-47f1-b760-ab0258126627.webp"
     }
 ]
