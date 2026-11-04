@@ -1330,16 +1330,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/36ec5c5b-0df2-4884-828a-cd2846e0b319.webp"
     },
     {
-        "marca":  "Fragrance World",
-        "nombre":  "Venti Absolu",
-        "notas":  "pimienta rosa, piña, caramelo, limón (lima ácida), bergamota, pera y pimienta negra, incienso, lirio de los valles (muguete), jengibre, musgo de roble, madera blanca, anís y jazmín, vetiver, sándalo y cedro",
-        "inspirado":  "Absolu Aventus 2025 Creed",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  50000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/b02a675c-414c-4631-843d-c4219fb55838.webp"
-    },
-    {
         "marca":  "French Avenue",
         "nombre":  "Aromatix Carnal Desire Extrait De Parfum",
         "notas":  "frambuesa, canela y bergamota, algodón de azúcar, raíz de lirio y rosa, cuero, madera de oud, pachulí, cedro y vainilla",
@@ -1891,16 +1881,6 @@
     },
     {
         "marca":  "Maison Alhambra",
-        "nombre":  "Pacific Blue",
-        "notas":  "limón (lima ácida), bergamota, mandarina, naranja amarga, lavanda, mirto y romero, neroli, jazmín y flor de azahar del naranjo, angélica, almizcle ambreta y ámbar",
-        "inspirado":  "Tom Ford Neroli Portofino*",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  54000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/c1cde716-05ba-4d9e-a4c1-e301aba1bbbc.webp"
-    },
-    {
-        "marca":  "Maison Alhambra",
         "nombre":  "Sceptre Malachite",
         "notas":  "Mandarina verde, bergamota y grosellas negras, Notas aromáticas, notas especiadas, lavanda, pimienta rosa y jazmín, ámbar, almizcle, notas amaderadas y vetiver",
         "inspirado":  "God \u0026nbsp;of Fire Stephane Lucas",
@@ -2063,10 +2043,10 @@
         "marca":  "Risala",
         "nombre":  "Hikmah Of Life Intnense",
         "notas":  "RISALA HIKMAH OF LIFE INTNENSE",
-        "inspirado":  "Creación original",
+        "inspirado":  "Aventus Creed",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  58000,
+        "precio":  59500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/fdbbc9ef-f9bd-4a3d-8251-21fdad7cd1a9.webp"
     },
     {
@@ -2190,16 +2170,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/af175d70-2c55-41ff-b89f-7e9cb953c0f0.webp"
     },
     {
-        "marca":  "Le",
-        "nombre":  "Chameau Arabia Emotion",
-        "notas":  "panacota, ron y flor de azahar del naranjo",
-        "inspirado":  "Devotion Dolce\u0026amp;Gabbana",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  51500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1a378459-308a-41ad-bf98-6b099070d4c9.webp"
-    },
-    {
         "marca":  "Maison Alhambra",
         "nombre":  "Glacier Bold",
         "notas":  "MAISON ALHAMBRA GLACIER BOLD",
@@ -2288,16 +2258,6 @@
         "formato":  "Botella Completa",
         "precio":  55500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3ce5d0a4-693c-476f-92da-302863d9cebf.webp"
-    },
-    {
-        "marca":  "Ahmed",
-        "nombre":  "Al Maghribi Kaaf Extrait De Parfum",
-        "notas":  "lavanda, sandía, naranja siciliana y Frutas rojas, lirio de los valles (muguete), jazmín y flor de loto, almizcle blanco, ambroxan y sándalo",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  81000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1de96b08-0347-4f13-9a5e-27f0d9930a8e.webp"
     },
     {
         "marca":  "Ahmed",
@@ -2451,16 +2411,6 @@
     },
     {
         "marca":  "Lattafa",
-        "nombre":  "Al Qiam Gold",
-        "notas":  "frambuesa y azafrán, cuero y pachulí, madera de oud, ámbar, madera de gaiac, benjuí y vetiver",
-        "inspirado":  "Ombre Nomade Louis Vuitton",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  74500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4304fa39-4c46-4cf6-a684-9ec93afe494d.webp"
-    },
-    {
-        "marca":  "Lattafa",
         "nombre":  "Jasoor",
         "notas":  "manzana, cardamomo y bergamota, tabaco, lavanda y geranio, haba tonka, cuero, vetiver y pachulí",
         "inspirado":  "Valentino Born In Roma Coral Fantasy",
@@ -2596,7 +2546,7 @@
         "inspirado":  "Creación original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  51500,
+        "precio":  52500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/e9d45a83-236b-4a75-af0e-1df94cc8c8b7.webp"
     },
     {
@@ -2786,7 +2736,7 @@
         "inspirado":  "40 Knots Xerjoff",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  117500,
+        "precio":  120000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/7ea1b542-f7e4-4b33-8ab0-475fcf98499a.webp"
     },
     {
