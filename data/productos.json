@@ -630,16 +630,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4824a0b0-7896-400b-8769-0344aaf9f4bb.webp"
     },
     {
-        "marca":  "Bharara",
-        "nombre":  "Rey De Reyes",
-        "notas":  "enebro, cardamomo, pimienta rosa y bergamota, lavanda, nuez moscada y geranio, pachulí, sándalo y ambroxan",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  169000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/b410c8a3-44a2-428c-af48-f4503b00b068.webp"
-    },
-    {
         "marca":  "Maison Alhambra",
         "nombre":  "Door Sport",
         "notas":  "toronja (pomelo), limón (lima ácida), resina de elemí y bergamota, jengibre, cedro y vetiver, lavanda, romero y sándalo",
@@ -658,16 +648,6 @@
         "formato":  "Botella Completa",
         "precio":  120000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/c5bcf549-1f50-456b-a095-e45b999ac335.webp"
-    },
-    {
-        "marca":  "Fragrance World",
-        "nombre":  "Harmony Code",
-        "notas":  "bergamota y hojas del bergamoto, iris, raíz de lirio, esclarea y aldehídos, haba tonka y cedro",
-        "inspirado":  "Armani Code Parfum Giorgio Armani",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  52500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/236ba4dd-3339-4b9a-bf68-61838600fa52.webp"
     },
     {
         "marca":  "Fragrance World",
@@ -1018,16 +998,6 @@
         "formato":  "Botella Completa",
         "precio":  50000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/8a791010-a8fe-4cb6-8063-2c2d9f6fbb35.webp"
-    },
-    {
-        "marca":  "Maison Alhambra",
-        "nombre":  "Ébène",
-        "notas":  "clavos de olor, elemí y abrótano, incienso de olíbano (franquincienso) y madera de gaiac",
-        "inspirado":  "Babycat Yves Saint Laurent",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  46000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/130f3b1c-37e6-43f4-9da1-3e46ba74c9a3.webp"
     },
     {
         "marca":  "Maison Asrar",
