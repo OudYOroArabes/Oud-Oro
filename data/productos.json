@@ -1191,16 +1191,6 @@
     },
     {
         "marca":  "Armaf",
-        "nombre":  "Connoisseur",
-        "notas":  "manzana verde, toronja (pomelo), aldehídos y jengibre, geranio, lavanda y salvia, incienso de olíbano (franquincienso), haba tonka, pachulí y cedro",
-        "inspirado":  "Yves Saint Laurent Y Le Parfum",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  88000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1e19e516-67a1-497d-b907-b3f15f728aac.webp"
-    },
-    {
-        "marca":  "Armaf",
         "nombre":  "Odyssey Mandarin Sky",
         "notas":  "mandarina, naranja, azafrán y salvia, caramelo, haba tonka y cempasúchil (tagete, clavelón), ambroxan, cedro y vetiver",
         "inspirado":  "Jean Paul Gaultier Scandal",
@@ -1398,16 +1388,6 @@
         "formato":  "Botella Completa",
         "precio":  66000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/260267a5-777f-4b3c-8a57-141861c799a1.webp"
-    },
-    {
-        "marca":  "Rasasi",
-        "nombre":  "Hawas Overdose",
-        "notas":  "notas especiadas y Notas aromáticas, flor de azahar del naranjo, ámbar y madera de gaiac, vainilla, chocolate, ámbar gris y praliné",
-        "inspirado":  "Althaïr Parfums de Marly",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  133500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3764e173-21e8-4b0d-bc12-5923d7eeca4a.webp"
     },
     {
         "marca":  "Dumont",
@@ -2708,5 +2688,95 @@
         "formato":  "Botella Completa",
         "precio":  121500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/64896f19-c9a5-46a8-a45f-6d8ffe9bfc67.webp"
+    },
+    {
+        "marca":  "Armaf",
+        "nombre":  "Odyssey Nexus",
+        "notas":  "notas marinas, bergamota y mandarina, romero, jengibre, salvia y geranio, pachulí, Incienso, notas amaderadas y Notas balsámicas",
+        "inspirado":  "Acqua di Giò Profumo Giorgio Armani",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  110500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/f80ce63f-6247-42ff-bedb-5de32c96a8b9.webp"
+    },
+    {
+        "marca":  "Bharara",
+        "nombre":  "Mast Perfume Rome Extradose",
+        "notas":  "BHARARA MAST PERFUME ROME EXTRADOSE",
+        "inspirado":  "VALENTINO UOMO BORN IN ROMA EXTRADOSE EDP",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  93000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/44e004b6-1953-401c-87b1-c9874cc8a929.webp"
+    },
+    {
+        "marca":  "Fragrance World",
+        "nombre":  "Ace",
+        "notas":  "clavos de olor, pimienta rosa y flor de azahar del naranjo, castaña, madera de gaiac y enebro, vainilla, bálsamo del Perú y cachemira",
+        "inspirado":  "By the Fireplace Maison Martin Margiela",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  56500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/24245fce-6d97-4edf-9d29-5b8ac6e63beb.webp"
+    },
+    {
+        "marca":  "Fragrance World",
+        "nombre":  "Jack Of Clubs",
+        "notas":  "cardamomo, jengibre y bergamota, lavanda y geranio, cedro y vetiver",
+        "inspirado":  "La Nuit de L\u0026#39;Homme Bleu Électrique Yves Saint Laurent",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  61000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/85d206b2-4e6b-4cf5-8e5d-0daae7712c72.webp"
+    },
+    {
+        "marca":  "Fragrance World",
+        "nombre":  "Oud Madness",
+        "notas":  "azafrán y rosa turca, madera de oud, madera de oud, hojas de pachulí de Indonesia y benjuí, cuero, ámbar, vainilla y ládano",
+        "inspirado":  "Oud Maracujá Maison Crivelli",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  42000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/2c596bda-3172-40e8-849a-54ce8eab9dba.webp"
+    },
+    {
+        "marca":  "Fragrance World",
+        "nombre":  "Solo Black",
+        "notas":  "mango y salvia, hediona y Plata, sándalo, haba tonka, pachulí y Timberol",
+        "inspirado":  "Polo Black Ralph Lauren",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  39000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/67af5237-ce5e-4f18-9689-9e028a71c2b7.webp"
+    },
+    {
+        "marca":  "Fragrance World",
+        "nombre":  "Versus Ocean Bleu",
+        "notas":  "notas acuáticas, bergamota de Calabria, toronja (pomelo) y hojas de higuera, ambroxan, papiro de Egipto, pimienta negra, hojas de violeta y pachulí, haba tonka, azafrán, incienso y almizcle",
+        "inspirado":  "Versace Pour Homme Dylan Blue Versace",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  48500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/c89df7e9-242a-4c51-a155-5c8bb3ab2909.webp"
+    },
+    {
+        "marca":  "Risala",
+        "nombre":  "Elite Fragaby 1",
+        "notas":  "cítricos y notas herbales, té, lavanda, romero y notas florales, almizcle y cuero",
+        "inspirado":  "XERJOFF TORINO21",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  67500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/c223a6e5-73d9-46f2-ad36-094e3bf831b0.webp"
+    },
+    {
+        "marca":  "Risala",
+        "nombre":  "Elite Fragaby 2",
+        "notas":  "frutas y cítricos, ámbar, almizcle y Notas terrosas",
+        "inspirado":  "XERJOFF TORINO24",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  67500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/57798451-219c-483d-8264-cf359a99663b.webp"
     }
 ]
