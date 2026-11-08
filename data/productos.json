@@ -1051,16 +1051,6 @@
     },
     {
         "marca":  "Paris Corner",
-        "nombre":  "Frenetic Tobacco Honey Extrait De Parfum",
-        "notas":  "tabaco y miel, Humo, ciruela y tabaco de flor blanca, ámbar, notas orientales y durazno (melocotón)",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  54000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3d379a5f-d5bc-46d9-9271-fc9054537c65.webp"
-    },
-    {
-        "marca":  "Paris Corner",
         "nombre":  "Pendora Black Extremo",
         "notas":  "PARIS CORNER PENDORA BLACK EXTREMO",
         "inspirado":  "Creación original",
@@ -1418,16 +1408,6 @@
         "formato":  "Botella Completa",
         "precio":  67500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4e923d6d-fe5c-4dfa-83a8-8eeb6e4ba0dd.webp"
-    },
-    {
-        "marca":  "Emper",
-        "nombre":  "Stallion 53",
-        "notas":  "cardamomo y violeta, ámbar y iris, sándalo, cuero, cedro de Virginia y papiro de Egipto",
-        "inspirado":  "Santal 33",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  67500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/7bebdf49-e78c-4174-be14-68ed7dcf9775.webp"
     },
     {
         "marca":  "Lattafa",
@@ -2696,7 +2676,7 @@
         "inspirado":  "Acqua di Giò Profumo Giorgio Armani",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  110500,
+        "precio":  108000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/f80ce63f-6247-42ff-bedb-5de32c96a8b9.webp"
     },
     {
