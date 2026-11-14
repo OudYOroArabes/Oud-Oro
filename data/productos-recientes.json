@@ -10,16 +10,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/87402202-187a-4fd3-8184-a6b49382c360.webp"
     },
     {
-        "marca":  "Paris Corner",
-        "nombre":  "Pendora Allusion Extreme",
-        "notas":  "PARIS CORNER PENDORA ALLUSION EXTREME",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  51500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/564c5704-79d1-41cc-bfe5-056ff14dbd8b.webp"
-    },
-    {
         "marca":  "Maison Alhambra",
         "nombre":  "Philos Pura",
         "notas":  "naranja, bergamota y limón (lima ácida), vainilla de Madagascar, almizcle blanco y ámbar",
@@ -118,5 +108,15 @@
         "formato":  "Botella Completa",
         "precio":  67500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/57798451-219c-483d-8264-cf359a99663b.webp"
+    },
+    {
+        "marca":  "Risala",
+        "nombre":  "Elite Fragaby 1",
+        "notas":  "cítricos y notas herbales, té, lavanda, romero y notas florales, almizcle y cuero",
+        "inspirado":  "XERJOFF TORINO21",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  67500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/c223a6e5-73d9-46f2-ad36-094e3bf831b0.webp"
     }
 ]
