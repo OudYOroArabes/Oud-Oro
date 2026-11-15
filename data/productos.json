@@ -636,7 +636,7 @@
         "inspirado":  "Creación original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  120000,
+        "precio":  108000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/c5bcf549-1f50-456b-a095-e45b999ac335.webp"
     },
     {
@@ -720,16 +720,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1626dd0b-8a15-4970-8d80-17ca787d9b4f.webp"
     },
     {
-        "marca":  "Gulf Orchid",
-        "nombre":  "El Capitán Extreme",
-        "notas":  "lavanda, Ralladura de limón, bergamota y menta, canela y esclarea",
-        "inspirado":  "JEAN PAUL GAULTIER ULTRA MALE",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  61000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/8a6988be-ecb4-409f-9290-69cd739a29ba.webp"
-    },
-    {
         "marca":  "Khadlaj",
         "nombre":  "Island Dreams",
         "notas":  "jengibre y bergamota, almizcle y ambroxan",
@@ -788,16 +778,6 @@
         "formato":  "Botella Completa",
         "precio":  59500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/8432cabe-9a62-4c89-b036-ec635c7835de.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Mashrabya",
-        "notas":  "Acorde de shisha de manzana y pimienta rosa, tabaco, canela y dátiles, Humo de oud, caramelo, vainilla y pachulí",
-        "inspirado":  "Smoking Hot By Kilian",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  58000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/aac82913-e9cd-40ce-9277-2c04674c086f.webp"
     },
     {
         "marca":  "Lattafa",
@@ -1128,16 +1108,6 @@
         "formato":  "Botella Completa",
         "precio":  85000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/fb54e2ba-b1df-45bf-968f-f588824e6bce.webp"
-    },
-    {
-        "marca":  "Emper",
-        "nombre":  "Phantom My Hero",
-        "notas":  "almendra y heliotropo, chocolate y ron, café, caramelo, caña de azúcar y sándalo",
-        "inspirado":  "KILIAN BLACK PHANTOM",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  56500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/15371143-b015-4660-993d-e558e586f1ec.webp"
     },
     {
         "marca":  "Al Haramain",
@@ -2226,7 +2196,7 @@
         "inspirado":  "Creación original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  55500,
+        "precio":  58000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/bfbf8227-e7db-4a1d-a0d5-e527892988b7.webp"
     },
     {
@@ -2298,16 +2268,6 @@
         "formato":  "Botella Completa",
         "precio":  50000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/bd4dc0e9-d10c-49d2-bb7d-ca2bbbedb322.webp"
-    },
-    {
-        "marca":  "Maison Alhambra",
-        "nombre":  "Salvo",
-        "notas":  "lavanda, pimienta de Sichuan, anís estrellado y nuez moscada, ambroxan y vainilla",
-        "inspirado":  "Dior Souvage",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  75500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4397ffed-5c44-4e46-b0bf-b67a524dce9a.webp"
     },
     {
         "marca":  "Maison Alhambra",
@@ -2648,5 +2608,85 @@
         "formato":  "Botella Completa",
         "precio":  67000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/87402202-187a-4fd3-8184-a6b49382c360.webp"
+    },
+    {
+        "marca":  "Ahmed",
+        "nombre":  "Al Maghribi Kaaf Extrait De Parfum",
+        "notas":  "lavanda, sandía, naranja siciliana y Frutas rojas, lirio de los valles (muguete), jazmín y flor de loto, almizcle blanco, ambroxan y sándalo",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  85000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1de96b08-0347-4f13-9a5e-27f0d9930a8e.webp"
+    },
+    {
+        "marca":  "Dumont",
+        "nombre":  "Nitro White",
+        "notas":  "bayas de enebro, iris y ciprés, mirra y pachulí, miel, vainilla, ámbar, almizcle y cuero",
+        "inspirado":  "Armani Stronger With You",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  96000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3abbe04b-0709-4a74-8b7c-0d3db74ee365.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Atlas",
+        "notas":  "notas marinas, sal y limón (lima ácida), Davana y iris, ámbar gris, musgo de roble y sándalo",
+        "inspirado":  "Megamare Orto Parisi",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  79500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/04a03055-3998-49f7-8e0d-04125735892f.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Badee Noble Blush",
+        "notas":  "merengue y almendra, vainilla, almizcle y sándalo",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  68000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/af9a906c-4e72-470f-8fc3-f67e1e4b9bbc.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Opulent Dubai",
+        "notas":  "mango, toronja (pomelo), limón (lima ácida) y jengibre, jazmín, cedro y violeta, notas amaderadas, benjuí, ámbar gris y musgo de roble",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  62000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/64a0052d-3f17-4040-bd0c-373623288395.webp"
+    },
+    {
+        "marca":  "Maison Alhambra",
+        "nombre":  "Yeah Man",
+        "notas":  "manzana, jengibre y bergamota, salvia, bayas de enebro y geranio, Amberwood, haba tonka, cedro, vetiver y incienso de olíbano (franquincienso)",
+        "inspirado":  "Yves Saint Laurent Y",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  56500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/03c7dc9f-84fa-49fa-9519-b1f2054f8c6d.webp"
+    },
+    {
+        "marca":  "Riiffs",
+        "nombre":  "Season Rise",
+        "notas":  "nuez moscada, pimienta rosa, flor de azahar del naranjo y raíz de lirio, caramelo, tófe, canela y esclarea, cachemira, vaina de vainilla, praliné, ámbar y ambroxan",
+        "inspirado":  "Emporio Armani Stronger With You Parfum Giorgio Armani",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  88000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/f97049d4-b663-4ad1-8040-51f9673e40bd.webp"
+    },
+    {
+        "marca":  "Riiffs",
+        "nombre":  "Virtus Extrait De Parfum",
+        "notas":  "cardamomo, jengibre y bergamota, flor de azahar del naranjo, neroli y lirio de los valles (muguete), almizcle, Clearwood y ambroxan",
+        "inspirado":  "MYSLF L’Absolu Yves Saint Laurent",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  97000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/c92ad7b1-eff9-4727-b17d-51606fac0bae.webp"
     }
 ]
