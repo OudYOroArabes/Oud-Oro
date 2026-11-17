@@ -70,16 +70,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3abbe04b-0709-4a74-8b7c-0d3db74ee365.webp"
     },
     {
-        "marca":  "Ahmed",
-        "nombre":  "Al Maghribi Kaaf Extrait De Parfum",
-        "notas":  "lavanda, sandía, naranja siciliana y Frutas rojas, lirio de los valles (muguete), jazmín y flor de loto, almizcle blanco, ambroxan y sándalo",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  85000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1de96b08-0347-4f13-9a5e-27f0d9930a8e.webp"
-    },
-    {
         "marca":  "Rasasi",
         "nombre":  "Hawas For Him",
         "notas":  "manzana, bergamota, limón (lima ácida) y canela, notas acuosas, ciruela, cardamomo y flor de azahar del naranjo, ámbar gris, almizcle, pachulí y trozos de madera a la deriva",
@@ -118,5 +108,15 @@
         "formato":  "Botella Completa",
         "precio":  48500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/d7330015-5a62-4dcd-876a-d08b255e6302.webp"
+    },
+    {
+        "marca":  "Le Bonheur",
+        "nombre":  "Black Cavalier Xi",
+        "notas":  "bergamota, cardamomo, aceite de naranja, azafrán y menta, ajenjo (absenta), tomillo rojo, lavanda y canela, pachulí, cedro, haba tonka, vainilla, musgo de roble y ámbar",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  93000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/bac05ca4-1165-49fb-9d6d-4c9be58f6350.webp"
     }
 ]
