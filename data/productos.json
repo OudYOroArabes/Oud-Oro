@@ -651,23 +651,13 @@
     },
     {
         "marca":  "Fragrance World",
-        "nombre":  "Jovian",
-        "notas":  "FRAGRANCE WORLD JOVIAN",
-        "inspirado":  "ALÍEN-MUGLER",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  51500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/a2906900-9740-4cf7-8164-bf94e4538a1b.webp"
-    },
-    {
-        "marca":  "Fragrance World",
         "nombre":  "Scandat Home Le Parfum",
         "notas":  "FRAGRANCE WORLD SCANDAT HOME LE PARFUM",
         "inspirado":  "Scandal Pour Homme Le Parfum Jean Paul Gaultier",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
         "precio":  58000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1460778a-1ff5-47b7-9398-c692f579b473.webp"
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/b3cea08f-e100-44f2-9896-0eb1f46059b7.webp"
     },
     {
         "marca":  "French Avenue",
@@ -828,16 +818,6 @@
         "formato":  "Botella Completa",
         "precio":  50000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/42deecc2-8486-4517-a317-af1c5053b3f7.webp"
-    },
-    {
-        "marca":  "Maison Alhambra",
-        "nombre":  "Eternal Touch",
-        "notas":  "hojas de tabaco y notas especiadas, vainilla, haba tonka, flor del tabaco y cacao, frutas secas y notas amaderadas",
-        "inspirado":  "Tobacco Vanille Tom Ford",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  50000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/e5a25a2b-b77f-4f9a-b17a-14c2fcdd187f.webp"
     },
     {
         "marca":  "Maison Alhambra",
@@ -1376,7 +1356,7 @@
         "inspirado":  "Azzaro The Most Wanted intense",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  93000,
+        "precio":  92000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/e44b7ddb-ec91-435e-b11b-3682b84fe399.webp"
     },
     {
@@ -1800,16 +1780,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1af1f59e-2957-40b3-8b1c-d83f4f1db9fa.webp"
     },
     {
-        "marca":  "Al Haramain",
-        "nombre":  "Amber Oud Gold 999.9 Extrait De Parfum",
-        "notas":  "naranja, pera, bergamota y limón (lima ácida), caramelo, melón, pera, manzana verde, cardamomo y jazmín, ámbar, vainilla, pachulí y cedro",
-        "inspirado":  "Xerjoff Erba Pura",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  132500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/ceabdc2e-33f4-4b8f-99ed-0de83ab601d1.webp"
-    },
-    {
         "marca":  "Afnan",
         "nombre":  "Lynked Freedom",
         "notas":  "bergamota, toronja (pomelo) y salvia, lavanda, cardamomo y baya de enebro, caramelo, notas orientales y vetiver",
@@ -1928,16 +1898,6 @@
         "formato":  "Botella Completa",
         "precio":  44500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4a195f34-b5ac-4836-bef0-0e7db23f9ea6.webp"
-    },
-    {
-        "marca":  "Paris Corner",
-        "nombre":  "Cosmic Giardino",
-        "notas":  "higo, coco y sal de mar, lavanda, violeta y geranio, haba tonka, sándalo y ambroxan",
-        "inspirado":  "Le Beau Paradise Garden Jean Paul Gaultier",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  63500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/a3710c0b-5eb3-4ffa-8699-17a5ef2e2705.webp"
     },
     {
         "marca":  "Paris Corner",
@@ -2386,7 +2346,7 @@
         "inspirado":  "Creación original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  121500,
+        "precio":  120000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/64896f19-c9a5-46a8-a45f-6d8ffe9bfc67.webp"
     },
     {
