@@ -1,25 +1,5 @@
 [
     {
-        "marca":  "Riiffs",
-        "nombre":  "Virtus Extrait De Parfum",
-        "notas":  "cardamomo, jengibre y bergamota, flor de azahar del naranjo, neroli y lirio de los valles (muguete), almizcle, Clearwood y ambroxan",
-        "inspirado":  "MYSLF L’Absolu Yves Saint Laurent",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  97000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/c92ad7b1-eff9-4727-b17d-51606fac0bae.webp"
-    },
-    {
-        "marca":  "Riiffs",
-        "nombre":  "Season Rise",
-        "notas":  "nuez moscada, pimienta rosa, flor de azahar del naranjo y raíz de lirio, caramelo, tófe, canela y esclarea, cachemira, vaina de vainilla, praliné, ámbar y ambroxan",
-        "inspirado":  "Emporio Armani Stronger With You Parfum Giorgio Armani",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  88000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/f97049d4-b663-4ad1-8040-51f9673e40bd.webp"
-    },
-    {
         "marca":  "Maison Alhambra",
         "nombre":  "Yeah Man",
         "notas":  "manzana, jengibre y bergamota, salvia, bayas de enebro y geranio, Amberwood, haba tonka, cedro, vetiver y incienso de olíbano (franquincienso)",
@@ -118,5 +98,25 @@
         "formato":  "Botella Completa",
         "precio":  93000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/bac05ca4-1165-49fb-9d6d-4c9be58f6350.webp"
+    },
+    {
+        "marca":  "Le Bonheur",
+        "nombre":  "Black Cavalier Vi",
+        "notas":  "jengibre y bergamota, salvia y violeta, sándalo, cedro y pachulí",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  93000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/082154b7-95d1-4ed7-a3b7-e25cd317e11d.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Emaan",
+        "notas":  "flor de azahar del naranjo, grosellas negras y bergamota, nardos, jazmín y caléndula, almizcle, vainilla, cedro y pachulí",
+        "inspirado":  "My Way Giorgio Armani",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  56500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/d2a6b7cd-670e-4607-a959-284e65d9b42f.webp"
     }
 ]
