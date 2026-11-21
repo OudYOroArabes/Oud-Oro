@@ -551,16 +551,6 @@
     },
     {
         "marca":  "Armaf",
-        "nombre":  "Odyssey Eau De Montagne",
-        "notas":  "almendra, Lactonas y especias, vainilla, sándalo, almizcle y cacao",
-        "inspirado":  "PARFUMS DE MARLY VALAYA EXCLUSIF EDP",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  65000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3ced25e4-3049-458b-8666-e64bb51c6f1d.webp"
-    },
-    {
-        "marca":  "Armaf",
         "nombre":  "Odyssey Homme Black",
         "notas":  "vainilla y ámbar, notas orientales, especias y iris, vainilla, cuero y jazmín",
         "inspirado":  "Tom Ford Noir Extreme",
@@ -1356,7 +1346,7 @@
         "inspirado":  "Creación original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  92000,
+        "precio":  96000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/c9f5e1a1-d85d-4ce3-a16b-8870bf4c015d.webp"
     },
     {
@@ -2256,7 +2246,7 @@
         "inspirado":  "Acqua di Giò Profumo Giorgio Armani",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  108000,
+        "precio":  112000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/f80ce63f-6247-42ff-bedb-5de32c96a8b9.webp"
     },
     {
