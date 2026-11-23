@@ -500,16 +500,6 @@
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/402eae25-83d1-4c4c-83a7-34b23ba52c5b.webp"
     },
     {
-        "marca":  "Al Wataniah",
-        "nombre":  "Kayaan Classic",
-        "notas":  "naranja y bergamota, iris de la Toscana, especias, jazmín y rosa, vainilla, sándalo, pachulí y almizcle",
-        "inspirado":  "Dior Homme Intense 2011 Dior",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  58500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/1a73e9a5-298b-40a8-9232-7dce8c4922f0.webp"
-    },
-    {
         "marca":  "Anfar",
         "nombre":  "Artisan Blu Extrait De Parfum",
         "notas":  "cidra, bergamota de Calabria y naranja siciliana, neroli de Túnez, jengibre nigeriano y canela de Ceylan, té negro de China, madera de gaiac, incienso de olíbano (franquincienso) y ambroxan",
@@ -1878,16 +1868,6 @@
         "formato":  "Botella Completa",
         "precio":  67500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/faa0f660-fb07-4604-8df9-05b7d5f069e1.webp"
-    },
-    {
-        "marca":  "Paris Corner",
-        "nombre":  "Zodiac",
-        "notas":  "pera, jengibre y bergamota, notas amaderadas, flor de azahar del naranjo y jazmín, almizcle, ámbar y vainilla",
-        "inspirado":  "Blue Talisman Ex Nihilo",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  55500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3ce5d0a4-693c-476f-92da-302863d9cebf.webp"
     },
     {
         "marca":  "Ahmed",
