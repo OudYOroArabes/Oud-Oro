@@ -1111,16 +1111,6 @@
     },
     {
         "marca":  "Fragrance World",
-        "nombre":  "Opio Noir Red Dose",
-        "notas":  "cereza y mandarina verde, flor de azahar del naranjo, jazmín y té negro, vainilla de Madagascar, café y hojas de pachulí de Indonesia",
-        "inspirado":  "Black Opium Over Red Yves Saint Laurent",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  42000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/ff4a9d01-ef92-4f04-903b-38cb277bd836.webp"
-    },
-    {
-        "marca":  "Fragrance World",
         "nombre":  "The One\u0026only Gris For Man",
         "notas":  "FRAGRANCE WORLD THE ONE\u0026ONLY GRIS FOR MAN",
         "inspirado":  "Creación original",
@@ -1623,11 +1613,11 @@
         "marca":  "Bharara",
         "nombre":  "King",
         "notas":  "naranja, limón (lima ácida) y bergamota, vainilla, almizcle blanco y ámbar",
-        "inspirado":  "Xerjoff Erba Pura 200 ML",
-        "tamano":  "200ml",
+        "inspirado":  "Xerjoff Erba Pura",
+        "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  202500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/96821615-bafd-45fc-9e1d-6fab9e14d66c.webp"
+        "precio":  146000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/dfb793e9-6adb-4f71-8360-222b6b00a9e7.webp"
     },
     {
         "marca":  "Fragrance World",
@@ -2328,16 +2318,6 @@
         "formato":  "Botella Completa",
         "precio":  54000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/9f4fdb11-10d4-4558-97b3-2b9179ea735b.webp"
-    },
-    {
-        "marca":  "Rasasi",
-        "nombre":  "Hawas For Him",
-        "notas":  "manzana, bergamota, limón (lima ácida) y canela, notas acuosas, ciruela, cardamomo y flor de azahar del naranjo, ámbar gris, almizcle, pachulí y trozos de madera a la deriva",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  67000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/87402202-187a-4fd3-8184-a6b49382c360.webp"
     },
     {
         "marca":  "Dumont",
