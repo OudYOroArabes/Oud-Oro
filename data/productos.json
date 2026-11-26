@@ -1921,16 +1921,6 @@
     },
     {
         "marca":  "Armaf",
-        "nombre":  "Odyssey Mega",
-        "notas":  "naranja, bergamota, limón (lima ácida), jengibre y menta, piña, enebro de Virginia, geranio y salvia, almizcle, haba tonka, cedro y vetiver",
-        "inspirado":  "Yves Saint Laurent Y",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  70000,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/2c01bdfe-59a2-4ac3-b49e-632b0538a15f.webp"
-    },
-    {
-        "marca":  "Armaf",
         "nombre":  "Tag Uomo Nero",
         "notas":  "bergamota, pimienta negra, lavanda, cilantro y limón (lima ácida), lirio de los valles (muguete), hojas de violeta y rosa, pachulí, ámbar gris y vainilla",
         "inspirado":  "Tuxedo Yves Saint Laurent",
@@ -2018,16 +2008,6 @@
         "formato":  "Botella Completa",
         "precio":  55500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/fbcb8b4d-3845-46d8-9fd6-2ec3dff7988a.webp"
-    },
-    {
-        "marca":  "Maison Alhambra",
-        "nombre":  "No.2 Men",
-        "notas":  "bergamota y lavanda, jengibre y cardamomo, vetiver, incienso, almizcle, sándalo, ládano y madera de gaiac",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  52500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/2a5fa23f-58e1-4846-9f95-3a76b97d16ed.webp"
     },
     {
         "marca":  "Maison Alhambra",
@@ -2308,16 +2288,6 @@
         "formato":  "Botella Completa",
         "precio":  96000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3abbe04b-0709-4a74-8b7c-0d3db74ee365.webp"
-    },
-    {
-        "marca":  "Lattafa",
-        "nombre":  "Atlas",
-        "notas":  "notas marinas, sal y limón (lima ácida), Davana y iris, ámbar gris, musgo de roble y sándalo",
-        "inspirado":  "Megamare Orto Parisi",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  79500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/04a03055-3998-49f7-8e0d-04125735892f.webp"
     },
     {
         "marca":  "Lattafa",
