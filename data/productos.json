@@ -811,16 +811,6 @@
     },
     {
         "marca":  "Maison Alhambra",
-        "nombre":  "Jean Lowe Verdé Aura",
-        "notas":  "MAISON ALHAMBRA JEAN LOWE VERDÉ AURA",
-        "inspirado":  "Creación original",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  79500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/41273170-0f93-48f0-9b06-d7e122e613a9.webp"
-    },
-    {
-        "marca":  "Maison Alhambra",
         "nombre":  "Mysterious Amber",
         "notas":  "ámbar y notas amaderadas, ládano y vainilla",
         "inspirado":  "Amber Absolute Tom Ford",
@@ -1068,16 +1058,6 @@
         "formato":  "Botella Completa",
         "precio":  75500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/3e6cc9c8-8b7e-4ffe-8d51-a92f0bcf4c00.webp"
-    },
-    {
-        "marca":  "Armaf",
-        "nombre":  "Odyssey Wild One Gold Edition",
-        "notas":  "pimienta, bergamota, limón (lima ácida) y menta, pimienta rosa, lavanda, jengibre y vetiver, cedro, pachulí, elemí, sándalo, almizcle y vetiver",
-        "inspirado":  "DIOR SAUVAGE",
-        "tamano":  "100ml",
-        "formato":  "Botella Completa",
-        "precio":  67500,
-        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/062860f7-2283-452f-96b6-4c96187b97a3.webp"
     },
     {
         "marca":  "Fragrance World",
@@ -1446,7 +1426,7 @@
         "inspirado":  "1 MILLON RABANNE",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  67500,
+        "precio":  74500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4380935a-aaba-4c3a-9716-0c6a04ce0ecb.webp"
     },
     {
@@ -1546,7 +1526,7 @@
         "inspirado":  "Goddess Burberry",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  74500,
+        "precio":  78500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/5b23c9a5-1996-4f94-982a-f298507e67ef.webp"
     },
     {
@@ -1616,7 +1596,7 @@
         "inspirado":  "Devotion Dolce\u0026amp;Gabbana",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  63500,
+        "precio":  67500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/8f70ef58-6fe0-4713-9736-b2fa45272adb.webp"
     },
     {
@@ -1846,7 +1826,7 @@
         "inspirado":  "Tygar Bvlgari",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  67500,
+        "precio":  74500,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/faa0f660-fb07-4604-8df9-05b7d5f069e1.webp"
     },
     {
@@ -1996,7 +1976,7 @@
         "inspirado":  "Creación original",
         "tamano":  "100ml",
         "formato":  "Botella Completa",
-        "precio":  54000,
+        "precio":  58000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/b01f4500-8624-416f-a9c5-c9d884bccf96.webp"
     },
     {
@@ -2458,5 +2438,195 @@
         "formato":  "Botella Completa",
         "precio":  104000,
         "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/09598aba-3cb5-4458-8b38-20a49d4a3da2.webp"
+    },
+    {
+        "marca":  "Armaf",
+        "nombre":  "Odyssey Go Mango",
+        "notas":  "pimienta rosa, jengibre, limón (lima ácida) y flores blancas, mango, haba tonka y Madera seca, madera de gaiac, vainilla, ámbar, Notas de frutos secos y almizcle",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  79500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/22ab0f75-def8-46b7-879b-402caad8f8dd.webp"
+    },
+    {
+        "marca":  "Armaf",
+        "nombre":  "Odyssey Revolution Ultra Edition",
+        "notas":  "piña, grosellas negras, naranja sanguina y salvia, praliné, vainilla, ciruela y cardamomo, pachulí y haba tonka",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  74500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/19484023-164b-490e-8a4b-2b5c9513f3fe.webp"
+    },
+    {
+        "marca":  "Emper",
+        "nombre":  "Phantom My Hero",
+        "notas":  "almendra y heliotropo, chocolate y ron, café, caramelo, caña de azúcar y sándalo",
+        "inspirado":  "KILIAN BLACK PHANTOM",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  56500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/15371143-b015-4660-993d-e558e586f1ec.webp"
+    },
+    {
+        "marca":  "Emper",
+        "nombre":  "Stallion Elixir 88",
+        "notas":  "EMPER STALLION ELIXIR 88",
+        "inspirado":  "Rabanne Invictus Victory Elixir",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  70000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/5c86d497-06ca-4c1e-866b-65a2420841f4.webp"
+    },
+    {
+        "marca":  "Fragance",
+        "nombre":  "World La Uno Forever Blue",
+        "notas":  "toronja (pomelo), mandarina siciliana, bergamota y enebro de Virginia, notas ozónicas, hojas de violeta, romero y pimienta, aceite de vetiver de Java, almizcle blanco, pachulí, musgo de roble y incienso",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  51500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/863687df-cc8a-4631-a5f1-3f840b6be820.webp"
+    },
+    {
+        "marca":  "Fragrance World",
+        "nombre":  "Montera Rouge Tobacco",
+        "notas":  "FRAGRANCE WORLD MONTERA ROUGE TOBACCO",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  50000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/27d2db2b-e7dc-430e-bb7c-2e7d8e08d2d9.webp"
+    },
+    {
+        "marca":  "French Avenue",
+        "nombre":  "Vulcan Feu",
+        "notas":  "mango, limón (lima ácida), jengibre y ruibarbo, pimienta rosa, jazmín, violeta y praliné, haba tonka, cedro, ámbar gris y musgo",
+        "inspirado":  "God of Fire Stéphane Humbert Lucas 777",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  115000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/b4ae4075-97eb-4e37-a69a-a0bd9259d5af.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Fire On Ice",
+        "notas":  "coñac, frambuesa y canela, caramelo, pétalos de rosa y musgo, roble, mirra, cedro y ambroxan",
+        "inspirado":  "Angels\u0026#39; Share Paradis By Kilian",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  66000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/da69bc3e-9428-4df0-a2e7-62b97022bef9.webp"
+    },
+    {
+        "marca":  "Rasasi",
+        "nombre":  "Hawas Black",
+        "notas":  "bergamota, piña y toronja (pomelo), pachulí, cedro y jazmín, musgo de roble, notas amaderadas y ámbar",
+        "inspirado":  "Hacivat Nishane*",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  106500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/04e36daf-d573-4bbb-a599-e20bf9f32b49.webp"
+    },
+    {
+        "marca":  "Afnan",
+        "nombre":  "9am Dive",
+        "notas":  "limón (lima ácida), menta, grosellas negras y pimienta rosa, manzana, cedro y incienso, jengibre, sándalo, jazmín y pachulí",
+        "inspirado":  "Creación original",
+        "tamano":  "150ml",
+        "formato":  "Botella Completa",
+        "precio":  102500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/30d2b66e-e6c6-48b6-9d24-4d1782d88c5a.webp"
+    },
+    {
+        "marca":  "Arabiyat",
+        "nombre":  "Prestige Noiré Absolu",
+        "notas":  "frambuesa, esclarea y bergamota, cedro y ámbar, cuero y vetiver",
+        "inspirado":  "Forever Wanted Elixir Azzaro",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  131000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/851f1bf1-badf-417b-a6b8-248a17e5f61e.webp"
+    },
+    {
+        "marca":  "Bharara",
+        "nombre":  "Mast Perfume La Bomba",
+        "notas":  "BHARARA MAST PERFUME LA BOMBA",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  94500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/7e495e4f-8286-4418-b256-da136795dad9.webp"
+    },
+    {
+        "marca":  "Bharara",
+        "nombre":  "Rome Mast Perfume Melancholia Pour Homme",
+        "notas":  "BHARARA ROME MAST PERFUME MELANCHOLIA POUR HOMME",
+        "inspirado":  "Valentino Uomo Born in Roma Purple Melancholia",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  94500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/aca3dc48-afba-4c2d-a643-23dc3c045f42.webp"
+    },
+    {
+        "marca":  "Emper",
+        "nombre":  "Stallion 53",
+        "notas":  "cardamomo y violeta, ámbar y iris, sándalo, cuero, cedro de Virginia y papiro de Egipto",
+        "inspirado":  "Santal 33",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  67500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/7bebdf49-e78c-4174-be14-68ed7dcf9775.webp"
+    },
+    {
+        "marca":  "French Avenue",
+        "nombre":  "Spectre Ghost",
+        "notas":  "jengibre, cardamomo y bergamota, pimienta rosa, grosellas negras y rosa, vainilla, cedro y pachulí",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  98500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/8f9ad77c-f308-402c-b700-d79b99d320c6.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Al Qiam Gold",
+        "notas":  "frambuesa y azafrán, cuero y pachulí, madera de oud, ámbar, madera de gaiac, benjuí y vetiver",
+        "inspirado":  "Ombre Nomade Louis Vuitton",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  74500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/4304fa39-4c46-4cf6-a684-9ec93afe494d.webp"
+    },
+    {
+        "marca":  "Lattafa",
+        "nombre":  "Khamrah Dukhan",
+        "notas":  "especias, pimiento morrón y mandarina, incienso, ládano, flor de azahar del naranjo y pachulí, tabaco, praliné, ámbar, benjuí y haba tonka",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  66000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/8fec00bc-e0df-4e50-aaa0-0e9b9d37f2cb.webp"
+    },
+    {
+        "marca":  "Maison Alhambra",
+        "nombre":  "Kismet Magic",
+        "notas":  "canela, haba tonka y roble, vainilla, praliné y sándalo",
+        "inspirado":  "Angels\u0026#39; Share By Kilian",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  54000,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/371a6960-4802-4a30-8b7c-635b06e405f8.webp"
+    },
+    {
+        "marca":  "Rasasi",
+        "nombre":  "Hawas For Him",
+        "notas":  "manzana, bergamota, limón (lima ácida) y canela, notas acuosas, ciruela, cardamomo y flor de azahar del naranjo, ámbar gris, almizcle, pachulí y trozos de madera a la deriva",
+        "inspirado":  "Creación original",
+        "tamano":  "100ml",
+        "formato":  "Botella Completa",
+        "precio":  74500,
+        "imagen":  "https://storage.googleapis.com/jarbas-b5be5.appspot.com/products/87402202-187a-4fd3-8184-a6b49382c360.webp"
     }
 ]
